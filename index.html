@@ -236,6 +236,104 @@
   .verse-extra .extra-text[data-lang="en"]{color:var(--en-color);}
   .verse-extra .extra-text[data-lang="ja"]{color:var(--ja-color);}
 
+  /* ============ Phase 2：可點擊單詞 ============ */
+  .word{
+    cursor:pointer;
+    border-bottom:1.5px dotted currentColor;
+    opacity:.92;
+  }
+  .word:hover, .word:active{
+    background:var(--accent-soft);
+  }
+  .word.saved{
+    border-bottom-style:solid;
+  }
+
+  /* ============ 單詞卡（底部彈出） ============ */
+  .sheet-backdrop{
+    position:fixed; inset:0; background:rgba(0,0,0,.35);
+    z-index:180; opacity:0; pointer-events:none; transition:opacity .2s;
+  }
+  .sheet-backdrop.open{opacity:1; pointer-events:auto;}
+  .sheet{
+    position:fixed; left:0; right:0; bottom:0;
+    max-height:72vh;
+    background:var(--bg-card);
+    border-radius:18px 18px 0 0;
+    z-index:181;
+    transform:translateY(100%);
+    transition:transform .25s ease;
+    padding:16px 18px 24px;
+    overflow-y:auto;
+    box-shadow:0 -2px 12px rgba(0,0,0,.15);
+  }
+  .sheet.open{transform:translateY(0);}
+  .sheet-handle{
+    width:36px; height:4px; background:var(--border); border-radius:4px;
+    margin:0 auto 14px;
+  }
+  .sheet-close{
+    position:absolute; top:12px; right:14px;
+    background:none; border:none; font-size:20px; color:var(--text-soft); cursor:pointer;
+  }
+  .word-row{
+    display:flex; align-items:center; gap:10px;
+    padding:10px 4px;
+    border-bottom:1px solid var(--border);
+    cursor:pointer;
+  }
+  .word-row:last-of-type{border-bottom:none;}
+  .word-row .wr-main{flex:1; display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;}
+  .word-row .wr-word{font-size:19px; font-weight:700;}
+  .word-row .wr-word[data-lang="zh"]{color:var(--zh-color);}
+  .word-row .wr-word[data-lang="en"]{color:var(--en-color);}
+  .word-row .wr-word[data-lang="ja"]{color:var(--ja-color);}
+  .word-row .wr-phon{font-size:13px; color:var(--text-soft);}
+  .word-row .wr-freq{
+    font-size:10.5px; color:var(--accent); background:var(--accent-soft);
+    padding:2px 6px; border-radius:8px; font-weight:700;
+  }
+  .word-row .wr-play{
+    border:1px solid var(--border); background:var(--bg); border-radius:50%;
+    width:32px; height:32px; font-size:14px; cursor:pointer; flex-shrink:0;
+  }
+  .word-row.selected{background:var(--accent-soft);}
+  .word-def{
+    margin:10px 4px 4px; padding:12px 14px;
+    background:var(--bg); border-radius:10px;
+    font-size:14.5px; line-height:1.7; color:var(--text);
+    display:none;
+  }
+  .word-def.show{display:block;}
+  .sheet-star{
+    display:flex; align-items:center; gap:6px;
+    border:1px solid var(--border); background:var(--bg);
+    color:var(--text-soft); border-radius:20px; padding:8px 14px;
+    font-size:13px; cursor:pointer; margin-top:14px;
+  }
+  .sheet-star.on{
+    background:var(--accent); color:#fff; border-color:var(--accent);
+  }
+
+  /* ============ 生詞本清單面板 ============ */
+  .vocab-item{
+    display:flex; align-items:center; gap:8px;
+    padding:9px 4px; border-bottom:1px solid var(--border);
+    font-size:14px;
+  }
+  .vocab-item .vi-lang{
+    font-size:14px; font-weight:700; min-width:52px;
+  }
+  .vocab-item .vi-lang[data-lang="zh"]{color:var(--zh-color);}
+  .vocab-item .vi-lang[data-lang="en"]{color:var(--en-color);}
+  .vocab-item .vi-lang[data-lang="ja"]{color:var(--ja-color);}
+  .vocab-item .vi-remove{
+    margin-left:auto; background:none; border:none; color:var(--text-soft);
+    font-size:16px; cursor:pointer; padding:4px 8px;
+  }
+  .vocab-empty{color:var(--text-soft); font-size:13px; padding:12px 4px;}
+
+
   /* ============ 響應式斷點 ============ */
   @media (min-width:600px){
     main{padding:24px 20px 90px;}
@@ -336,6 +434,28 @@
       <button data-val="1.25">1.25x</button>
     </div>
   </div>
+
+  <div class="panel-row">
+    <label>單詞學習</label>
+    <button class="sheet-star" id="vocabBtn" style="width:100%; justify-content:center; margin-top:0;">
+      📖 生詞本（<span id="vocabCount">0</span>）
+    </button>
+  </div>
+</div>
+
+<div class="sheet-backdrop" id="wordSheetBackdrop"></div>
+<div class="sheet" id="wordSheet">
+  <div class="sheet-handle"></div>
+  <button class="sheet-close" id="wordSheetClose" aria-label="關閉">✕</button>
+  <div id="wordSheetBody"></div>
+</div>
+
+<div class="sheet-backdrop" id="vocabSheetBackdrop"></div>
+<div class="sheet" id="vocabSheet">
+  <div class="sheet-handle"></div>
+  <button class="sheet-close" id="vocabSheetClose" aria-label="關閉">✕</button>
+  <div class="panel-row" style="margin-bottom:8px;"><label style="margin-bottom:2px;">生詞本</label></div>
+  <div id="vocabList"></div>
 </div>
 
 <main>
@@ -371,6 +491,73 @@ const bibleData = {
   ]
 };
 
+/* ============ Phase 2 示範：詩篇第一章詞彙數據庫（小規模示範集） ============
+   正式版將以英文WEB全卷約14,000詞為軸心，透過有道API批量建庫（見全景文檔6.3節）。
+   此處僅示範詩篇1章的21個內容詞，用於驗證「原詞對原詞」兩層顯示與生詞本互動設計。
+   freq為示範用粗略分級（非真實COCA數據），待COCA詞頻來源確認後替換。 */
+const VOCAB = [
+  { id:"V01", en:"Blessed", en_ipa:"ˈblɛsɪd", zh:"有福", zh_py:"yǒu fú", ja:"さいわい", ja_kana:"さいわい", freq:"2L",
+    en_def:"favored by God; fortunate", zh_def:"蒙受神恩，喜樂滿足", ja_def:"神の恵みを受けて幸せなこと" },
+  { id:"V02", en:"wicked", en_ipa:"ˈwɪkɪd", zh:"惡人", zh_py:"è rén", ja:"悪しき者", ja_kana:"あしきもの", freq:"3L",
+    en_def:"morally wrong or evil", zh_def:"行為邪惡、違背正道的人", ja_def:"道徳に反した悪い人" },
+  { id:"V03", en:"counsel", en_ipa:"ˈkaʊnsəl", zh:"計謀", zh_py:"jì móu", ja:"はかりごと", ja_kana:"はかりごと", freq:"2L",
+    en_def:"advice, or a plan of action", zh_def:"計劃或建議", ja_def:"助言や計画" },
+  { id:"V04", en:"sinners", en_ipa:"ˈsɪnərz", zh:"罪人", zh_py:"zuì rén", ja:"罪びと", ja_kana:"つみびと", freq:"3L",
+    en_def:"people who do wrong", zh_def:"犯罪或行惡的人", ja_def:"罪を犯す人" },
+  { id:"V05", en:"scoffers", en_ipa:"ˈskɔːfərz", zh:"褻慢人", zh_py:"xiè màn rén", ja:"あざける者", ja_kana:"あざけるもの", freq:"4L",
+    en_def:"people who mock or ridicule", zh_def:"嘲笑譏諷他人的人", ja_def:"人をあざけり笑う人" },
+  { id:"V06", en:"path", en_ipa:"pæθ", zh:"道路", zh_py:"dào lù", ja:"道", ja_kana:"みち", freq:"1L",
+    en_def:"a way or route someone follows", zh_def:"行走的道路，引申為人生方向", ja_def:"人が歩む道" },
+  { id:"V07", en:"law", en_ipa:"lɔː", zh:"律法", zh_py:"lǜ fǎ", ja:"おきて", ja_kana:"おきて", freq:"1L",
+    en_def:"a body of rules or teaching", zh_def:"規範行為的教導或準則", ja_def:"従うべき教えや規則" },
+  { id:"V08", en:"meditates", en_ipa:"ˈmɛdɪteɪts", zh:"思想", zh_py:"sī xiǎng", ja:"思う", ja_kana:"おもう", freq:"3L",
+    en_def:"to think deeply or reflect", zh_def:"反覆思考、默想", ja_def:"深く考え、思いをめぐらすこと" },
+  { id:"V09", en:"tree", en_ipa:"triː", zh:"樹", zh_py:"shù", ja:"木", ja_kana:"き", freq:"1L",
+    en_def:"a tall woody plant", zh_def:"高大的木本植物", ja_def:"背の高い木本植物" },
+  { id:"V10", en:"planted", en_ipa:"ˈplæntɪd", zh:"栽", zh_py:"zāi", ja:"植えられた", ja_kana:"うえられた", freq:"2L",
+    en_def:"put into the ground to grow", zh_def:"栽種於土地", ja_def:"土に植えて育てること" },
+  { id:"V11", en:"streams", en_ipa:"striːmz", zh:"溪水", zh_py:"xī shuǐ", ja:"流れ", ja_kana:"ながれ", freq:"2L",
+    en_def:"small flowing bodies of water", zh_def:"流動的小河或溪流", ja_def:"流れる小さな川" },
+  { id:"V12", en:"fruit", en_ipa:"fruːt", zh:"果子", zh_py:"guǒ zi", ja:"実", ja_kana:"み", freq:"1L",
+    en_def:"the produce of a tree", zh_def:"植物結出的果實", ja_def:"木になる実" },
+  { id:"V13", en:"leaf", en_ipa:"liːf", zh:"葉子", zh_py:"yè zi", ja:"葉", ja_kana:"は", freq:"1L",
+    en_def:"a flat green part of a plant", zh_def:"植物的葉片", ja_def:"植物の葉" },
+  { id:"V14", en:"wither", en_ipa:"ˈwɪðər", zh:"枯乾", zh_py:"kū gān", ja:"しぼまない", ja_kana:"しぼまない", freq:"4L",
+    en_def:"to shrivel or dry up", zh_def:"枯萎乾枯", ja_def:"しおれて枯れること" },
+  { id:"V15", en:"prosper", en_ipa:"ˈprɒspər", zh:"順利", zh_py:"shùn lì", ja:"栄える", ja_kana:"さかえる", freq:"3L",
+    en_def:"to succeed or thrive", zh_def:"興旺順利、事事成功", ja_def:"栄えて成功すること" },
+  { id:"V16", en:"chaff", en_ipa:"tʃæf", zh:"糠秕", zh_py:"kāng bǐ", ja:"もみがら", ja_kana:"もみがら", freq:"4L",
+    en_def:"worthless husks separated from grain", zh_def:"穀物脫下的外殼、糠皮", ja_def:"穀物の殻、もみがら" },
+  { id:"V17", en:"wind", en_ipa:"wɪnd", zh:"風", zh_py:"fēng", ja:"風", ja_kana:"かぜ", freq:"1L",
+    en_def:"moving air", zh_def:"流動的空氣", ja_def:"空気の流れ" },
+  { id:"V18", en:"judgment", en_ipa:"ˈdʒʌdʒmənt", zh:"審判", zh_py:"shěn pàn", ja:"さばき", ja_kana:"さばき", freq:"2L",
+    en_def:"a formal decision or verdict", zh_def:"審理定罪的裁決", ja_def:"是非を裁く決定" },
+  { id:"V19", en:"righteous", en_ipa:"ˈraɪtʃəs", zh:"義人", zh_py:"yì rén", ja:"正しい者", ja_kana:"ただしいもの", freq:"3L",
+    en_def:"morally right or virtuous", zh_def:"行為正直合乎道義的人", ja_def:"道徳的に正しい人" },
+  { id:"V20", en:"congregation", en_ipa:"ˌkɒŋɡrɪˈɡeɪʃən", zh:"會", zh_py:"huì", ja:"つどい", ja_kana:"つどい", freq:"3L",
+    en_def:"a gathered group, esp. for worship", zh_def:"聚集的群眾，尤指信眾", ja_def:"礼拝などのために集まった人々" },
+  { id:"V21", en:"perish", en_ipa:"ˈpɛrɪʃ", zh:"滅亡", zh_py:"miè wáng", ja:"滅びる", ja_kana:"ほろびる", freq:"3L",
+    en_def:"to die or be destroyed", zh_def:"滅亡、消逝", ja_def:"滅び、消え去ること" }
+];
+const VOCAB_BY_ID = Object.fromEntries(VOCAB.map(v=>[v.id, v]));
+
+/* 在文字中標記可點擊單詞：依語言掃描VOCAB，命中的字串包成 <span class="word"> */
+function highlightText(text, lang){
+  let result = text;
+  const sorted = [...VOCAB].sort((a,b)=> b[lang].length - a[lang].length);
+  sorted.forEach(v=>{
+    const word = v[lang];
+    if(!word) return;
+    if(lang === 'en'){
+      const re = new RegExp('\\b(' + word.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')\\b', 'gi');
+      result = result.replace(re, m => `<span class="word" data-id="${v.id}">${m}</span>`);
+    } else {
+      result = result.split(word).join(`<span class="word" data-id="${v.id}">${word}</span>`);
+    }
+  });
+  return result;
+}
+
 const LANGS = {
   zh:{ label:"中", ttsLang:"zh-TW" },
   ja:{ label:"日", ttsLang:"ja-JP" },
@@ -402,11 +589,11 @@ function renderVerses(){
 
     row.innerHTML = `
       <span class="verse-num">${v.n}</span>
-      <span class="primary-text" data-lang="${defaultLang}">${v[defaultLang]}<button class="inline-btn speak" data-speak-lang="${defaultLang}" aria-label="朗讀">🔊</button>${badgesHtml}</span>
+      <span class="primary-text" data-lang="${defaultLang}">${highlightText(v[defaultLang], defaultLang)}<button class="inline-btn speak" data-speak-lang="${defaultLang}" aria-label="朗讀">🔊</button>${badgesHtml}</span>
       ${others.map(l => `
         <div class="verse-extra" data-lang-block="${l}">
           <div class="lbl">${l==='zh'?'和合本':(l==='en'?'World English Bible':'口語訳')}</div>
-          <span class="extra-text" data-lang="${l}">${v[l]}<button class="inline-btn speak" data-speak-lang="${l}" aria-label="朗讀">🔊</button></span>
+          <span class="extra-text" data-lang="${l}">${highlightText(v[l], l)}<button class="inline-btn speak" data-speak-lang="${l}" aria-label="朗讀">🔊</button></span>
         </div>
       `).join('')}
     `;
@@ -414,6 +601,8 @@ function renderVerses(){
     row.dataset.verseIdx = bibleData.verses.indexOf(v);
     verseList.appendChild(row);
   });
+
+  markSavedWords();
 
   // 更新頂欄中間欄「篇章顯示」
   const chapterLabelMap = { zh:'章', ja:'篇', en:'' };
@@ -426,6 +615,11 @@ renderVerses();
 
 /* ============ 事件代理：語言切換 / 朗讀 ============ */
 document.getElementById('verseList').addEventListener('click', e=>{
+  const wordEl = e.target.closest('.word');
+  if(wordEl){
+    openWordSheet(wordEl.dataset.id);
+    return;
+  }
   const toggleBtn = e.target.closest('button[data-toggle]');
   if(toggleBtn){
     const lang = toggleBtn.dataset.toggle;
@@ -537,7 +731,159 @@ restoreSeg('lineHeightSeg','bible_lineScale', v=>document.documentElement.style.
 restoreSeg('themeSeg','bible_theme', v=>document.documentElement.setAttribute('data-theme', v));
 restoreSeg('rateSeg','bible_rate', v=>currentRate=parseFloat(v));
 
-/* ============ 上次閱讀位置記憶 ============ */
+/* ============ Phase 2：單詞卡（兩層顯示：原詞+音標 → 點擊展開釋義） ============ */
+const wordSheet = document.getElementById('wordSheet');
+const wordSheetBackdrop = document.getElementById('wordSheetBackdrop');
+const wordSheetBody = document.getElementById('wordSheetBody');
+const LANG_ORDER = ['zh','ja','en']; // 與正文badge順序一致：中、日、EN
+let currentWordId = null;
+let expandedDefLang = null;
+
+function openWordSheet(id){
+  currentWordId = id;
+  expandedDefLang = null;
+  renderWordSheet();
+  wordSheet.classList.add('open');
+  wordSheetBackdrop.classList.add('open');
+}
+function closeWordSheet(){
+  wordSheet.classList.remove('open');
+  wordSheetBackdrop.classList.remove('open');
+}
+document.getElementById('wordSheetClose').addEventListener('click', closeWordSheet);
+wordSheetBackdrop.addEventListener('click', closeWordSheet);
+
+function renderWordSheet(){
+  const v = VOCAB_BY_ID[currentWordId];
+  if(!v) return;
+  const saved = getVocabList().includes(v.id);
+  const phon = { zh:v.zh_py, ja:v.ja_kana, en:v.en_ipa };
+  const defs = { zh:v.zh_def, ja:v.ja_def, en:v.en_def };
+
+  wordSheetBody.innerHTML = `
+    ${LANG_ORDER.map(l => `
+      <div class="word-row ${expandedDefLang===l?'selected':''}" data-def-lang="${l}">
+        <button class="wr-play" data-play="${l}" aria-label="讀音">🔊</button>
+        <div class="wr-main">
+          <span class="wr-word" data-lang="${l}">${v[l]}</span>
+          <span class="wr-phon">${phon[l]}</span>
+          ${l==='en' ? `<span class="wr-freq">${v.freq}</span>` : ''}
+        </div>
+      </div>
+    `).join('')}
+    <div class="word-def ${expandedDefLang?'show':''}" id="wordDefBox">
+      ${expandedDefLang ? `【${expandedDefLang==='zh'?'中文釋義':(expandedDefLang==='ja'?'日文釋義':'English definition')}】<br>${defs[expandedDefLang]}` : ''}
+    </div>
+    <button class="sheet-star ${saved?'on':''}" id="sheetStarBtn">
+      ${saved ? '★ 已加入生詞本' : '☆ 加入生詞本'}
+    </button>
+  `;
+
+  wordSheetBody.querySelectorAll('.word-row').forEach(row=>{
+    row.addEventListener('click', e=>{
+      if(e.target.closest('.wr-play')) return;
+      const l = row.dataset.defLang;
+      expandedDefLang = (expandedDefLang === l) ? null : l;
+      renderWordSheet();
+    });
+  });
+  wordSheetBody.querySelectorAll('[data-play]').forEach(btn=>{
+    btn.addEventListener('click', e=>{
+      e.stopPropagation();
+      playYoudao(v[btn.dataset.play], btn.dataset.play);
+    });
+  });
+  document.getElementById('sheetStarBtn').addEventListener('click', ()=>{
+    toggleVocab(v.id);
+    renderWordSheet();
+    markSavedWords();
+    updateVocabCount();
+  });
+}
+
+/* 有道讀音（點擊才聯網，文字/釋義本身完全本地） */
+function playYoudao(word, lang){
+  let url;
+  if(lang==='en') url = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(word)}&type=2`;
+  else if(lang==='ja') url = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(word)}&le=jap`;
+  else url = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(word)}&le=zh`;
+  new Audio(url).play().catch(()=>{ /* 離線或有道無法連線時靜默失敗，不干擾閱讀 */ });
+}
+
+/* ============ 生詞本（LocalStorage） ============ */
+function getVocabList(){
+  try{ return JSON.parse(localStorage.getItem('bible_vocabList') || '[]'); }
+  catch(e){ return []; }
+}
+function toggleVocab(id){
+  let list = getVocabList();
+  if(list.includes(id)) list = list.filter(x=>x!==id);
+  else list.push(id);
+  localStorage.setItem('bible_vocabList', JSON.stringify(list));
+}
+function markSavedWords(){
+  const list = getVocabList();
+  document.querySelectorAll('.word').forEach(el=>{
+    el.classList.toggle('saved', list.includes(el.dataset.id));
+  });
+}
+function updateVocabCount(){
+  document.getElementById('vocabCount').textContent = getVocabList().length;
+}
+updateVocabCount();
+
+const vocabSheet = document.getElementById('vocabSheet');
+const vocabSheetBackdrop = document.getElementById('vocabSheetBackdrop');
+document.getElementById('vocabBtn').addEventListener('click', ()=>{
+  renderVocabList();
+  vocabSheet.classList.add('open');
+  vocabSheetBackdrop.classList.add('open');
+});
+document.getElementById('vocabSheetClose').addEventListener('click', ()=>{
+  vocabSheet.classList.remove('open'); vocabSheetBackdrop.classList.remove('open');
+});
+vocabSheetBackdrop.addEventListener('click', ()=>{
+  vocabSheet.classList.remove('open'); vocabSheetBackdrop.classList.remove('open');
+});
+
+function renderVocabList(){
+  const list = getVocabList();
+  const box = document.getElementById('vocabList');
+  if(list.length === 0){
+    box.innerHTML = `<div class="vocab-empty">還沒有收藏任何單詞，點正文中的詞加入生詞本。</div>`;
+    return;
+  }
+  box.innerHTML = list.map(id=>{
+    const v = VOCAB_BY_ID[id];
+    if(!v) return '';
+    return `
+      <div class="vocab-item" data-id="${v.id}">
+        <span class="vi-lang" data-lang="zh">${v.zh}</span>
+        <span class="vi-lang" data-lang="en">${v.en}</span>
+        <span class="vi-lang" data-lang="ja">${v.ja}</span>
+        <button class="vi-remove" data-remove="${v.id}" aria-label="移除">✕</button>
+      </div>
+    `;
+  }).join('');
+  box.querySelectorAll('.vocab-item').forEach(item=>{
+    item.addEventListener('click', e=>{
+      if(e.target.closest('.vi-remove')) return;
+      vocabSheet.classList.remove('open'); vocabSheetBackdrop.classList.remove('open');
+      openWordSheet(item.dataset.id);
+    });
+  });
+  box.querySelectorAll('[data-remove]').forEach(btn=>{
+    btn.addEventListener('click', e=>{
+      e.stopPropagation();
+      toggleVocab(btn.dataset.remove);
+      renderVocabList();
+      markSavedWords();
+      updateVocabCount();
+    });
+  });
+}
+
+
 window.addEventListener('scroll', ()=>{
   localStorage.setItem('bible_scrollY', window.scrollY);
 });
