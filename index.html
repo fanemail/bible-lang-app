@@ -23,6 +23,10 @@
     --col-chapter-bg:#f3ede0;
     --col-brand-bg:#8a6d3b;
     --col-brand-text:#fff8ec;
+    --chunk-bg:#e9dfc0;
+    --chunk-bg-hover:#dccf9e;
+    --chunk-border:#c9b878;
+    --chunk-text:#6b5518;
   }
   [data-theme="dark"]{
     --bg:#1c1a17;
@@ -39,6 +43,10 @@
     --col-chapter-bg:#2c2822;
     --col-brand-bg:#5c4726;
     --col-brand-text:#f5e6c8;
+    --chunk-bg:#4a3f22;
+    --chunk-bg-hover:#5c4d2a;
+    --chunk-border:#8a7538;
+    --chunk-text:#e8d38a;
   }
   *{box-sizing:border-box;}
   html,body{margin:0;padding:0;}
@@ -333,6 +341,29 @@
   }
   .vocab-empty{color:var(--text-soft); font-size:13px; padding:12px 4px;}
 
+  /* ============ Phase 3：語義塊高亮 ============ */
+  .chunk{
+    background:var(--chunk-bg);
+    border-radius:5px;
+    padding:0 2px;
+    cursor:pointer;
+    box-shadow:0 0 0 1px var(--chunk-border) inset;
+  }
+  .chunk:hover{ background:var(--chunk-bg-hover); }
+  .chunk-tag{
+    display:inline-block;
+    font-size:12px; font-weight:700; color:var(--chunk-text);
+    background:var(--chunk-bg-hover);
+    padding:2px 8px; border-radius:6px; margin-bottom:8px;
+  }
+  .chunk-phrase{
+    font-size:17px; font-weight:700; margin-bottom:10px;
+  }
+  .chunk-gloss-lbl{ font-size:11px; color:var(--text-soft); margin-bottom:2px; text-transform:uppercase; letter-spacing:.05em; }
+  .chunk-gloss{ font-size:16px; font-weight:700; color:var(--chunk-text); margin-bottom:14px; }
+  .chunk-ref{ font-size:12.5px; color:var(--text-soft); }
+
+
 
   /* ============ 響應式斷點 ============ */
   @media (min-width:600px){
@@ -458,6 +489,13 @@
   <div id="vocabList"></div>
 </div>
 
+<div class="sheet-backdrop" id="chunkSheetBackdrop"></div>
+<div class="sheet" id="chunkSheet">
+  <div class="sheet-handle"></div>
+  <button class="sheet-close" id="chunkSheetClose" aria-label="關閉">✕</button>
+  <div id="chunkSheetBody"></div>
+</div>
+
 <main>
   <div id="verseList"></div>
 </main>
@@ -541,6 +579,33 @@ const VOCAB = [
 ];
 const VOCAB_BY_ID = Object.fromEntries(VOCAB.map(v=>[v.id, v]));
 
+/* ============ Phase 3 示範：詩篇1:1、1:3 語義塊標注（已定案的IS/IC/VS/VC/AI()系統示範） ============
+   目前示範僅涵蓋這兩節、且只做英文（日文JS/JC庫留待後續Phase），用於驗證高亮+彈卡UI設計。
+   本示範中六庫比對尚未實際載入詞條清單，故暫時全部標為AI()，正式版會先跑Step2庫比對。 */
+const CHUNKS = [
+  { id:"CK01", text:"walk in the counsel of", tag:"AI()", gloss:"隨從主意", ref:"詩篇 1:1" },
+  { id:"CK02", text:"stand on the path of", tag:"AI()", gloss:"同流合污", ref:"詩篇 1:1" },
+  { id:"CK03", text:"sit in the seat of", tag:"AI()", gloss:"認同立場", ref:"詩篇 1:1" },
+  { id:"CK04", text:"streams of water", tag:"AI()", gloss:"活水源頭", ref:"詩篇 1:3" },
+  { id:"CK05", text:"does not wither", tag:"AI()", gloss:"歷久不衰", ref:"詩篇 1:3" },
+  { id:"CK06", text:"produces its fruit in its season", tag:"AI()", gloss:"按時結果", ref:"詩篇 1:3" }
+];
+const CHUNKS_BY_ID = Object.fromEntries(CHUNKS.map(c=>[c.id, c]));
+
+/* 在文字中標記語義塊：先做語塊層（可能跨詞），再做單詞層，兩者可巢狀共存 */
+function highlightChunks(text, lang){
+  if(lang !== 'en') return text; // 示範階段僅做英文；日文JS/JC庫、中文對應留待後續
+  let result = text;
+  const sorted = [...CHUNKS].sort((a,b)=> b.text.length - a.text.length);
+  sorted.forEach(c=>{
+    if(result.includes(c.text)){
+      result = result.replace(c.text, `<span class="chunk" data-cid="${c.id}">${c.text}</span>`);
+    }
+  });
+  return result;
+}
+
+
 /* 在文字中標記可點擊單詞：依語言掃描VOCAB，命中的字串包成 <span class="word"> */
 function highlightText(text, lang){
   let result = text;
@@ -589,11 +654,11 @@ function renderVerses(){
 
     row.innerHTML = `
       <span class="verse-num">${v.n}</span>
-      <span class="primary-text" data-lang="${defaultLang}">${highlightText(v[defaultLang], defaultLang)}<button class="inline-btn speak" data-speak-lang="${defaultLang}" aria-label="朗讀">🔊</button>${badgesHtml}</span>
+      <span class="primary-text" data-lang="${defaultLang}">${highlightText(highlightChunks(v[defaultLang], defaultLang), defaultLang)}<button class="inline-btn speak" data-speak-lang="${defaultLang}" aria-label="朗讀">🔊</button>${badgesHtml}</span>
       ${others.map(l => `
         <div class="verse-extra" data-lang-block="${l}">
           <div class="lbl">${l==='zh'?'和合本':(l==='en'?'World English Bible':'口語訳')}</div>
-          <span class="extra-text" data-lang="${l}">${highlightText(v[l], l)}<button class="inline-btn speak" data-speak-lang="${l}" aria-label="朗讀">🔊</button></span>
+          <span class="extra-text" data-lang="${l}">${highlightText(highlightChunks(v[l], l), l)}<button class="inline-btn speak" data-speak-lang="${l}" aria-label="朗讀">🔊</button></span>
         </div>
       `).join('')}
     `;
@@ -618,6 +683,11 @@ document.getElementById('verseList').addEventListener('click', e=>{
   const wordEl = e.target.closest('.word');
   if(wordEl){
     openWordSheet(wordEl.dataset.id);
+    return;
+  }
+  const chunkEl = e.target.closest('.chunk');
+  if(chunkEl){
+    openChunkSheet(chunkEl.dataset.cid);
     return;
   }
   const toggleBtn = e.target.closest('button[data-toggle]');
@@ -884,7 +954,36 @@ function renderVocabList(){
 }
 
 
-window.addEventListener('scroll', ()=>{
+/* ============ Phase 3：語義塊彈出卡片 ============ */
+const chunkSheet = document.getElementById('chunkSheet');
+const chunkSheetBackdrop = document.getElementById('chunkSheetBackdrop');
+const chunkSheetBody = document.getElementById('chunkSheetBody');
+
+function openChunkSheet(id){
+  const c = CHUNKS_BY_ID[id];
+  if(!c) return;
+  chunkSheetBody.innerHTML = `
+    <span class="chunk-tag">${c.tag}</span>
+    <div class="chunk-phrase">${c.text}</div>
+    <div class="chunk-gloss-lbl">附注 gloss</div>
+    <div class="chunk-gloss">${c.gloss}</div>
+    <div class="chunk-ref">出處：${c.ref}</div>
+    <button class="sheet-star" id="chunkSpeakBtn" style="margin-top:14px;">🔊 朗讀語塊</button>
+  `;
+  document.getElementById('chunkSpeakBtn').addEventListener('click', ()=>{
+    speak(c.text, 'en-US');
+  });
+  chunkSheet.classList.add('open');
+  chunkSheetBackdrop.classList.add('open');
+}
+document.getElementById('chunkSheetClose').addEventListener('click', ()=>{
+  chunkSheet.classList.remove('open'); chunkSheetBackdrop.classList.remove('open');
+});
+chunkSheetBackdrop.addEventListener('click', ()=>{
+  chunkSheet.classList.remove('open'); chunkSheetBackdrop.classList.remove('open');
+});
+
+
   localStorage.setItem('bible_scrollY', window.scrollY);
 });
 window.addEventListener('load', ()=>{
