@@ -983,7 +983,7 @@ chunkSheetBackdrop.addEventListener('click', ()=>{
   chunkSheet.classList.remove('open'); chunkSheetBackdrop.classList.remove('open');
 });
 
-
+window.addEventListener('scroll', ()=>{
   localStorage.setItem('bible_scrollY', window.scrollY);
 });
 window.addEventListener('load', ()=>{
