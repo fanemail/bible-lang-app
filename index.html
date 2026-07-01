@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<title>聖經多語言學習 — Phase 1 MVP（詩篇示範）</title>
+<style>
+  :root{
+    --bg:#faf8f3;
+    --bg-card:#ffffff;
+    --text:#2a2622;
+    --text-soft:#6b6357;
+    --accent:#8a6d3b;
+    --accent-soft:#e8dfc9;
+    --border:#e4ddcd;
+    --en-color:#2f5f8a;
+    --ja-color:#8a4b1f;   /* 棕色，與中文黑字形成高對比 */
+    --zh-color:#1c1a17;   /* 高對比近黑 */
+    --font-scale:1;
+    --line-scale:1.7;
+    --nav-h:74px;
+    --col-settings-bg:#e8dfc9;
+    --col-chapter-bg:#f3ede0;
+    --col-brand-bg:#8a6d3b;
+    --col-brand-text:#fff8ec;
+  }
+  [data-theme="dark"]{
+    --bg:#1c1a17;
+    --bg-card:#26231f;
+    --text:#ece7dd;
+    --text-soft:#a89f8f;
+    --accent:#d8b478;
+    --accent-soft:#3a3327;
+    --border:#3a352c;
+    --en-color:#82b3e0;
+    --ja-color:#d99a5b;   /* 深色模式下的棕色，保持高對比 */
+    --zh-color:#f2ede2;
+    --col-settings-bg:#332c22;
+    --col-chapter-bg:#2c2822;
+    --col-brand-bg:#5c4726;
+    --col-brand-text:#f5e6c8;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Noto Sans TC","Hiragino Sans","PingFang TC",-apple-system,BlinkMacSystemFont,sans-serif;
+    padding-top:var(--nav-h);
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  /* ============ 固定置頂欄：單一列，三個功能區各自底色，每區兩行文字 ============ */
+  header.topbar{
+    position:fixed; top:0; left:0; right:0;
+    height:var(--nav-h);
+    display:flex;
+    z-index:100;
+    box-shadow:0 1px 4px rgba(0,0,0,.12);
+  }
+  header.topbar > button{
+    flex:1;
+    display:flex; flex-direction:column;
+    align-items:center; justify-content:center;
+    gap:2px;
+    border:none; cursor:pointer;
+    font-family:inherit;
+    padding:4px 6px;
+  }
+  .col-settings{
+    background:var(--col-settings-bg);
+    color:var(--accent);
+    flex:0.85 !important;
+  }
+  .col-settings .row1{font-size:24px; line-height:1;}
+  .col-settings .row2{font-size:15px; font-weight:700;}
+
+  .col-chapter{
+    background:var(--col-chapter-bg);
+    color:var(--text);
+    flex:1.3 !important;
+    border-left:1px solid rgba(0,0,0,.06);
+    border-right:1px solid rgba(0,0,0,.06);
+  }
+  .col-chapter .row1{font-size:12.5px; color:var(--text-soft); letter-spacing:.05em;}
+  .col-chapter .row2{font-size:18px; font-weight:700;}
+
+  .col-brand{
+    background:var(--col-brand-bg);
+    color:var(--col-brand-text);
+    flex:1 !important;
+    cursor:default;
+  }
+  .col-brand .row1{font-size:16px; font-weight:700; letter-spacing:.03em;}
+  .col-brand .row2{font-size:13.5px; opacity:.9;}
+
+  /* ============ 抽屜：書卷/章節導覽（點中間欄開啟） ============ */
+  .drawer-backdrop, .panel-backdrop{
+    position:fixed; inset:0; background:rgba(0,0,0,.35);
+    z-index:150; opacity:0; pointer-events:none; transition:opacity .2s;
+  }
+  .drawer-backdrop.open, .panel-backdrop.open{opacity:1; pointer-events:auto;}
+  .drawer{
+    position:fixed; top:0; left:0; bottom:0;
+    width:min(320px, 84vw);
+    background:var(--bg-card);
+    z-index:151;
+    transform:translateX(-100%);
+    transition:transform .25s ease;
+    overflow-y:auto;
+    padding:16px;
+    border-right:1px solid var(--border);
+  }
+  .drawer.open{transform:translateX(0);}
+  .drawer h3{margin:16px 0 8px; font-size:13px; color:var(--text-soft); font-weight:700;}
+  .drawer h3:first-child{margin-top:0;}
+  .booklist{display:flex; flex-wrap:wrap; gap:6px;}
+  .booklist button{
+    border:1px solid var(--border); background:var(--bg);
+    color:var(--text); border-radius:8px; padding:8px 10px;
+    font-size:13px; cursor:pointer;
+  }
+  .booklist button.current{background:var(--accent); color:#fff; border-color:var(--accent);}
+  .booklist button:disabled{opacity:.35; cursor:default;}
+
+  /* ============ 設置面板（點左側欄開啟，含閱讀/互動模式、缺省語言等） ============ */
+  .panel{
+    position:fixed; right:0; top:0; bottom:0;
+    width:min(340px, 88vw);
+    background:var(--bg-card);
+    z-index:151;
+    transform:translateX(100%);
+    transition:transform .25s ease;
+    overflow-y:auto;
+    padding:18px;
+    border-left:1px solid var(--border);
+  }
+  .panel.open{transform:translateX(0);}
+  .panel h2{font-size:16px; margin:0 0 16px;}
+  .panel-row{margin-bottom:18px;}
+  .panel-row label{
+    display:block; font-size:12px; color:var(--text-soft);
+    margin-bottom:8px; font-weight:700;
+  }
+  .seg{display:flex; border:1px solid var(--border); border-radius:10px; overflow:hidden;}
+  .seg button{
+    flex:1; background:var(--bg); border:none; color:var(--text);
+    padding:9px 4px; font-size:13px; cursor:pointer; border-right:1px solid var(--border);
+  }
+  .seg button:last-child{border-right:none;}
+  .seg button.active{background:var(--accent); color:#fff;}
+  .seg button:disabled{opacity:.4; cursor:default;}
+
+  /* ============ 主內容 ============ */
+  main{
+    max-width:720px;
+    margin:0 auto;
+    padding:18px 14px 80px;
+  }
+
+  .verse{
+    background:var(--bg-card);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:14px 16px;
+    margin-bottom:12px;
+  }
+  .verse-num{
+    display:inline-block;
+    font-size:calc(13px * var(--font-scale));
+    color:var(--accent);
+    font-weight:700;
+    margin-right:6px;
+  }
+  .primary-text{
+    font-size:calc(17px * var(--font-scale));
+    line-height:var(--line-scale);
+  }
+  /* 主要語言文字段落依語言決定顏色 */
+  .primary-text[data-lang="zh"]{color:var(--zh-color);}
+  .primary-text[data-lang="en"]{color:var(--en-color);}
+  .primary-text[data-lang="ja"]{color:var(--ja-color);}
+
+  /* 行內小按鈕：緊接在該語言句末標點之後 */
+  .inline-btn{
+    display:inline-flex; align-items:center; justify-content:center;
+    border:1px solid var(--border);
+    background:var(--bg);
+    color:var(--text-soft);
+    font-size:calc(11px * var(--font-scale));
+    padding:2px 7px;
+    border-radius:20px;
+    cursor:pointer;
+    margin-left:4px;
+    vertical-align:middle;
+    line-height:1.6;
+  }
+  .inline-btn.speak{
+    padding:2px 6px;
+    font-size:calc(12px * var(--font-scale));
+  }
+  .inline-btn.badge.active{
+    background:var(--accent); color:#fff; border-color:var(--accent);
+    cursor:default; font-weight:700;
+  }
+  .inline-btn.badge.clickable{
+    cursor:pointer;
+  }
+  .inline-btn.badge.clickable:hover{
+    background:var(--accent-soft);
+  }
+  .inline-btn.badge.on{
+    background:var(--accent-soft); color:var(--accent); border-color:var(--accent);
+  }
+
+  .verse-extra{
+    margin-top:8px;
+    padding-top:8px;
+    border-top:1px dashed var(--border);
+    display:none;
+  }
+  .verse-extra.show{display:block;}
+  .verse-extra .lbl{
+    font-size:calc(10.5px * var(--font-scale));
+    letter-spacing:.05em;
+    color:var(--text-soft);
+    margin-bottom:2px;
+    text-transform:uppercase;
+  }
+  .verse-extra .extra-text{
+    font-size:calc(15.5px * var(--font-scale));
+    line-height:var(--line-scale);
+  }
+  .verse-extra .extra-text[data-lang="zh"]{color:var(--zh-color);}
+  .verse-extra .extra-text[data-lang="en"]{color:var(--en-color);}
+  .verse-extra .extra-text[data-lang="ja"]{color:var(--ja-color);}
+
+  /* ============ 響應式斷點 ============ */
+  @media (min-width:600px){
+    main{padding:24px 20px 90px;}
+    .verse{padding:16px 20px;}
+  }
+  @media (min-width:900px){
+    main{max-width:760px;}
+  }
+  @media (max-height:420px) and (orientation:landscape){
+    :root{--nav-h:52px;}
+    .col-settings .row2, .col-chapter .row1, .col-brand .row2{display:none;}
+    .verse{padding:10px 14px; margin-bottom:8px;}
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <button class="col-brand" disabled>
+    <span class="row1">聖經</span>
+    <span class="row2">語言神經內化</span>
+  </button>
+  <button class="col-chapter" id="chapterBtn" aria-label="開啟書卷目錄">
+    <span class="row1" id="chapterRow1">篇章</span>
+    <span class="row2" id="chapterRow2">詩篇 1章</span>
+  </button>
+  <button class="col-settings" id="settingsBtn" aria-label="開啟設置">
+    <span class="row1">⚙</span>
+    <span class="row2">設置</span>
+  </button>
+</header>
+
+<div class="drawer-backdrop" id="drawerBackdrop"></div>
+<div class="drawer" id="drawer">
+  <h3>書卷（Phase 1 示範僅開放詩篇）</h3>
+  <div class="booklist">
+    <button class="current">詩篇 Psalms</button>
+    <button disabled>箴言 Proverbs</button>
+    <button disabled>約翰福音 John</button>
+  </div>
+  <h3>章</h3>
+  <div class="booklist" id="chapterList"></div>
+</div>
+
+<div class="panel-backdrop" id="panelBackdrop"></div>
+<div class="panel" id="panel">
+  <h2>設置</h2>
+
+  <div class="panel-row">
+    <label>模式</label>
+    <div class="seg">
+      <button class="active" disabled>閱讀模式</button>
+      <button disabled title="尚未開放">互動模式</button>
+    </div>
+  </div>
+
+  <div class="panel-row">
+    <label>缺省語言（決定標題／目錄／經文排序，缺省語言永遠排最前）</label>
+    <div class="seg" id="defaultLangSeg">
+      <button data-val="zh" class="active">中</button>
+      <button data-val="en">EN</button>
+      <button data-val="ja">日</button>
+    </div>
+  </div>
+
+  <div class="panel-row">
+    <label>字體大小</label>
+    <div class="seg" id="fontSizeSeg">
+      <button data-val="0.85">小</button>
+      <button data-val="1" class="active">中</button>
+      <button data-val="1.2">大</button>
+      <button data-val="1.45">特大</button>
+    </div>
+  </div>
+
+  <div class="panel-row">
+    <label>行距</label>
+    <div class="seg" id="lineHeightSeg">
+      <button data-val="1.4">緊湊</button>
+      <button data-val="1.7" class="active">標準</button>
+      <button data-val="2.1">寬鬆</button>
+    </div>
+  </div>
+
+  <div class="panel-row">
+    <label>顯示模式</label>
+    <div class="seg" id="themeSeg">
+      <button data-val="light" class="active">日間</button>
+      <button data-val="dark">夜間</button>
+    </div>
+  </div>
+
+  <div class="panel-row">
+    <label>朗讀語速（Web Speech，過渡方案）</label>
+    <div class="seg" id="rateSeg">
+      <button data-val="0.75">0.75x</button>
+      <button data-val="1" class="active">1x</button>
+      <button data-val="1.25">1.25x</button>
+    </div>
+  </div>
+</div>
+
+<main>
+  <div id="verseList"></div>
+</main>
+
+<script>
+/* ============ 示範資料：詩篇第一章三語逐節（公有領域文本） ============
+   來源：英文 WEB＝ebible.org；中文 和合本繁體；日文 口語訳（Wikisource公有領域）
+   正式版將改為讀取 /data/en/PSA.json 等分卷檔案，此處為Phase1 MVP內嵌示範。 */
+const bibleData = {
+  chapter: 1,
+  bookNames: { zh:"詩篇", ja:"詩篇", en:"Psalms" },
+  verses: [
+    { n:1, zh:"不從惡人的計謀，不站罪人的道路，不坐褻慢人的座位，",
+      en:"Blessed is the man who doesn't walk in the counsel of the wicked, nor stand on the path of sinners, nor sit in the seat of scoffers;",
+      ja:"悪しき者のはかりごとに歩まず、罪びとの道に立たず、あざける者の座にすわらぬ人はさいわいである。" },
+    { n:2, zh:"惟喜愛耶和華的律法，晝夜思想，這人便為有福！",
+      en:"but his delight is in Yahweh's law. On his law he meditates day and night.",
+      ja:"このような人は主のおきてをよろこび、昼も夜もそのおきてを思う。" },
+    { n:3, zh:"他要像一棵樹栽在溪水旁，按時候結果子，葉子也不枯乾。凡他所做的盡都順利。",
+      en:"He will be like a tree planted by the streams of water, that produces its fruit in its season, whose leaf also does not wither. Whatever he does shall prosper.",
+      ja:"このような人は流れのほとりに植えられた木の時が来ると実を結び、その葉もしぼまないように、そのなすところは皆栄える。" },
+    { n:4, zh:"惡人並不是這樣，乃像糠秕被風吹散。",
+      en:"The wicked are not so, but are like the chaff which the wind drives away.",
+      ja:"悪しき者はそうでない、風の吹き去るもみがらのようだ。" },
+    { n:5, zh:"因此，當審判的時候惡人必站立不住；罪人在義人的會中也是如此。",
+      en:"Therefore the wicked shall not stand in the judgment, nor sinners in the congregation of the righteous.",
+      ja:"それゆえ、悪しき者はさばきに耐えない。罪びとは正しい者のつどいに立つことができない。" },
+    { n:6, zh:"因為耶和華知道義人的道路；惡人的道路卻必滅亡。",
+      en:"For Yahweh knows the way of the righteous, but the way of the wicked shall perish.",
+      ja:"主は正しい者の道を知られる。しかし、悪しき者の道は滅びる。" }
+  ]
+};
+
+const LANGS = {
+  zh:{ label:"中", ttsLang:"zh-TW" },
+  ja:{ label:"日", ttsLang:"ja-JP" },
+  en:{ label:"EN", ttsLang:"en-US" }
+};
+const BADGE_ORDER = ["zh","ja","en"]; // 固定顯示順序：中、日、EN
+
+let defaultLang = localStorage.getItem('bible_defaultLang') || 'zh';
+
+/* ============ 渲染逐節（依缺省語言決定排序：缺省語言永遠排最前） ============ */
+function renderVerses(){
+  const verseList = document.getElementById('verseList');
+  verseList.innerHTML = '';
+  const others = BADGE_ORDER.filter(l => l !== defaultLang);
+
+  bibleData.verses.forEach(v=>{
+    const row = document.createElement('div');
+    row.className = 'verse';
+
+    // 主要語言（缺省語言）段落 + 緊接句末的行內按鈕（朗讀 + 中/日/EN 三個切換鍵）
+    let badgesHtml = '';
+    BADGE_ORDER.forEach(l=>{
+      if(l === defaultLang){
+        badgesHtml += `<button class="inline-btn badge active">${LANGS[l].label}</button>`;
+      }else{
+        badgesHtml += `<button class="inline-btn badge clickable" data-toggle="${l}">${LANGS[l].label}</button>`;
+      }
+    });
+
+    row.innerHTML = `
+      <span class="verse-num">${v.n}</span>
+      <span class="primary-text" data-lang="${defaultLang}">${v[defaultLang]}<button class="inline-btn speak" data-speak-lang="${defaultLang}" aria-label="朗讀">🔊</button>${badgesHtml}</span>
+      ${others.map(l => `
+        <div class="verse-extra" data-lang-block="${l}">
+          <div class="lbl">${l==='zh'?'和合本':(l==='en'?'World English Bible':'口語訳')}</div>
+          <span class="extra-text" data-lang="${l}">${v[l]}<button class="inline-btn speak" data-speak-lang="${l}" aria-label="朗讀">🔊</button></span>
+        </div>
+      `).join('')}
+    `;
+    // 把每個verse暫存文字資料供朗讀按鈕查找
+    row.dataset.verseIdx = bibleData.verses.indexOf(v);
+    verseList.appendChild(row);
+  });
+
+  // 更新頂欄中間欄「篇章顯示」
+  const chapterLabelMap = { zh:'章', ja:'篇', en:'' };
+  document.getElementById('chapterRow2').textContent =
+    defaultLang === 'en'
+      ? `${bibleData.bookNames.en} ${bibleData.chapter}`
+      : `${bibleData.bookNames[defaultLang]} ${bibleData.chapter}${chapterLabelMap[defaultLang]}`;
+}
+renderVerses();
+
+/* ============ 事件代理：語言切換 / 朗讀 ============ */
+document.getElementById('verseList').addEventListener('click', e=>{
+  const toggleBtn = e.target.closest('button[data-toggle]');
+  if(toggleBtn){
+    const lang = toggleBtn.dataset.toggle;
+    const row = toggleBtn.closest('.verse');
+    const block = row.querySelector(`.verse-extra[data-lang-block="${lang}"]`);
+    const showing = block.classList.toggle('show');
+    toggleBtn.classList.toggle('on', showing);
+    return;
+  }
+  const speakBtn = e.target.closest('button[data-speak-lang]');
+  if(speakBtn){
+    const row = speakBtn.closest('.verse');
+    const idx = parseInt(row.dataset.verseIdx);
+    const lang = speakBtn.dataset.speakLang;
+    speak(bibleData.verses[idx][lang], LANGS[lang].ttsLang);
+  }
+});
+
+/* ============ Web Speech API 朗讀（過渡方案，Phase5將替換為FCBH/LibriVox/WordProject真人音頻） ============ */
+let currentRate = parseFloat(localStorage.getItem('bible_rate') || '1');
+function speak(text, ttsLang){
+  if(!('speechSynthesis' in window)){
+    alert('此瀏覽器不支援語音朗讀，建議改用Chrome。');
+    return;
+  }
+  window.speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = ttsLang;
+  u.rate = currentRate;
+  window.speechSynthesis.speak(u);
+}
+
+/* ============ 頂欄中間欄：開啟書卷/章節抽屜 ============ */
+const drawer = document.getElementById('drawer');
+const drawerBackdrop = document.getElementById('drawerBackdrop');
+document.getElementById('chapterBtn').addEventListener('click', ()=>{
+  drawer.classList.add('open'); drawerBackdrop.classList.add('open');
+});
+drawerBackdrop.addEventListener('click', ()=>{
+  drawer.classList.remove('open'); drawerBackdrop.classList.remove('open');
+});
+const chapterList = document.getElementById('chapterList');
+for(let i=1;i<=10;i++){
+  const b = document.createElement('button');
+  b.textContent = i;
+  if(i===1) b.className='current';
+  else b.disabled = true;
+  chapterList.appendChild(b);
+}
+
+/* ============ 頂欄左側欄：開啟設置面板 ============ */
+const panel = document.getElementById('panel');
+const panelBackdrop = document.getElementById('panelBackdrop');
+document.getElementById('settingsBtn').addEventListener('click', ()=>{
+  panel.classList.add('open'); panelBackdrop.classList.add('open');
+});
+panelBackdrop.addEventListener('click', ()=>{
+  panel.classList.remove('open'); panelBackdrop.classList.remove('open');
+});
+
+function setupSeg(id, onChange){
+  const seg = document.getElementById(id);
+  if(!seg) return;
+  seg.addEventListener('click', e=>{
+    const btn = e.target.closest('button');
+    if(!btn || btn.disabled) return;
+    [...seg.children].forEach(c=>c.classList.remove('active'));
+    btn.classList.add('active');
+    onChange(btn.dataset.val);
+  });
+}
+
+setupSeg('defaultLangSeg', val=>{
+  defaultLang = val;
+  localStorage.setItem('bible_defaultLang', val);
+  renderVerses();
+});
+setupSeg('fontSizeSeg', val=>{
+  document.documentElement.style.setProperty('--font-scale', val);
+  localStorage.setItem('bible_fontScale', val);
+});
+setupSeg('lineHeightSeg', val=>{
+  document.documentElement.style.setProperty('--line-scale', val);
+  localStorage.setItem('bible_lineScale', val);
+});
+setupSeg('themeSeg', val=>{
+  document.documentElement.setAttribute('data-theme', val==='dark' ? 'dark' : 'light');
+  localStorage.setItem('bible_theme', val);
+});
+setupSeg('rateSeg', val=>{
+  currentRate = parseFloat(val);
+  localStorage.setItem('bible_rate', val);
+});
+
+/* 還原上次設置 */
+function restoreSeg(id, storeKey, applyFn){
+  const saved = localStorage.getItem(storeKey);
+  if(saved){
+    const seg = document.getElementById(id);
+    [...seg.children].forEach(c=>{
+      c.classList.toggle('active', c.dataset.val === saved);
+    });
+    if(applyFn) applyFn(saved);
+  }
+}
+restoreSeg('defaultLangSeg','bible_defaultLang', v=>{ defaultLang=v; renderVerses(); });
+restoreSeg('fontSizeSeg','bible_fontScale', v=>document.documentElement.style.setProperty('--font-scale', v));
+restoreSeg('lineHeightSeg','bible_lineScale', v=>document.documentElement.style.setProperty('--line-scale', v));
+restoreSeg('themeSeg','bible_theme', v=>document.documentElement.setAttribute('data-theme', v));
+restoreSeg('rateSeg','bible_rate', v=>currentRate=parseFloat(v));
+
+/* ============ 上次閱讀位置記憶 ============ */
+window.addEventListener('scroll', ()=>{
+  localStorage.setItem('bible_scrollY', window.scrollY);
+});
+window.addEventListener('load', ()=>{
+  const y = localStorage.getItem('bible_scrollY');
+  if(y) window.scrollTo(0, parseInt(y));
+});
+</script>
+</body>
+</html>
