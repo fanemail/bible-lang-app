@@ -1,0 +1,66 @@
+[
+  { "id":"CK-JA-PSA071-01", "chapter":71, "verse":2, "text":"耳を傾けて", "reading":"みみをかたむけて", "blank":"あなたの___、わたしをお救いください。", "answer":"耳を傾けて", "tag":"AI()", "freq":"high", "gloss":"側耳傾聽", "ref":"詩篇 71:2", "usage":"現代日文常用於表示專心聆聽。" },
+  { "id":"CK-JA-PSA071-02", "chapter":71, "verse":20, "text":"引きあげられる", "reading":"ひきあげられる", "blank":"地の深い所から___でしょう。", "answer":"引きあげられる", "tag":"AI()", "freq":"medium", "gloss":"拉拔、拯救", "ref":"詩篇 71:20", "usage":"現代日文常用，如「人を引き上げる」。" },
+  { "id":"CK-JA-PSA071-03", "chapter":71, "verse":23, "text":"喜び呼ばわり", "reading":"よろこびよばわり", "blank":"わがくちびるは___、", "answer":"喜び呼ばわり", "tag":"AI()", "freq":"medium", "gloss":"歡呼雀躍", "ref":"詩篇 71:23", "usage":"現代日文常用於表達因喜悅而歡呼。" },
+
+  { "id":"CK-JA-PSA072-01", "chapter":72, "verse":9, "text":"ちりをなめる", "reading":"ちりをなめる", "blank":"彼の敵は___ように。", "answer":"ちりをなめる", "tag":"AI()", "freq":"high", "gloss":"徹底戰敗、俯首稱臣", "ref":"詩篇 72:9", "usage":"現代日文常用於比喻徹底戰敗屈服。" },
+  { "id":"CK-JA-PSA072-02", "chapter":72, "verse":11, "text":"ひれ伏し", "reading":"ひれふし", "blank":"もろもろの王は彼の前に___、", "answer":"ひれ伏し", "tag":"AI()", "freq":"high", "gloss":"俯伏、跪拜", "ref":"詩篇 72:11", "usage":"現代日文常用，如「王の前にひれ伏す」。" },
+
+  { "id":"CK-JA-PSA073-01", "chapter":73, "verse":13, "text":"手を洗った", "reading":"てをあらった", "blank":"罪を犯すことなく___。", "answer":"手を洗った", "tag":"AI()", "freq":"high", "gloss":"洗手表清白", "ref":"詩篇 73:13", "usage":"現代日文常用，如「悪事から手を洗う」。" },
+  { "id":"CK-JA-PSA073-02", "chapter":73, "verse":18, "text":"陥らせられる", "reading":"おちいらせられる", "blank":"彼らを滅びに___。", "answer":"陥らせられる", "tag":"AI()", "freq":"medium", "gloss":"使陷入", "ref":"詩篇 73:18", "usage":"現代日文常用，如「苦境に陥る」。" },
+  { "id":"CK-JA-PSA073-03", "chapter":73, "verse":20, "text":"目をさまして", "reading":"めをさまして", "blank":"あなたが___彼らの影をかろしめられるとき、", "answer":"目をさまして", "tag":"AI()", "freq":"high", "gloss":"清醒、警覺", "ref":"詩篇 73:20", "usage":"現代日文常用於表示提高警覺。" },
+
+  { "id":"CK-JA-PSA074-01", "chapter":74, "verse":1, "text":"怒りを燃やされる", "reading":"いかりをもやされる", "blank":"なぜ、あなたの牧の羊に___のですか。", "answer":"怒りを燃やされる", "tag":"AI()", "freq":"high", "gloss":"燃起怒火", "ref":"詩篇 74:1", "usage":"現代日文極常用，如「怒りに燃える」。" },
+  { "id":"CK-JA-PSA074-02", "chapter":74, "verse":3, "text":"足を向けて", "reading":"あしをむけて", "blank":"とこしえの滅びの跡に、あなたの___ください。", "answer":"足を向けて", "tag":"AI()", "freq":"medium", "gloss":"前往、朝向", "ref":"詩篇 74:3", "usage":"現代日文常用，如「足を向けて寝られない」表示感恩。" },
+  { "id":"CK-JA-PSA074-03", "chapter":74, "verse":8, "text":"心のうちに言いました", "reading":"こころのうちにいいました", "blank":"彼らは___、「われらはことごとくこれを滅ぼそう」と。", "answer":"心のうちに言いました", "tag":"AI()", "freq":"medium", "gloss":"心裡想、暗自思忖", "ref":"詩篇 74:8", "usage":"現代日文常用於表示心中默想。" },
+  { "id":"CK-JA-PSA074-04", "chapter":74, "verse":11, "text":"手を引かれる", "reading":"てをひかれる", "blank":"なぜあなたは___のですか。", "answer":"手を引かれる", "tag":"AI()", "freq":"high", "gloss":"縮手、退出", "ref":"詩篇 74:11", "usage":"現代日文極常用，如「手を引く」表示退出或抽手。" },
+
+  { "id":"CK-JA-PSA075-01", "chapter":75, "verse":8, "text":"飲みつくす", "reading":"のみつくす", "blank":"地のすべての悪しき者はこれを一滴も残さずに___であろう。", "answer":"飲みつくす", "tag":"AI()", "freq":"medium", "gloss":"喝到見底、徹底承受", "ref":"詩篇 75:8", "usage":"現代日文常用「飲み尽くす」表示徹底喝盡。" },
+
+  { "id":"CK-JA-PSA076-01", "chapter":76, "verse":5, "text":"眠りに沈み", "reading":"ねむりにしずみ", "blank":"彼らは___、", "answer":"眠りに沈み", "tag":"AI()", "freq":"medium", "gloss":"沉沉睡去、長眠", "ref":"詩篇 76:5", "usage":"現代日文常用「眠りに沈む」表示沉睡。" },
+  { "id":"CK-JA-PSA076-02", "chapter":76, "verse":6, "text":"深い眠りに陥った", "reading":"ふかいねむりにおちいった", "blank":"乗り手と馬とは___。", "answer":"深い眠りに陥った", "tag":"AI()", "freq":"medium", "gloss":"陷入沉睡", "ref":"詩篇 76:6", "usage":"現代日文常用「眠りに陥る」表示陷入沉睡。" },
+  { "id":"CK-JA-PSA076-03", "chapter":76, "verse":11, "text":"誓いを立てて、それを償え", "reading":"ちかいをたてて、それをつぐなえ", "blank":"あなたがたの神、主に___。", "answer":"誓いを立てて、それを償え", "tag":"AI()", "freq":"medium", "gloss":"立誓並實現", "ref":"詩篇 76:11", "usage":"現代日文常用「誓いを立てる」表示立誓。" },
+
+  { "id":"CK-JA-PSA077-01", "chapter":77, "verse":2, "text":"手を伸べて", "reading":"てをのべて", "blank":"わが手を___たゆむことなく、", "answer":"手を伸べて", "tag":"AI()", "freq":"high", "gloss":"伸出手", "ref":"詩篇 77:2", "usage":"現代日文常用，如「助けの手を伸べる」。" },
+
+  { "id":"CK-JA-PSA078-01", "chapter":78, "verse":1, "text":"耳を傾けよ", "reading":"みみをかたむけよ", "blank":"わが口の言葉に___。", "answer":"耳を傾けよ", "tag":"AI()", "freq":"high", "gloss":"側耳傾聽", "ref":"詩篇 78:1", "usage":"現代日文常用於表示專心聆聽。" },
+  { "id":"CK-JA-PSA078-02", "chapter":78, "verse":9, "text":"引き返した", "reading":"ひきかえした", "blank":"戦いの日に___。", "answer":"引き返した", "tag":"AI()", "freq":"high", "gloss":"折返、撤退", "ref":"詩篇 78:9", "usage":"現代日文極常用，表示折返或撤退。" },
+  { "id":"CK-JA-PSA078-03", "chapter":78, "verse":19, "text":"宴を設ける", "reading":"うたげをもうける", "blank":"神は荒野に___ことができるだろうか。", "answer":"宴を設ける", "tag":"AI()", "freq":"medium", "gloss":"設宴、備席", "ref":"詩篇 78:19", "usage":"現代日文常用，表示舉辦宴會。" },
+  { "id":"CK-JA-PSA078-04", "chapter":78, "verse":38, "text":"おさえて", "reading":"おさえて", "blank":"しばしばその怒りを___、", "answer":"おさえて", "tag":"AI()", "freq":"high", "gloss":"抑制、壓抑", "ref":"詩篇 78:38", "usage":"現代日文極常用，如「怒りを抑える」。" },
+  { "id":"CK-JA-PSA078-05", "chapter":78, "verse":53, "text":"のみつくした", "reading":"のみつくした", "blank":"海は彼らの敵を___。", "answer":"のみつくした", "tag":"AI()", "freq":"high", "gloss":"完全吞沒", "ref":"詩篇 78:53", "usage":"現代日文常用於比喻，如「借金にのみつくされる」。" },
+  { "id":"CK-JA-PSA078-06", "chapter":78, "verse":65, "text":"目をさまして", "reading":"めをさまして", "blank":"勇士が酒によって叫ぶように___、", "answer":"目をさまして", "tag":"AI()", "freq":"high", "gloss":"清醒、警覺", "ref":"詩篇 78:65", "usage":"現代日文常用於表示從睡眠中醒來。" },
+
+  { "id":"CK-JA-PSA079-01", "chapter":79, "verse":6, "text":"怒りを注いで", "reading":"いかりをそそいで", "blank":"あなたを知らない異邦人の上にあなたの___ください。", "answer":"怒りを注いで", "tag":"AI()", "freq":"high", "gloss":"傾洩憤怒", "ref":"詩篇 79:6", "usage":"現代日文常用「注ぐ」表示傾洩情緒。" },
+
+  { "id":"CK-JA-PSA080-01", "chapter":80, "verse":1, "text":"耳を傾けて", "reading":"みみをかたむけて", "blank":"イスラエルの牧者よ、___ください。", "answer":"耳を傾けて", "tag":"AI()", "freq":"high", "gloss":"側耳傾聽", "ref":"詩篇 80:1", "usage":"現代日文常用於表示專心聆聽。" },
+  { "id":"CK-JA-PSA080-02", "chapter":80, "verse":2, "text":"力を振り起し", "reading":"ちからをふりおこし", "blank":"エフライム、ベニヤミン、マナセの前にあなたの___、", "answer":"力を振り起し", "tag":"AI()", "freq":"medium", "gloss":"奮起力量", "ref":"詩篇 80:2", "usage":"現代日文常用「奮い立たせる」的類義表達。" },
+  { "id":"CK-JA-PSA080-03", "chapter":80, "verse":8, "text":"追い出して", "reading":"おいだして", "blank":"もろもろの国民を___、これを植えられました。", "answer":"追い出して", "tag":"AI()", "freq":"high", "gloss":"驅逐、趕走", "ref":"詩篇 80:8", "usage":"現代日文極常用，如「敵を追い出す」。" },
+  { "id":"CK-JA-PSA080-04", "chapter":80, "verse":9, "text":"深く根ざして", "reading":"ふかくねざして", "blank":"あなたはこれがために地を開かれたので、___、", "answer":"深く根ざして", "tag":"AI()", "freq":"high", "gloss":"深深扎根", "ref":"詩篇 80:9", "usage":"現代日文極常用，如「努力に根ざす」。" },
+
+  { "id":"CK-JA-PSA081-01", "chapter":81, "verse":1, "text":"喜びの声をあげよ", "reading":"よろこびのこえをあげよ", "blank":"ヤコブの神にむかって___。", "answer":"喜びの声をあげよ", "tag":"AI()", "freq":"high", "gloss":"高聲歡呼", "ref":"詩篇 81:1", "usage":"現代日文常用於表達公開發聲、歡呼。" },
+
+  { "id":"CK-JA-PSA083-01", "chapter":83, "verse":2, "text":"頭をあげました", "reading":"あたまをあげました", "blank":"あなたを憎む者は___。", "answer":"頭をあげました", "tag":"AI()", "freq":"medium", "gloss":"抬頭挑釁、囂張", "ref":"詩篇 83:2", "usage":"現代日文常用「頭を上げる」，此處引申為挑釁地抬頭。" },
+
+  { "id":"CK-JA-PSA084-01", "chapter":84, "verse":7, "text":"力から力に進み", "reading":"ちからからちからにすすみ", "blank":"彼らは___、", "answer":"力から力に進み", "tag":"AI()", "freq":"high", "gloss":"越戰越勇、日益強大", "ref":"詩篇 84:7", "usage":"現代日文常用於表示持續進步、越來越強。" },
+  { "id":"CK-JA-PSA084-02", "chapter":84, "verse":8, "text":"耳を傾けてください", "reading":"みみをかたむけてください", "blank":"ヤコブの神よ、___。", "answer":"耳を傾けてください", "tag":"AI()", "freq":"high", "gloss":"側耳傾聽", "ref":"詩篇 84:8", "usage":"現代日文常用於表示專心聆聽。" },
+
+  { "id":"CK-JA-PSA085-01", "chapter":85, "verse":1, "text":"繁栄を回復されました", "reading":"はんえいをかいふくされました", "blank":"あなたはみ国にめぐみを示し、ヤコブの___。", "answer":"繁栄を回復されました", "tag":"AI()", "freq":"medium", "gloss":"恢復繁榮景況", "ref":"詩篇 85:1", "usage":"現代日文常用「繁栄を回復する」表示恢復繁榮。" },
+
+  { "id":"CK-JA-PSA086-01", "chapter":86, "verse":1, "text":"耳を傾けて", "reading":"みみをかたむけて", "blank":"主よ、あなたの___、わたしにお答えください。", "answer":"耳を傾けて", "tag":"AI()", "freq":"high", "gloss":"側耳傾聽", "ref":"詩篇 86:1", "usage":"現代日文常用於表示專心聆聽。" },
+  { "id":"CK-JA-PSA086-02", "chapter":86, "verse":12, "text":"心をつくして", "reading":"こころをつくして", "blank":"わが神、主よ、わたしは___あなたに感謝し、", "answer":"心をつくして", "tag":"AI()", "freq":"high", "gloss":"全心全意", "ref":"詩篇 86:12", "usage":"現代日文常用於表示全心投入做某事。" },
+
+  { "id":"CK-JA-PSA088-01", "chapter":88, "verse":2, "text":"耳を傾けてください", "reading":"みみをかたむけてください", "blank":"わたしの叫びに___。", "answer":"耳を傾けてください", "tag":"AI()", "freq":"high", "gloss":"側耳傾聽", "ref":"詩篇 88:2", "usage":"現代日文常用於表示專心聆聽。" },
+  { "id":"CK-JA-PSA088-02", "chapter":88, "verse":5, "text":"断ち滅ぼされた者です", "reading":"たちほろぼされたものです", "blank":"彼らはあなたのみ手から___。", "answer":"断ち滅ぼされた者です", "tag":"AI()", "freq":"medium", "gloss":"徹底消滅", "ref":"詩篇 88:5", "usage":"現代日文正式用語，表示徹底消滅。" },
+  { "id":"CK-JA-PSA088-03", "chapter":88, "verse":9, "text":"わが両手を伸べました", "reading":"わがりょうてをのべました", "blank":"あなたにむかって___。", "answer":"わが両手を伸べました", "tag":"AI()", "freq":"high", "gloss":"伸出雙手", "ref":"詩篇 88:9", "usage":"現代日文常用「手を伸べる」表示伸出手。" },
+  { "id":"CK-JA-PSA088-04", "chapter":88, "verse":14, "text":"み顔を隠される", "reading":"みかおをかくされる", "blank":"なぜ、わたしに___のですか。", "answer":"み顔を隠される", "tag":"AI()", "freq":"high", "gloss":"遮臉、迴避", "ref":"詩篇 88:14", "usage":"現代日文常用於表示迴避、不理睬某人。" },
+
+  { "id":"CK-JA-PSA089-01", "chapter":89, "verse":10, "text":"打ち砕き", "reading":"うちくだき", "blank":"あなたはラハブを、殺された者のように___、", "answer":"打ち砕き", "tag":"AI()", "freq":"high", "gloss":"粉碎、擊碎", "ref":"詩篇 89:10", "usage":"現代日文常用，如「夢を打ち砕く」。" },
+  { "id":"CK-JA-PSA089-02", "chapter":89, "verse":19, "text":"高くあげた", "reading":"たかくあげた", "blank":"民の中から選ばれた者を___。", "answer":"高くあげた", "tag":"AI()", "freq":"medium", "gloss":"高舉、拔擢", "ref":"詩篇 89:19", "usage":"現代日文常用「頭を上げる」的延伸表達，表示拔擢提升。" },
+  { "id":"CK-JA-PSA089-03", "chapter":89, "verse":24, "text":"角は高くあげられる", "reading":"つのはたかくあげられる", "blank":"わが名によって彼の___。", "answer":"角は高くあげられる", "tag":"AI()", "freq":"medium", "gloss":"力量被高舉、榮耀彰顯", "ref":"詩篇 89:24", "usage":"現代日文比喻語境常用「高くあげる」表示彰顯或提升。" },
+  { "id":"CK-JA-PSA089-04", "chapter":89, "verse":28, "text":"堅く立つ", "reading":"かたくたつ", "blank":"わが契約は彼のために___。", "answer":"堅く立つ", "tag":"AI()", "freq":"high", "gloss":"堅立、屹立不搖", "ref":"詩篇 89:28", "usage":"現代日文極常用，表示堅定不搖。" },
+  { "id":"CK-JA-PSA089-05", "chapter":89, "verse":34, "text":"契約を破る", "reading":"けいやくをやぶる", "blank":"わたしはわが___ことなく、", "answer":"契約を破る", "tag":"AI()", "freq":"high", "gloss":"違背契約", "ref":"詩篇 89:34", "usage":"現代日文極常用，如商業或法律語境「契約を破る」。" },
+  { "id":"CK-JA-PSA089-06", "chapter":89, "verse":42, "text":"右の手を高くあげ", "reading":"みぎのてをたかくあげ", "blank":"あなたは彼のあだの___、", "answer":"右の手を高くあげ", "tag":"AI()", "freq":"medium", "gloss":"高舉右手、彰顯力量", "ref":"詩篇 89:42", "usage":"現代日文常用「手を上げる」的延伸表達。" },
+
+  { "id":"CK-JA-PSA090-01", "chapter":90, "verse":10, "text":"飛び去るのです", "reading":"とびさるのです", "blank":"その過ぎゆくことは速く、われらは___。", "answer":"飛び去るのです", "tag":"AI()", "freq":"high", "gloss":"飛逝、消逝", "ref":"詩篇 90:10", "usage":"現代日文常用「飛び去る」表示迅速消逝離去。" },
+  { "id":"CK-JA-PSA090-02", "chapter":90, "verse":13, "text":"み心を変えて", "reading":"みこころをかえて", "blank":"主よ、___ください。", "answer":"み心を変えて", "tag":"AI()", "freq":"high", "gloss":"回心轉意", "ref":"詩篇 90:13", "usage":"現代日文極常用「心を変える」表示改變主意。" }
+]

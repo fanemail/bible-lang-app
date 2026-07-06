@@ -1,0 +1,49 @@
+[
+  { "id":"CK-JA-PSA111-01", "chapter":111, "verse":1, "text":"心をつくして主に感謝する", "reading":"こころをつくしてしゅにかんしゃする", "blank":"主をほめたたえよ。わたしは正しい者のつどい、および公会で、___。", "answer":"心をつくして主に感謝する", "tag":"AI()", "freq":"high", "gloss":"全心全意感謝", "ref":"詩篇 111:1", "usage":"現代日文常用於表示全心投入做某事。" },
+
+  { "id":"CK-JA-PSA112-01", "chapter":112, "verse":10, "text":"歯をかみならして", "reading":"はをかみならして", "blank":"悪しき者はこれを見て怒り、___溶け去る。", "answer":"歯をかみならして", "tag":"AI()", "freq":"medium", "gloss":"咬牙切齒", "ref":"詩篇 112:10", "usage":"現代日文常用，表示憤怒咬牙。" },
+
+  { "id":"CK-JA-PSA113-01", "chapter":113, "verse":7, "text":"ちりからあげ", "reading":"ちりからあげ", "blank":"主は貧しい者を___、", "answer":"ちりからあげ", "tag":"AI()", "freq":"medium", "gloss":"從卑微中提拔", "ref":"詩篇 113:7", "usage":"現代日文常用「あげる」表示提升、拔擢。" },
+  { "id":"CK-JA-PSA113-02", "chapter":113, "verse":7, "text":"あくたからあげて", "reading":"あくたからあげて", "blank":"乏しい者を___、", "answer":"あくたからあげて", "tag":"AI()", "freq":"medium", "gloss":"從塵埃中提拔", "ref":"詩篇 113:7", "usage":"現代日文常用「あげる」表示提升、拔擢。" },
+
+  { "id":"CK-JA-PSA114-01", "chapter":114, "verse":3, "text":"うしろに退き", "reading":"うしろにしりぞき", "blank":"ヨルダンは___、", "answer":"うしろに退き", "tag":"AI()", "freq":"high", "gloss":"向後退卻", "ref":"詩篇 114:3", "usage":"現代日文常用「退く」表示退卻。" },
+  { "id":"CK-JA-PSA114-02", "chapter":114, "verse":5, "text":"うしろに退く", "reading":"うしろにしりぞく", "blank":"ヨルダンよ、おまえはどうして___のか。", "answer":"うしろに退く", "tag":"AI()", "freq":"high", "gloss":"向後退卻", "ref":"詩篇 114:5", "usage":"現代日文常用「退く」表示退卻。" },
+
+  { "id":"CK-JA-PSA116-01", "chapter":116, "verse":2, "text":"耳を傾けられた", "reading":"みみをかたむけられた", "blank":"主はわたしに___ので、", "answer":"耳を傾けられた", "tag":"AI()", "freq":"high", "gloss":"側耳傾聽", "ref":"詩篇 116:2", "usage":"現代日文常用於表示專心聆聽。" },
+  { "id":"CK-JA-PSA116-02", "chapter":116, "verse":6, "text":"低くされた", "reading":"ひくくされた", "blank":"わたしが___とき、主はわたしを救われた。", "answer":"低くされた", "tag":"AI()", "freq":"medium", "gloss":"陷入困境、被貶低", "ref":"詩篇 116:6", "usage":"現代日文常用，表示使人陷入困境或謙卑。" },
+  { "id":"CK-JA-PSA116-03", "chapter":116, "verse":9, "text":"生ける者の地", "reading":"いけるもののち", "blank":"わたしは___で、主のみ前に歩みます。", "answer":"生ける者の地", "tag":"AI()", "freq":"medium", "gloss":"人世間、活著的世界", "ref":"詩篇 116:9", "usage":"現代日文文學語境偶爾使用，表示人世間。" },
+  { "id":"CK-JA-PSA116-04", "chapter":116, "verse":16, "text":"なわめを解かれました", "reading":"なわめをとかれました", "blank":"あなたはわたしの___。", "answer":"なわめを解かれました", "tag":"AI()", "freq":"medium", "gloss":"解開束縛", "ref":"詩篇 116:16", "usage":"現代日文常用「解き放つ」表示解除束縛。" },
+
+  { "id":"CK-JA-PSA118-01", "chapter":118, "verse":16, "text":"高くあがり", "reading":"たかくあがり", "blank":"主の右の手は___、", "answer":"高くあがり", "tag":"AI()", "freq":"high", "gloss":"高高舉起、彰顯", "ref":"詩篇 118:16", "usage":"現代日文常用「頭を上げる」的延伸表達。" },
+  { "id":"CK-JA-PSA118-02", "chapter":118, "verse":22, "text":"隅のかしら石となった", "reading":"すみのかしらいしとなった", "blank":"家造りらの捨てた石は___。", "answer":"隅のかしら石となった", "tag":"AI()", "freq":"high", "gloss":"棄石成為房角石、被輕視者成為核心", "ref":"詩篇 118:22", "usage":"現代日文比喻語境常用，表示曾被輕視者後來成為關鍵角色。" },
+
+  { "id":"CK-JA-PSA119-01", "chapter":119, "verse":2, "text":"心をつくして", "reading":"こころをつくして", "blank":"主のもろもろのあかしを守り___主を尋ね求め、", "answer":"心をつくして", "tag":"AI()", "freq":"high", "gloss":"全心全意", "ref":"詩篇 119:2", "usage":"現代日文常用於表示全心投入做某事。" },
+  { "id":"CK-JA-PSA119-02", "chapter":119, "verse":10, "text":"心をつくして", "reading":"こころをつくして", "blank":"わたしは___あなたを尋ね求めます。", "answer":"心をつくして", "tag":"AI()", "freq":"high", "gloss":"全心全意", "ref":"詩篇 119:10", "usage":"現代日文常用於表示全心投入做某事。" },
+  { "id":"CK-JA-PSA119-03", "chapter":119, "verse":25, "text":"生き返らせて", "reading":"いきかえらせて", "blank":"み言葉に従って、わたしを___ください。", "answer":"生き返らせて", "tag":"AI()", "freq":"high", "gloss":"使復甦、重振", "ref":"詩篇 119:25", "usage":"現代日文常用於比喻使某事物重新振作。" },
+  { "id":"CK-JA-PSA119-04", "chapter":119, "verse":32, "text":"心を広くされる", "reading":"こころをひろくされる", "blank":"あなたがわたしの___とき、", "answer":"心を広くされる", "tag":"AI()", "freq":"medium", "gloss":"心胸開闊、心靈自由", "ref":"詩篇 119:32", "usage":"現代日文常用「心が広い」表示心胸寬大。" },
+  { "id":"CK-JA-PSA119-05", "chapter":119, "verse":34, "text":"心をつくして", "reading":"こころをつくして", "blank":"わたしはあなたのおきてを守り、___これに従います。", "answer":"心をつくして", "tag":"AI()", "freq":"high", "gloss":"全心全意", "ref":"詩篇 119:34", "usage":"現代日文常用於表示全心投入做某事。" },
+  { "id":"CK-JA-PSA119-06", "chapter":119, "verse":105, "text":"足のともしび", "reading":"あしのともしび", "blank":"あなたのみ言葉はわが___、わが道の光です。", "answer":"足のともしび", "tag":"AI()", "freq":"high", "gloss":"指引方向的明燈", "ref":"詩篇 119:105", "usage":"現代日文比喻語境常用，表示指引方向的原則。" },
+  { "id":"CK-JA-PSA119-07", "chapter":119, "verse":133, "text":"支配されない", "reading":"しはいされない", "blank":"すべての不義に___ようにしてください。", "answer":"支配されない", "tag":"AI()", "freq":"medium", "gloss":"不受支配", "ref":"詩篇 119:133", "usage":"現代日文常用「支配する」表示支配控制。" },
+  { "id":"CK-JA-PSA119-08", "chapter":119, "verse":145, "text":"心をつくして", "reading":"こころをつくして", "blank":"わたしは___呼ばわります。", "answer":"心をつくして", "tag":"AI()", "freq":"high", "gloss":"全心全意", "ref":"詩篇 119:145", "usage":"現代日文常用於表示全心投入做某事。" },
+  { "id":"CK-JA-PSA119-09", "chapter":119, "verse":176, "text":"失われた羊のように迷い出ました", "reading":"うしなわれたひつじのようにまよいでました", "blank":"わたしは___。", "answer":"失われた羊のように迷い出ました", "tag":"AI()", "freq":"high", "gloss":"如迷途羔羊般偏離正道", "ref":"詩篇 119:176", "usage":"現代日文比喻語境常用著名意象，表示迷失方向的人。" },
+
+  { "id":"CK-JA-PSA121-01", "chapter":121, "verse":1, "text":"目をあげる", "reading":"めをあげる", "blank":"わたしは山にむかって___。", "answer":"目をあげる", "tag":"AI()", "freq":"high", "gloss":"仰望、抬眼望", "ref":"詩篇 121:1", "usage":"現代日文常用，表示仰望或抬眼尋求幫助。" },
+
+  { "id":"CK-JA-PSA123-01", "chapter":123, "verse":1, "text":"目をあげます", "reading":"めをあげます", "blank":"わたしはあなたにむかって___。", "answer":"目をあげます", "tag":"AI()", "freq":"high", "gloss":"仰望、抬眼望", "ref":"詩篇 123:1", "usage":"現代日文常用，表示仰望或抬眼尋求幫助。" },
+  { "id":"CK-JA-PSA123-02", "chapter":123, "verse":2, "text":"目をそそぎ", "reading":"めをそそぎ", "blank":"われらはわれらの神、主に___、", "answer":"目をそそぎ", "tag":"AI()", "freq":"medium", "gloss":"注視、集中目光", "ref":"詩篇 123:2", "usage":"現代日文常用，如「視線を注ぐ」。" },
+
+  { "id":"CK-JA-PSA124-01", "chapter":124, "verse":2, "text":"逆らって立ちあがった", "reading":"さからってたちあがった", "blank":"人々がわれらに___とき、", "answer":"逆らって立ちあがった", "tag":"AI()", "freq":"medium", "gloss":"起來反抗", "ref":"詩篇 124:2", "usage":"現代日文常用「立ち上がる」表示起身反抗或行動。" },
+
+  { "id":"CK-JA-PSA125-01", "chapter":125, "verse":3, "text":"手を不義に伸べる", "reading":"てをふぎにのべる", "blank":"正しい者がその___ことのないためである。", "answer":"手を不義に伸べる", "tag":"AI()", "freq":"medium", "gloss":"伸手行不義之事", "ref":"詩篇 125:3", "usage":"現代日文常用「手を伸ばす」的延伸表達。" },
+
+  { "id":"CK-JA-PSA126-01", "chapter":126, "verse":1, "text":"繁栄を回復された", "reading":"はんえいをかいふくされた", "blank":"主がシオンの___とき、", "answer":"繁栄を回復された", "tag":"AI()", "freq":"medium", "gloss":"恢復繁榮景況", "ref":"詩篇 126:1", "usage":"現代日文常用「繁栄を回復する」表示恢復繁榮。" },
+  { "id":"CK-JA-PSA126-02", "chapter":126, "verse":4, "text":"繁栄を、ネゲブの川のように回復してください", "reading":"はんえいを、ネゲブのかわのようにかいふくしてください", "blank":"主よ、どうか、われらの___。", "answer":"繁栄を、ネゲブの川のように回復してください", "tag":"AI()", "freq":"medium", "gloss":"恢復繁榮景況", "ref":"詩篇 126:4", "usage":"現代日文常用「繁栄を回復する」表示恢復繁榮。" },
+  { "id":"CK-JA-PSA126-03", "chapter":126, "verse":5, "text":"涙をもって種まく者は、喜びの声をもって刈り取る", "reading":"なみだをもってたねまくものは、よろこびのこえをもってかりとる", "blank":"___。", "answer":"涙をもって種まく者は、喜びの声をもって刈り取る", "tag":"AI()", "freq":"high", "gloss":"含淚播種、歡笑收割", "ref":"詩篇 126:5", "usage":"現代日文比喻語境常用著名意象，表示艱辛過後迎來收穫。" },
+
+  { "id":"CK-JA-PSA129-01", "chapter":129, "verse":4, "text":"断ち切られた", "reading":"たちきられた", "blank":"悪しき者のなわを___。", "answer":"断ち切られた", "tag":"AI()", "freq":"medium", "gloss":"斬斷", "ref":"詩篇 129:4", "usage":"現代日文常用「断ち切る」表示斬斷束縛。" },
+  { "id":"CK-JA-PSA129-02", "chapter":129, "verse":5, "text":"退くように", "reading":"しりぞくように", "blank":"シオンを憎む者はみな、恥を得て、___。", "answer":"退くように", "tag":"AI()", "freq":"high", "gloss":"退卻", "ref":"詩篇 129:5", "usage":"現代日文常用「退く」表示退卻或撤退。" },
+
+  { "id":"CK-JA-PSA130-01", "chapter":130, "verse":1, "text":"深い淵からあなたに呼ばわる", "reading":"ふかいふちからあなたによばわる", "blank":"主よ、わたしは___。", "answer":"深い淵からあなたに呼ばわる", "tag":"AI()", "freq":"high", "gloss":"從深淵、從絕望之中呼求", "ref":"詩篇 130:1", "usage":"現代日文比喻語境常用著名意象，表示從絕望深處呼求。" },
+  { "id":"CK-JA-PSA130-02", "chapter":130, "verse":2, "text":"耳をわが願いの声に傾けて", "reading":"みみをわがねがいのこえにかたむけて", "blank":"主よ、どうか、わが声を聞き、あなたの___ください。", "answer":"耳をわが願いの声に傾けて", "tag":"AI()", "freq":"high", "gloss":"側耳傾聽", "ref":"詩篇 130:2", "usage":"現代日文常用於表示專心聆聽。" },
+  { "id":"CK-JA-PSA130-03", "chapter":130, "verse":5, "text":"待ち望みます", "reading":"まちのぞみます", "blank":"わたしは主を___、わが魂は待ち望みます。", "answer":"待ち望みます", "tag":"AI()", "freq":"high", "gloss":"殷切期盼", "ref":"詩篇 130:5", "usage":"現代日文極常用，表示殷切期盼。" }
+]

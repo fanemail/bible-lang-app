@@ -1,0 +1,42 @@
+[
+  { "id":"CK-JA-PRO001-01", "chapter":1, "verse":11, "text":"待ち伏せして", "reading":"まちぶせして", "blank":"われわれは___、人の血を流し、", "answer":"待ち伏せして", "tag":"AI()", "freq":"high", "gloss":"埋伏、伺機而動", "ref":"箴言 1:11", "usage":"現代日文常用於表示埋伏等待時機行動。" },
+  { "id":"CK-JA-PRO001-02", "chapter":1, "verse":12, "text":"のみ尽し", "reading":"のみつくし", "blank":"陰府のように、彼らを生きたままで、___、", "answer":"のみ尽し", "tag":"AI()", "freq":"high", "gloss":"完全吞沒", "ref":"箴言 1:12", "usage":"現代日文常用於比喻，如「借金にのみつくされる」。" },
+  { "id":"CK-JA-PRO001-03", "chapter":1, "verse":23, "text":"心をとめよ", "reading":"こころをとめよ", "blank":"わたしの戒めに___、", "answer":"心をとめよ", "tag":"AI()", "freq":"medium", "gloss":"放在心上、留意", "ref":"箴言 1:23", "usage":"現代日文常用「心に留める」。" },
+  { "id":"CK-JA-PRO001-04", "chapter":1, "verse":24, "text":"手を伸べた", "reading":"てをのべた", "blank":"わたしは呼んだが、あなたがたは聞くことを拒み、___が、顧みる者はなく、", "answer":"手を伸べた", "tag":"AI()", "freq":"high", "gloss":"伸出手", "ref":"箴言 1:24", "usage":"現代日文常用，如「助けの手を伸べる」。" },
+
+  { "id":"CK-JA-PRO002-01", "chapter":2, "verse":2, "text":"耳を知恵に傾け", "reading":"みみをちえにかたむけ", "blank":"あなたの___、あなたの心を悟りに向け、", "answer":"耳を知恵に傾け", "tag":"AI()", "freq":"high", "gloss":"側耳傾聽", "ref":"箴言 2:2", "usage":"現代日文常用於表示專心聆聽。" },
+  { "id":"CK-JA-PRO002-02", "chapter":2, "verse":3, "text":"あなたの声をあげ", "reading":"あなたのこえをあげ", "blank":"悟りを得ようと、___、", "answer":"あなたの声をあげ", "tag":"AI()", "freq":"medium", "gloss":"提高聲量呼求", "ref":"箴言 2:3", "usage":"現代日文常用「声をあげる」表示公開發聲。" },
+  { "id":"CK-JA-PRO002-03", "chapter":2, "verse":22, "text":"断ち滅ぼされ", "reading":"たちほろぼされ", "blank":"しかし悪しき者は地から___、", "answer":"断ち滅ぼされ", "tag":"AI()", "freq":"medium", "gloss":"徹底消滅", "ref":"箴言 2:22", "usage":"現代日文正式用語，表示徹底消滅。" },
+
+  { "id":"CK-JA-PRO003-01", "chapter":3, "verse":1, "text":"心にとめよ", "reading":"こころにとめよ", "blank":"わたしの戒めを___。", "answer":"心にとめよ", "tag":"AI()", "freq":"medium", "gloss":"放在心上、留意", "ref":"箴言 3:1", "usage":"現代日文常用「心に留める」。" },
+  { "id":"CK-JA-PRO003-02", "chapter":3, "verse":5, "text":"心をつくして主に信頼せよ", "reading":"こころをつくしてしゅにしんらいせよ", "blank":"___、自分の知識にたよってはならない。", "answer":"心をつくして主に信頼せよ", "tag":"AI()", "freq":"high", "gloss":"全心全意信靠", "ref":"箴言 3:5", "usage":"現代日文常用「心を尽くす」表示全心投入。" },
+  { "id":"CK-JA-PRO003-03", "chapter":3, "verse":26, "text":"わなに捕われさせられない", "reading":"わなにとらわれさせられない", "blank":"あなたの足を守って、___からである。", "answer":"わなに捕われさせられない", "tag":"AI()", "freq":"high", "gloss":"不落入陷阱", "ref":"箴言 3:26", "usage":"現代日文常用「罠にかかる」的否定形式。" },
+
+  { "id":"CK-JA-PRO004-01", "chapter":4, "verse":1, "text":"耳を傾けよ", "reading":"みみをかたむけよ", "blank":"悟りを得るために___。", "answer":"耳を傾けよ", "tag":"AI()", "freq":"high", "gloss":"側耳傾聽", "ref":"箴言 4:1", "usage":"現代日文常用於表示專心聆聽。" },
+  { "id":"CK-JA-PRO004-02", "chapter":4, "verse":20, "text":"心をとめ", "reading":"こころをとめ", "blank":"わが子よ、わたしの言葉に___、", "answer":"心をとめ", "tag":"AI()", "freq":"medium", "gloss":"放在心上、留意", "ref":"箴言 4:20", "usage":"現代日文常用「心に留める」。" },
+  { "id":"CK-JA-PRO004-03", "chapter":4, "verse":20, "text":"耳を傾けよ", "reading":"みみをかたむけよ", "blank":"わたしの語ることに___。", "answer":"耳を傾けよ", "tag":"AI()", "freq":"high", "gloss":"側耳傾聽", "ref":"箴言 4:20", "usage":"現代日文常用於表示專心聆聽。" },
+  { "id":"CK-JA-PRO004-04", "chapter":4, "verse":23, "text":"心を守れ", "reading":"こころをまもれ", "blank":"油断することなく、あなたの___、", "answer":"心を守れ", "tag":"AI()", "freq":"medium", "gloss":"守護內心", "ref":"箴言 4:23", "usage":"現代日文常用，表示守護內心不受影響。" },
+
+  { "id":"CK-JA-PRO005-01", "chapter":5, "verse":4, "text":"もろ刃のつるぎ", "reading":"もろはのつるぎ", "blank":"___のように鋭くなる。", "answer":"もろ刃のつるぎ", "tag":"AI()", "freq":"high", "gloss":"雙刃劍、利弊並存", "ref":"箴言 5:4", "usage":"現代日文常用著名比喻，如「諸刃の剣」。" },
+
+  { "id":"CK-JA-PRO006-01", "chapter":6, "verse":1, "text":"手をうって誓った", "reading":"てをうってちかった", "blank":"他人のために___ならば、", "answer":"手をうって誓った", "tag":"AI()", "freq":"medium", "gloss":"擊掌立誓、達成約定", "ref":"箴言 6:1", "usage":"現代日文常用「手を打つ」表示達成約定或採取行動。" },
+  { "id":"CK-JA-PRO006-02", "chapter":6, "verse":9, "text":"目をさまして", "reading":"めをさまして", "blank":"いつ___起きるのか。", "answer":"目をさまして", "tag":"AI()", "freq":"high", "gloss":"清醒、警覺", "ref":"箴言 6:9", "usage":"現代日文常用於表示從睡眠中醒來。" },
+  { "id":"CK-JA-PRO006-03", "chapter":6, "verse":14, "text":"争いをおこす", "reading":"あらそいをおこす", "blank":"絶えず___。", "answer":"争いをおこす", "tag":"AI()", "freq":"high", "gloss":"引發紛爭", "ref":"箴言 6:14", "usage":"現代日文極常用，表示引發爭端。" },
+  { "id":"CK-JA-PRO006-04", "chapter":6, "verse":19, "text":"争いをおこす人", "reading":"あらそいをおこすひと", "blank":"また兄弟のうちに___がこれである。", "answer":"争いをおこす人", "tag":"AI()", "freq":"high", "gloss":"引發紛爭的人", "ref":"箴言 6:19", "usage":"現代日文極常用「争いを起こす」表示引發爭端。" },
+
+  { "id":"CK-JA-PRO007-01", "chapter":7, "verse":14, "text":"誓いを果しました", "reading":"ちかいをはたしました", "blank":"きょう、その___。", "answer":"誓いを果しました", "tag":"AI()", "freq":"high", "gloss":"實現誓言", "ref":"箴言 7:14", "usage":"現代日文極常用「誓いを果たす」。" },
+
+  { "id":"CK-JA-PRO008-01", "chapter":8, "verse":1, "text":"声をあげないのか", "reading":"こえをあげないのか", "blank":"悟りは___。", "answer":"声をあげないのか", "tag":"AI()", "freq":"high", "gloss":"發聲、大聲疾呼", "ref":"箴言 8:1", "usage":"現代日文常用「声をあげる」表示公開發聲。" },
+
+  { "id":"CK-JA-PRO010-01", "chapter":10, "verse":25, "text":"堅く立てられる", "reading":"かたくたてられる", "blank":"正しい者は永久に___。", "answer":"堅く立てられる", "tag":"AI()", "freq":"high", "gloss":"堅立、屹立不搖", "ref":"箴言 10:25", "usage":"現代日文極常用，表示堅定不搖。" },
+
+  { "id":"CK-JA-PRO011-01", "chapter":11, "verse":11, "text":"高くあげられ", "reading":"たかくあげられ", "blank":"町は正しい者の祝福によって、___、", "answer":"高くあげられ", "tag":"AI()", "freq":"medium", "gloss":"被高舉、被提升", "ref":"箴言 11:11", "usage":"現代日文常用「高くあげる」表示提升或彰顯。" },
+  { "id":"CK-JA-PRO011-02", "chapter":11, "verse":12, "text":"口をつぐむ", "reading":"くちをつぐむ", "blank":"さとき人は___。", "answer":"口をつぐむ", "tag":"AI()", "freq":"high", "gloss":"閉口不言、沉默", "ref":"箴言 11:12", "usage":"現代日文極常用，如「彼は口をつぐんだ」。" },
+
+  { "id":"CK-JA-PRO012-01", "chapter":12, "verse":7, "text":"堅く立つ", "reading":"かたくたつ", "blank":"正しい人の家は___。", "answer":"堅く立つ", "tag":"AI()", "freq":"high", "gloss":"堅立、屹立不搖", "ref":"箴言 12:7", "usage":"現代日文極常用，表示堅定不搖。" },
+  { "id":"CK-JA-PRO012-02", "chapter":12, "verse":12, "text":"堅く立つ", "reading":"かたくたつ", "blank":"正しい人の根は___。", "answer":"堅く立つ", "tag":"AI()", "freq":"high", "gloss":"堅立、屹立不搖", "ref":"箴言 12:12", "usage":"現代日文極常用，表示堅定不搖。" },
+
+  { "id":"CK-JA-PRO014-01", "chapter":14, "verse":19, "text":"ひれ伏し", "reading":"ひれふし", "blank":"悪人は善人の前に___、", "answer":"ひれ伏し", "tag":"AI()", "freq":"high", "gloss":"俯伏、跪拜", "ref":"箴言 14:19", "usage":"現代日文常用，如「王の前にひれ伏す」。" },
+
+  { "id":"CK-JA-PRO019-01", "chapter":19, "verse":26, "text":"追い出す", "reading":"おいだす", "blank":"父に乱暴をはたらき、母を___者は、", "answer":"追い出す", "tag":"AI()", "freq":"high", "gloss":"驅逐、趕出", "ref":"箴言 19:26", "usage":"現代日文極常用，如「家から追い出す」。" }
+]

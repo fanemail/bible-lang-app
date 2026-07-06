@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>詩篇23篇 語音點讀 Demo</title>
+<style>
+body{font-family:-apple-system,"Microsoft JhengHei",sans-serif;max-width:700px;margin:40px auto;padding:0 20px;line-height:2.4;font-size:20px;background:#fafaf5;color:#222}
+h1{font-size:26px}.verse{margin-bottom:22px}
+.vnum{font-weight:bold;color:#888;margin-right:6px}
+.word{cursor:pointer;padding:2px 1px;border-radius:4px}
+.word:hover{background:#eee}.word.playing{background:#ffe08a}
+.chunk-wrap{background:#d9f2d0;border-radius:6px;padding:2px 3px}
+.chunk-tag{cursor:pointer;font-size:13px;background:#4c9a4c;color:#fff;border-radius:10px;padding:1px 8px;margin-left:3px;vertical-align:middle}
+.chunk-tag:hover{background:#3a7a3a}
+.verse-btn{font-size:14px;margin-left:10px;padding:3px 10px;border-radius:12px;border:1px solid #999;background:#fff;cursor:pointer}
+.verse-btn:hover{background:#f0f0f0}
+#hint{color:#666;font-size:15px;margin-bottom:30px}
+</style>
+</head>
+<body>
+<h1>詩篇23篇 · 逐詞語音點讀 Demo</h1>
+<p id="hint">點單字播放該字發音；<span style="background:#d9f2d0;padding:1px 6px;border-radius:4px">綠色底色</span>為語塊，點旁邊「▶ 語塊」播放整個語塊；點「播放整節」播放整節。</p>
+<div id="verses"></div>
+<audio id="player" src="023.mp3" preload="auto"></audio>
+<script>
+const DATA={"book": "PSA", "chapter": 23, "audioFile": "023.mp3", "verses": [{"verse": 1, "text": "The LORD is my shepherd; I shall lack nothing.", "startTime": 2.139, "endTime": 14.189, "words": [{"wordIndex": 0, "wordText": "The", "startTime": 2.139, "endTime": 11.246}, {"wordIndex": 1, "wordText": "LORD", "startTime": 2.139, "endTime": 11.246}, {"wordIndex": 2, "wordText": "is", "startTime": 11.326, "endTime": 11.426}, {"wordIndex": 3, "wordText": "my", "startTime": 11.506, "endTime": 11.687}, {"wordIndex": 4, "wordText": "shepherd;", "startTime": 11.787, "endTime": 12.247}, {"wordIndex": 5, "wordText": "I", "startTime": 13.028, "endTime": 13.068}, {"wordIndex": 6, "wordText": "shall", "startTime": 13.108, "endTime": 13.348}, {"wordIndex": 7, "wordText": "lack", "startTime": 13.388, "endTime": 13.668}, {"wordIndex": 8, "wordText": "nothing.", "startTime": 13.788, "endTime": 14.189}]}, {"verse": 2, "text": "He makes me lie down in green pastures. He leads me beside still waters.", "startTime": 15.209, "endTime": 20.874, "words": [{"wordIndex": 0, "wordText": "He", "startTime": 15.209, "endTime": 15.329}, {"wordIndex": 1, "wordText": "makes", "startTime": 15.389, "endTime": 15.63}, {"wordIndex": 2, "wordText": "me", "startTime": 15.69, "endTime": 15.83}, {"wordIndex": 3, "wordText": "lie", "startTime": 15.89, "endTime": 16.09}, {"wordIndex": 4, "wordText": "down", "startTime": 16.15, "endTime": 16.47}, {"wordIndex": 5, "wordText": "in", "startTime": 16.55, "endTime": 16.65}, {"wordIndex": 6, "wordText": "green", "startTime": 16.711, "endTime": 17.031}, {"wordIndex": 7, "wordText": "pastures.", "startTime": 17.111, "endTime": 17.711}, {"wordIndex": 8, "wordText": "He", "startTime": 18.552, "endTime": 18.672}, {"wordIndex": 9, "wordText": "leads", "startTime": 18.752, "endTime": 19.052}, {"wordIndex": 10, "wordText": "me", "startTime": 19.132, "endTime": 19.252}, {"wordIndex": 11, "wordText": "beside", "startTime": 19.333, "endTime": 19.813}, {"wordIndex": 12, "wordText": "still", "startTime": 19.893, "endTime": 20.293}, {"wordIndex": 13, "wordText": "waters.", "startTime": 20.353, "endTime": 20.874}]}, {"verse": 3, "text": "He restores my soul. He guides me in the paths of righteousness for his name’s sake.", "startTime": 21.835, "endTime": 28.5, "words": [{"wordIndex": 0, "wordText": "He", "startTime": 21.835, "endTime": 21.955}, {"wordIndex": 1, "wordText": "restores", "startTime": 22.015, "endTime": 22.735}, {"wordIndex": 2, "wordText": "my", "startTime": 22.835, "endTime": 23.035}, {"wordIndex": 3, "wordText": "soul.", "startTime": 23.136, "endTime": 23.596}, {"wordIndex": 4, "wordText": "He", "startTime": 24.477, "endTime": 24.617}, {"wordIndex": 5, "wordText": "guides", "startTime": 24.697, "endTime": 25.057}, {"wordIndex": 6, "wordText": "me", "startTime": 25.137, "endTime": 25.257}, {"wordIndex": 7, "wordText": "in", "startTime": 25.317, "endTime": 25.397}, {"wordIndex": 8, "wordText": "the", "startTime": 25.437, "endTime": 25.517}, {"wordIndex": 9, "wordText": "paths", "startTime": 25.577, "endTime": 25.998}, {"wordIndex": 10, "wordText": "of", "startTime": 26.178, "endTime": 26.258}, {"wordIndex": 11, "wordText": "righteousness", "startTime": 26.338, "endTime": 27.079}, {"wordIndex": 12, "wordText": "for", "startTime": 27.239, "endTime": 27.379}, {"wordIndex": 13, "wordText": "his", "startTime": 27.419, "endTime": 27.539}, {"wordIndex": 14, "wordText": "name’s", "startTime": 27.639, "endTime": 28.079}, {"wordIndex": 15, "wordText": "sake.", "startTime": 28.24, "endTime": 28.5}]}, {"verse": 4, "text": "Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me. Your rod and your staff, they comfort me.", "startTime": 29.466, "endTime": 39.933, "words": [{"wordIndex": 0, "wordText": "Even", "startTime": 29.466, "endTime": 29.646}, {"wordIndex": 1, "wordText": "though", "startTime": 29.726, "endTime": 29.986}, {"wordIndex": 2, "wordText": "I", "startTime": 30.067, "endTime": 30.147}, {"wordIndex": 3, "wordText": "walk", "startTime": 30.187, "endTime": 30.447}, {"wordIndex": 4, "wordText": "through", "startTime": 30.487, "endTime": 30.687}, {"wordIndex": 5, "wordText": "the", "startTime": 30.707, "endTime": 30.787}, {"wordIndex": 6, "wordText": "valley", "startTime": 30.847, "endTime": 31.227}, {"wordIndex": 7, "wordText": "of", "startTime": 31.267, "endTime": 31.327}, {"wordIndex": 8, "wordText": "the", "startTime": 31.367, "endTime": 31.507}, {"wordIndex": 9, "wordText": "shadow", "startTime": 31.568, "endTime": 31.948}, {"wordIndex": 10, "wordText": "of", "startTime": 31.988, "endTime": 32.068}, {"wordIndex": 11, "wordText": "death,", "startTime": 32.148, "endTime": 32.508}, {"wordIndex": 12, "wordText": "I", "startTime": 33.029, "endTime": 33.069}, {"wordIndex": 13, "wordText": "will", "startTime": 33.089, "endTime": 33.269}, {"wordIndex": 14, "wordText": "fear", "startTime": 33.349, "endTime": 33.609}, {"wordIndex": 15, "wordText": "no", "startTime": 33.689, "endTime": 33.889}, {"wordIndex": 16, "wordText": "evil,", "startTime": 34.069, "endTime": 34.369}, {"wordIndex": 17, "wordText": "for", "startTime": 34.81, "endTime": 34.97}, {"wordIndex": 18, "wordText": "you", "startTime": 35.03, "endTime": 35.21}, {"wordIndex": 19, "wordText": "are", "startTime": 35.31, "endTime": 35.41}, {"wordIndex": 20, "wordText": "with", "startTime": 35.47, "endTime": 35.67}, {"wordIndex": 21, "wordText": "me.", "startTime": 35.77, "endTime": 35.971}, {"wordIndex": 22, "wordText": "Your", "startTime": 36.951, "endTime": 37.171}, {"wordIndex": 23, "wordText": "rod", "startTime": 37.251, "endTime": 37.712}, {"wordIndex": 24, "wordText": "and", "startTime": 37.792, "endTime": 37.892}, {"wordIndex": 25, "wordText": "your", "startTime": 37.932, "endTime": 38.092}, {"wordIndex": 26, "wordText": "staff,", "startTime": 38.152, "endTime": 38.592}, {"wordIndex": 27, "wordText": "they", "startTime": 38.953, "endTime": 39.133}, {"wordIndex": 28, "wordText": "comfort", "startTime": 39.233, "endTime": 39.693}, {"wordIndex": 29, "wordText": "me.", "startTime": 39.753, "endTime": 39.933}]}, {"verse": 5, "text": "You prepare a table before me in the presence of my enemies. You anoint my head with oil. My cup runs over.", "startTime": 41.034, "endTime": 50.701, "words": [{"wordIndex": 0, "wordText": "You", "startTime": 41.034, "endTime": 41.214}, {"wordIndex": 1, "wordText": "prepare", "startTime": 41.254, "endTime": 41.754}, {"wordIndex": 2, "wordText": "a", "startTime": 41.794, "endTime": 41.834}, {"wordIndex": 3, "wordText": "table", "startTime": 41.895, "endTime": 42.315}, {"wordIndex": 4, "wordText": "before", "startTime": 42.375, "endTime": 42.775}, {"wordIndex": 5, "wordText": "me", "startTime": 42.855, "endTime": 43.015}, {"wordIndex": 6, "wordText": "in", "startTime": 43.416, "endTime": 43.496}, {"wordIndex": 7, "wordText": "the", "startTime": 43.536, "endTime": 43.636}, {"wordIndex": 8, "wordText": "presence", "startTime": 43.736, "endTime": 44.216}, {"wordIndex": 9, "wordText": "of", "startTime": 44.256, "endTime": 44.316}, {"wordIndex": 10, "wordText": "my", "startTime": 44.396, "endTime": 44.576}, {"wordIndex": 11, "wordText": "enemies.", "startTime": 44.676, "endTime": 45.177}, {"wordIndex": 12, "wordText": "You", "startTime": 46.318, "endTime": 46.478}, {"wordIndex": 13, "wordText": "anoint", "startTime": 46.538, "endTime": 46.898}, {"wordIndex": 14, "wordText": "my", "startTime": 46.958, "endTime": 47.138}, {"wordIndex": 15, "wordText": "head", "startTime": 47.218, "endTime": 47.518}, {"wordIndex": 16, "wordText": "with", "startTime": 47.578, "endTime": 47.759}, {"wordIndex": 17, "wordText": "oil.", "startTime": 47.979, "endTime": 48.179}, {"wordIndex": 18, "wordText": "My", "startTime": 49.139, "endTime": 49.32}, {"wordIndex": 19, "wordText": "cup", "startTime": 49.44, "endTime": 49.72}, {"wordIndex": 20, "wordText": "runs", "startTime": 49.86, "endTime": 50.22}, {"wordIndex": 21, "wordText": "over.", "startTime": 50.44, "endTime": 50.701}]}, {"verse": 6, "text": "Surely goodness and loving kindness shall follow me all the days of my life, and I will dwell in the LORD’s house forever.", "startTime": 51.961, "endTime": 61.102, "words": [{"wordIndex": 0, "wordText": "Surely", "startTime": 51.961, "endTime": 52.442}, {"wordIndex": 1, "wordText": "goodness", "startTime": 52.762, "endTime": 53.302}, {"wordIndex": 2, "wordText": "and", "startTime": 53.422, "endTime": 53.502}, {"wordIndex": 3, "wordText": "loving", "startTime": 53.562, "endTime": 53.883}, {"wordIndex": 4, "wordText": "kindness", "startTime": 53.943, "endTime": 54.563}, {"wordIndex": 5, "wordText": "shall", "startTime": 54.743, "endTime": 54.963}, {"wordIndex": 6, "wordText": "follow", "startTime": 55.023, "endTime": 55.384}, {"wordIndex": 7, "wordText": "me", "startTime": 55.444, "endTime": 55.564}, {"wordIndex": 8, "wordText": "all", "startTime": 55.764, "endTime": 55.924}, {"wordIndex": 9, "wordText": "the", "startTime": 55.984, "endTime": 56.064}, {"wordIndex": 10, "wordText": "days", "startTime": 56.124, "endTime": 56.444}, {"wordIndex": 11, "wordText": "of", "startTime": 56.524, "endTime": 56.605}, {"wordIndex": 12, "wordText": "my", "startTime": 56.745, "endTime": 56.905}, {"wordIndex": 13, "wordText": "life,", "startTime": 56.985, "endTime": 57.285}, {"wordIndex": 14, "wordText": "and", "startTime": 58.104, "endTime": 58.225}, {"wordIndex": 15, "wordText": "I", "startTime": 58.305, "endTime": 58.346}, {"wordIndex": 16, "wordText": "will", "startTime": 58.386, "endTime": 58.567}, {"wordIndex": 17, "wordText": "dwell", "startTime": 58.607, "endTime": 59.01}, {"wordIndex": 18, "wordText": "in", "startTime": 59.07, "endTime": 59.171}, {"wordIndex": 19, "wordText": "the", "startTime": 59.211, "endTime": 59.794}, {"wordIndex": 20, "wordText": "LORD’s", "startTime": 59.211, "endTime": 59.794}, {"wordIndex": 21, "wordText": "house", "startTime": 59.855, "endTime": 60.217}, {"wordIndex": 22, "wordText": "forever.", "startTime": 60.599, "endTime": 61.102}]}], "chunksDemo": [{"verse": 2, "phrase": "green pastures", "gloss": "青翠的草地／舒適安穩的環境", "startIdx": 6, "endIdx": 7, "startTime": 16.711, "endTime": 17.711, "matched": true}, {"verse": 2, "phrase": "still waters", "gloss": "平靜的水面／內心的平安", "startIdx": 12, "endIdx": 13, "startTime": 19.893, "endTime": 20.874, "matched": true}, {"verse": 4, "phrase": "the valley of the shadow of death", "gloss": "死蔭的幽谷／極度黑暗艱難的處境", "startIdx": 5, "endIdx": 11, "startTime": 30.707, "endTime": 32.508, "matched": true}, {"verse": 6, "phrase": "goodness and loving kindness", "gloss": "恩惠與慈愛", "startIdx": 1, "endIdx": 4, "startTime": 52.762, "endTime": 54.563, "matched": true}]};
+const audio=document.getElementById('player');
+const container=document.getElementById('verses');
+let stopAt=null;
+audio.addEventListener('timeupdate',()=>{
+  if(stopAt!==null&&audio.currentTime>=stopAt){
+    audio.pause();stopAt=null;
+    document.querySelectorAll('.word.playing').forEach(e=>e.classList.remove('playing'));
+  }
+});
+function play(start,end,els){
+  document.querySelectorAll('.word.playing').forEach(e=>e.classList.remove('playing'));
+  if(els)els.forEach(e=>e.classList.add('playing'));
+  audio.currentTime=start;stopAt=end;audio.play();
+}
+DATA.verses.forEach(v=>{
+  const div=document.createElement('div');div.className='verse';
+  const vn=document.createElement('span');vn.className='vnum';vn.textContent=v.verse+'. ';div.appendChild(vn);
+  const chunks=DATA.chunksDemo.filter(c=>c.verse===v.verse);
+  let i=0;const allSpans=[];
+  while(i<v.words.length){
+    const ck=chunks.find(c=>c.startIdx===i);
+    if(ck){
+      const wrap=document.createElement('span');wrap.className='chunk-wrap';
+      const ckEls=[];
+      for(let k=ck.startIdx;k<=ck.endIdx;k++){
+        const w=v.words[k];const sp=document.createElement('span');
+        sp.className='word';sp.textContent=w.wordText+' ';
+        sp.onclick=()=>play(w.startTime,w.endTime,[sp]);
+        wrap.appendChild(sp);allSpans.push(sp);ckEls.push(sp);
+      }
+      const tag=document.createElement('span');tag.className='chunk-tag';
+      tag.textContent='▶ 語塊';tag.title=ck.gloss;
+      tag.onclick=()=>play(ck.startTime,ck.endTime,ckEls);
+      wrap.appendChild(tag);div.appendChild(wrap);i=ck.endIdx+1;
+    }else{
+      const w=v.words[i];const sp=document.createElement('span');
+      sp.className='word';sp.textContent=w.wordText+' ';
+      sp.onclick=()=>play(w.startTime,w.endTime,[sp]);
+      div.appendChild(sp);allSpans.push(sp);i++;
+    }
+  }
+  const btn=document.createElement('button');btn.className='verse-btn';
+  btn.textContent='播放整節';btn.onclick=()=>play(v.startTime,v.endTime,allSpans);
+  div.appendChild(btn);container.appendChild(div);
+});
+</script>
+</body>
+</html>

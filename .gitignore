@@ -1,0 +1,11 @@
+whisperx_env/
+__pycache__/
+*.b64
+chunk_audio_preview/
+ja_verse_preview/
+probe_samples/
+download_log.txt
+fix_regex.py
+fix2.py
+MASTER_BLUEPRINT(0).md
+bible_lang_app_project(0).md

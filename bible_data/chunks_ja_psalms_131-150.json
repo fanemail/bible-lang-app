@@ -1,0 +1,43 @@
+[
+  { "id":"CK-JA-PSA132-01", "chapter":132, "verse":9, "text":"喜び呼ばわらせて", "reading":"よろこびよばわらせて", "blank":"あなたの聖徒たちに___ください。", "answer":"喜び呼ばわらせて", "tag":"AI()", "freq":"medium", "gloss":"歡呼雀躍", "ref":"詩篇 132:9", "usage":"現代日文常用於表達因喜悅而歡呼。" },
+  { "id":"CK-JA-PSA132-02", "chapter":132, "verse":10, "text":"しりぞけないでください", "reading":"しりぞけないでください", "blank":"あなたの油そそがれた者の顔を、___。", "answer":"しりぞけないでください", "tag":"AI()", "freq":"medium", "gloss":"不要拒絕、不要迴避", "ref":"詩篇 132:10", "usage":"現代日文常用「退ける」表示拒絕或迴避。" },
+  { "id":"CK-JA-PSA132-03", "chapter":132, "verse":16, "text":"声高らかに喜び呼ばわる", "reading":"こえたからかによろこびよばわる", "blank":"その聖徒たちは___であろう。", "answer":"声高らかに喜び呼ばわる", "tag":"AI()", "freq":"high", "gloss":"高聲歡呼", "ref":"詩篇 132:16", "usage":"現代日文常用於表達公開發聲、歡呼。" },
+
+  { "id":"CK-JA-PSA134-01", "chapter":134, "verse":2, "text":"手をあげ", "reading":"てをあげ", "blank":"聖所にむかってあなたがたの___、主をほめよ。", "answer":"手をあげ", "tag":"AI()", "freq":"high", "gloss":"舉手", "ref":"詩篇 134:2", "usage":"現代日文常用，如「手を挙げる」。" },
+
+  { "id":"CK-JA-PSA137-01", "chapter":137, "verse":6, "text":"わが舌をあごにつかせて", "reading":"わがしたをあごにつかせて", "blank":"もしわたしがあなたを思い出さないならば、___ください。", "answer":"わが舌をあごにつかせて", "tag":"AI()", "freq":"medium", "gloss":"口乾舌燥、無言以對", "ref":"詩篇 137:6", "usage":"現代日文常用於形容極度緊張或無言以對。" },
+
+  { "id":"CK-JA-PSA138-01", "chapter":138, "verse":1, "text":"心をつくして", "reading":"こころをつくして", "blank":"主よ、わたしは___あなたに感謝し、", "answer":"心をつくして", "tag":"AI()", "freq":"high", "gloss":"全心全意", "ref":"詩篇 138:1", "usage":"現代日文常用於表示全心投入做某事。" },
+  { "id":"CK-JA-PSA138-02", "chapter":138, "verse":2, "text":"伏し拝み", "reading":"ふしおがみ", "blank":"わたしはあなたの聖なる宮にむかって___、", "answer":"伏し拝み", "tag":"AI()", "freq":"high", "gloss":"俯伏敬拜", "ref":"詩篇 138:2", "usage":"現代日文常用，如「王の前にひれ伏す」的類義表達。" },
+  { "id":"CK-JA-PSA138-03", "chapter":138, "verse":7, "text":"み手を伸ばして", "reading":"みてをのばして", "blank":"わが敵の怒りを防ぎ、___、", "answer":"み手を伸ばして", "tag":"AI()", "freq":"high", "gloss":"伸出手", "ref":"詩篇 138:7", "usage":"現代日文常用，如「助けの手を伸べる」。" },
+
+  { "id":"CK-JA-PSA139-01", "chapter":139, "verse":21, "text":"逆らって起り立つ", "reading":"さからっておこりたつ", "blank":"あなたに___者をいとうではありませんか。", "answer":"逆らって起り立つ", "tag":"AI()", "freq":"medium", "gloss":"起來反抗", "ref":"詩篇 139:21", "usage":"現代日文常用「立ち上がる」表示起身反抗或行動。" },
+
+  { "id":"CK-JA-PSA140-01", "chapter":140, "verse":9, "text":"そのこうべをあげる", "reading":"そのこうべをあげる", "blank":"わたしを囲む者が___とき、", "answer":"そのこうべをあげる", "tag":"AI()", "freq":"medium", "gloss":"抬頭挑釁", "ref":"詩篇 140:9", "usage":"現代日文常用「頭を上げる」，此處引申為挑釁地抬頭。" },
+
+  { "id":"CK-JA-PSA141-01", "chapter":141, "verse":1, "text":"耳を傾けてください", "reading":"みみをかたむけてください", "blank":"わたしがあなたに呼ばわるとき、わが声に___。", "answer":"耳を傾けてください", "tag":"AI()", "freq":"high", "gloss":"側耳傾聽", "ref":"詩篇 141:1", "usage":"現代日文常用於表示專心聆聽。" },
+  { "id":"CK-JA-PSA141-02", "chapter":141, "verse":2, "text":"わたしのあげる手", "reading":"わたしのあげるて", "blank":"___を、夕べの供え物のようにみなしてください。", "answer":"わたしのあげる手", "tag":"AI()", "freq":"medium", "gloss":"舉起的雙手", "ref":"詩篇 141:2", "usage":"現代日文常用「手を挙げる」表示舉手祈求。" },
+
+  { "id":"CK-JA-PSA142-01", "chapter":142, "verse":2, "text":"わが嘆きを注ぎ出し", "reading":"わがなげきをそそぎだし", "blank":"わたしはみ前に___、", "answer":"わが嘆きを注ぎ出し", "tag":"AI()", "freq":"medium", "gloss":"傾訴不滿", "ref":"詩篇 142:2", "usage":"現代日文常用「注ぎ出す」表示傾訴心聲。" },
+  { "id":"CK-JA-PSA142-02", "chapter":142, "verse":5, "text":"生ける者の地", "reading":"いけるもののち", "blank":"あなたはわが避け所、___でわたしの受くべき分です。", "answer":"生ける者の地", "tag":"AI()", "freq":"medium", "gloss":"人世間、活著的世界", "ref":"詩篇 142:5", "usage":"現代日文文學語境偶爾使用，表示人世間。" },
+
+  { "id":"CK-JA-PSA143-01", "chapter":143, "verse":3, "text":"地に踏みにじり", "reading":"ちにふみにじり", "blank":"わがいのちを___、", "answer":"地に踏みにじり", "tag":"AI()", "freq":"high", "gloss":"踐踏、蹂躪", "ref":"詩篇 143:3", "usage":"現代日文常用，如「人権を踏みにじる」。" },
+  { "id":"CK-JA-PSA143-02", "chapter":143, "verse":6, "text":"手を伸べ", "reading":"てをのべ", "blank":"わたしはあなたにむかって___、", "answer":"手を伸べ", "tag":"AI()", "freq":"high", "gloss":"伸出手", "ref":"詩篇 143:6", "usage":"現代日文常用，如「助けの手を伸べる」。" },
+  { "id":"CK-JA-PSA143-03", "chapter":143, "verse":7, "text":"み顔を隠さないでください", "reading":"みかおをかくさないでください", "blank":"わたしに___。", "answer":"み顔を隠さないでください", "tag":"AI()", "freq":"high", "gloss":"不要迴避、不要遮臉", "ref":"詩篇 143:7", "usage":"現代日文常用「顔を隠す」的否定祈使形式。" },
+  { "id":"CK-JA-PSA143-04", "chapter":143, "verse":12, "text":"わが敵を断ち", "reading":"わがてきをたち", "blank":"あなたのいつくしみによって、___、", "answer":"わが敵を断ち", "tag":"AI()", "freq":"medium", "gloss":"斬斷、消滅敵人", "ref":"詩篇 143:12", "usage":"現代日文常用「断つ」表示徹底切斷。" },
+
+  { "id":"CK-JA-PSA144-01", "chapter":144, "verse":6, "text":"打ち敗って", "reading":"うちやぶって", "blank":"矢を放って彼らを___ください。", "answer":"打ち敗って", "tag":"AI()", "freq":"high", "gloss":"擊敗、打敗", "ref":"詩篇 144:6", "usage":"現代日文常用，如「敵を打ち破る」。" },
+  { "id":"CK-JA-PSA144-02", "chapter":144, "verse":7, "text":"み手を伸べて", "reading":"みてをのべて", "blank":"高い所から___、わたしを救い、", "answer":"み手を伸べて", "tag":"AI()", "freq":"high", "gloss":"伸出手", "ref":"詩篇 144:7", "usage":"現代日文常用，如「助けの手を伸べる」。" },
+
+  { "id":"CK-JA-PSA145-01", "chapter":145, "verse":14, "text":"立たせられます", "reading":"たたせられます", "blank":"主はすべて倒れんとする者をささえ、すべてかがむ者を___。", "answer":"立たせられます", "tag":"AI()", "freq":"medium", "gloss":"扶起、使站立", "ref":"詩篇 145:14", "usage":"現代日文常用「立たせる」表示扶起或提振。" },
+  { "id":"CK-JA-PSA145-02", "chapter":145, "verse":16, "text":"み手を開いて", "reading":"みてをひらいて", "blank":"あなたは___、すべての生けるものの願いを飽かせられます。", "answer":"み手を開いて", "tag":"AI()", "freq":"medium", "gloss":"敞開手掌、慷慨給予", "ref":"詩篇 145:16", "usage":"現代日文常用，表示慷慨給予。" },
+
+  { "id":"CK-JA-PSA146-01", "chapter":146, "verse":7, "text":"解き放たれる", "reading":"ときはなたれる", "blank":"主は捕われ人を___。", "answer":"解き放たれる", "tag":"AI()", "freq":"high", "gloss":"釋放、解脫", "ref":"詩篇 146:7", "usage":"現代日文常用，如「感情を解き放つ」。" },
+  { "id":"CK-JA-PSA146-02", "chapter":146, "verse":8, "text":"立たせられる", "reading":"たたせられる", "blank":"主はかがむ者を___。", "answer":"立たせられる", "tag":"AI()", "freq":"medium", "gloss":"扶起、使站立", "ref":"詩篇 146:8", "usage":"現代日文常用「立たせる」表示扶起或提振。" },
+
+  { "id":"CK-JA-PSA147-01", "chapter":147, "verse":2, "text":"築き", "reading":"きずき", "blank":"主はエルサレムを___、", "answer":"築き", "tag":"AI()", "freq":"medium", "gloss":"建立、興建", "ref":"詩篇 147:2", "usage":"現代日文常用，表示建立或鞏固。" },
+  { "id":"CK-JA-PSA147-02", "chapter":147, "verse":3, "text":"心の打ち砕かれた者", "reading":"こころのうちくだかれたもの", "blank":"主は___をいやし、その傷を包まれる。", "answer":"心の打ち砕かれた者", "tag":"AI()", "freq":"high", "gloss":"心碎、傷心欲絕的人", "ref":"詩篇 147:3", "usage":"現代日文常用「心が砕ける」表示極度傷心。" },
+  { "id":"CK-JA-PSA147-03", "chapter":147, "verse":6, "text":"地に投げ捨てられる", "reading":"ちになげすてられる", "blank":"悪しき者を___。", "answer":"地に投げ捨てられる", "tag":"AI()", "freq":"medium", "gloss":"被丟棄在地", "ref":"詩篇 147:6", "usage":"現代日文常用「投げ捨てる」表示丟棄。" },
+
+  { "id":"CK-JA-PSA148-01", "chapter":148, "verse":14, "text":"一つの角をあげられた", "reading":"ひとつのつのをあげられた", "blank":"主はその民のために___。", "answer":"一つの角をあげられた", "tag":"AI()", "freq":"medium", "gloss":"提升力量、賦予尊榮", "ref":"詩篇 148:14", "usage":"現代日文常用「あげる」表示提升或彰顯。" }
+]

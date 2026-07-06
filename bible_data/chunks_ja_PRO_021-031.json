@@ -1,0 +1,21 @@
+[
+  { "id":"CK-JA-PRO021-01", "chapter":21, "verse":20, "text":"のみ尽す", "reading":"のみつくす", "blank":"愚かな人はこれを、___。", "answer":"のみ尽す", "tag":"AI()", "freq":"high", "gloss":"完全吞沒、揮霍殆盡", "ref":"箴言 21:20", "usage":"現代日文常用於比喻，如「借金にのみつくされる」。" },
+
+  { "id":"CK-JA-PRO022-01", "chapter":22, "verse":17, "text":"耳を傾けて", "reading":"みみをかたむけて", "blank":"あなたの___知恵ある者の言葉を聞き、", "answer":"耳を傾けて", "tag":"AI()", "freq":"high", "gloss":"側耳傾聽", "ref":"箴言 22:17", "usage":"現代日文常用於表示專心聆聽。" },
+  { "id":"CK-JA-PRO022-02", "chapter":22, "verse":26, "text":"手を打つ者", "reading":"てをうつもの", "blank":"あなたは人と___となってはならない、", "answer":"手を打つ者", "tag":"AI()", "freq":"medium", "gloss":"擊掌立約者", "ref":"箴言 22:26", "usage":"現代日文常用「手を打つ」表示達成約定或採取行動。" },
+
+  { "id":"CK-JA-PRO023-01", "chapter":23, "verse":12, "text":"耳を知識の言葉に傾けよ", "reading":"みみをちしきのことばにかたむけよ", "blank":"あなたの心を教訓に用い、あなたの___。", "answer":"耳を知識の言葉に傾けよ", "tag":"AI()", "freq":"high", "gloss":"側耳傾聽知識之言", "ref":"箴言 23:12", "usage":"現代日文常用「耳を傾ける」表示專心聆聽。" },
+
+  { "id":"CK-JA-PRO024-01", "chapter":24, "verse":32, "text":"心をとどめ", "reading":"こころをとどめ", "blank":"わたしはこれをみて___、これを見て教訓を得た。", "answer":"心をとどめ", "tag":"AI()", "freq":"medium", "gloss":"放在心上、留意", "ref":"箴言 24:32", "usage":"現代日文常用「心に留める」。" },
+
+  { "id":"CK-JA-PRO026-01", "chapter":26, "verse":27, "text":"穴を掘る者は自らその中に陥る", "reading":"あなをほるものはみずからそのなかにおちいる", "blank":"___。", "answer":"穴を掘る者は自らその中に陥る", "tag":"AI()", "freq":"high", "gloss":"自食惡果、作繭自縛", "ref":"箴言 26:27", "usage":"現代日文比喻語境常用，表示害人反害己的著名意象。" },
+
+  { "id":"CK-JA-PRO027-01", "chapter":27, "verse":23, "text":"心をとめよ", "reading":"こころをとめよ", "blank":"あなたの群れに___。", "answer":"心をとめよ", "tag":"AI()", "freq":"medium", "gloss":"放在心上、留意", "ref":"箴言 27:23", "usage":"現代日文常用「心に留める」。" },
+
+  { "id":"CK-JA-PRO028-01", "chapter":28, "verse":10, "text":"自分の穴に陥る", "reading":"じぶんのあなにおちいる", "blank":"正しい者を悪い道に惑わす者は、みずから___、", "answer":"自分の穴に陥る", "tag":"AI()", "freq":"high", "gloss":"自陷圈套、自食惡果", "ref":"箴言 28:10", "usage":"現代日文比喻語境常用，表示害人反害己。" },
+  { "id":"CK-JA-PRO028-02", "chapter":28, "verse":14, "text":"心をかたくなにする", "reading":"こころをかたくなにする", "blank":"___者は災に陥る。", "answer":"心をかたくなにする", "tag":"AI()", "freq":"high", "gloss":"心硬、頑固不化", "ref":"箴言 28:14", "usage":"現代日文常用，表示對某事物心硬不化。" },
+
+  { "id":"CK-JA-PRO029-01", "chapter":29, "verse":1, "text":"打ち敗られて", "reading":"うちやぶられて", "blank":"なおかたくなな者は、たちまち___助かることはない。", "answer":"打ち敗られて", "tag":"AI()", "freq":"high", "gloss":"被擊敗", "ref":"箴言 29:1", "usage":"現代日文常用，如「敵に打ち破られる」。" },
+
+  { "id":"CK-JA-PRO031-01", "chapter":31, "verse":28, "text":"立ち上がって", "reading":"たちあがって", "blank":"その子らは___彼女を祝し、", "answer":"立ち上がって", "tag":"AI()", "freq":"high", "gloss":"起身、挺身而出", "ref":"箴言 31:28", "usage":"現代日文常用於表示起身行動或表達敬意。" }
+]

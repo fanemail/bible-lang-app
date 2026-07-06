@@ -1,0 +1,48 @@
+[
+  { "id":"CK-EN-PRO021-01", "chapter":21, "verse":20, "text":"swallows it up", "blank":"but a foolish man ___.", "answer":"swallows it up", "tag":"AI()", "freq":"medium", "gloss":"揮霍殆盡、吞沒", "ref":"箴言 21:20", "usage":"現代英語常用「swallow up」表示完全吞沒或耗盡。" },
+  { "id":"CK-EN-PRO021-02", "chapter":21, "verse":22, "text":"brings down", "blank":"and ___ the strength of its confidence.", "answer":"brings down", "tag":"AI()", "freq":"high", "gloss":"擊垮、打壓", "ref":"箴言 21:22", "usage":"現代英語極常用，如bring down prices/a government。" },
+  { "id":"CK-EN-PRO021-03", "chapter":21, "verse":26, "text":"all day long", "blank":"There are those who covet greedily ___.", "answer":"all day long", "tag":"AI()", "freq":"high", "gloss":"整天、一整天", "ref":"箴言 21:26", "usage":"現代英語極常用，表示整天。" },
+  { "id":"CK-EN-PRO021-04", "chapter":21, "verse":29, "text":"hardens his face", "blank":"A wicked man ___.", "answer":"hardens his face", "tag":"AI()", "freq":"medium", "gloss":"面露頑固、厚顏無恥", "ref":"箴言 21:29", "usage":"現代英語常用「harden」表示變得頑固不化。" },
+
+  { "id":"CK-EN-PRO022-01", "chapter":22, "verse":6, "text":"Train up a child", "blank":"___ in the way he should go.", "answer":"Train up a child", "tag":"AI()", "freq":"high", "gloss":"教養孩童", "ref":"箴言 22:6", "usage":"現代英語極常用著名格言，關於孩童教育。" },
+  { "id":"CK-EN-PRO022-02", "chapter":22, "verse":10, "text":"Drive out", "blank":"___ the mocker, and strife will go out.", "answer":"Drive out", "tag":"AI()", "freq":"high", "gloss":"驅逐、趕走", "ref":"箴言 22:10", "usage":"現代英語極常用，如drive out invaders。" },
+  { "id":"CK-EN-PRO022-03", "chapter":22, "verse":23, "text":"plead their case", "blank":"for the LORD will ___.", "answer":"plead their case", "tag":"AI()", "freq":"medium", "gloss":"為其申辯", "ref":"箴言 22:23", "usage":"現代英語法律/正式用語，表示為某人的立場辯護。" },
+  { "id":"CK-EN-PRO022-04", "chapter":22, "verse":26, "text":"strike hands", "blank":"Don't you be one of those who ___.", "answer":"strike hands", "tag":"AI()", "freq":"medium", "gloss":"擊掌立約、達成協議", "ref":"箴言 22:26", "usage":"現代英語常用，表示擊掌達成協議或承諾。" },
+
+  { "id":"CK-EN-PRO023-01", "chapter":23, "verse":5, "text":"sprouts wings...flies", "blank":"it certainly ___ like an eagle.", "answer":"sprouts wings and flies", "tag":"AI()", "freq":"medium", "gloss":"（財富）憑空消失", "ref":"箴言 23:5", "usage":"現代英語常用比喻，表示財富迅速消失。" },
+  { "id":"CK-EN-PRO023-02", "chapter":23, "verse":11, "text":"plead their case", "blank":"He will ___ against you.", "answer":"plead their case", "tag":"AI()", "freq":"medium", "gloss":"為其申辯", "ref":"箴言 23:11", "usage":"現代英語法律/正式用語，表示為某人辯護。" },
+  { "id":"CK-EN-PRO023-03", "chapter":23, "verse":17, "text":"all day long", "blank":"but rather fear the LORD ___.", "answer":"all day long", "tag":"AI()", "freq":"high", "gloss":"整天、一整天", "ref":"箴言 23:17", "usage":"現代英語極常用，表示整天。" },
+  { "id":"CK-EN-PRO023-04", "chapter":23, "verse":18, "text":"cut off", "blank":"your hope will not be ___.", "answer":"cut off", "tag":"AI()", "freq":"high", "gloss":"斷絕、消滅", "ref":"箴言 23:18", "usage":"現代英語常用，表示切斷或消滅。" },
+  { "id":"CK-EN-PRO023-05", "chapter":23, "verse":28, "text":"lies in wait", "blank":"Yes, she ___ like a robber.", "answer":"lies in wait", "tag":"AI()", "freq":"medium", "gloss":"埋伏、伺機而動", "ref":"箴言 23:28", "usage":"現代英語常用，如lie in wait for a target。" },
+
+  { "id":"CK-EN-PRO024-01", "chapter":24, "verse":11, "text":"hold back", "blank":"Indeed, ___ those who are staggering to the slaughter!", "answer":"hold back", "tag":"AI()", "freq":"high", "gloss":"拉住、制止", "ref":"箴言 24:11", "usage":"現代英語極常用，表示阻止或制止。" },
+  { "id":"CK-EN-PRO024-02", "chapter":24, "verse":14, "text":"cut off", "blank":"your hope will not be ___.", "answer":"cut off", "tag":"AI()", "freq":"high", "gloss":"斷絕、消滅", "ref":"箴言 24:14", "usage":"現代英語常用，表示切斷或消滅。" },
+  { "id":"CK-EN-PRO024-03", "chapter":24, "verse":16, "text":"rises up again", "blank":"for a righteous man falls seven times and ___.", "answer":"rises up again", "tag":"AI()", "freq":"high", "gloss":"再次站起來、東山再起", "ref":"箴言 24:16", "usage":"現代英語極常用，表示挫折後重新振作。" },
+  { "id":"CK-EN-PRO024-04", "chapter":24, "verse":18, "text":"turn away his wrath", "blank":"and he ___ from him.", "answer":"turn away his wrath", "tag":"AI()", "freq":"medium", "gloss":"平息怒氣", "ref":"箴言 24:18", "usage":"現代英語常用「turn away」表示轉移或平息。" },
+  { "id":"CK-EN-PRO024-05", "chapter":24, "verse":28, "text":"without cause", "blank":"Don't be a witness against your neighbor ___.", "answer":"without cause", "tag":"AI()", "freq":"medium", "gloss":"無緣無故", "ref":"箴言 24:28", "usage":"現代英語常用於正式語境，表示沒有正當理由。" },
+
+  { "id":"CK-EN-PRO025-01", "chapter":25, "verse":4, "text":"Take away", "blank":"___ the dross from the silver.", "answer":"Take away", "tag":"AI()", "freq":"high", "gloss":"拿走、除去", "ref":"箴言 25:4", "usage":"現代英語極常用，如take away someone's rights。" },
+  { "id":"CK-EN-PRO025-02", "chapter":25, "verse":5, "text":"Take away", "blank":"___ the wicked from the king's presence.", "answer":"Take away", "tag":"AI()", "freq":"high", "gloss":"拿走、除去", "ref":"箴言 25:5", "usage":"現代英語極常用，表示除去、移除。" },
+  { "id":"CK-EN-PRO025-03", "chapter":25, "verse":22, "text":"heap coals of fire on his head", "blank":"for you will ___.", "answer":"heap coals of fire on his head", "tag":"AI()", "freq":"high", "gloss":"以德報怨使其羞愧", "ref":"箴言 25:22", "usage":"現代英語極常用著名比喻，表示以善行使敵人羞愧。" },
+
+  { "id":"CK-EN-PRO026-01", "chapter":26, "verse":11, "text":"returns to his own vomit", "blank":"As a dog that ___.", "answer":"returns to his own vomit", "tag":"AI()", "freq":"medium", "gloss":"重蹈覆轍、故態復萌", "ref":"箴言 26:11", "usage":"現代英語偶爾引用的著名比喻，表示重蹈覆轍。" },
+  { "id":"CK-EN-PRO026-02", "chapter":26, "verse":27, "text":"digs a pit shall fall into it", "blank":"Whoever ___.", "answer":"digs a pit shall fall into it", "tag":"AI()", "freq":"high", "gloss":"自食惡果、作繭自縛", "ref":"箴言 26:27", "usage":"現代英語極常用著名格言，表示害人反害己。" },
+
+  { "id":"CK-EN-PRO027-01", "chapter":27, "verse":12, "text":"takes refuge", "blank":"A prudent man sees danger and ___.", "answer":"takes refuge", "tag":"AI()", "freq":"high", "gloss":"尋求庇護、躲避", "ref":"箴言 27:12", "usage":"現代英語常用於描述尋求保護或躲避危險。" },
+  { "id":"CK-EN-PRO027-02", "chapter":27, "verse":13, "text":"puts up collateral", "blank":"Take his garment when he ___ for a stranger.", "answer":"puts up collateral", "tag":"AI()", "freq":"medium", "gloss":"提供擔保、抵押", "ref":"箴言 27:13", "usage":"現代英語金融用語常用，表示提供擔保品。" },
+  { "id":"CK-EN-PRO027-03", "chapter":27, "verse":17, "text":"Iron sharpens iron", "blank":"___; so a man sharpens his friend's countenance.", "answer":"Iron sharpens iron", "tag":"AI()", "freq":"high", "gloss":"以友輔仁、互相砥礪", "ref":"箴言 27:17", "usage":"現代英語極常用著名格言，表示朋友間互相砥礪成長。" },
+  { "id":"CK-EN-PRO027-04", "chapter":27, "verse":23, "text":"pay attention to", "blank":"and ___ your herds.", "answer":"pay attention to", "tag":"AI()", "freq":"high", "gloss":"注意、留心", "ref":"箴言 27:23", "usage":"現代英語極常用，表示集中注意力。" },
+
+  { "id":"CK-EN-PRO028-01", "chapter":28, "verse":10, "text":"fall into his own trap", "blank":"he will ___.", "answer":"fall into his own trap", "tag":"AI()", "freq":"high", "gloss":"自陷圈套、作繭自縛", "ref":"箴言 28:10", "usage":"現代英語常用，表示害人反害己、自陷困境。" },
+  { "id":"CK-EN-PRO028-02", "chapter":28, "verse":25, "text":"stirs up strife", "blank":"One who is greedy ___.", "answer":"stirs up strife", "tag":"AI()", "freq":"high", "gloss":"挑起紛爭", "ref":"箴言 28:25", "usage":"現代英語極常用「stir up」表示挑起或激起。" },
+
+  { "id":"CK-EN-PRO029-01", "chapter":29, "verse":8, "text":"stir up", "blank":"Mockers ___ a city.", "answer":"stir up", "tag":"AI()", "freq":"high", "gloss":"激起、煽動", "ref":"箴言 29:8", "usage":"現代英語極常用，如stir up trouble/emotions。" },
+  { "id":"CK-EN-PRO029-02", "chapter":29, "verse":8, "text":"turn away anger", "blank":"but wise men ___.", "answer":"turn away anger", "tag":"AI()", "freq":"medium", "gloss":"平息怒氣", "ref":"箴言 29:8", "usage":"現代英語常用「turn away」表示轉移或平息。" },
+  { "id":"CK-EN-PRO029-03", "chapter":29, "verse":22, "text":"stirs up strife", "blank":"An angry man ___.", "answer":"stirs up strife", "tag":"AI()", "freq":"high", "gloss":"挑起紛爭", "ref":"箴言 29:22", "usage":"現代英語極常用，表示挑起爭端。" },
+
+  { "id":"CK-EN-PRO030-01", "chapter":30, "verse":5, "text":"take refuge in him", "blank":"He is a shield to those who ___.", "answer":"take refuge in him", "tag":"AI()", "freq":"high", "gloss":"尋求庇護", "ref":"箴言 30:5", "usage":"現代英語常用於描述尋求保護。" },
+  { "id":"CK-EN-PRO030-02", "chapter":30, "verse":32, "text":"put your hand over your mouth", "blank":"or if you have thought evil, ___.", "answer":"put your hand over your mouth", "tag":"AI()", "freq":"medium", "gloss":"摀嘴表示驚訝或自制", "ref":"箴言 30:32", "usage":"現代英語常用手勢比喻，表示震驚或克制發言。" },
+
+  { "id":"CK-EN-PRO031-01", "chapter":31, "verse":20, "text":"extends her hands", "blank":"yes, she ___ to the needy.", "answer":"extends her hands", "tag":"AI()", "freq":"medium", "gloss":"伸出援手", "ref":"箴言 31:20", "usage":"現代英語常用，表示伸出援手幫助他人。" },
+  { "id":"CK-EN-PRO031-02", "chapter":31, "verse":28, "text":"rise up and call her blessed", "blank":"Her children ___.", "answer":"rise up and call her blessed", "tag":"AI()", "freq":"medium", "gloss":"起身讚頌她", "ref":"箴言 31:28", "usage":"現代英語常用於表示公開讚揚推崇某人。" }
+]

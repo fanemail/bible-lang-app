@@ -1,0 +1,1026 @@
+
+=== PRO 箴言 21 ===
+
+[21:1]
+  EN: The king’s heart is in the LORD’s hand like the watercourses. He turns it wherever he desires.
+  JA: 王の心は、主の手のうちにあって、水の流れのようだ、主はみこころのままにこれを導かれる。
+[21:2]
+  EN: Every way of a man is right in his own eyes, but the LORD weighs the hearts.
+  JA: 人の道は自分の目には正しく見える、しかし主は人の心をはかられる。
+[21:3]
+  EN: To do righteousness and justice is more acceptable to the LORD than sacrifice.
+  JA: 正義と公平を行うことは、犠牲にもまさって主に喜ばれる。
+[21:4]
+  EN: A high look and a proud heart, the lamp of the wicked, is sin.
+  JA: 高ぶる目とおごる心とは、悪しき人のともしびであって、罪である。
+[21:5]
+  EN: The plans of the diligent surely lead to profit; and everyone who is hasty surely rushes to poverty.
+  JA: 勤勉な人の計画は、ついにその人を豊かにする、すべて怠るものは貧しくなる。
+[21:6]
+  EN: Getting treasures by a lying tongue is a fleeting vapor for those who seek death.
+  JA: 偽りの舌をもって宝を得るのは、吹きはらわれる煙、死のわなである。
+[21:7]
+  EN: The violence of the wicked will drive them away, because they refuse to do what is right.
+  JA: 悪しき者の暴虐はその身を滅ぼす、彼らは公平を行うことを好まないからである。
+[21:8]
+  EN: The way of the guilty is devious, but the conduct of the innocent is upright.
+  JA: 罪びとの道は曲っている、潔白な人の行いはまっすぐである。
+[21:9]
+  EN: It is better to dwell in the corner of the housetop than to share a house with a contentious woman.
+  JA: 争いを好む女と一緒に家におるよりは屋根のすみにおるほうがよい。
+[21:10]
+  EN: The soul of the wicked desires evil; his neighbor finds no mercy in his eyes.
+  JA: 悪しき者の魂は悪を行うことを願う、その隣り人にも好意をもって見られない。
+[21:11]
+  EN: When the mocker is punished, the simple gains wisdom. When the wise is instructed, he receives knowledge.
+  JA: あざけるものが罰をうけるならば、思慮のない者は知恵を得る。知恵ある者が教をうけるならば知識を得る。
+[21:12]
+  EN: The Righteous One considers the house of the wicked, and brings the wicked to ruin.
+  JA: 正しい神は、悪しき者の家をみとめて、悪しき者を滅びに投げいれられる。
+[21:13]
+  EN: Whoever stops his ears at the cry of the poor, he will also cry out, but shall not be heard.
+  JA: 耳を閉じて貧しい者の呼ぶ声を聞かない者は、自分が呼ぶときに、聞かれない。
+[21:14]
+  EN: A gift in secret pacifies anger, and a bribe in the cloak, strong wrath.
+  JA: ひそかな贈り物は憤りをなだめる、ふところのまいないは激しい怒りを和らげる。
+[21:15]
+  EN: It is joy to the righteous to do justice; but it is a destruction to the workers of iniquity.
+  JA: 公義を行うことは、正しい者には喜びであるが、悪を行う者には滅びである。
+[21:16]
+  EN: The man who wanders out of the way of understanding shall rest in the assembly of the departed spirits.
+  JA: 悟りの道を離れる人は、死人の集会の中におる。
+[21:17]
+  EN: He who loves pleasure will be a poor man. He who loves wine and oil won’t be rich.
+  JA: 快楽を好む者は貧しい人となり、酒と油とを好む者は富むことがない。
+[21:18]
+  EN: The wicked is a ransom for the righteous, the treacherous for the upright.
+  JA: 悪しき者は正しい者のあがないとなり、不信実な者は正しい人に代る。
+[21:19]
+  EN: It is better to dwell in a desert land, than with a contentious and fretful woman.
+  JA: 争い怒る女と共におるよりは、荒野に住むほうがましだ。
+[21:20]
+  EN: There is precious treasure and oil in the dwelling of the wise, but a foolish man swallows it up.
+  JA: 知恵ある者の家には尊い宝があり、愚かな人はこれを、のみ尽す。
+[21:21]
+  EN: He who follows after righteousness and kindness finds life, righteousness, and honor.
+  JA: 正義といつくしみとを追い求める者は、命と誉とを得る。
+[21:22]
+  EN: A wise man scales the city of the mighty, and brings down the strength of its confidence.
+  JA: 知恵ある者は強い者の城にのぼって、その頼みとするとりでをくずす。
+[21:23]
+  EN: Whoever guards his mouth and his tongue keeps his soul from troubles.
+  JA: 口と舌とを守る者はその魂を守って、悩みにあわせない。
+[21:24]
+  EN: The proud and arrogant man—“Scoffer” is his name— he works in the arrogance of pride.
+  JA: 高ぶりおごる者を「あざける者」となづける、彼は高慢無礼な行いをするものである。
+[21:25]
+  EN: The desire of the sluggard kills him, for his hands refuse to labor.
+  JA: なまけ者の欲望は自分の身を殺す、これはその手を働かせないからである。
+[21:26]
+  EN: There are those who covet greedily all day long; but the righteous give and don’t withhold.
+  JA: 悪しき者はひねもす人の物をむさぼる、正しい者は与えて惜しまない。
+[21:27]
+  EN: The sacrifice of the wicked is an abomination— how much more, when he brings it with a wicked mind!
+  JA: 悪しき者の供え物は憎まれる、悪意をもってささげる時はなおさらである。
+[21:28]
+  EN: A false witness will perish. A man who listens speaks to eternity.
+  JA: 偽りの証人は滅ぼされる、よく聞く人の言葉はすたることがない。
+[21:29]
+  EN: A wicked man hardens his face; but as for the upright, he establishes his ways.
+  JA: 悪しき者はあつかましくし、正しい人はその道をつつしむ。
+[21:30]
+  EN: There is no wisdom nor understanding nor counsel against the LORD.
+  JA: 主に向かっては知恵も悟りも、計りごとも、なんの役にも立たない。
+[21:31]
+  EN: The horse is prepared for the day of battle; but victory is with the LORD.
+  JA: 戦いの日のために馬を備える、しかし勝利は主による。
+
+=== PRO 箴言 22 ===
+
+[22:1]
+  EN: A good name is more desirable than great riches, and loving favor is better than silver and gold.
+  JA: 令名は大いなる富にまさり、恩恵は銀や金よりも良い。
+[22:2]
+  EN: The rich and the poor have this in common: The LORD is the maker of them all.
+  JA: 富める者と貧しい者とは共に世におる、すべてこれを造られたのは主である。
+[22:3]
+  EN: A prudent man sees danger and hides himself; but the simple pass on, and suffer for it.
+  JA: 賢い者は災を見て自ら避け、思慮のない者は進んでいって、罰をうける。
+[22:4]
+  EN: The result of humility and the fear of the LORD is wealth, honor, and life.
+  JA: 謙遜と主を恐れることとの報いは、富と誉と命とである。
+[22:5]
+  EN: Thorns and snares are in the path of the wicked; whoever guards his soul stays far from them.
+  JA: よこしまな者の道にはいばらとわながあり、たましいを守る者は遠くこれを離れる。
+[22:6]
+  EN: Train up a child in the way he should go, and when he is old he will not depart from it.
+  JA: 子をその行くべき道に従って教えよ、そうすれば年老いても、それを離れることがない。
+[22:7]
+  EN: The rich rule over the poor. The borrower is servant to the lender.
+  JA: 富める者は貧しき者を治め、借りる者は貸す人の奴隷となる。
+[22:8]
+  EN: He who sows wickedness reaps trouble, and the rod of his fury will be destroyed.
+  JA: 悪をまく者は災を刈り、その怒りのつえはすたれる。
+[22:9]
+  EN: He who has a generous eye will be blessed, for he shares his food with the poor.
+  JA: 人を見て恵む者はめぐまれる、自分のパンを貧しい人に与えるからである。
+[22:10]
+  EN: Drive out the mocker, and strife will go out; yes, quarrels and insults will stop.
+  JA: あざける者を追放すれば争いもまた去り、かつ、いさかいも、はずかしめもなくなる。
+[22:11]
+  EN: He who loves purity of heart and speaks gracefully is the king’s friend.
+  JA: 心の潔白を愛する者、その言葉の上品な者は、王がその友となる。
+[22:12]
+  EN: The LORD’s eyes watch over knowledge, but he frustrates the words of the unfaithful.
+  JA: 主の目は知識ある者を守る、しかし主は不信実な者の言葉を敗られる。
+[22:13]
+  EN: The sluggard says, “There is a lion outside! I will be killed in the streets!”
+  JA: なまけ者は言う、「ししがそとにいる、わたしは、ちまたで殺される」と。
+[22:14]
+  EN: The mouth of an adulteress is a deep pit. He who is under the LORD’s wrath will fall into it.
+  JA: 遊女の口は深い落し穴である、主に憎まれる者はその中に陥る。
+[22:15]
+  EN: Folly is bound up in the heart of a child; the rod of discipline drives it far from him.
+  JA: 愚かなことが子供の心の中につながれている、懲しめのむちは、これを遠く追いだす。
+[22:16]
+  EN: Whoever oppresses the poor for his own increase and whoever gives to the rich, both come to poverty.
+  JA: 貧しい者をしえたげて自分の富を増そうとする者と、富める者に与える者とは、ついに必ず貧しくなる。
+[22:17]
+  EN: Turn your ear, and listen to the words of the wise. Apply your heart to my teaching.
+  JA: あなたの耳を傾けて知恵ある者の言葉を聞き、かつ、わたしの知識にあなたの心を用いよ。
+[22:18]
+  EN: For it is a pleasant thing if you keep them within you, if all of them are ready on your lips.
+  JA: これをあなたのうちに保ち、ことごとく、あなたのくちびるに備えておくなら、楽しいことである。
+[22:19]
+  EN: I teach you today, even you, so that your trust may be in the LORD.
+  JA: あなたが主に、寄り頼むことのできるように、わたしはきょう、これをあなたにも教える。
+[22:20]
+  EN: Haven’t I written to you thirty excellent things of counsel and knowledge,
+  JA: わたしは、勧めと知識との三十の言葉をあなたのためにしるしたではないか。
+[22:21]
+  EN: To teach you truth, reliable words, to give sound answers to the ones who sent you?
+  JA: それは正しいこと、真実なことをあなたに示し、あなたをつかわした者に真実の答をさせるためであった。
+[22:22]
+  EN: Don’t exploit the poor because he is poor; and don’t crush the needy in court;
+  JA: 貧しい者を、貧しいゆえに、かすめてはならない、悩む者を、町の門でおさえつけてはならない。
+[22:23]
+  EN: for the LORD will plead their case, and plunder the life of those who plunder them.
+  JA: それは主が彼らの訴えをただし、かつ彼らをそこなう者の命を、そこなわれるからである。
+[22:24]
+  EN: Don’t befriend a hot-tempered man. Don’t associate with one who harbors anger,
+  JA: 怒る者と交わるな、憤る人と共に行くな。
+[22:25]
+  EN: lest you learn his ways and ensnare your soul.
+  JA: それはあなたがその道にならって、みずから、わなに陥ることのないためである。
+[22:26]
+  EN: Don’t you be one of those who strike hands, of those who are collateral for debts.
+  JA: あなたは人と手を打つ者となってはならない、人の負債の保証をしてはならない。
+[22:27]
+  EN: If you don’t have means to pay, why should he take away your bed from under you?
+  JA: あなたが償うものがないとき、あなたの寝ている寝床までも、人が奪い取ってよかろうか。
+[22:28]
+  EN: Don’t move the ancient boundary stone which your fathers have set up.
+  JA: あなたの先祖が立てた古い地境を移してはならない。
+[22:29]
+  EN: Do you see a man skilled in his work? He will serve kings. He won’t serve obscure men.
+  JA: あなたはそのわざに巧みな人を見るか、そのような人は王の前に立つが、卑しい人々の前には立たない。
+
+=== PRO 箴言 23 ===
+
+[23:1]
+  EN: When you sit to eat with a ruler, consider diligently what is before you;
+  JA: 治める人と共に座して食事するとき、あなたの前にあるものを、よくわきまえ、
+[23:2]
+  EN: put a knife to your throat if you are a man given to appetite.
+  JA: あなたがもし食をたしなむ者であるならば、あなたののどに刀をあてよ。
+[23:3]
+  EN: Don’t be desirous of his dainties, since they are deceitful food.
+  JA: そのごちそうをむさぼり食べてはならない、これは人を欺く食物だからである。
+[23:4]
+  EN: Don’t weary yourself to be rich. In your wisdom, show restraint.
+  JA: 富を得ようと苦労してはならない、かしこく思いとどまるがよい。
+[23:5]
+  EN: Why do you set your eyes on that which is not? For it certainly sprouts wings like an eagle and flies in the sky.
+  JA: あなたの目をそれにとめると、それはない、富はたちまち自ら翼を生じて、わしのように天に飛び去るからだ。
+[23:6]
+  EN: Don’t eat the food of him who has a stingy eye, and don’t crave his delicacies,
+  JA: 物惜しみする人のパンを食べてはならない、そのごちそうをむさぼり願ってはならない。
+[23:7]
+  EN: for as he thinks about the cost, so he is. “Eat and drink!” he says to you, but his heart is not with you.
+  JA: 彼は心のうちで勘定する人のように、「食え、飲め」とあなたに言うけれども、その心はあなたに真実ではない。
+[23:8]
+  EN: You will vomit up the morsel which you have eaten and waste your pleasant words.
+  JA: あなたはついにその食べた物を吐き出すようになり、あなたのねんごろな言葉もむだになる。
+[23:9]
+  EN: Don’t speak in the ears of a fool, for he will despise the wisdom of your words.
+  JA: 愚かな者の耳に語ってはならない、彼はあなたの言葉が示す知恵をいやしめるからだ。
+[23:10]
+  EN: Don’t move the ancient boundary stone. Don’t encroach on the fields of the fatherless,
+  JA: 古い地境を移してはならない、みなしごの畑を侵してはならない。
+[23:11]
+  EN: for their Defender is strong. He will plead their case against you.
+  JA: 彼らのあがない主は強くいらせられ、あなたに逆らって彼らの訴えを弁護されるからだ。
+[23:12]
+  EN: Apply your heart to instruction, and your ears to the words of knowledge.
+  JA: あなたの心を教訓に用い、あなたの耳を知識の言葉に傾けよ。
+[23:13]
+  EN: Don’t withhold correction from a child. If you punish him with the rod, he will not die.
+  JA: 子を懲らすことを、さし控えてはならない、むちで彼を打っても死ぬことはない。
+[23:14]
+  EN: Punish him with the rod, and save his soul from Sheol.
+  JA: もし、むちで彼を打つならば、その命を陰府から救うことができる。
+[23:15]
+  EN: My son, if your heart is wise, then my heart will be glad, even mine.
+  JA: わが子よ、もしあなたの心が賢くあれば、わたしの心もまた喜び、
+[23:16]
+  EN: Yes, my heart will rejoice when your lips speak what is right.
+  JA: もしあなたのくちびるが正しい事を言うならば、わたしの心も喜ぶ。
+[23:17]
+  EN: Don’t let your heart envy sinners, but rather fear the LORD all day long.
+  JA: 心に罪びとをうらやんではならない、ただ、ひねもす主を恐れよ。
+[23:18]
+  EN: Indeed surely there is a future hope, and your hope will not be cut off.
+  JA: かならず後のよい報いがあって、あなたの望みは、すたらない。
+[23:19]
+  EN: Listen, my son, and be wise, and keep your heart on the right path!
+  JA: わが子よ、よく聞いて、知恵を得よ、かつ、あなたの心を道に向けよ。
+[23:20]
+  EN: Don’t be among ones drinking too much wine, or those who gorge themselves on meat;
+  JA: 酒にふけり、肉をたしなむ者と交わってはならない。
+[23:21]
+  EN: for the drunkard and the glutton shall become poor; and drowsiness clothes them in rags.
+  JA: 酒にふける者と、肉をたしなむ者とは貧しくなり、眠りをむさぼる者は、ぼろを身にまとうようになる。
+[23:22]
+  EN: Listen to your father who gave you life, and don’t despise your mother when she is old.
+  JA: あなたを生んだ父のいうことを聞き、年老いた母を軽んじてはならない。
+[23:23]
+  EN: Buy the truth, and don’t sell it. Get wisdom, discipline, and understanding.
+  JA: 真理を買え、これを売ってはならない、知恵と教訓と悟りをも買え。
+[23:24]
+  EN: The father of the righteous has great joy. Whoever fathers a wise child delights in him.
+  JA: 正しい人の父は大いによろこび、知恵ある子を生む者は子のために楽しむ。
+[23:25]
+  EN: Let your father and your mother be glad! Let her who bore you rejoice!
+  JA: あなたの父母を楽しませ、あなたを産んだ母を喜ばせよ。
+[23:26]
+  EN: My son, give me your heart; and let your eyes keep in my ways.
+  JA: わが子よ、あなたの心をわたしに与え、あなたの目をわたしの道に注げ。
+[23:27]
+  EN: For a prostitute is a deep pit; and a wayward wife is a narrow well.
+  JA: 遊女は深い穴のごとく、みだらな女は狭い井戸のようだ。
+[23:28]
+  EN: Yes, she lies in wait like a robber, and increases the unfaithful among men.
+  JA: 彼女は盗びとのように人をうかがい、かつ世の人のうちに、不信実な者を多くする。
+[23:29]
+  EN: Who has woe? Who has sorrow? Who has strife? Who has complaints? Who has needless bruises? Who has bloodshot eyes?
+  JA: 災ある者はだれか、憂いある者はだれか、争いをする者はだれか、煩いある者はだれか、ゆえなく傷をうける者はだれか、赤い目をしている者はだれか。
+[23:30]
+  EN: Those who stay long at the wine; those who go to seek out mixed wine.
+  JA: 酒に夜をふかす者、行って、混ぜ合わせた酒を味わう者である。
+[23:31]
+  EN: Don’t look at the wine when it is red, when it sparkles in the cup, when it goes down smoothly.
+  JA: 酒はあかく、杯の中にあわだち、なめらかにくだる、あなたはこれを見てはならない。
+[23:32]
+  EN: In the end, it bites like a snake, and poisons like a viper.
+  JA: これはついに、へびのようにかみ、まむしのように刺す。
+[23:33]
+  EN: Your eyes will see strange things, and your mind will imagine confusing things.
+  JA: あなたの目は怪しいものを見、あなたの心は偽りを言う。
+[23:34]
+  EN: Yes, you will be as he who lies down in the middle of the sea, or as he who lies on top of the rigging:
+  JA: あなたは海の中に寝ている人のように、帆柱の上に寝ている人のようになる。
+[23:35]
+  EN: “They hit me, and I was not hurt! They beat me, and I don’t feel it! When will I wake up? I can do it again. I will look for more.”
+  JA: あなたは言う、「人がわたしを撃ったが、わたしは痛くはなかった。わたしを、たたいたが、わたしは何も覚えはない。いつわたしはさめるのか、また酒を求めよう」と。
+
+=== PRO 箴言 24 ===
+
+[24:1]
+  EN: Don’t be envious of evil men, neither desire to be with them;
+  JA: 悪を行う人をうらやんではならない、また彼らと共におることを願ってはならない。
+[24:2]
+  EN: for their hearts plot violence and their lips talk about mischief.
+  JA: 彼らはその心に強奪を計り、そのくちびるに人をそこなうことを語るからである。
+[24:3]
+  EN: Through wisdom a house is built; by understanding it is established;
+  JA: 家は知恵によって建てられ、悟りによって堅くせられ、
+[24:4]
+  EN: by knowledge the rooms are filled with all rare and beautiful treasure.
+  JA: また、へやは知識によってさまざまの尊く、麗しい宝で満たされる。
+[24:5]
+  EN: A wise man has great power. A knowledgeable man increases strength,
+  JA: 知恵ある者は強い人よりも強く、知識ある人は力ある人よりも強い。
+[24:6]
+  EN: for by wise guidance you wage your war, and victory is in many advisors.
+  JA: 良い指揮によって戦いをすることができ、勝利は多くの議する者がいるからである。
+[24:7]
+  EN: Wisdom is too high for a fool. He doesn’t open his mouth in the gate.
+  JA: 知恵は高くて愚かな者の及ぶところではない、愚かな者は門で口を開くことができない。
+[24:8]
+  EN: One who plots to do evil will be called a schemer.
+  JA: 悪を行うことを計る者を人はいたずら者ととなえる。
+[24:9]
+  EN: The schemes of folly are sin. The mocker is detested by men.
+  JA: 愚かな者の計るところは罪であり、あざける者は人に憎まれる。
+[24:10]
+  EN: If you falter in the time of trouble, your strength is small.
+  JA: もしあなたが悩みの日に気をくじくならば、あなたの力は弱い。
+[24:11]
+  EN: Rescue those who are being led away to death! Indeed, hold back those who are staggering to the slaughter!
+  JA: 死地にひかれゆく者を助け出せ、滅びによろめきゆく者を救え。
+[24:12]
+  EN: If you say, “Behold, we didn’t know this,” doesn’t he who weighs the hearts consider it? He who keeps your soul, doesn’t he know it? Shall he not give to every man according to his work?
+  JA: あなたが、われわれはこれを知らなかったといっても、心をはかる者はそれを悟らないであろうか。あなたの魂を守る者はそれを知らないであろうか。彼はおのおのの行いにより、人に報いないであろうか。
+[24:13]
+  EN: My son, eat honey, for it is good, the droppings of the honeycomb, which are sweet to your taste;
+  JA: わが子よ、蜜を食べよ、これは良いものである、また、蜂の巣のしたたりはあなたの口に甘い。
+[24:14]
+  EN: so you shall know wisdom to be to your soul. If you have found it, then there will be a reward: Your hope will not be cut off.
+  JA: 知恵もあなたの魂にはそのようであることを知れ。それを得るならば、かならず報いがあって、あなたの望みは、すたらない。
+[24:15]
+  EN: Don’t lay in wait, wicked man, against the habitation of the righteous. Don’t destroy his resting place;
+  JA: 悪しき者がするように、正しい者の家をうかがってはならない、その住む所に乱暴をしてはならない。
+[24:16]
+  EN: for a righteous man falls seven times and rises up again, but the wicked are overthrown by calamity.
+  JA: 正しい者は七たび倒れても、また起きあがる、しかし、悪しき者は災によって滅びる。
+[24:17]
+  EN: Don’t rejoice when your enemy falls. Don’t let your heart be glad when he is overthrown,
+  JA: あなたのあだが倒れるとき楽しんではならない、彼のつまずくとき心に喜んではならない。
+[24:18]
+  EN: lest the LORD see it, and it displease him, and he turn away his wrath from him.
+  JA: 主はそれを見て悪いこととし、その怒りを彼から転じられる。
+[24:19]
+  EN: Don’t fret yourself because of evildoers, neither be envious of the wicked;
+  JA: 悪を行う者のゆえに心を悩ましてはならない、よこしまな者をうらやんではならない。
+[24:20]
+  EN: for there will be no reward to the evil man. The lamp of the wicked will be snuffed out.
+  JA: 悪しき者には後の良い報いはない、よこしまな者のともしびは消される。
+[24:21]
+  EN: My son, fear the LORD and the king. Don’t join those who are rebellious,
+  JA: わが子よ、主と王とを恐れよ、そのいずれにも不従順であってはならない。
+[24:22]
+  EN: for their calamity will rise suddenly. Who knows what destruction may come from them both?
+  JA: その災はたちまち起るからである。この二つの者からくる滅びをだれが知り得ようか。
+[24:23]
+  EN: These also are sayings of the wise: To show partiality in judgment is not good.
+  JA: これらもまた知恵ある者の箴言である。片寄ったさばきをするのは、よくない。
+[24:24]
+  EN: He who says to the wicked, “You are righteous,” peoples will curse him, and nations will abhor him—
+  JA: 悪しき者に向かって、「あなたは正しい」という者を、人々はのろい、諸民は憎む。
+[24:25]
+  EN: but it will go well with those who convict the guilty, and a rich blessing will come on them.
+  JA: 悪しき者をせめる者は恵みを得る、また幸福が与えられる。
+[24:26]
+  EN: An honest answer is like a kiss on the lips.
+  JA: 正しい答をする者は、くちびるに、口づけするのである。
+[24:27]
+  EN: Prepare your work outside, and get your fields ready. Afterwards, build your house.
+  JA: 外で、あなたの仕事を整え、畑で、すべての物をおのれのために備え、その後あなたの家を建てるがよい。
+[24:28]
+  EN: Don’t be a witness against your neighbor without cause. Don’t deceive with your lips.
+  JA: ゆえなく隣り人に敵して、証言をしてはならない、くちびるをもって欺いてはならない。
+[24:29]
+  EN: Don’t say, “I will do to him as he has done to me; I will repay the man according to his work.”
+  JA: 「彼がわたしにしたように、わたしも彼にしよう、わたしは人がしたところにしたがって、その人に報いよう」と言ってはならない。
+[24:30]
+  EN: I went by the field of the sluggard, by the vineyard of the man void of understanding.
+  JA: わたしはなまけ者の畑のそばと、知恵のない人のぶどう畑のそばを通ってみたが、
+[24:31]
+  EN: Behold, it was all grown over with thorns. Its surface was covered with nettles, and its stone wall was broken down.
+  JA: いばらが一面に生え、あざみがその地面をおおい、その石がきはくずれていた。
+[24:32]
+  EN: Then I saw, and considered well. I saw, and received instruction:
+  JA: わたしはこれをみて心をとどめ、これを見て教訓を得た。
+[24:33]
+  EN: a little sleep, a little slumber, a little folding of the hands to sleep,
+  JA: 「しばらく眠り、しばらくまどろみ、手をこまぬいて、またしばらく休む」。
+[24:34]
+  EN: so your poverty will come as a robber and your want as an armed man.
+  JA: それゆえ、貧しさは盗びとのように、あなたに来、乏しさは、つわもののように、あなたに来る。
+
+=== PRO 箴言 25 ===
+
+[25:1]
+  EN: These also are proverbs of Solomon, which the men of Hezekiah king of Judah copied out.
+  JA: これらもまたソロモンの箴言であり、ユダの王ヒゼキヤに属する人々がこれを書き写した。
+[25:2]
+  EN: It is the glory of God to conceal a thing, but the glory of kings is to search out a matter.
+  JA: 事を隠すのは神の誉であり、事を窮めるのは王の誉である。
+[25:3]
+  EN: As the heavens for height, and the earth for depth, so the hearts of kings are unsearchable.
+  JA: 天の高さと地の深さと、王たる者の心とは測ることができない。
+[25:4]
+  EN: Take away the dross from the silver, and material comes out for the refiner.
+  JA: 銀から、かなくそを除け、そうすれば、銀細工人が器を造る材料となる。
+[25:5]
+  EN: Take away the wicked from the king’s presence, and his throne will be established in righteousness.
+  JA: 王の前から悪しき者を除け、そうすれば、その位は正義によって堅く立つ。
+[25:6]
+  EN: Don’t exalt yourself in the presence of the king, or claim a place among great men;
+  JA: 王の前で自ら高ぶってはならない、偉い人の場に立ってはならない。
+[25:7]
+  EN: for it is better that it be said to you, “Come up here,” than that you should be put lower in the presence of the prince, whom your eyes have seen.
+  JA: 尊い人の前で下にさげられるよりは、「ここに上がれ」といわれるほうがましだ。
+[25:8]
+  EN: Don’t be hasty in bringing charges to court. What will you do in the end when your neighbor shames you?
+  JA: あなたが目に見たことを、軽々しく法廷に出してはならない。あとになり、あなたが隣り人にはずかしめられるとき、あなたはどうしようとするのか。
+[25:9]
+  EN: Debate your case with your neighbor, and don’t betray the confidence of another,
+  JA: 隣り人と争うことがあるならば、ただその人と争え、他人の秘密をもらしてはならない。
+[25:10]
+  EN: lest one who hears it put you to shame, and your bad reputation never depart.
+  JA: そうでないと、聞く者があなたをいやしめ、あなたは、いつまでもそしられる。
+[25:11]
+  EN: A word fitly spoken is like apples of gold in settings of silver.
+  JA: おりにかなって語る言葉は、銀の彫り物に金のりんごをはめたようだ。
+[25:12]
+  EN: As an earring of gold, and an ornament of fine gold, so is a wise reprover to an obedient ear.
+  JA: 知恵をもって戒める者は、これをきく者の耳にとって、金の耳輪、精金の飾りのようだ。
+[25:13]
+  EN: As the cold of snow in the time of harvest, so is a faithful messenger to those who send him; for he refreshes the soul of his masters.
+  JA: 忠実な使者はこれをつかわす者にとって、刈入れの日に冷やかな雪があるようだ、よくその主人の心を喜ばせる。
+[25:14]
+  EN: As clouds and wind without rain, so is he who boasts of gifts deceptively.
+  JA: 贈り物をすると偽って誇る人は、雨のない雲と風のようだ。
+[25:15]
+  EN: By patience a ruler is persuaded. A soft tongue breaks the bone.
+  JA: 忍耐をもって説けば君も言葉をいれる、柔らかな舌は骨を砕く。
+[25:16]
+  EN: Have you found honey? Eat as much as is sufficient for you, lest you eat too much, and vomit it.
+  JA: 蜜を得たならば、ただ足るほどにこれを食べよ、おそらくは食べすごして、それを吐き出すであろう。
+[25:17]
+  EN: Let your foot be seldom in your neighbor’s house, lest he be weary of you, and hate you.
+  JA: 隣り人の家に足をしげくしてはならない、おそらくは彼は煩わしくなって、あなたを憎むようになろう。
+[25:18]
+  EN: A man who gives false testimony against his neighbor is like a club, a sword, or a sharp arrow.
+  JA: 隣り人に敵して偽りのあかしを立てる人は、こん棒、つるぎ、または鋭い矢のようだ。
+[25:19]
+  EN: Confidence in someone unfaithful in time of trouble is like a bad tooth or a lame foot.
+  JA: 悩みに会うとき不信実な者を頼みにするのは、悪い歯、またはなえた足を頼みとするようなものだ。
+[25:20]
+  EN: As one who takes away a garment in cold weather, or vinegar on soda, so is one who sings songs to a heavy heart.
+  JA: 心の痛める人の前で歌をうたうのは、寒い日に着物を脱ぐようであり、また傷の上に酢をそそぐようだ。
+[25:21]
+  EN: If your enemy is hungry, give him food to eat. If he is thirsty, give him water to drink;
+  JA: もしあなたのあだが飢えているならば、パンを与えて食べさせ、もしかわいているならば水を与えて飲ませよ。
+[25:22]
+  EN: for you will heap coals of fire on his head, and the LORD will reward you.
+  JA: こうするのは、火を彼のこうべに積むのである、主はあなたに報いられる。
+[25:23]
+  EN: The north wind produces rain; so a backbiting tongue brings an angry face.
+  JA: 北風は雨を起し、陰言をいう舌は人の顔を怒らす。
+[25:24]
+  EN: It is better to dwell in the corner of the housetop than to share a house with a contentious woman.
+  JA: 争いを好む女と一緒に家におるよりは、屋根のすみにおるほうがよい。
+[25:25]
+  EN: Like cold water to a thirsty soul, so is good news from a far country.
+  JA: 遠い国から来るよい消息は、かわいている人が飲む冷やかな水のようだ。
+[25:26]
+  EN: Like a muddied spring and a polluted well, so is a righteous man who gives way before the wicked.
+  JA: 正しい者が悪い者の前に屈服するのは、井戸が濁ったよう、また泉がよごれたようなものだ。
+[25:27]
+  EN: It is not good to eat much honey, nor is it honorable to seek one’s own honor.
+  JA: 蜜を多く食べるのはよくない、ほめる言葉は控え目にするがよい。
+[25:28]
+  EN: Like a city that is broken down and without walls is a man whose spirit is without restraint.
+  JA: 自分の心を制しない人は、城壁のない破れた城のようだ。
+
+=== PRO 箴言 26 ===
+
+[26:1]
+  EN: Like snow in summer, and as rain in harvest, so honor is not fitting for a fool.
+  JA: 誉が愚かな者にふさわしくないのは、夏に雪が降り、刈入れの時に雨が降るようなものだ。
+[26:2]
+  EN: Like a fluttering sparrow, like a darting swallow, so the undeserved curse doesn’t come to rest.
+  JA: いわれのないのろいは、飛びまわるすずめや、飛びかけるつばめのようなもので、止まらない。
+[26:3]
+  EN: A whip is for the horse, a bridle for the donkey, and a rod for the back of fools!
+  JA: 馬のためにはむちがあり、ろばのためにはくつわがあり、愚かな者の背のためにはつえがある。
+[26:4]
+  EN: Don’t answer a fool according to his folly, lest you also be like him.
+  JA: 愚かな者にその愚かさにしたがって答をするな、自分も彼と同じようにならないためだ。
+[26:5]
+  EN: Answer a fool according to his folly, lest he be wise in his own eyes.
+  JA: 愚かな者にその愚かさにしたがって答をせよ、彼が自分の目に自らを知恵ある者と見ないためだ。
+[26:6]
+  EN: One who sends a message by the hand of a fool is cutting off feet and drinking violence.
+  JA: 愚かな者に託して事を言い送る者は、自分の足を切り去り、身に害をうける。
+[26:7]
+  EN: Like the legs of the lame that hang loose, so is a parable in the mouth of fools.
+  JA: あしなえの足は用がない、愚かな者の口には箴言もそれにひとしい。
+[26:8]
+  EN: As one who binds a stone in a sling, so is he who gives honor to a fool.
+  JA: 誉を愚かな者に与えるのは、石を石投げにつなぐようだ。
+[26:9]
+  EN: Like a thorn bush that goes into the hand of a drunkard, so is a parable in the mouth of fools.
+  JA: 愚かな者の口に箴言があるのは、酔った者が、とげのあるつえを手で振り上げるようだ。
+[26:10]
+  EN: As an archer who wounds all, so is he who hires a fool or he who hires those who pass by.
+  JA: 通りがかりの愚か者や、酔った者を雇う者は、すべての人を傷つける射手のようだ。
+[26:11]
+  EN: As a dog that returns to his vomit, so is a fool who repeats his folly.
+  JA: 犬が帰って来てその吐いた物を食べるように、愚かな者はその愚かさをくり返す。
+[26:12]
+  EN: Do you see a man wise in his own eyes? There is more hope for a fool than for him.
+  JA: 自分の目に自らを知恵ある者とする人を、あなたは見るか、彼よりもかえって愚かな人に望みがある。
+[26:13]
+  EN: The sluggard says, “There is a lion in the road! A fierce lion roams the streets!”
+  JA: なまけ者は、「道にししがいる、ちまたにししがいる」という。
+[26:14]
+  EN: As the door turns on its hinges, so does the sluggard on his bed.
+  JA: 戸がちょうつがいによって回るように、なまけ者はその寝床で寝返りをする。
+[26:15]
+  EN: The sluggard buries his hand in the dish. He is too lazy to bring it back to his mouth.
+  JA: なまけ者は手を皿に入れても、それを口に持ってゆくことをいとう。
+[26:16]
+  EN: The sluggard is wiser in his own eyes than seven men who answer with discretion.
+  JA: なまけ者は自分の目に、良く答えることのできる七人の者よりも、自らを知恵ありとする。
+[26:17]
+  EN: Like one who grabs a dog’s ears is one who passes by and meddles in a quarrel not his own.
+  JA: 自分に関係のない争いにたずさわる者は、通りすぎる犬の耳をとらえる者のようだ。
+[26:18]
+  EN: Like a madman who shoots torches, arrows, and death,
+  JA: 隣り人を欺いて、「わたしはただ戯れにした」という者は、燃え木または矢、または死を、投げつける気違いのようだ。
+[26:19]
+  EN: is the man who deceives his neighbor and says, “Am I not joking?”
+  JA: 
+[26:20]
+  EN: For lack of wood a fire goes out. Without gossip, a quarrel dies down.
+  JA: たきぎがなければ火は消え、人のよしあしを言う者がなければ争いはやむ。
+[26:21]
+  EN: As coals are to hot embers, and wood to fire, so is a contentious man to kindling strife.
+  JA: おき火に炭をつぎ、火にたきぎをくべるように、争いを好む人は争いの火をおこす。
+[26:22]
+  EN: The words of a whisperer are as dainty morsels, they go down into the innermost parts.
+  JA: 人のよしあしをいう者の言葉はおいしい食物のようで、腹の奥にしみこむ。
+[26:23]
+  EN: Like silver dross on an earthen vessel are the lips of a fervent one with an evil heart.
+  JA: くちびるはなめらかであっても、心の悪いのは上ぐすりをかけた土の器のようだ。
+[26:24]
+  EN: A malicious man disguises himself with his lips, but he harbors evil in his heart.
+  JA: 憎む者はくちびるをもって自ら飾るけれども、心のうちには偽りをいだく。
+[26:25]
+  EN: When his speech is charming, don’t believe him, for there are seven abominations in his heart.
+  JA: 彼が声をやわらげて語っても、信じてはならない。その心に七つの憎むべきものがあるからだ。
+[26:26]
+  EN: His malice may be concealed by deception, but his wickedness will be exposed in the assembly.
+  JA: たとい偽りをもってその憎しみをかくしても、彼の悪は会衆の中に現れる。
+[26:27]
+  EN: Whoever digs a pit shall fall into it. Whoever rolls a stone, it will come back on him.
+  JA: 穴を掘る者は自らその中に陥る、石をまろばしあげる者の上に、その石はまろびかえる。
+[26:28]
+  EN: A lying tongue hates those it hurts; and a flattering mouth works ruin.
+  JA: 偽りの舌は自分が傷つけた者を憎み、へつらう口は滅びをきたらせる。
+
+=== PRO 箴言 27 ===
+
+[27:1]
+  EN: Don’t boast about tomorrow; for you don’t know what a day may bring.
+  JA: あすのことを誇ってはならない、一日のうちに何がおこるかを知ることができないからだ。
+[27:2]
+  EN: Let another man praise you, and not your own mouth; a stranger, and not your own lips.
+  JA: 自分の口をもって自らをほめることなく、他人にほめさせよ。自分のくちびるをもってせず、ほかの人にあなたをほめさせよ。
+[27:3]
+  EN: A stone is heavy, and sand is a burden; but a fool’s provocation is heavier than both.
+  JA: 石は重く、砂も軽くはない、しかし愚かな者の怒りはこの二つよりも重い。
+[27:4]
+  EN: Wrath is cruel, and anger is overwhelming; but who is able to stand before jealousy?
+  JA: 憤りはむごく、怒りははげしい、しかしねたみの前には、だれが立ちえよう。
+[27:5]
+  EN: Better is open rebuke than hidden love.
+  JA: あからさまに戒めるのは、ひそかに愛するのにまさる。
+[27:6]
+  EN: The wounds of a friend are faithful, although the kisses of an enemy are profuse.
+  JA: 愛する者が傷つけるのは、まことからであり、あだの口づけするのは偽りからである。
+[27:7]
+  EN: A full soul loathes a honeycomb; but to a hungry soul, every bitter thing is sweet.
+  JA: 飽いている者は蜂蜜をも踏みつける、しかし飢えた者には苦い物でさえ、みな甘い。
+[27:8]
+  EN: As a bird that wanders from her nest, so is a man who wanders from his home.
+  JA: その家を離れてさまよう人は、巣を離れてさまよう鳥のようだ。
+[27:9]
+  EN: Perfume and incense bring joy to the heart; so does earnest counsel from a man’s friend.
+  JA: 油と香とは人の心を喜ばせる、しかし魂は悩みによって裂かれる。
+[27:10]
+  EN: Don’t forsake your friend and your father’s friend. Don’t go to your brother’s house in the day of your disaster. A neighbor who is near is better than a distant brother.
+  JA: あなたの友、あなたの父の友を捨てるな、あなたが悩みにあう日には兄弟の家に行くな、近い隣り人は遠くにいる兄弟にまさる。
+[27:11]
+  EN: Be wise, my son, and bring joy to my heart, then I can answer my tormentor.
+  JA: わが子よ、知恵を得て、わたしの心を喜ばせよ、そうすればわたしをそしる者に答えることができる。
+[27:12]
+  EN: A prudent man sees danger and takes refuge; but the simple pass on, and suffer for it.
+  JA: 賢い者は災を見て自ら避け、思慮のない者は進んでいって、罰をうける。
+[27:13]
+  EN: Take his garment when he puts up collateral for a stranger. Hold it for a wayward woman!
+  JA: 人のために保証する者からは、まずその着物をとれ、他人のために保証をする者をば抵当に取れ。
+[27:14]
+  EN: He who blesses his neighbor with a loud voice early in the morning, it will be taken as a curse by him.
+  JA: 朝はやく起きて大声にその隣り人を祝すれば、かえってのろいと見なされよう。
+[27:15]
+  EN: A continual dropping on a rainy day and a contentious wife are alike:
+  JA: 雨の降る日に雨漏りの絶えないのと、争い好きな女とは同じだ。
+[27:16]
+  EN: restraining her is like restraining the wind, or like grasping oil in his right hand.
+  JA: この女を制するのは風を制するのとおなじく、右の手に油をつかむのとおなじだ。
+[27:17]
+  EN: Iron sharpens iron; so a man sharpens his friend’s countenance.
+  JA: 鉄は鉄をとぐ、そのように人はその友の顔をとぐ。
+[27:18]
+  EN: Whoever tends the fig tree shall eat its fruit. He who looks after his master shall be honored.
+  JA: いちじくの木を守る者はその実を食べる、主人を尊ぶ者は誉を得る。
+[27:19]
+  EN: Like water reflects a face, so a man’s heart reflects the man.
+  JA: 水にうつせば顔と顔とが応じるように、人の心はその人をうつす。
+[27:20]
+  EN: Sheol and Abaddon are never satisfied; and a man’s eyes are never satisfied.
+  JA: 陰府と滅びとは飽くことなく、人の目もまた飽くことがない。
+[27:21]
+  EN: The crucible is for silver, and the furnace for gold; but man is refined by his praise.
+  JA: るつぼによって銀をためし、炉によって金をためす、人はその称賛によってためされる。
+[27:22]
+  EN: Though you grind a fool in a mortar with a pestle along with grain, yet his foolishness will not be removed from him.
+  JA: 愚かな者をうすに入れ、きねをもって、麦と共にこれをついても、その愚かさは去ることがない。
+[27:23]
+  EN: Know well the state of your flocks, and pay attention to your herds,
+  JA: あなたの羊の状態をよく知り、あなたの群れに心をとめよ。
+[27:24]
+  EN: for riches are not forever, nor does the crown endure to all generations.
+  JA: 富はいつまでも続くものではない、どうして位が末代までも保つであろうか。
+[27:25]
+  EN: The hay is removed, and the new growth appears, the grasses of the hills are gathered in.
+  JA: 草が刈り取られ、新しい芽がのび、山の牧草も集められると、
+[27:26]
+  EN: The lambs are for your clothing, and the goats are the price of a field.
+  JA: 小羊はあなたの衣料を出し、やぎは畑を買う価となり、
+[27:27]
+  EN: There will be plenty of goats’ milk for your food, for your family’s food, and for the nourishment of your servant girls.
+  JA: やぎの乳は多くて、あなたと、あなたの家のものの食物となり、おとめらを養うのにじゅうぶんである。
+
+=== PRO 箴言 28 ===
+
+[28:1]
+  EN: The wicked flee when no one pursues; but the righteous are as bold as a lion.
+  JA: 悪しき者は追う人もないのに逃げる、正しい人はししのように勇ましい。
+[28:2]
+  EN: In rebellion, a land has many rulers, but order is maintained by a man of understanding and knowledge.
+  JA: 国の罪によって、治める者は多くなり、さとく、また知識ある人によって、国はながく保つ。
+[28:3]
+  EN: A needy man who oppresses the poor is like a driving rain which leaves no crops.
+  JA: 貧しい者をしえたげる貧しい人は、糧食を残さない激しい雨のようだ。
+[28:4]
+  EN: Those who forsake the law praise the wicked; but those who keep the law contend with them.
+  JA: 律法を捨てる者は悪しき者をほめる、律法を守る者はこれに敵対する。
+[28:5]
+  EN: Evil men don’t understand justice; but those who seek the LORD understand it fully.
+  JA: 悪人は正しいことを悟らない、主を求める者はこれをことごとく悟る。
+[28:6]
+  EN: Better is the poor who walks in his integrity than he who is perverse in his ways, and he is rich.
+  JA: 正しく歩む貧しい者は、曲った道を歩む富める者にまさる。
+[28:7]
+  EN: Whoever keeps the law is a wise son; but he who is a companion of gluttons shames his father.
+  JA: 律法を守る者は賢い子である、不品行な者と交わるものは、父をはずかしめる。
+[28:8]
+  EN: He who increases his wealth by excessive interest gathers it for one who has pity on the poor.
+  JA: 利息と高利とによってその富をます者は、貧しい者を恵む者のために、それをたくわえる。
+[28:9]
+  EN: He who turns away his ear from hearing the law, even his prayer is an abomination.
+  JA: 耳をそむけて律法を聞かない者は、その祈でさえも憎まれる。
+[28:10]
+  EN: Whoever causes the upright to go astray in an evil way, he will fall into his own trap; but the blameless will inherit good.
+  JA: 正しい者を悪い道に惑わす者は、みずから自分の穴に陥る、しかし誠実な人は幸福を継ぐ。
+[28:11]
+  EN: The rich man is wise in his own eyes; but the poor who has understanding sees through him.
+  JA: 富める人は自分の目に自らを知恵ある者と見る、しかし悟りのある貧しい者は彼を見やぶる。
+[28:12]
+  EN: When the righteous triumph, there is great glory; but when the wicked rise, men hide themselves.
+  JA: 正しい者が勝つときは、大いなる栄えがある、悪しき者が起るときは、民は身をかくす。
+[28:13]
+  EN: He who conceals his sins doesn’t prosper, but whoever confesses and renounces them finds mercy.
+  JA: その罪を隠す者は栄えることがない、言い表わしてこれを離れる者は、あわれみをうける。
+[28:14]
+  EN: Blessed is the man who always fears; but one who hardens his heart falls into trouble.
+  JA: 常に主を恐れる人はさいわいである、心をかたくなにする者は災に陥る。
+[28:15]
+  EN: As a roaring lion or a charging bear, so is a wicked ruler over helpless people.
+  JA: 貧しい民を治める悪いつかさは、ほえるしし、または飢えたくまのようだ。
+[28:16]
+  EN: A tyrannical ruler lacks judgment. One who hates ill-gotten gain will have long days.
+  JA: 悟りのないつかさは残忍な圧制者である、不正の利を憎む者は長命を得る。
+[28:17]
+  EN: A man who is tormented by blood guilt will be a fugitive until death. No one will support him.
+  JA: 人を殺してその血を身に負う者は死ぬまで、のがれびとである、だれもこれを助けてはならない。
+[28:18]
+  EN: Whoever walks blamelessly is kept safe; but one with perverse ways will fall suddenly.
+  JA: 正しく歩む者は救を得、曲った道に歩む者は穴に陥る。
+[28:19]
+  EN: One who works his land will have an abundance of food; but one who chases fantasies will have his fill of poverty.
+  JA: 自分の田地を耕す者は食糧に飽き、無益な事に従う者は貧乏に飽きる。
+[28:20]
+  EN: A faithful man is rich with blessings; but one who is eager to be rich will not go unpunished.
+  JA: 忠実な人は多くの祝福を得る、急いで富を得ようとする者は罰を免れない。
+[28:21]
+  EN: To show partiality is not good, yet a man will do wrong for a piece of bread.
+  JA: 人を片寄り見ることは良くない、人は一切れのパンのために、とがを犯すことがある。
+[28:22]
+  EN: A stingy man hurries after riches, and doesn’t know that poverty waits for him.
+  JA: 欲の深い人は急いで富を得ようとする、かえって欠乏が自分の所に来ることを知らない。
+[28:23]
+  EN: One who rebukes a man will afterward find more favor than one who flatters with the tongue.
+  JA: 人を戒める者は舌をもってへつらう者よりも、大いなる感謝をうける。
+[28:24]
+  EN: Whoever robs his father or his mother and says, “It’s not wrong,” is a partner with a destroyer.
+  JA: 父や母の物を盗んで「これは罪ではない」と言う者は、滅ぼす者の友である。
+[28:25]
+  EN: One who is greedy stirs up strife; but one who trusts in the LORD will prosper.
+  JA: むさぼる者は争いを起し、主に信頼する者は豊かになる。
+[28:26]
+  EN: One who trusts in himself is a fool; but one who walks in wisdom is kept safe.
+  JA: 自分の心を頼む者は愚かである、知恵をもって歩む者は救を得る。
+[28:27]
+  EN: One who gives to the poor has no lack; but one who closes his eyes will have many curses.
+  JA: 貧しい者に施す者は物に不足しない、目をおおって見ない人は多くののろいをうける。
+[28:28]
+  EN: When the wicked rise, men hide themselves; but when they perish, the righteous thrive.
+  JA: 悪しき者が起るときは、民は身をかくす、その滅びるときは、正しい人が増す。
+
+=== PRO 箴言 29 ===
+
+[29:1]
+  EN: He who is often rebuked and stiffens his neck will be destroyed suddenly, with no remedy.
+  JA: しばしばしかられても、なおかたくなな者は、たちまち打ち敗られて助かることはない。
+[29:2]
+  EN: When the righteous thrive, the people rejoice; but when the wicked rule, the people groan.
+  JA: 正しい者が権力を得れば民は喜び、悪しき者が治めるとき、民はうめき苦しむ。
+[29:3]
+  EN: Whoever loves wisdom brings joy to his father; but a companion of prostitutes squanders his wealth.
+  JA: 知恵を愛する人はその父を喜ばせ、遊女に交わる者はその資産を浪費する。
+[29:4]
+  EN: The king by justice makes the land stable, but he who takes bribes tears it down.
+  JA: 王は公儀をもって国を堅くする、しかし、重税を取り立てる者はこれを滅ぼす。
+[29:5]
+  EN: A man who flatters his neighbor spreads a net for his feet.
+  JA: その隣り人にへつらう者は、彼の足の前に網を張る。
+[29:6]
+  EN: An evil man is snared by his sin, but the righteous can sing and be glad.
+  JA: 悪人は自分の罪のわなに陥る、しかし正しい人は喜び楽しむ。
+[29:7]
+  EN: The righteous care about justice for the poor. The wicked aren’t concerned about knowledge.
+  JA: 正しい人は貧しい者の訴えをかえりみる、悪しき人はそれを知ろうとはしない。
+[29:8]
+  EN: Mockers stir up a city, but wise men turn away anger.
+  JA: あざける人は町を乱し、知恵ある者は怒りを静める。
+[29:9]
+  EN: If a wise man goes to court with a foolish man, the fool rages or scoffs, and there is no peace.
+  JA: 知恵ある人が愚かな人と争うと、愚かな者はただ怒り、あるいは笑って、休むことがない。
+[29:10]
+  EN: The bloodthirsty hate a man of integrity; and they seek the life of the upright.
+  JA: 血に飢えている人は罪のない者を憎む、悪しき者は彼の命を求める。
+[29:11]
+  EN: A fool vents all of his anger, but a wise man brings himself under control.
+  JA: 愚かな者は怒りをことごとく表わし、知恵ある者は静かにこれをおさえる。
+[29:12]
+  EN: If a ruler listens to lies, all of his officials are wicked.
+  JA: もし治める者が偽りの言葉に聞くならば、その役人らはみな悪くなる。
+[29:13]
+  EN: The poor man and the oppressor have this in common: The LORD gives sight to the eyes of both.
+  JA: 貧しい者と、しえたげる者とは共に世におる、主は彼ら両者の目に光を与えられる。
+[29:14]
+  EN: The king who fairly judges the poor, his throne shall be established forever.
+  JA: もし王が貧しい者を公平にさばくならば、その位はいつまでも堅く立つ。
+[29:15]
+  EN: The rod of correction gives wisdom, but a child left to himself causes shame to his mother.
+  JA: むちと戒めとは知恵を与える、わがままにさせた子はその母に恥をもたらす。
+[29:16]
+  EN: When the wicked increase, sin increases; but the righteous will see their downfall.
+  JA: 悪しき者が権力を得ると罪も増す、正しい者は彼らの倒れるのを見る。
+[29:17]
+  EN: Correct your son, and he will give you peace; yes, he will bring delight to your soul.
+  JA: あなたの子を懲しめよ、そうすれば彼はあなたを安らかにし、またあなたの心に喜びを与える。
+[29:18]
+  EN: Where there is no revelation, the people cast off restraint; but one who keeps the law is blessed.
+  JA: 預言がなければ民はわがままにふるまう、しかし律法を守る者はさいわいである。
+[29:19]
+  EN: A servant can’t be corrected by words. Though he understands, yet he will not respond.
+  JA: しもべは言葉だけで訓練することはできない、彼は聞いて知っても、心にとめないからである。
+[29:20]
+  EN: Do you see a man who is hasty in his words? There is more hope for a fool than for him.
+  JA: 言葉の軽率な人を見るか、彼よりもかえって愚かな者のほうに望みがある。
+[29:21]
+  EN: He who pampers his servant from youth will have him become a son in the end.
+  JA: しもべをその幼い時からわがままに育てる人は、ついにはそれを自分のあとつぎにする。
+[29:22]
+  EN: An angry man stirs up strife, and a wrathful man abounds in sin.
+  JA: 怒る人は争いを起し、憤る人は多くの罪を犯す。
+[29:23]
+  EN: A man’s pride brings him low, but one of lowly spirit gains honor.
+  JA: 人の高ぶりはその人を低くし、心にへりくだる者は誉を得る。
+[29:24]
+  EN: Whoever is an accomplice of a thief is an enemy of his own soul. He takes an oath, but dares not testify.
+  JA: 盗びとにくみする者は自分の魂を憎む、彼はのろいを聞いても何事をも口外しない。
+[29:25]
+  EN: The fear of man proves to be a snare, but whoever puts his trust in the LORD is kept safe.
+  JA: 人を恐れると、わなに陥る、主に信頼する者は安らかである。
+[29:26]
+  EN: Many seek the ruler’s favor, but a man’s justice comes from the LORD.
+  JA: 治める者の歓心を得ようとする人は多い、しかし人の事を定めるのは主による。
+[29:27]
+  EN: A dishonest man detests the righteous, and the upright in their ways detest the wicked.
+  JA: 正しい人は不正を行う人を憎み、悪しき者は正しく歩む人を憎む。
+
+=== PRO 箴言 30 ===
+
+[30:1]
+  EN: The words of Agur the son of Jakeh, the revelation: the man says to Ithiel, to Ithiel and Ucal:
+  JA: マッサの人ヤケの子アグルの言葉。その人はイテエルに向かって言った、すなわちイテエルと、ウカルとに向かって言った、
+[30:2]
+  EN: “Surely I am the most ignorant man, and don’t have a man’s understanding.
+  JA: わたしは確かに人よりも愚かであり、わたしには人の悟りがない。
+[30:3]
+  EN: I have not learned wisdom, neither do I have the knowledge of the Holy One.
+  JA: わたしはまだ知恵をならうことができず、また、聖なる者を悟ることもできない。
+[30:4]
+  EN: Who has ascended up into heaven, and descended? Who has gathered the wind in his fists? Who has bound the waters in his garment? Who has established all the ends of the earth? What is his name, and what is his son’s name, if you know?
+  JA: 天にのぼったり、下ったりしたのはだれか、風をこぶしの中に集めたのはだれか、水を着物に包んだのはだれか、地のすべての限界を定めた者はだれか、その名は何か、その子の名は何か、あなたは確かにそれを知っている。
+[30:5]
+  EN: “Every word of God is flawless. He is a shield to those who take refuge in him.
+  JA: 神の言葉はみな真実である、神は彼に寄り頼む者の盾である。
+[30:6]
+  EN: Don’t you add to his words, lest he reprove you, and you be found a liar.
+  JA: その言葉に付け加えてはならない、彼があなたを責め、あなたを偽り者とされないためだ。
+[30:7]
+  EN: “Two things I have asked of you. Don’t deny me before I die.
+  JA: わたしは二つのことをあなたに求めます、わたしの死なないうちに、これをかなえてください。
+[30:8]
+  EN: Remove far from me falsehood and lies. Give me neither poverty nor riches. Feed me with the food that is needful for me,
+  JA: うそ、偽りをわたしから遠ざけ、貧しくもなく、また富みもせず、ただなくてならぬ食物でわたしを養ってください。
+[30:9]
+  EN: lest I be full, deny you, and say, ‘Who is the LORD?’ or lest I be poor, and steal, and so dishonor the name of my God.
+  JA: 飽き足りて、あなたを知らないといい、「主とはだれか」と言うことのないため、また貧しくて盗みをし、わたしの神の名を汚すことのないためです。
+[30:10]
+  EN: “Don’t slander a servant to his master, lest he curse you, and you be held guilty.
+  JA: あなたは、しもべのことをその主人に、あしざまにいってはならない、そうでないと彼はあなたをのろい、あなたは罪をきせられる。
+[30:11]
+  EN: There is a generation that curses their father, and doesn’t bless their mother.
+  JA: 世には父をのろったり、母を祝福しない者がある。
+[30:12]
+  EN: There is a generation that is pure in their own eyes, yet are not washed from their filthiness.
+  JA: 世には自分の目にみずからを清い者として、なおその汚れを洗われないものがある。
+[30:13]
+  EN: There is a generation, oh how lofty are their eyes! Their eyelids are lifted up.
+  JA: 世にはまた、このような人がある――ああ、その目のいかに高きことよ、またそのまぶたのいかにつりあがっていることよ。
+[30:14]
+  EN: There is a generation whose teeth are like swords, and their jaws like knives, to devour the poor from the earth, and the needy from among men.
+  JA: 世にはまたつるぎのような歯をもち、刀のようなきばをもって、貧しい者を地の上から、乏しい者を人の中から食い滅ぼすものがある。
+[30:15]
+  EN: “The leech has two daughters: ‘Give, give.’ “There are three things that are never satisfied; four that don’t say, ‘Enough!’:
+  JA: 蛭にふたりの娘があって、「与えよ、与えよ」という。飽くことを知らないものが三つある、いや、四つあって、皆「もう、たくさんです」と言わない。
+[30:16]
+  EN: Sheol, the barren womb, the earth that is not satisfied with water, and the fire that doesn’t say, ‘Enough!’
+  JA: すなわち陰府、不妊の胎、水にかわく地、「もう、たくさんだ」といわない火がそれである。
+[30:17]
+  EN: “The eye that mocks at his father, and scorns obedience to his mother, the ravens of the valley shall pick it out, the young eagles shall eat it.
+  JA: 自分の父をあざけり、母に従うのを卑しいこととする目は、谷のからすがこれをつつき出し、はげたかがこれを食べる。
+[30:18]
+  EN: “There are three things which are too amazing for me, four which I don’t understand:
+  JA: わたしにとって不思議にたえないことが三つある、いや、四つあって、わたしには悟ることができない。
+[30:19]
+  EN: The way of an eagle in the air, the way of a serpent on a rock, the way of a ship in the middle of the sea, and the way of a man with a maiden.
+  JA: すなわち空を飛ぶはげたかの道、岩の上を這うへびの道、海をはしる舟の道、男の女にあう道がそれである。
+[30:20]
+  EN: “So is the way of an adulterous woman: She eats and wipes her mouth, and says, ‘I have done nothing wrong.’
+  JA: 遊女の道もまたそうだ、彼女は食べて、その口をぬぐって、「わたしは何もわるいことはしない」と言う。
+[30:21]
+  EN: “For three things the earth trembles, and under four, it can’t bear up:
+  JA: 地は三つのことによって震う、いや、四つのことによって、耐えることができない。
+[30:22]
+  EN: For a servant when he is king, a fool when he is filled with food,
+  JA: すなわち奴隷たる者が王となり、愚かな者が食物に飽き、
+[30:23]
+  EN: for an unloved woman when she is married, and a servant who is heir to her mistress.
+  JA: 忌みきらわれた女が嫁に行き、はしためが女主人のあとにすわることである。
+[30:24]
+  EN: “There are four things which are little on the earth, but they are exceedingly wise:
+  JA: この地上に、小さいけれども、非常に賢いものが四つある。
+[30:25]
+  EN: The ants are not a strong people, yet they provide their food in the summer.
+  JA: ありは力のない種類だが、その食糧を夏のうちに備える。
+[30:26]
+  EN: The hyraxes are but a feeble folk, yet make they their houses in the rocks.
+  JA: 岩だぬきは強くない種類だが、その家を岩につくる。
+[30:27]
+  EN: The locusts have no king, yet they advance in ranks.
+  JA: いなごは王がないけれども、みな隊を組んでいで立つ。
+[30:28]
+  EN: You can catch a lizard with your hands, yet it is in kings’ palaces.
+  JA: やもりは手でつかまえられるが、王の宮殿におる。
+[30:29]
+  EN: “There are three things which are stately in their march, four which are stately in going:
+  JA: 歩きぶりの堂々たる者が三つある、いや、四つあって、みな堂々と歩く。
+[30:30]
+  EN: The lion, which is mightiest among animals, and doesn’t turn away for any;
+  JA: すなわち獣のうちでもっとも強く、何ものの前にも退かない、しし、
+[30:31]
+  EN: the greyhound; the male goat; and the king against whom there is no rising up.
+  JA: 尾を立てて歩くおんどり、雄やぎ、その民の前をいばって歩く王がそれである。
+[30:32]
+  EN: “If you have done foolishly in lifting up yourself, or if you have thought evil, put your hand over your mouth.
+  JA: あなたがもし愚かであって自ら高ぶり、あるいは悪事を計ったならば、あなたの手を口に当てるがよい。
+[30:33]
+  EN: For as the churning of milk produces butter, and the wringing of the nose produces blood, so the forcing of wrath produces strife.”
+  JA: 乳をしめれば凝乳が出る、鼻をしめれば血がでる、怒りをしめれば争いが起る。
+
+=== PRO 箴言 31 ===
+
+[31:1]
+  EN: The words of King Lemuel—the revelation which his mother taught him:
+  JA: マッサの王レムエルの言葉、すなわちその母が彼に教えたものである。
+[31:2]
+  EN: “Oh, my son! Oh, son of my womb! Oh, son of my vows!
+  JA: わが子よ、何を言おうか。わが胎の子よ、何を言おうか。わたしが願をかけて得た子よ、何をいおうか。
+[31:3]
+  EN: Don’t give your strength to women, nor your ways to that which destroys kings.
+  JA: あなたの力を女についやすな、王をも滅ぼすものに、あなたの道を任せるな。
+[31:4]
+  EN: It is not for kings, Lemuel, it is not for kings to drink wine, nor for princes to say, ‘Where is strong drink?’
+  JA: レムエルよ、酒を飲むのは、王のすることではない、王のすることではない、濃い酒を求めるのは君たる者のすることではない。
+[31:5]
+  EN: lest they drink, and forget the law, and pervert the justice due to anyone who is afflicted.
+  JA: 彼らは酒を飲んで、おきてを忘れ、すべて悩む者のさばきを曲げる。
+[31:6]
+  EN: Give strong drink to him who is ready to perish, and wine to the bitter in soul.
+  JA: 濃い酒を滅びようとしている者に与え、酒を心の苦しむ人に与えよ。
+[31:7]
+  EN: Let him drink, and forget his poverty, and remember his misery no more.
+  JA: 彼らは飲んで自分の貧乏を忘れ、その悩みをもはや思い出さない。
+[31:8]
+  EN: Open your mouth for the mute, in the cause of all who are left desolate.
+  JA: あなたは黙っている人のために、すべてのみなしごの訴えのために、口を開くがよい。
+[31:9]
+  EN: Open your mouth, judge righteously, and serve justice to the poor and needy.”
+  JA: 口を開いて、正しいさばきを行い、貧しい者と乏しい者の訴えをただせ。
+[31:10]
+  EN: Who can find a worthy woman? For her value is far above rubies.
+  JA: だれが賢い妻を見つけることができるか、彼女は宝石よりもすぐれて尊い。
+[31:11]
+  EN: The heart of her husband trusts in her. He shall have no lack of gain.
+  JA: その夫の心は彼女を信頼して、収益に欠けることはない。
+[31:12]
+  EN: She does him good, and not harm, all the days of her life.
+  JA: 彼女は生きながらえている間、その夫のために良いことをして、悪いことをしない。
+[31:13]
+  EN: She seeks wool and flax, and works eagerly with her hands.
+  JA: 彼女は羊の毛や亜麻を求めて、手ずから望みのように、それを仕上げる。
+[31:14]
+  EN: She is like the merchant ships. She brings her bread from afar.
+  JA: また商人の舟のように、遠い国から食糧を運んでくる。
+[31:15]
+  EN: She rises also while it is yet night, gives food to her household, and portions for her servant girls.
+  JA: 彼女はまだ夜のあけぬうちに起きて、その家の者の食べ物を備え、その女たちに日用の分を与える。
+[31:16]
+  EN: She considers a field, and buys it. With the fruit of her hands, she plants a vineyard.
+  JA: 彼女は畑をよく考えてそれを買い、その手の働きの実をもって、ぶどう畑をつくり、
+[31:17]
+  EN: She arms her waist with strength, and makes her arms strong.
+  JA: 力をもって腰に帯し、その腕を強くする。
+[31:18]
+  EN: She perceives that her merchandise is profitable. Her lamp doesn’t go out by night.
+  JA: 彼女はその商品のもうけのあるのを知っている、そのともしびは終夜消えることがない。
+[31:19]
+  EN: She lays her hands to the distaff, and her hands hold the spindle.
+  JA: 彼女は手を糸取り棒にのべ、その手に、つむを持ち、
+[31:20]
+  EN: She opens her arms to the poor; yes, she extends her hands to the needy.
+  JA: 手を貧しい者に開き、乏しい人に手をさしのべる。
+[31:21]
+  EN: She is not afraid of the snow for her household, for all her household are clothed with scarlet.
+  JA: 彼女はその家の者のために雪を恐れない、その家の者はみな紅の着物を着ているからである。
+[31:22]
+  EN: She makes for herself carpets of tapestry. Her clothing is fine linen and purple.
+  JA: 彼女は自分のために美しいしとねを作り、亜麻布と紫布とをもってその着物とする。
+[31:23]
+  EN: Her husband is respected in the gates, when he sits among the elders of the land.
+  JA: その夫はその地の長老たちと共に、町の門に座するので、人に知られている。
+[31:24]
+  EN: She makes linen garments and sells them, and delivers sashes to the merchant.
+  JA: 彼女は亜麻布の着物をつくって、それを売り、帯をつくって商人に渡す。
+[31:25]
+  EN: Strength and dignity are her clothing. She laughs at the time to come.
+  JA: 力と気品とは彼女の着物である、そして後の日を笑っている。
+[31:26]
+  EN: She opens her mouth with wisdom. Kind instruction is on her tongue.
+  JA: 彼女は口を開いて知恵を語る、その舌にはいつくしみの教がある。
+[31:27]
+  EN: She looks well to the ways of her household, and doesn’t eat the bread of idleness.
+  JA: 彼女は家の事をよくかえりみ、怠りのかてを食べることをしない。
+[31:28]
+  EN: Her children rise up and call her blessed. Her husband also praises her:
+  JA: その子らは立ち上がって彼女を祝し、その夫もまた彼女をほめたたえて言う、
+[31:29]
+  EN: “Many women do noble things, but you excel them all.”
+  JA: 「りっぱに事をなし遂げる女は多いけれども、あなたはそのすべてにまさっている」と。
+[31:30]
+  EN: Charm is deceitful, and beauty is vain; but a woman who fears the LORD, she shall be praised.
+  JA: あでやかさは偽りであり、美しさはつかのまである、しかし主を恐れる女はほめたたえられる。
+[31:31]
+  EN: Give her of the fruit of her hands! Let her works praise her in the gates!
+  JA: その手の働きの実を彼女に与え、その行いのために彼女を町の門でほめたたえよ。

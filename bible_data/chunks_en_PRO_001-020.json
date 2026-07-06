@@ -1,0 +1,64 @@
+[
+  { "id":"CK-EN-PRO001-01", "chapter":1, "verse":11, "text":"lie in wait for", "blank":"Let's ___ blood.", "answer":"lie in wait for", "tag":"AI()", "freq":"medium", "gloss":"埋伏、伺機而動", "ref":"箴言 1:11", "usage":"現代英語常用，如lie in wait for a target。" },
+  { "id":"CK-EN-PRO001-02", "chapter":1, "verse":12, "text":"swallow them up", "blank":"Let's ___ alive like Sheol.", "answer":"swallow them up", "tag":"AI()", "freq":"medium", "gloss":"吞沒、擊垮", "ref":"箴言 1:12", "usage":"現代英語常用，表示完全吞沒或擊垮。" },
+  { "id":"CK-EN-PRO001-03", "chapter":1, "verse":14, "text":"cast your lot", "blank":"You shall ___ among us.", "answer":"cast your lot", "tag":"AI()", "freq":"high", "gloss":"加入陣營、投身其中", "ref":"箴言 1:14", "usage":"現代英語極常用，如cast your lot with a cause。" },
+  { "id":"CK-EN-PRO001-04", "chapter":1, "verse":16, "text":"shed blood", "blank":"They hurry to ___.", "answer":"shed blood", "tag":"AI()", "freq":"high", "gloss":"流血、殺戮", "ref":"箴言 1:16", "usage":"現代英語極常用，如shed blood in war。" },
+  { "id":"CK-EN-PRO001-05", "chapter":1, "verse":23, "text":"pour out my spirit", "blank":"I will ___ on you.", "answer":"pour out my spirit", "tag":"AI()", "freq":"medium", "gloss":"傾注心意", "ref":"箴言 1:23", "usage":"現代英語常用「pour out」表示傾注情感或心意。" },
+  { "id":"CK-EN-PRO001-06", "chapter":1, "verse":24, "text":"stretched out my hand", "blank":"I have ___, and no one has paid attention.", "answer":"stretched out my hand", "tag":"AI()", "freq":"high", "gloss":"伸出手", "ref":"箴言 1:24", "usage":"現代英語極常用，如stretch out one's hand。" },
+
+  { "id":"CK-EN-PRO002-01", "chapter":2, "verse":1, "text":"store up", "blank":"and ___ my commandments within you.", "answer":"store up", "tag":"AI()", "freq":"high", "gloss":"儲存、積蓄", "ref":"箴言 2:1", "usage":"現代英語常用，如store up wealth/problems。" },
+  { "id":"CK-EN-PRO002-02", "chapter":2, "verse":3, "text":"lift up your voice", "blank":"if you call out for discernment, and ___ for understanding.", "answer":"lift up your voice", "tag":"AI()", "freq":"medium", "gloss":"提高聲量、大聲呼求", "ref":"箴言 2:3", "usage":"現代英語常用，表示大聲呼求或表達。" },
+  { "id":"CK-EN-PRO002-03", "chapter":2, "verse":22, "text":"cut off", "blank":"But the wicked will be ___ from the land.", "answer":"cut off", "tag":"AI()", "freq":"high", "gloss":"切斷、消滅", "ref":"箴言 2:22", "usage":"現代英語常用，表示切斷或消滅。" },
+  { "id":"CK-EN-PRO002-04", "chapter":2, "verse":22, "text":"rooted out", "blank":"The treacherous will be ___ of it.", "answer":"rooted out", "tag":"AI()", "freq":"high", "gloss":"根除、連根拔起", "ref":"箴言 2:22", "usage":"現代英語極常用，如root out corruption。" },
+
+  { "id":"CK-EN-PRO003-01", "chapter":3, "verse":5, "text":"with all your heart", "blank":"Trust in the LORD ___.", "answer":"with all your heart", "tag":"AI()", "freq":"high", "gloss":"全心全意", "ref":"箴言 3:5", "usage":"現代英語常用，表示全心投入。" },
+  { "id":"CK-EN-PRO003-02", "chapter":3, "verse":6, "text":"make your paths straight", "blank":"and he will ___.", "answer":"make your paths straight", "tag":"AI()", "freq":"medium", "gloss":"為你指引正路", "ref":"箴言 3:6", "usage":"現代英語常用，表示引導人走上正確道路。" },
+  { "id":"CK-EN-PRO003-03", "chapter":3, "verse":9, "text":"first fruits", "blank":"with the ___ of all your increase.", "answer":"first fruits", "tag":"AI()", "freq":"medium", "gloss":"最初的成果、首批收穫", "ref":"箴言 3:9", "usage":"現代英語常用，如the first fruits of one's labor。" },
+  { "id":"CK-EN-PRO003-04", "chapter":3, "verse":18, "text":"lay hold of", "blank":"She is a tree of life to those who ___ her.", "answer":"lay hold of", "tag":"AI()", "freq":"medium", "gloss":"緊緊抓住、把握", "ref":"箴言 3:18", "usage":"現代英語正式用語，表示把握機會或事物。" },
+  { "id":"CK-EN-PRO003-05", "chapter":3, "verse":24, "text":"lie down", "blank":"When you ___, you will not be afraid.", "answer":"lie down", "tag":"AI()", "freq":"high", "gloss":"躺下、就寢", "ref":"箴言 3:24", "usage":"現代英語日常用語，表示躺下休息。" },
+
+  { "id":"CK-EN-PRO004-01", "chapter":4, "verse":1, "text":"Pay attention", "blank":"___ and know understanding.", "answer":"Pay attention", "tag":"AI()", "freq":"high", "gloss":"注意、留心", "ref":"箴言 4:1", "usage":"現代英語極常用，表示集中注意力。" },
+  { "id":"CK-EN-PRO004-02", "chapter":4, "verse":13, "text":"Take firm hold of", "blank":"___ instruction. Don't let her go.", "answer":"Take firm hold of", "tag":"AI()", "freq":"medium", "gloss":"緊緊抓住", "ref":"箴言 4:13", "usage":"現代英語常用，表示牢牢把握某事物。" },
+  { "id":"CK-EN-PRO004-03", "chapter":4, "verse":24, "text":"Put away", "blank":"___ from yourself a perverse mouth.", "answer":"Put away", "tag":"AI()", "freq":"high", "gloss":"擱置、捨棄", "ref":"箴言 4:24", "usage":"現代英語常用，表示捨棄或摒除。" },
+  { "id":"CK-EN-PRO004-04", "chapter":4, "verse":27, "text":"turn to the right hand nor to the left", "blank":"Don't ___.", "answer":"turn to the right hand nor to the left", "tag":"AI()", "freq":"medium", "gloss":"不偏不倚、堅守正道", "ref":"箴言 4:27", "usage":"現代英語常用於表示堅持原則不動搖。" },
+
+  { "id":"CK-EN-PRO005-01", "chapter":5, "verse":4, "text":"two-edged sword", "blank":"as sharp as a ___.", "answer":"two-edged sword", "tag":"AI()", "freq":"high", "gloss":"雙刃劍、利弊並存之物", "ref":"箴言 5:4", "usage":"現代英語極常用著名比喻，如double-edged sword。" },
+
+  { "id":"CK-EN-PRO006-01", "chapter":6, "verse":14, "text":"sows discord", "blank":"who always ___.", "answer":"sows discord", "tag":"AI()", "freq":"high", "gloss":"挑撥離間、製造紛爭", "ref":"箴言 6:14", "usage":"現代英語極常用，表示挑撥離間。" },
+  { "id":"CK-EN-PRO006-02", "chapter":6, "verse":17, "text":"shed innocent blood", "blank":"hands that ___.", "answer":"shed innocent blood", "tag":"AI()", "freq":"high", "gloss":"殺害無辜", "ref":"箴言 6:17", "usage":"現代英語極常用，表示殺害無辜者。" },
+  { "id":"CK-EN-PRO006-03", "chapter":6, "verse":19, "text":"sows discord", "blank":"he who ___ among brothers.", "answer":"sows discord", "tag":"AI()", "freq":"high", "gloss":"挑撥離間、製造紛爭", "ref":"箴言 6:19", "usage":"現代英語極常用，表示挑撥離間。" },
+
+  { "id":"CK-EN-PRO007-01", "chapter":7, "verse":1, "text":"Lay up", "blank":"___ my commandments within you.", "answer":"Lay up", "tag":"AI()", "freq":"medium", "gloss":"儲存、留存", "ref":"箴言 7:1", "usage":"現代英語常用，如lay up treasures。" },
+  { "id":"CK-EN-PRO007-02", "chapter":7, "verse":2, "text":"apple of your eye", "blank":"Guard my teaching as the ___.", "answer":"apple of your eye", "tag":"AI()", "freq":"high", "gloss":"掌上明珠、珍愛之物", "ref":"箴言 7:2", "usage":"現代英語極常用，表示最珍愛的人或事物。" },
+  { "id":"CK-EN-PRO007-03", "chapter":7, "verse":15, "text":"seek your face", "blank":"to diligently ___, and I have found you.", "answer":"seek your face", "tag":"AI()", "freq":"medium", "gloss":"尋求親近、渴望相見", "ref":"箴言 7:15", "usage":"現代英語常用於表示渴望與某人相見。" },
+  { "id":"CK-EN-PRO007-04", "chapter":7, "verse":21, "text":"led him astray", "blank":"With persuasive words, she ___.", "answer":"led him astray", "tag":"AI()", "freq":"high", "gloss":"誤導、帶入歧途", "ref":"箴言 7:21", "usage":"現代英語極常用，表示誤導人走上錯路。" },
+  { "id":"CK-EN-PRO007-05", "chapter":7, "verse":22, "text":"goes to the slaughter", "blank":"as an ox ___.", "answer":"goes to the slaughter", "tag":"AI()", "freq":"high", "gloss":"引頸就戮、渾然不知危險", "ref":"箴言 7:22", "usage":"現代英語常用著名比喻，如a lamb led to the slaughter。" },
+
+  { "id":"CK-EN-PRO008-01", "chapter":8, "verse":1, "text":"raise her voice", "blank":"Doesn't understanding ___?", "answer":"raise her voice", "tag":"AI()", "freq":"high", "gloss":"提高聲量、大聲疾呼", "ref":"箴言 8:1", "usage":"現代英語極常用，表示提高聲量表達。" },
+
+  { "id":"CK-EN-PRO010-01", "chapter":10, "verse":9, "text":"found out", "blank":"but he who perverts his ways will be ___.", "answer":"found out", "tag":"AI()", "freq":"high", "gloss":"被揭穿、被發現", "ref":"箴言 10:9", "usage":"現代英語極常用，如find out the truth。" },
+  { "id":"CK-EN-PRO010-02", "chapter":10, "verse":12, "text":"stirs up strife", "blank":"Hatred ___.", "answer":"stirs up strife", "tag":"AI()", "freq":"high", "gloss":"挑起紛爭", "ref":"箴言 10:12", "usage":"現代英語極常用「stir up」表示挑起或激起。" },
+  { "id":"CK-EN-PRO010-03", "chapter":10, "verse":25, "text":"stand firm", "blank":"but the righteous ___ forever.", "answer":"stand firm", "tag":"AI()", "freq":"high", "gloss":"堅立、屹立不搖", "ref":"箴言 10:25", "usage":"現代英語極常用，表示堅定不搖。" },
+
+  { "id":"CK-EN-PRO011-01", "chapter":11, "verse":12, "text":"holds his peace", "blank":"but a man of understanding ___.", "answer":"holds his peace", "tag":"AI()", "freq":"medium", "gloss":"保持沉默", "ref":"箴言 11:12", "usage":"現代英語仍偶爾使用，如hold one's peace。" },
+  { "id":"CK-EN-PRO011-02", "chapter":11, "verse":29, "text":"inherit the wind", "blank":"He who troubles his own house shall ___.", "answer":"inherit the wind", "tag":"AI()", "freq":"medium", "gloss":"一無所獲、徒勞無功", "ref":"箴言 11:29", "usage":"現代英語著名比喻，表示白忙一場、一無所獲。" },
+
+  { "id":"CK-EN-PRO014-01", "chapter":14, "verse":1, "text":"tears it down", "blank":"but the foolish one ___ with her own hands.", "answer":"tears it down", "tag":"AI()", "freq":"high", "gloss":"拆毀、破壞", "ref":"箴言 14:1", "usage":"現代英語常用，如tear down a wall/system。" },
+
+  { "id":"CK-EN-PRO015-01", "chapter":15, "verse":1, "text":"turns away wrath", "blank":"A gentle answer ___.", "answer":"turns away wrath", "tag":"AI()", "freq":"medium", "gloss":"平息怒氣", "ref":"箴言 15:1", "usage":"現代英語常用「turn away」表示轉移或平息。" },
+
+  { "id":"CK-EN-PRO016-01", "chapter":16, "verse":18, "text":"Pride goes before destruction", "blank":"___, and an arrogant spirit before a fall.", "answer":"Pride goes before destruction", "tag":"AI()", "freq":"high", "gloss":"驕者必敗", "ref":"箴言 16:18", "usage":"現代英語極常用著名格言，如pride goes before a fall。" },
+
+  { "id":"CK-EN-PRO017-01", "chapter":17, "verse":22, "text":"cheerful heart makes good medicine", "blank":"A ___.", "answer":"cheerful heart makes good medicine", "tag":"AI()", "freq":"high", "gloss":"心情愉快勝過良藥", "ref":"箴言 17:22", "usage":"現代英語常用類似說法，如laughter is the best medicine。" },
+
+  { "id":"CK-EN-PRO018-01", "chapter":18, "verse":16, "text":"makes room for him", "blank":"A man's gift ___.", "answer":"makes room for him", "tag":"AI()", "freq":"high", "gloss":"為某人開路、創造機會", "ref":"箴言 18:16", "usage":"現代英語極常用，如make room for someone/something。" },
+  { "id":"CK-EN-PRO018-02", "chapter":18, "verse":24, "text":"sticks closer than a brother", "blank":"there is a friend who ___.", "answer":"sticks closer than a brother", "tag":"AI()", "freq":"high", "gloss":"情比手足、親密無間的摯友", "ref":"箴言 18:24", "usage":"現代英語極常用著名比喻，形容最親密的摯友。" },
+
+  { "id":"CK-EN-PRO019-01", "chapter":19, "verse":5, "text":"pours out lies", "blank":"He who ___ shall not go free.", "answer":"pours out lies", "tag":"AI()", "freq":"medium", "gloss":"滿口謊言", "ref":"箴言 19:5", "usage":"現代英語常用「pour out」表示大量傾洩。" },
+  { "id":"CK-EN-PRO019-02", "chapter":19, "verse":9, "text":"pours out lies", "blank":"He who ___ shall perish.", "answer":"pours out lies", "tag":"AI()", "freq":"medium", "gloss":"滿口謊言", "ref":"箴言 19:9", "usage":"現代英語常用「pour out」表示大量傾洩。" },
+  { "id":"CK-EN-PRO019-03", "chapter":19, "verse":26, "text":"drives away", "blank":"He who robs his father and ___ his mother.", "answer":"drives away", "tag":"AI()", "freq":"medium", "gloss":"驅趕、趕走", "ref":"箴言 19:26", "usage":"現代英語常用，表示驅趕或趕走。" },
+
+  { "id":"CK-EN-PRO020-01", "chapter":20, "verse":1, "text":"led astray", "blank":"Whoever is ___ by them is not wise.", "answer":"led astray", "tag":"AI()", "freq":"high", "gloss":"被誤導、被帶入歧途", "ref":"箴言 20:1", "usage":"現代英語極常用，表示被誤導走上錯路。" },
+  { "id":"CK-EN-PRO020-02", "chapter":20, "verse":16, "text":"puts up collateral", "blank":"Take the garment of one who ___ for a stranger.", "answer":"puts up collateral", "tag":"AI()", "freq":"medium", "gloss":"提供擔保、抵押", "ref":"箴言 20:16", "usage":"現代英語金融用語常用，表示提供擔保品。" },
+  { "id":"CK-EN-PRO020-03", "chapter":20, "verse":22, "text":"pay back evil", "blank":"Don't say, \"I will ___.\"", "answer":"pay back evil", "tag":"AI()", "freq":"medium", "gloss":"以惡報惡", "ref":"箴言 20:22", "usage":"現代英語常用「pay back」表示報復或償還。" }
+]

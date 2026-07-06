@@ -1,0 +1,1752 @@
+[
+  {
+    "id": "IS-001",
+    "idiom": "every last (or single)",
+    "genre": "spoken",
+    "frequency_per_million": 33.61,
+    "source": "IS"
+  },
+  {
+    "id": "IS-002",
+    "idiom": "do away with something",
+    "genre": "spoken",
+    "frequency_per_million": 5.38,
+    "source": "IS"
+  },
+  {
+    "id": "IS-003",
+    "idiom": "(all) of a sudden",
+    "genre": "spoken",
+    "frequency_per_million": 31.17,
+    "source": "IS"
+  },
+  {
+    "id": "IS-004",
+    "idiom": "go public",
+    "genre": "spoken",
+    "frequency_per_million": 5.13,
+    "source": "IS"
+  },
+  {
+    "id": "IS-005",
+    "idiom": "on (or off) the air",
+    "genre": "spoken",
+    "frequency_per_million": 28.25,
+    "source": "IS"
+  },
+  {
+    "id": "IS-006",
+    "idiom": "first off",
+    "genre": "spoken",
+    "frequency_per_million": 5.04,
+    "source": "IS"
+  },
+  {
+    "id": "IS-007",
+    "idiom": "the bottom line",
+    "genre": "spoken",
+    "frequency_per_million": 20.14,
+    "source": "IS"
+  },
+  {
+    "id": "IS-008",
+    "idiom": "look someone in the eye (or face)",
+    "genre": "spoken",
+    "frequency_per_million": 4.89,
+    "source": "IS"
+  },
+  {
+    "id": "IS-009",
+    "idiom": "big deal",
+    "genre": "spoken",
+    "frequency_per_million": 19.49,
+    "source": "IS"
+  },
+  {
+    "id": "IS-010",
+    "idiom": "speak for oneself",
+    "genre": "spoken",
+    "frequency_per_million": 4.77,
+    "source": "IS"
+  },
+  {
+    "id": "IS-011",
+    "idiom": "at the end of the day",
+    "genre": "spoken",
+    "frequency_per_million": 16.71,
+    "source": "IS"
+  },
+  {
+    "id": "IS-012",
+    "idiom": "the old days",
+    "genre": "spoken",
+    "frequency_per_million": 4.66,
+    "source": "IS"
+  },
+  {
+    "id": "IS-013",
+    "idiom": "on (the) record",
+    "genre": "spoken",
+    "frequency_per_million": 15.79,
+    "source": "IS"
+  },
+  {
+    "id": "IS-014",
+    "idiom": "in (or out of) perspective",
+    "genre": "spoken",
+    "frequency_per_million": 4.56,
+    "source": "IS"
+  },
+  {
+    "id": "IS-015",
+    "idiom": "last thing",
+    "genre": "spoken",
+    "frequency_per_million": 11.4,
+    "source": "IS"
+  },
+  {
+    "id": "IS-016",
+    "idiom": "behind closed doors",
+    "genre": "spoken",
+    "frequency_per_million": 4.55,
+    "source": "IS"
+  },
+  {
+    "id": "IS-017",
+    "idiom": "behind the scenes",
+    "genre": "spoken",
+    "frequency_per_million": 10.85,
+    "source": "IS"
+  },
+  {
+    "id": "IS-018",
+    "idiom": "get the message",
+    "genre": "spoken",
+    "frequency_per_million": 4.46,
+    "source": "IS"
+  },
+  {
+    "id": "IS-019",
+    "idiom": "in the long run (or term)",
+    "genre": "spoken",
+    "frequency_per_million": 10.85,
+    "source": "IS"
+  },
+  {
+    "id": "IS-020",
+    "idiom": "from day one",
+    "genre": "spoken",
+    "frequency_per_million": 4.26,
+    "source": "IS"
+  },
+  {
+    "id": "IS-021",
+    "idiom": "be history",
+    "genre": "spoken",
+    "frequency_per_million": 9.98,
+    "source": "IS"
+  },
+  {
+    "id": "IS-022",
+    "idiom": "come (or spring) to mind",
+    "genre": "spoken",
+    "frequency_per_million": 4.2,
+    "source": "IS"
+  },
+  {
+    "id": "IS-023",
+    "idiom": "and all that (or and that)",
+    "genre": "spoken",
+    "frequency_per_million": 9.39,
+    "source": "IS"
+  },
+  {
+    "id": "IS-024",
+    "idiom": "for the record",
+    "genre": "spoken",
+    "frequency_per_million": 4.1,
+    "source": "IS"
+  },
+  {
+    "id": "IS-025",
+    "idiom": "all over the place",
+    "genre": "spoken",
+    "frequency_per_million": 9.02,
+    "source": "IS"
+  },
+  {
+    "id": "IS-026",
+    "idiom": "a heck of a —",
+    "genre": "spoken",
+    "frequency_per_million": 4.01,
+    "source": "IS"
+  },
+  {
+    "id": "IS-027",
+    "idiom": "on someone's mind",
+    "genre": "spoken",
+    "frequency_per_million": 7.88,
+    "source": "IS"
+  },
+  {
+    "id": "IS-028",
+    "idiom": "give someone a break",
+    "genre": "spoken",
+    "frequency_per_million": 3.99,
+    "source": "IS"
+  },
+  {
+    "id": "IS-029",
+    "idiom": "if anything",
+    "genre": "spoken",
+    "frequency_per_million": 7.56,
+    "source": "IS"
+  },
+  {
+    "id": "IS-030",
+    "idiom": "on the side",
+    "genre": "spoken",
+    "frequency_per_million": 3.96,
+    "source": "IS"
+  },
+  {
+    "id": "IS-031",
+    "idiom": "once (or every once) in a while",
+    "genre": "spoken",
+    "frequency_per_million": 7.49,
+    "source": "IS"
+  },
+  {
+    "id": "IS-032",
+    "idiom": "a (or one) hell of a —",
+    "genre": "spoken",
+    "frequency_per_million": 3.7,
+    "source": "IS"
+  },
+  {
+    "id": "IS-033",
+    "idiom": "by and large",
+    "genre": "spoken",
+    "frequency_per_million": 6.71,
+    "source": "IS"
+  },
+  {
+    "id": "IS-034",
+    "idiom": "off the hook",
+    "genre": "spoken",
+    "frequency_per_million": 3.67,
+    "source": "IS"
+  },
+  {
+    "id": "IS-035",
+    "idiom": "the American dream",
+    "genre": "spoken",
+    "frequency_per_million": 6.53,
+    "source": "IS"
+  },
+  {
+    "id": "IS-036",
+    "idiom": "to say the least (or the least of it)",
+    "genre": "spoken",
+    "frequency_per_million": 3.63,
+    "source": "IS"
+  },
+  {
+    "id": "IS-037",
+    "idiom": "going on — (or going on for—)",
+    "genre": "spoken",
+    "frequency_per_million": 6.13,
+    "source": "IS"
+  },
+  {
+    "id": "IS-038",
+    "idiom": "on (or from) the sidelines",
+    "genre": "spoken",
+    "frequency_per_million": 3.6,
+    "source": "IS"
+  },
+  {
+    "id": "IS-039",
+    "idiom": "close to (or close on)",
+    "genre": "spoken",
+    "frequency_per_million": 6.12,
+    "source": "IS"
+  },
+  {
+    "id": "IS-040",
+    "idiom": "the real thing",
+    "genre": "spoken",
+    "frequency_per_million": 3.58,
+    "source": "IS"
+  },
+  {
+    "id": "IS-041",
+    "idiom": "let it go (or pass)",
+    "genre": "spoken",
+    "frequency_per_million": 5.98,
+    "source": "IS"
+  },
+  {
+    "id": "IS-042",
+    "idiom": "for free",
+    "genre": "spoken",
+    "frequency_per_million": 3.45,
+    "source": "IS"
+  },
+  {
+    "id": "IS-043",
+    "idiom": "under fire",
+    "genre": "spoken",
+    "frequency_per_million": 5.91,
+    "source": "IS"
+  },
+  {
+    "id": "IS-044",
+    "idiom": "— as we know it",
+    "genre": "spoken",
+    "frequency_per_million": 3.42,
+    "source": "IS"
+  },
+  {
+    "id": "IS-045",
+    "idiom": "for real",
+    "genre": "spoken",
+    "frequency_per_million": 5.91,
+    "source": "IS"
+  },
+  {
+    "id": "IS-046",
+    "idiom": "go (to) it",
+    "genre": "spoken",
+    "frequency_per_million": 3.41,
+    "source": "IS"
+  },
+  {
+    "id": "IS-047",
+    "idiom": "in the short run (or term)",
+    "genre": "spoken",
+    "frequency_per_million": 5.76,
+    "source": "IS"
+  },
+  {
+    "id": "IS-048",
+    "idiom": "first up",
+    "genre": "spoken",
+    "frequency_per_million": 3.36,
+    "source": "IS"
+  },
+  {
+    "id": "IS-049",
+    "idiom": "be good news",
+    "genre": "spoken",
+    "frequency_per_million": 5.4,
+    "source": "IS"
+  },
+  {
+    "id": "IS-050",
+    "idiom": "round (or around) the clock",
+    "genre": "spoken",
+    "frequency_per_million": 3.34,
+    "source": "IS"
+  },
+  {
+    "id": "IS-051",
+    "idiom": "big deal",
+    "genre": "fiction",
+    "frequency_per_million": 13.18,
+    "source": "IS"
+  },
+  {
+    "id": "IS-052",
+    "idiom": "look someone up and down",
+    "genre": "fiction",
+    "frequency_per_million": 5.27,
+    "source": "IS"
+  },
+  {
+    "id": "IS-053",
+    "idiom": "(all) of a sudden",
+    "genre": "fiction",
+    "frequency_per_million": 12.18,
+    "source": "IS"
+  },
+  {
+    "id": "IS-054",
+    "idiom": "be history",
+    "genre": "fiction",
+    "frequency_per_million": 5.14,
+    "source": "IS"
+  },
+  {
+    "id": "IS-055",
+    "idiom": "every last (or single)",
+    "genre": "fiction",
+    "frequency_per_million": 12.11,
+    "source": "IS"
+  },
+  {
+    "id": "IS-056",
+    "idiom": "all over the place",
+    "genre": "fiction",
+    "frequency_per_million": 5.1,
+    "source": "IS"
+  },
+  {
+    "id": "IS-057",
+    "idiom": "meet someone's eye (or eyes or gaze)",
+    "genre": "fiction",
+    "frequency_per_million": 11.98,
+    "source": "IS"
+  },
+  {
+    "id": "IS-058",
+    "idiom": "have something on one's mind",
+    "genre": "fiction",
+    "frequency_per_million": 5.08,
+    "source": "IS"
+  },
+  {
+    "id": "IS-059",
+    "idiom": "look someone in the eye (or face)",
+    "genre": "fiction",
+    "frequency_per_million": 11.98,
+    "source": "IS"
+  },
+  {
+    "id": "IS-060",
+    "idiom": "on (or off) the air",
+    "genre": "fiction",
+    "frequency_per_million": 5.05,
+    "source": "IS"
+  },
+  {
+    "id": "IS-061",
+    "idiom": "on someone's mind",
+    "genre": "fiction",
+    "frequency_per_million": 11.26,
+    "source": "IS"
+  },
+  {
+    "id": "IS-062",
+    "idiom": "lose one's mind (or one's marbles)",
+    "genre": "fiction",
+    "frequency_per_million": 4.98,
+    "source": "IS"
+  },
+  {
+    "id": "IS-063",
+    "idiom": "once (or every once) in a while",
+    "genre": "fiction",
+    "frequency_per_million": 10.39,
+    "source": "IS"
+  },
+  {
+    "id": "IS-064",
+    "idiom": "stay put",
+    "genre": "fiction",
+    "frequency_per_million": 4.9,
+    "source": "IS"
+  },
+  {
+    "id": "IS-065",
+    "idiom": "let it go (or pass)",
+    "genre": "fiction",
+    "frequency_per_million": 10.1,
+    "source": "IS"
+  },
+  {
+    "id": "IS-066",
+    "idiom": "set (or put) one's hand to",
+    "genre": "fiction",
+    "frequency_per_million": 4.9,
+    "source": "IS"
+  },
+  {
+    "id": "IS-067",
+    "idiom": "a (or one) hell of a —",
+    "genre": "fiction",
+    "frequency_per_million": 9.6,
+    "source": "IS"
+  },
+  {
+    "id": "IS-068",
+    "idiom": "come (or spring) to mind",
+    "genre": "fiction",
+    "frequency_per_million": 4.83,
+    "source": "IS"
+  },
+  {
+    "id": "IS-069",
+    "idiom": "out of one's mind",
+    "genre": "fiction",
+    "frequency_per_million": 9.2,
+    "source": "IS"
+  },
+  {
+    "id": "IS-070",
+    "idiom": "not give a damn (or hoot)",
+    "genre": "fiction",
+    "frequency_per_million": 4.75,
+    "source": "IS"
+  },
+  {
+    "id": "IS-071",
+    "idiom": "open the door to",
+    "genre": "fiction",
+    "frequency_per_million": 8.25,
+    "source": "IS"
+  },
+  {
+    "id": "IS-072",
+    "idiom": "in (or into) the open",
+    "genre": "fiction",
+    "frequency_per_million": 4.67,
+    "source": "IS"
+  },
+  {
+    "id": "IS-073",
+    "idiom": "be there for someone",
+    "genre": "fiction",
+    "frequency_per_million": 8.25,
+    "source": "IS"
+  },
+  {
+    "id": "IS-074",
+    "idiom": "the real thing",
+    "genre": "fiction",
+    "frequency_per_million": 4.66,
+    "source": "IS"
+  },
+  {
+    "id": "IS-075",
+    "idiom": "keep (or lose) one's head",
+    "genre": "fiction",
+    "frequency_per_million": 8.15,
+    "source": "IS"
+  },
+  {
+    "id": "IS-076",
+    "idiom": "if anything",
+    "genre": "fiction",
+    "frequency_per_million": 4.62,
+    "source": "IS"
+  },
+  {
+    "id": "IS-077",
+    "idiom": "make (or pull) a face (or faces)",
+    "genre": "fiction",
+    "frequency_per_million": 7.56,
+    "source": "IS"
+  },
+  {
+    "id": "IS-078",
+    "idiom": "and all that (or and that)",
+    "genre": "fiction",
+    "frequency_per_million": 4.07,
+    "source": "IS"
+  },
+  {
+    "id": "IS-079",
+    "idiom": "on the side",
+    "genre": "fiction",
+    "frequency_per_million": 7.44,
+    "source": "IS"
+  },
+  {
+    "id": "IS-080",
+    "idiom": "pissed off",
+    "genre": "fiction",
+    "frequency_per_million": 4.01,
+    "source": "IS"
+  },
+  {
+    "id": "IS-081",
+    "idiom": "do someone a favor",
+    "genre": "fiction",
+    "frequency_per_million": 7.12,
+    "source": "IS"
+  },
+  {
+    "id": "IS-082",
+    "idiom": "close to (or close on)",
+    "genre": "fiction",
+    "frequency_per_million": 3.95,
+    "source": "IS"
+  },
+  {
+    "id": "IS-083",
+    "idiom": "the old days",
+    "genre": "fiction",
+    "frequency_per_million": 7.04,
+    "source": "IS"
+  },
+  {
+    "id": "IS-084",
+    "idiom": "for real",
+    "genre": "fiction",
+    "frequency_per_million": 3.94,
+    "source": "IS"
+  },
+  {
+    "id": "IS-085",
+    "idiom": "on the horizon",
+    "genre": "fiction",
+    "frequency_per_million": 6.87,
+    "source": "IS"
+  },
+  {
+    "id": "IS-086",
+    "idiom": "clap (or lay or set) eyes on",
+    "genre": "fiction",
+    "frequency_per_million": 3.93,
+    "source": "IS"
+  },
+  {
+    "id": "IS-087",
+    "idiom": "know better than to",
+    "genre": "fiction",
+    "frequency_per_million": 6.65,
+    "source": "IS"
+  },
+  {
+    "id": "IS-088",
+    "idiom": "for free",
+    "genre": "fiction",
+    "frequency_per_million": 3.86,
+    "source": "IS"
+  },
+  {
+    "id": "IS-089",
+    "idiom": "for all someone knows",
+    "genre": "fiction",
+    "frequency_per_million": 6.64,
+    "source": "IS"
+  },
+  {
+    "id": "IS-090",
+    "idiom": "mean to say",
+    "genre": "fiction",
+    "frequency_per_million": 3.85,
+    "source": "IS"
+  },
+  {
+    "id": "IS-091",
+    "idiom": "before you know where you are (or before you know it)",
+    "genre": "fiction",
+    "frequency_per_million": 5.96,
+    "source": "IS"
+  },
+  {
+    "id": "IS-092",
+    "idiom": "get the hell out (of)",
+    "genre": "fiction",
+    "frequency_per_million": 3.83,
+    "source": "IS"
+  },
+  {
+    "id": "IS-093",
+    "idiom": "snap (or click) one's fingers",
+    "genre": "fiction",
+    "frequency_per_million": 5.94,
+    "source": "IS"
+  },
+  {
+    "id": "IS-094",
+    "idiom": "the likes of",
+    "genre": "fiction",
+    "frequency_per_million": 3.79,
+    "source": "IS"
+  },
+  {
+    "id": "IS-095",
+    "idiom": "take someone aback",
+    "genre": "fiction",
+    "frequency_per_million": 5.78,
+    "source": "IS"
+  },
+  {
+    "id": "IS-096",
+    "idiom": "give (or lend) a hand",
+    "genre": "fiction",
+    "frequency_per_million": 3.79,
+    "source": "IS"
+  },
+  {
+    "id": "IS-097",
+    "idiom": "take it easy",
+    "genre": "fiction",
+    "frequency_per_million": 5.48,
+    "source": "IS"
+  },
+  {
+    "id": "IS-098",
+    "idiom": "kick someone's ass (or butt)",
+    "genre": "fiction",
+    "frequency_per_million": 3.74,
+    "source": "IS"
+  },
+  {
+    "id": "IS-099",
+    "idiom": "off (or out of) one's head",
+    "genre": "fiction",
+    "frequency_per_million": 5.3,
+    "source": "IS"
+  },
+  {
+    "id": "IS-100",
+    "idiom": "hold (or keep) someone or something at bay",
+    "genre": "fiction",
+    "frequency_per_million": 3.67,
+    "source": "IS"
+  },
+  {
+    "id": "IS-101",
+    "idiom": "the bottom line",
+    "genre": "magazine",
+    "frequency_per_million": 11.05,
+    "source": "IS"
+  },
+  {
+    "id": "IS-102",
+    "idiom": "stay put",
+    "genre": "magazine",
+    "frequency_per_million": 4.22,
+    "source": "IS"
+  },
+  {
+    "id": "IS-103",
+    "idiom": "every last (or single)",
+    "genre": "magazine",
+    "frequency_per_million": 10.4,
+    "source": "IS"
+  },
+  {
+    "id": "IS-104",
+    "idiom": "do the trick",
+    "genre": "magazine",
+    "frequency_per_million": 4.2,
+    "source": "IS"
+  },
+  {
+    "id": "IS-105",
+    "idiom": "in the long run (or term)",
+    "genre": "magazine",
+    "frequency_per_million": 9.3,
+    "source": "IS"
+  },
+  {
+    "id": "IS-106",
+    "idiom": "behind the scenes",
+    "genre": "magazine",
+    "frequency_per_million": 4.16,
+    "source": "IS"
+  },
+  {
+    "id": "IS-107",
+    "idiom": "big deal",
+    "genre": "magazine",
+    "frequency_per_million": 8.68,
+    "source": "IS"
+  },
+  {
+    "id": "IS-108",
+    "idiom": "in the short run (or term)",
+    "genre": "magazine",
+    "frequency_per_million": 4.1,
+    "source": "IS"
+  },
+  {
+    "id": "IS-109",
+    "idiom": "the likes of",
+    "genre": "magazine",
+    "frequency_per_million": 7.25,
+    "source": "IS"
+  },
+  {
+    "id": "IS-110",
+    "idiom": "hold (or keep) someone or something at bay",
+    "genre": "magazine",
+    "frequency_per_million": 3.75,
+    "source": "IS"
+  },
+  {
+    "id": "IS-111",
+    "idiom": "for free",
+    "genre": "magazine",
+    "frequency_per_million": 6.91,
+    "source": "IS"
+  },
+  {
+    "id": "IS-112",
+    "idiom": "pave the way for",
+    "genre": "magazine",
+    "frequency_per_million": 3.66,
+    "source": "IS"
+  },
+  {
+    "id": "IS-113",
+    "idiom": "be there for someone",
+    "genre": "magazine",
+    "frequency_per_million": 6.85,
+    "source": "IS"
+  },
+  {
+    "id": "IS-114",
+    "idiom": "keep (or lose) one's head",
+    "genre": "magazine",
+    "frequency_per_million": 6.63,
+    "source": "IS"
+  },
+  {
+    "id": "IS-115",
+    "idiom": "(all) of a sudden",
+    "genre": "magazine",
+    "frequency_per_million": 6.71,
+    "source": "IS"
+  },
+  {
+    "id": "IS-116",
+    "idiom": "rule of thumb",
+    "genre": "magazine",
+    "frequency_per_million": 3.61,
+    "source": "IS"
+  },
+  {
+    "id": "IS-117",
+    "idiom": "from scratch",
+    "genre": "magazine",
+    "frequency_per_million": 6.23,
+    "source": "IS"
+  },
+  {
+    "id": "IS-118",
+    "idiom": "hold one's own",
+    "genre": "magazine",
+    "frequency_per_million": 3.55,
+    "source": "IS"
+  },
+  {
+    "id": "IS-119",
+    "idiom": "at the end of the day",
+    "genre": "magazine",
+    "frequency_per_million": 6.13,
+    "source": "IS"
+  },
+  {
+    "id": "IS-120",
+    "idiom": "follow suit",
+    "genre": "magazine",
+    "frequency_per_million": 3.55,
+    "source": "IS"
+  },
+  {
+    "id": "IS-121",
+    "idiom": "last thing",
+    "genre": "magazine",
+    "frequency_per_million": 6.05,
+    "source": "IS"
+  },
+  {
+    "id": "IS-122",
+    "idiom": "to boot",
+    "genre": "magazine",
+    "frequency_per_million": 3.49,
+    "source": "IS"
+  },
+  {
+    "id": "IS-123",
+    "idiom": "close to (or close on)",
+    "genre": "magazine",
+    "frequency_per_million": 5.94,
+    "source": "IS"
+  },
+  {
+    "id": "IS-124",
+    "idiom": "nothing less than",
+    "genre": "magazine",
+    "frequency_per_million": 3.46,
+    "source": "IS"
+  },
+  {
+    "id": "IS-125",
+    "idiom": "once (or every once) in a while",
+    "genre": "magazine",
+    "frequency_per_million": 5.6,
+    "source": "IS"
+  },
+  {
+    "id": "IS-126",
+    "idiom": "the old days",
+    "genre": "magazine",
+    "frequency_per_million": 3.44,
+    "source": "IS"
+  },
+  {
+    "id": "IS-127",
+    "idiom": "on someone's mind",
+    "genre": "magazine",
+    "frequency_per_million": 5.49,
+    "source": "IS"
+  },
+  {
+    "id": "IS-128",
+    "idiom": "look someone in the eye (or face)",
+    "genre": "magazine",
+    "frequency_per_million": 3.42,
+    "source": "IS"
+  },
+  {
+    "id": "IS-129",
+    "idiom": "if anything",
+    "genre": "magazine",
+    "frequency_per_million": 5.47,
+    "source": "IS"
+  },
+  {
+    "id": "IS-130",
+    "idiom": "in (or out of) sync",
+    "genre": "magazine",
+    "frequency_per_million": 3.33,
+    "source": "IS"
+  },
+  {
+    "id": "IS-131",
+    "idiom": "go public",
+    "genre": "magazine",
+    "frequency_per_million": 5.38,
+    "source": "IS"
+  },
+  {
+    "id": "IS-132",
+    "idiom": "be good news",
+    "genre": "magazine",
+    "frequency_per_million": 3.29,
+    "source": "IS"
+  },
+  {
+    "id": "IS-133",
+    "idiom": "on (the) record",
+    "genre": "magazine",
+    "frequency_per_million": 5.19,
+    "source": "IS"
+  },
+  {
+    "id": "IS-134",
+    "idiom": "do away with something",
+    "genre": "magazine",
+    "frequency_per_million": 3.27,
+    "source": "IS"
+  },
+  {
+    "id": "IS-135",
+    "idiom": "on the horizon",
+    "genre": "magazine",
+    "frequency_per_million": 5.14,
+    "source": "IS"
+  },
+  {
+    "id": "IS-136",
+    "idiom": "come of age",
+    "genre": "magazine",
+    "frequency_per_million": 3.25,
+    "source": "IS"
+  },
+  {
+    "id": "IS-137",
+    "idiom": "on the side",
+    "genre": "magazine",
+    "frequency_per_million": 5.12,
+    "source": "IS"
+  },
+  {
+    "id": "IS-138",
+    "idiom": "think twice",
+    "genre": "magazine",
+    "frequency_per_million": 3.24,
+    "source": "IS"
+  },
+  {
+    "id": "IS-139",
+    "idiom": "fall short (of)",
+    "genre": "magazine",
+    "frequency_per_million": 4.94,
+    "source": "IS"
+  },
+  {
+    "id": "IS-140",
+    "idiom": "in (or out of) perspective",
+    "genre": "magazine",
+    "frequency_per_million": 3.19,
+    "source": "IS"
+  },
+  {
+    "id": "IS-141",
+    "idiom": "come (or spring) to mind",
+    "genre": "magazine",
+    "frequency_per_million": 4.75,
+    "source": "IS"
+  },
+  {
+    "id": "IS-142",
+    "idiom": "the hard way",
+    "genre": "magazine",
+    "frequency_per_million": 3.15,
+    "source": "IS"
+  },
+  {
+    "id": "IS-143",
+    "idiom": "one's best bet",
+    "genre": "magazine",
+    "frequency_per_million": 4.72,
+    "source": "IS"
+  },
+  {
+    "id": "IS-144",
+    "idiom": "— as we know it",
+    "genre": "magazine",
+    "frequency_per_million": 3.05,
+    "source": "IS"
+  },
+  {
+    "id": "IS-145",
+    "idiom": "on (or off) the air",
+    "genre": "magazine",
+    "frequency_per_million": 4.52,
+    "source": "IS"
+  },
+  {
+    "id": "IS-146",
+    "idiom": "across the board",
+    "genre": "magazine",
+    "frequency_per_million": 3.01,
+    "source": "IS"
+  },
+  {
+    "id": "IS-147",
+    "idiom": "the real thing",
+    "genre": "magazine",
+    "frequency_per_million": 4.5,
+    "source": "IS"
+  },
+  {
+    "id": "IS-148",
+    "idiom": "all over the place",
+    "genre": "magazine",
+    "frequency_per_million": 3.0,
+    "source": "IS"
+  },
+  {
+    "id": "IS-149",
+    "idiom": "leave (or make) its (or one's or a) mark",
+    "genre": "magazine",
+    "frequency_per_million": 4.24,
+    "source": "IS"
+  },
+  {
+    "id": "IS-150",
+    "idiom": "under fire",
+    "genre": "magazine",
+    "frequency_per_million": 3.0,
+    "source": "IS"
+  },
+  {
+    "id": "IS-151",
+    "idiom": "the bottom line",
+    "genre": "newspaper",
+    "frequency_per_million": 12.3,
+    "source": "IS"
+  },
+  {
+    "id": "IS-152",
+    "idiom": "leave (or make) its (or one's or a) mark",
+    "genre": "newspaper",
+    "frequency_per_million": 3.94,
+    "source": "IS"
+  },
+  {
+    "id": "IS-153",
+    "idiom": "every last (or single)",
+    "genre": "newspaper",
+    "frequency_per_million": 9.84,
+    "source": "IS"
+  },
+  {
+    "id": "IS-154",
+    "idiom": "set the stage",
+    "genre": "newspaper",
+    "frequency_per_million": 3.94,
+    "source": "IS"
+  },
+  {
+    "id": "IS-155",
+    "idiom": "big deal",
+    "genre": "newspaper",
+    "frequency_per_million": 9.57,
+    "source": "IS"
+  },
+  {
+    "id": "IS-156",
+    "idiom": "pave the way for",
+    "genre": "newspaper",
+    "frequency_per_million": 3.82,
+    "source": "IS"
+  },
+  {
+    "id": "IS-157",
+    "idiom": "on (or off) the air",
+    "genre": "newspaper",
+    "frequency_per_million": 8.83,
+    "source": "IS"
+  },
+  {
+    "id": "IS-158",
+    "idiom": "the old days",
+    "genre": "newspaper",
+    "frequency_per_million": 3.71,
+    "source": "IS"
+  },
+  {
+    "id": "IS-159",
+    "idiom": "in the long run (or term)",
+    "genre": "newspaper",
+    "frequency_per_million": 8.7,
+    "source": "IS"
+  },
+  {
+    "id": "IS-160",
+    "idiom": "do away with something",
+    "genre": "newspaper",
+    "frequency_per_million": 3.57,
+    "source": "IS"
+  },
+  {
+    "id": "IS-161",
+    "idiom": "(all) of a sudden",
+    "genre": "newspaper",
+    "frequency_per_million": 8.68,
+    "source": "IS"
+  },
+  {
+    "id": "IS-162",
+    "idiom": "the real thing",
+    "genre": "newspaper",
+    "frequency_per_million": 3.52,
+    "source": "IS"
+  },
+  {
+    "id": "IS-163",
+    "idiom": "the likes of",
+    "genre": "newspaper",
+    "frequency_per_million": 7.83,
+    "source": "IS"
+  },
+  {
+    "id": "IS-164",
+    "idiom": "across the board",
+    "genre": "newspaper",
+    "frequency_per_million": 3.49,
+    "source": "IS"
+  },
+  {
+    "id": "IS-165",
+    "idiom": "for free",
+    "genre": "newspaper",
+    "frequency_per_million": 7.58,
+    "source": "IS"
+  },
+  {
+    "id": "IS-166",
+    "idiom": "follow suit",
+    "genre": "newspaper",
+    "frequency_per_million": 3.45,
+    "source": "IS"
+  },
+  {
+    "id": "IS-167",
+    "idiom": "go public",
+    "genre": "newspaper",
+    "frequency_per_million": 7.57,
+    "source": "IS"
+  },
+  {
+    "id": "IS-168",
+    "idiom": "come of age",
+    "genre": "newspaper",
+    "frequency_per_million": 3.43,
+    "source": "IS"
+  },
+  {
+    "id": "IS-169",
+    "idiom": "fall short (of)",
+    "genre": "newspaper",
+    "frequency_per_million": 7.42,
+    "source": "IS"
+  },
+  {
+    "id": "IS-170",
+    "idiom": "make (or miss) the cut",
+    "genre": "newspaper",
+    "frequency_per_million": 3.42,
+    "source": "IS"
+  },
+  {
+    "id": "IS-171",
+    "idiom": "from scratch",
+    "genre": "newspaper",
+    "frequency_per_million": 6.41,
+    "source": "IS"
+  },
+  {
+    "id": "IS-172",
+    "idiom": "in (or out of) perspective",
+    "genre": "newspaper",
+    "frequency_per_million": 3.36,
+    "source": "IS"
+  },
+  {
+    "id": "IS-173",
+    "idiom": "at the end of the day",
+    "genre": "newspaper",
+    "frequency_per_million": 6.34,
+    "source": "IS"
+  },
+  {
+    "id": "IS-174",
+    "idiom": "make (both) ends meet",
+    "genre": "newspaper",
+    "frequency_per_million": 3.32,
+    "source": "IS"
+  },
+  {
+    "id": "IS-175",
+    "idiom": "on (the) record",
+    "genre": "newspaper",
+    "frequency_per_million": 6.3,
+    "source": "IS"
+  },
+  {
+    "id": "IS-176",
+    "idiom": "come (or spring) to mind",
+    "genre": "newspaper",
+    "frequency_per_million": 3.26,
+    "source": "IS"
+  },
+  {
+    "id": "IS-177",
+    "idiom": "if anything",
+    "genre": "newspaper",
+    "frequency_per_million": 6.09,
+    "source": "IS"
+  },
+  {
+    "id": "IS-178",
+    "idiom": "for the record",
+    "genre": "newspaper",
+    "frequency_per_million": 3.17,
+    "source": "IS"
+  },
+  {
+    "id": "IS-179",
+    "idiom": "close to (or close on)",
+    "genre": "newspaper",
+    "frequency_per_million": 6.05,
+    "source": "IS"
+  },
+  {
+    "id": "IS-180",
+    "idiom": "raise one's eyebrows (or an eyebrow)",
+    "genre": "newspaper",
+    "frequency_per_million": 3.14,
+    "source": "IS"
+  },
+  {
+    "id": "IS-181",
+    "idiom": "behind the scenes",
+    "genre": "newspaper",
+    "frequency_per_million": 5.63,
+    "source": "IS"
+  },
+  {
+    "id": "IS-182",
+    "idiom": "all over the place",
+    "genre": "newspaper",
+    "frequency_per_million": 3.11,
+    "source": "IS"
+  },
+  {
+    "id": "IS-183",
+    "idiom": "last thing",
+    "genre": "newspaper",
+    "frequency_per_million": 5.47,
+    "source": "IS"
+  },
+  {
+    "id": "IS-184",
+    "idiom": "by and large",
+    "genre": "newspaper",
+    "frequency_per_million": 3.09,
+    "source": "IS"
+  },
+  {
+    "id": "IS-185",
+    "idiom": "under fire",
+    "genre": "newspaper",
+    "frequency_per_million": 5.37,
+    "source": "IS"
+  },
+  {
+    "id": "IS-186",
+    "idiom": "in (or out of) key",
+    "genre": "newspaper",
+    "frequency_per_million": 3.0,
+    "source": "IS"
+  },
+  {
+    "id": "IS-187",
+    "idiom": "on someone's mind",
+    "genre": "newspaper",
+    "frequency_per_million": 5.0,
+    "source": "IS"
+  },
+  {
+    "id": "IS-188",
+    "idiom": "think twice",
+    "genre": "newspaper",
+    "frequency_per_million": 2.85,
+    "source": "IS"
+  },
+  {
+    "id": "IS-189",
+    "idiom": "on the side",
+    "genre": "newspaper",
+    "frequency_per_million": 4.84,
+    "source": "IS"
+  },
+  {
+    "id": "IS-190",
+    "idiom": "be good news",
+    "genre": "newspaper",
+    "frequency_per_million": 2.83,
+    "source": "IS"
+  },
+  {
+    "id": "IS-191",
+    "idiom": "in the short run (or term)",
+    "genre": "newspaper",
+    "frequency_per_million": 4.62,
+    "source": "IS"
+  },
+  {
+    "id": "IS-192",
+    "idiom": "hold one's own",
+    "genre": "newspaper",
+    "frequency_per_million": 2.77,
+    "source": "IS"
+  },
+  {
+    "id": "IS-193",
+    "idiom": "on (or from) the sidelines",
+    "genre": "newspaper",
+    "frequency_per_million": 4.54,
+    "source": "IS"
+  },
+  {
+    "id": "IS-194",
+    "idiom": "round (or around) the clock",
+    "genre": "newspaper",
+    "frequency_per_million": 2.72,
+    "source": "IS"
+  },
+  {
+    "id": "IS-195",
+    "idiom": "on the horizon",
+    "genre": "newspaper",
+    "frequency_per_million": 4.29,
+    "source": "IS"
+  },
+  {
+    "id": "IS-196",
+    "idiom": "catch fire",
+    "genre": "newspaper",
+    "frequency_per_million": 2.71,
+    "source": "IS"
+  },
+  {
+    "id": "IS-197",
+    "idiom": "once (or every once) in a while",
+    "genre": "newspaper",
+    "frequency_per_million": 4.05,
+    "source": "IS"
+  },
+  {
+    "id": "IS-198",
+    "idiom": "open the door to",
+    "genre": "newspaper",
+    "frequency_per_million": 2.65,
+    "source": "IS"
+  },
+  {
+    "id": "IS-199",
+    "idiom": "the American dream",
+    "genre": "newspaper",
+    "frequency_per_million": 4.05,
+    "source": "IS"
+  },
+  {
+    "id": "IS-200",
+    "idiom": "behind closed doors",
+    "genre": "newspaper",
+    "frequency_per_million": 2.61,
+    "source": "IS"
+  },
+  {
+    "id": "IS-201",
+    "idiom": "in the long run (or term)",
+    "genre": "academic",
+    "frequency_per_million": 9.56,
+    "source": "IS"
+  },
+  {
+    "id": "IS-202",
+    "idiom": "on the horizon",
+    "genre": "academic",
+    "frequency_per_million": 2.39,
+    "source": "IS"
+  },
+  {
+    "id": "IS-203",
+    "idiom": "in (the) light of",
+    "genre": "academic",
+    "frequency_per_million": 7.38,
+    "source": "IS"
+  },
+  {
+    "id": "IS-204",
+    "idiom": "by the same token",
+    "genre": "academic",
+    "frequency_per_million": 2.34,
+    "source": "IS"
+  },
+  {
+    "id": "IS-205",
+    "idiom": "in the short run (or term)",
+    "genre": "academic",
+    "frequency_per_million": 4.54,
+    "source": "IS"
+  },
+  {
+    "id": "IS-206",
+    "idiom": "in (or out of) key",
+    "genre": "academic",
+    "frequency_per_million": 2.32,
+    "source": "IS"
+  },
+  {
+    "id": "IS-207",
+    "idiom": "as it were",
+    "genre": "academic",
+    "frequency_per_million": 5.51,
+    "source": "IS"
+  },
+  {
+    "id": "IS-208",
+    "idiom": "to name (but) a few",
+    "genre": "academic",
+    "frequency_per_million": 2.31,
+    "source": "IS"
+  },
+  {
+    "id": "IS-209",
+    "idiom": "fall short (of)",
+    "genre": "academic",
+    "frequency_per_million": 4.99,
+    "source": "IS"
+  },
+  {
+    "id": "IS-210",
+    "idiom": "take root",
+    "genre": "academic",
+    "frequency_per_million": 2.25,
+    "source": "IS"
+  },
+  {
+    "id": "IS-211",
+    "idiom": "set the stage",
+    "genre": "academic",
+    "frequency_per_million": 4.79,
+    "source": "IS"
+  },
+  {
+    "id": "IS-212",
+    "idiom": "follow suit",
+    "genre": "academic",
+    "frequency_per_million": 2.16,
+    "source": "IS"
+  },
+  {
+    "id": "IS-213",
+    "idiom": "close to (or close on)",
+    "genre": "academic",
+    "frequency_per_million": 4.72,
+    "source": "IS"
+  },
+  {
+    "id": "IS-214",
+    "idiom": "the American dream",
+    "genre": "academic",
+    "frequency_per_million": 2.16,
+    "source": "IS"
+  },
+  {
+    "id": "IS-215",
+    "idiom": "if anything",
+    "genre": "academic",
+    "frequency_per_million": 4.62,
+    "source": "IS"
+  },
+  {
+    "id": "IS-216",
+    "idiom": "from scratch",
+    "genre": "academic",
+    "frequency_per_million": 2.09,
+    "source": "IS"
+  },
+  {
+    "id": "IS-217",
+    "idiom": "pave the way for",
+    "genre": "academic",
+    "frequency_per_million": 4.1,
+    "source": "IS"
+  },
+  {
+    "id": "IS-218",
+    "idiom": "trial and error",
+    "genre": "academic",
+    "frequency_per_million": 2.04,
+    "source": "IS"
+  },
+  {
+    "id": "IS-219",
+    "idiom": "by and large",
+    "genre": "academic",
+    "frequency_per_million": 4.08,
+    "source": "IS"
+  },
+  {
+    "id": "IS-220",
+    "idiom": "be there for someone",
+    "genre": "academic",
+    "frequency_per_million": 2.03,
+    "source": "IS"
+  },
+  {
+    "id": "IS-221",
+    "idiom": "for free",
+    "genre": "academic",
+    "frequency_per_million": 3.6,
+    "source": "IS"
+  },
+  {
+    "id": "IS-222",
+    "idiom": "on (the) record",
+    "genre": "academic",
+    "frequency_per_million": 1.92,
+    "source": "IS"
+  },
+  {
+    "id": "IS-223",
+    "idiom": "come (or spring) to mind",
+    "genre": "academic",
+    "frequency_per_million": 3.52,
+    "source": "IS"
+  },
+  {
+    "id": "IS-224",
+    "idiom": "on someone's mind",
+    "genre": "academic",
+    "frequency_per_million": 1.9,
+    "source": "IS"
+  },
+  {
+    "id": "IS-225",
+    "idiom": "do someone or something justice (or do justice to someone or something)",
+    "genre": "academic",
+    "frequency_per_million": 3.41,
+    "source": "IS"
+  },
+  {
+    "id": "IS-226",
+    "idiom": "once and for all (or once for all)",
+    "genre": "academic",
+    "frequency_per_million": 1.83,
+    "source": "IS"
+  },
+  {
+    "id": "IS-227",
+    "idiom": "the bottom line",
+    "genre": "academic",
+    "frequency_per_million": 3.29,
+    "source": "IS"
+  },
+  {
+    "id": "IS-228",
+    "idiom": "the pros and cons",
+    "genre": "academic",
+    "frequency_per_million": 1.77,
+    "source": "IS"
+  },
+  {
+    "id": "IS-229",
+    "idiom": "under the auspices of",
+    "genre": "academic",
+    "frequency_per_million": 3.24,
+    "source": "IS"
+  },
+  {
+    "id": "IS-230",
+    "idiom": "it remains to be seen",
+    "genre": "academic",
+    "frequency_per_million": 1.69,
+    "source": "IS"
+  },
+  {
+    "id": "IS-231",
+    "idiom": "in tandem",
+    "genre": "academic",
+    "frequency_per_million": 3.23,
+    "source": "IS"
+  },
+  {
+    "id": "IS-232",
+    "idiom": "behind the scenes",
+    "genre": "academic",
+    "frequency_per_million": 1.67,
+    "source": "IS"
+  },
+  {
+    "id": "IS-233",
+    "idiom": "do away with something",
+    "genre": "academic",
+    "frequency_per_million": 3.12,
+    "source": "IS"
+  },
+  {
+    "id": "IS-234",
+    "idiom": "— as we know it",
+    "genre": "academic",
+    "frequency_per_million": 1.65,
+    "source": "IS"
+  },
+  {
+    "id": "IS-235",
+    "idiom": "nothing less than",
+    "genre": "academic",
+    "frequency_per_million": 3.05,
+    "source": "IS"
+  },
+  {
+    "id": "IS-236",
+    "idiom": "hearts and minds",
+    "genre": "academic",
+    "frequency_per_million": 1.65,
+    "source": "IS"
+  },
+  {
+    "id": "IS-237",
+    "idiom": "in force",
+    "genre": "academic",
+    "frequency_per_million": 2.74,
+    "source": "IS"
+  },
+  {
+    "id": "IS-238",
+    "idiom": "at a (or the) crossroads",
+    "genre": "academic",
+    "frequency_per_million": 1.63,
+    "source": "IS"
+  },
+  {
+    "id": "IS-239",
+    "idiom": "one and the same",
+    "genre": "academic",
+    "frequency_per_million": 2.67,
+    "source": "IS"
+  },
+  {
+    "id": "IS-240",
+    "idiom": "at the end of the day",
+    "genre": "academic",
+    "frequency_per_million": 1.63,
+    "source": "IS"
+  },
+  {
+    "id": "IS-241",
+    "idiom": "in (or out of) perspective",
+    "genre": "academic",
+    "frequency_per_million": 2.63,
+    "source": "IS"
+  },
+  {
+    "id": "IS-242",
+    "idiom": "state of the art",
+    "genre": "academic",
+    "frequency_per_million": 1.48,
+    "source": "IS"
+  },
+  {
+    "id": "IS-243",
+    "idiom": "come of age",
+    "genre": "academic",
+    "frequency_per_million": 2.58,
+    "source": "IS"
+  },
+  {
+    "id": "IS-244",
+    "idiom": "come (or get) to grips with",
+    "genre": "academic",
+    "frequency_per_million": 1.46,
+    "source": "IS"
+  },
+  {
+    "id": "IS-245",
+    "idiom": "in the final analysis",
+    "genre": "academic",
+    "frequency_per_million": 2.49,
+    "source": "IS"
+  },
+  {
+    "id": "IS-246",
+    "idiom": "the likes of",
+    "genre": "academic",
+    "frequency_per_million": 1.42,
+    "source": "IS"
+  },
+  {
+    "id": "IS-247",
+    "idiom": "open the door to",
+    "genre": "academic",
+    "frequency_per_million": 2.46,
+    "source": "IS"
+  },
+  {
+    "id": "IS-248",
+    "idiom": "across the board",
+    "genre": "academic",
+    "frequency_per_million": 1.39,
+    "source": "IS"
+  },
+  {
+    "id": "IS-249",
+    "idiom": "every last (or single)",
+    "genre": "academic",
+    "frequency_per_million": 2.39,
+    "source": "IS"
+  },
+  {
+    "id": "IS-250",
+    "idiom": "leave (or make) its (or one's or a) mark",
+    "genre": "academic",
+    "frequency_per_million": 1.37,
+    "source": "IS"
+  }
+]

@@ -1,0 +1,2106 @@
+
+=== MAT 馬太福音 1 ===
+
+[1:1]
+  EN: The book of the genealogy of Jesus Christ, the son of David, the son of Abraham.
+  JA: アブラハムの子であるダビデの子、イエス・キリストの系図。
+[1:2]
+  EN: Abraham became the father of Isaac. Isaac became the father of Jacob. Jacob became the father of Judah and his brothers.
+  JA: アブラハムはイサクの父であり、イサクはヤコブの父、ヤコブはユダとその兄弟たちとの父、
+[1:3]
+  EN: Judah became the father of Perez and Zerah by Tamar. Perez became the father of Hezron. Hezron became the father of Ram.
+  JA: ユダはタマルによるパレスとザラとの父、パレスはエスロンの父、エスロンはアラムの父、
+[1:4]
+  EN: Ram became the father of Amminadab. Amminadab became the father of Nahshon. Nahshon became the father of Salmon.
+  JA: アラムはアミナダブの父、アミナダブはナアソンの父、ナアソンはサルモンの父、
+[1:5]
+  EN: Salmon became the father of Boaz by Rahab. Boaz became the father of Obed by Ruth. Obed became the father of Jesse.
+  JA: サルモンはラハブによるボアズの父、ボアズはルツによるオベデの父、オベデはエッサイの父、
+[1:6]
+  EN: Jesse became the father of King David. David the king became the father of Solomon by her who had been Uriah’s wife.
+  JA: エッサイはダビデ王の父であった。ダビデはウリヤの妻によるソロモンの父であり、
+[1:7]
+  EN: Solomon became the father of Rehoboam. Rehoboam became the father of Abijah. Abijah became the father of Asa.
+  JA: ソロモンはレハベアムの父、レハベアムはアビヤの父、アビヤはアサの父、
+[1:8]
+  EN: Asa became the father of Jehoshaphat. Jehoshaphat became the father of Joram. Joram became the father of Uzziah.
+  JA: アサはヨサパテの父、ヨサパテはヨラムの父、ヨラムはウジヤの父、
+[1:9]
+  EN: Uzziah became the father of Jotham. Jotham became the father of Ahaz. Ahaz became the father of Hezekiah.
+  JA: ウジヤはヨタムの父、ヨタムはアハズの父、アハズはヒゼキヤの父、
+[1:10]
+  EN: Hezekiah became the father of Manasseh. Manasseh became the father of Amon. Amon became the father of Josiah.
+  JA: ヒゼキヤはマナセの父、マナセはアモンの父、アモンはヨシヤの父、
+[1:11]
+  EN: Josiah became the father of Jechoniah and his brothers at the time of the exile to Babylon.
+  JA: ヨシヤはバビロンへ移されたころ、エコニヤとその兄弟たちとの父となった。
+[1:12]
+  EN: After the exile to Babylon, Jechoniah became the father of Shealtiel. Shealtiel became the father of Zerubbabel.
+  JA: バビロンへ移されたのち、エコニヤはサラテルの父となった。サラテルはゾロバベルの父、
+[1:13]
+  EN: Zerubbabel became the father of Abiud. Abiud became the father of Eliakim. Eliakim became the father of Azor.
+  JA: ゾロバベルはアビウデの父、アビウデはエリヤキムの父、エリヤキムはアゾルの父、
+[1:14]
+  EN: Azor became the father of Zadok. Zadok became the father of Achim. Achim became the father of Eliud.
+  JA: アゾルはサドクの父、サドクはアキムの父、アキムはエリウデの父、
+[1:15]
+  EN: Eliud became the father of Eleazar. Eleazar became the father of Matthan. Matthan became the father of Jacob.
+  JA: エリウデはエレアザルの父、エレアザルはマタンの父、マタンはヤコブの父、
+[1:16]
+  EN: Jacob became the father of Joseph, the husband of Mary, from whom was born Jesus, who is called Christ.
+  JA: ヤコブはマリヤの夫ヨセフの父であった。このマリヤからキリストといわれるイエスがお生れになった。
+[1:17]
+  EN: So all the generations from Abraham to David are fourteen generations; from David to the exile to Babylon fourteen generations; and from the carrying away to Babylon to the Christ, fourteen generations.
+  JA: だから、アブラハムからダビデまでの代は合わせて十四代、ダビデからバビロンへ移されるまでは十四代、そして、バビロンへ移されてからキリストまでは十四代である。
+[1:18]
+  EN: Now the birth of Jesus Christ was like this: After his mother, Mary, was engaged to Joseph, before they came together, she was found pregnant by the Holy Spirit.
+  JA: イエス・キリストの誕生の次第はこうであった。母マリヤはヨセフと婚約していたが、まだ一緒にならない前に、聖霊によって身重になった。
+[1:19]
+  EN: Joseph, her husband, being a righteous man, and not willing to make her a public example, intended to put her away secretly.
+  JA: 夫ヨセフは正しい人であったので、彼女のことが公けになることを好まず、ひそかに離縁しようと決心した。
+[1:20]
+  EN: But when he thought about these things, behold, an angel of the Lord appeared to him in a dream, saying, “Joseph, son of David, don’t be afraid to take to yourself Mary as your wife, for that which is conceived in her is of the Holy Spirit.
+  JA: 彼がこのことを思いめぐらしていたとき、主の使が夢に現れて言った、「ダビデの子ヨセフよ、心配しないでマリヤを妻として迎えるがよい。その胎内に宿っているものは聖霊によるのである。
+[1:21]
+  EN: She shall give birth to a son. You shall name him Jesus, for it is he who shall save his people from their sins.”
+  JA: 彼女は男の子を産むであろう。その名をイエスと名づけなさい。彼は、おのれの民をそのもろもろの罪から救う者となるからである」。
+[1:22]
+  EN: Now all this has happened that it might be fulfilled which was spoken by the Lord through the prophet, saying,
+  JA: すべてこれらのことが起ったのは、主が預言者によって言われたことの成就するためである。すなわち、
+[1:23]
+  EN: “Behold, the virgin shall be with child, and shall give birth to a son. They shall call his name Immanuel,” which is, being interpreted, “God with us.”
+  JA: 「見よ、おとめがみごもって男の子を産むであろう。その名はインマヌエルと呼ばれるであろう」。これは、「神われらと共にいます」という意味である。
+[1:24]
+  EN: Joseph arose from his sleep, and did as the angel of the Lord commanded him, and took his wife to himself;
+  JA: ヨセフは眠りからさめた後に、主の使が命じたとおりに、マリヤを妻に迎えた。
+[1:25]
+  EN: and didn’t know her sexually until she had given birth to her firstborn son. He named him Jesus.
+  JA: しかし、子が生れるまでは、彼女を知ることはなかった。そして、その子をイエスと名づけた。
+
+=== MAT 馬太福音 2 ===
+
+[2:1]
+  EN: Now when Jesus was born in Bethlehem of Judea in the days of King Herod, behold, wise men from the east came to Jerusalem, saying,
+  JA: イエスがヘロデ王の代に、ユダヤのベツレヘムでお生れになったとき、見よ、東からきた博士たちがエルサレムに着いて言った、
+[2:2]
+  EN: “Where is he who is born King of the Jews? For we saw his star in the east, and have come to worship him.”
+  JA: 「ユダヤ人の王としてお生れになったかたは、どこにおられますか。わたしたちは東の方でその星を見たので、そのかたを拝みにきました」。
+[2:3]
+  EN: When King Herod heard it, he was troubled, and all Jerusalem with him.
+  JA: ヘロデ王はこのことを聞いて不安を感じた。エルサレムの人々もみな、同様であった。
+[2:4]
+  EN: Gathering together all the chief priests and scribes of the people, he asked them where the Christ would be born.
+  JA: そこで王は祭司長たちと民の律法学者たちとを全部集めて、キリストはどこに生れるのかと、彼らに問いただした。
+[2:5]
+  EN: They said to him, “In Bethlehem of Judea, for this is written through the prophet,
+  JA: 彼らは王に言った、「それはユダヤのベツレヘムです。預言者がこうしるしています、
+[2:6]
+  EN: ‘You Bethlehem, land of Judah, are in no way least among the princes of Judah; for out of you shall come a governor who shall shepherd my people, Israel.’ ”
+  JA: 『ユダの地、ベツレヘムよ、おまえはユダの君たちの中で、決して最も小さいものではない。おまえの中からひとりの君が出て、わが民イスラエルの牧者となるであろう』」。
+[2:7]
+  EN: Then Herod secretly called the wise men, and learned from them exactly what time the star appeared.
+  JA: そこで、ヘロデはひそかに博士たちを呼んで、星の現れた時について詳しく聞き、
+[2:8]
+  EN: He sent them to Bethlehem, and said, “Go and search diligently for the young child. When you have found him, bring me word, so that I also may come and worship him.”
+  JA: 彼らをベツレヘムにつかわして言った、「行って、その幼な子のことを詳しく調べ、見つかったらわたしに知らせてくれ。わたしも拝みに行くから」。
+[2:9]
+  EN: They, having heard the king, went their way; and behold, the star, which they saw in the east, went before them until it came and stood over where the young child was.
+  JA: 彼らは王の言うことを聞いて出かけると、見よ、彼らが東方で見た星が、彼らより先に進んで、幼な子のいる所まで行き、その上にとどまった。
+[2:10]
+  EN: When they saw the star, they rejoiced with exceedingly great joy.
+  JA: 彼らはその星を見て、非常な喜びにあふれた。
+[2:11]
+  EN: They came into the house and saw the young child with Mary, his mother, and they fell down and worshiped him. Opening their treasures, they offered to him gifts: gold, frankincense, and myrrh.
+  JA: そして、家にはいって、母マリヤのそばにいる幼な子に会い、ひれ伏して拝み、また、宝の箱をあけて、黄金・乳香・没薬などの贈り物をささげた。
+[2:12]
+  EN: Being warned in a dream not to return to Herod, they went back to their own country another way.
+  JA: そして、夢でヘロデのところに帰るなとのみ告げを受けたので、他の道をとおって自分の国へ帰って行った。
+[2:13]
+  EN: Now when they had departed, behold, an angel of the Lord appeared to Joseph in a dream, saying, “Arise and take the young child and his mother, and flee into Egypt, and stay there until I tell you, for Herod will seek the young child to destroy him.”
+  JA: 彼らが帰って行ったのち、見よ、主の使が夢でヨセフに現れて言った、「立って、幼な子とその母を連れて、エジプトに逃げなさい。そして、あなたに知らせるまで、そこにとどまっていなさい。ヘロデが幼な子を捜し出して、殺そうとしている」。
+[2:14]
+  EN: He arose and took the young child and his mother by night and departed into Egypt,
+  JA: そこで、ヨセフは立って、夜の間に幼な子とその母とを連れてエジプトへ行き、
+[2:15]
+  EN: and was there until the death of Herod, that it might be fulfilled which was spoken by the Lord through the prophet, saying, “Out of Egypt I called my son.”
+  JA: ヘロデが死ぬまでそこにとどまっていた。それは、主が預言者によって「エジプトからわが子を呼び出した」と言われたことが、成就するためである。
+[2:16]
+  EN: Then Herod, when he saw that he was mocked by the wise men, was exceedingly angry, and sent out and killed all the male children who were in Bethlehem and in all the surrounding countryside, from two years old and under, according to the exact time which he had learned from the wise men.
+  JA: さて、ヘロデは博士たちにだまされたと知って、非常に立腹した。そして人々をつかわし、博士たちから確かめた時に基いて、ベツレヘムとその附近の地方とにいる二歳以下の男の子を、ことごとく殺した。
+[2:17]
+  EN: Then that which was spoken by Jeremiah the prophet was fulfilled, saying,
+  JA: こうして、預言者エレミヤによって言われたことが、成就したのである。
+[2:18]
+  EN: “A voice was heard in Ramah, lamentation, weeping and great mourning, Rachel weeping for her children; she wouldn’t be comforted, because they are no more.”
+  JA: 「叫び泣く大いなる悲しみの声がラマで聞えた。ラケルはその子らのためになげいた。子らがもはやいないので、慰められることさえ願わなかった」。
+[2:19]
+  EN: But when Herod was dead, behold, an angel of the Lord appeared in a dream to Joseph in Egypt, saying,
+  JA: さて、ヘロデが死んだのち、見よ、主の使がエジプトにいるヨセフに夢で現れて言った、
+[2:20]
+  EN: “Arise and take the young child and his mother, and go into the land of Israel, for those who sought the young child’s life are dead.”
+  JA: 「立って、幼な子とその母を連れて、イスラエルの地に行け。幼な子の命をねらっていた人々は、死んでしまった」。
+[2:21]
+  EN: He arose and took the young child and his mother, and came into the land of Israel.
+  JA: そこでヨセフは立って、幼な子とその母とを連れて、イスラエルの地に帰った。
+[2:22]
+  EN: But when he heard that Archelaus was reigning over Judea in the place of his father, Herod, he was afraid to go there. Being warned in a dream, he withdrew into the region of Galilee,
+  JA: しかし、アケラオがその父ヘロデに代ってユダヤを治めていると聞いたので、そこへ行くことを恐れた。そして夢でみ告げを受けたので、ガリラヤの地方に退き、
+[2:23]
+  EN: and came and lived in a city called Nazareth; that it might be fulfilled which was spoken through the prophets that he will be called a Nazarene.
+  JA: ナザレという町に行って住んだ。これは預言者たちによって、「彼はナザレ人と呼ばれるであろう」と言われたことが、成就するためである。
+
+=== MAT 馬太福音 3 ===
+
+[3:1]
+  EN: In those days, John the Baptizer came, preaching in the wilderness of Judea, saying,
+  JA: そのころ、バプテスマのヨハネが現れ、ユダヤの荒野で教を宣べて言った、
+[3:2]
+  EN: “Repent, for the Kingdom of Heaven is at hand!”
+  JA: 「悔い改めよ、天国は近づいた」。
+[3:3]
+  EN: For this is he who was spoken of by Isaiah the prophet, saying, “The voice of one crying in the wilderness, make the way of the Lord ready! Make his paths straight!”
+  JA: 預言者イザヤによって、「荒野で呼ばわる者の声がする、『主の道を備えよ、その道筋をまっすぐにせよ』」と言われたのは、この人のことである。
+[3:4]
+  EN: Now John himself wore clothing made of camel’s hair with a leather belt around his waist. His food was locusts and wild honey.
+  JA: このヨハネは、らくだの毛ごろもを着物にし、腰に皮の帯をしめ、いなごと野蜜とを食物としていた。
+[3:5]
+  EN: Then people from Jerusalem, all of Judea, and all the region around the Jordan went out to him.
+  JA: すると、エルサレムとユダヤ全土とヨルダン附近一帯の人々が、ぞくぞくとヨハネのところに出てきて、
+[3:6]
+  EN: They were baptized by him in the Jordan, confessing their sins.
+  JA: 自分の罪を告白し、ヨルダン川でヨハネからバプテスマを受けた。
+[3:7]
+  EN: But when he saw many of the Pharisees and Sadducees coming for his baptism, he said to them, “You offspring of vipers, who warned you to flee from the wrath to come?
+  JA: ヨハネは、パリサイ人やサドカイ人が大ぜいバプテスマを受けようとしてきたのを見て、彼らに言った、「まむしの子らよ、迫ってきている神の怒りから、おまえたちはのがれられると、だれが教えたのか。
+[3:8]
+  EN: Therefore produce fruit worthy of repentance!
+  JA: だから、悔改めにふさわしい実を結べ。
+[3:9]
+  EN: Don’t think to yourselves, ‘We have Abraham for our father,’ for I tell you that God is able to raise up children to Abraham from these stones.
+  JA: 自分たちの父にはアブラハムがあるなどと、心の中で思ってもみるな。おまえたちに言っておく、神はこれらの石ころからでも、アブラハムの子を起すことができるのだ。
+[3:10]
+  EN: Even now the ax lies at the root of the trees. Therefore every tree that doesn’t produce good fruit is cut down, and cast into the fire.
+  JA: 斧がすでに木の根もとに置かれている。だから、良い実を結ばない木はことごとく切られて、火の中に投げ込まれるのだ。
+[3:11]
+  EN: “I indeed baptize you in water for repentance, but he who comes after me is mightier than I, whose sandals I am not worthy to carry. He will baptize you in the Holy Spirit.
+  JA: わたしは悔改めのために、水でおまえたちにバプテスマを授けている。しかし、わたしのあとから来る人はわたしよりも力のあるかたで、わたしはそのくつをぬがせてあげる値うちもない。このかたは、聖霊と火とによっておまえたちにバプテスマをお授けになるであろう。
+[3:12]
+  EN: His winnowing fork is in his hand, and he will thoroughly cleanse his threshing floor. He will gather his wheat into the barn, but the chaff he will burn up with unquenchable fire.”
+  JA: また、箕を手に持って、打ち場の麦をふるい分け、麦は倉に納め、からは消えない火で焼き捨てるであろう」。
+[3:13]
+  EN: Then Jesus came from Galilee to the Jordan to John, to be baptized by him.
+  JA: そのときイエスは、ガリラヤを出てヨルダン川に現れ、ヨハネのところにきて、バプテスマを受けようとされた。
+[3:14]
+  EN: But John would have hindered him, saying, “I need to be baptized by you, and you come to me?”
+  JA: ところがヨハネは、それを思いとどまらせようとして言った、「わたしこそあなたからバプテスマを受けるはずですのに、あなたがわたしのところにおいでになるのですか」。
+[3:15]
+  EN: But Jesus, answering, said to him, “Allow it now, for this is the fitting way for us to fulfill all righteousness.” Then he allowed him.
+  JA: しかし、イエスは答えて言われた、「今は受けさせてもらいたい。このように、すべての正しいことを成就するのは、われわれにふさわしいことである」。そこでヨハネはイエスの言われるとおりにした。
+[3:16]
+  EN: Jesus, when he was baptized, went up directly from the water: and behold, the heavens were opened to him. He saw the Spirit of God descending as a dove, and coming on him.
+  JA: イエスはバプテスマを受けるとすぐ、水から上がられた。すると、見よ、天が開け、神の御霊がはとのように自分の上に下ってくるのを、ごらんになった。
+[3:17]
+  EN: Behold, a voice out of the heavens said, “This is my beloved Son, with whom I am well pleased.”
+  JA: また天から声があって言った、「これはわたしの愛する子、わたしの心にかなう者である」。
+
+=== MAT 馬太福音 4 ===
+
+[4:1]
+  EN: Then Jesus was led up by the Spirit into the wilderness to be tempted by the devil.
+  JA: さて、イエスは御霊によって荒野に導かれた。悪魔に試みられるためである。
+[4:2]
+  EN: When he had fasted forty days and forty nights, he was hungry afterward.
+  JA: そして、四十日四十夜、断食をし、そののち空腹になられた。
+[4:3]
+  EN: The tempter came and said to him, “If you are the Son of God, command that these stones become bread.”
+  JA: すると試みる者がきて言った、「もしあなたが神の子であるなら、これらの石がパンになるように命じてごらんなさい」。
+[4:4]
+  EN: But he answered, “It is written, ‘Man shall not live by bread alone, but by every word that proceeds out of God’s mouth.’ ”
+  JA: イエスは答えて言われた、「『人はパンだけで生きるものではなく、神の口から出る一つ一つの言で生きるものである』と書いてある」。
+[4:5]
+  EN: Then the devil took him into the holy city. He set him on the pinnacle of the temple,
+  JA: それから悪魔は、イエスを聖なる都に連れて行き、宮の頂上に立たせて
+[4:6]
+  EN: and said to him, “If you are the Son of God, throw yourself down, for it is written, ‘He will command his angels concerning you,’ and, ‘On their hands they will bear you up, so that you don’t dash your foot against a stone.’ ”
+  JA: 言った、「もしあなたが神の子であるなら、下へ飛びおりてごらんなさい。『神はあなたのために御使たちにお命じになると、あなたの足が石に打ちつけられないように、彼らはあなたを手でささえるであろう』と書いてありますから」。
+[4:7]
+  EN: Jesus said to him, “Again, it is written, ‘You shall not test the Lord, your God.’ ”
+  JA: イエスは彼に言われた、「『主なるあなたの神を試みてはならない』とまた書いてある」。
+[4:8]
+  EN: Again, the devil took him to an exceedingly high mountain, and showed him all the kingdoms of the world and their glory.
+  JA: 次に悪魔は、イエスを非常に高い山に連れて行き、この世のすべての国々とその栄華とを見せて
+[4:9]
+  EN: He said to him, “I will give you all of these things, if you will fall down and worship me.”
+  JA: 言った、「もしあなたが、ひれ伏してわたしを拝むなら、これらのものを皆あなたにあげましょう」。
+[4:10]
+  EN: Then Jesus said to him, “Get behind me, Satan! For it is written, ‘You shall worship the Lord your God, and you shall serve him only.’ ”
+  JA: するとイエスは彼に言われた、「サタンよ、退け。『主なるあなたの神を拝し、ただ神にのみ仕えよ』と書いてある」。
+[4:11]
+  EN: Then the devil left him, and behold, angels came and served him.
+  JA: そこで、悪魔はイエスを離れ去り、そして、御使たちがみもとにきて仕えた。
+[4:12]
+  EN: Now when Jesus heard that John was delivered up, he withdrew into Galilee.
+  JA: さて、イエスはヨハネが捕えられたと聞いて、ガリラヤへ退かれた。
+[4:13]
+  EN: Leaving Nazareth, he came and lived in Capernaum, which is by the sea, in the region of Zebulun and Naphtali,
+  JA: そしてナザレを去り、ゼブルンとナフタリとの地方にある海べの町カペナウムに行って住まわれた。
+[4:14]
+  EN: that it might be fulfilled which was spoken through Isaiah the prophet, saying,
+  JA: これは預言者イザヤによって言われた言が、成就するためである。
+[4:15]
+  EN: “The land of Zebulun and the land of Naphtali, toward the sea, beyond the Jordan, Galilee of the Gentiles,
+  JA: 「ゼブルンの地、ナフタリの地、海に沿う地方、ヨルダンの向こうの地、異邦人のガリラヤ、
+[4:16]
+  EN: the people who sat in darkness saw a great light; to those who sat in the region and shadow of death, to them light has dawned.”
+  JA: 暗黒の中に住んでいる民は大いなる光を見、死の地、死の陰に住んでいる人々に、光がのぼった」。
+[4:17]
+  EN: From that time, Jesus began to preach, and to say, “Repent! For the Kingdom of Heaven is at hand.”
+  JA: この時からイエスは教を宣べはじめて言われた、「悔い改めよ、天国は近づいた」。
+[4:18]
+  EN: Walking by the sea of Galilee, he saw two brothers: Simon, who is called Peter, and Andrew, his brother, casting a net into the sea; for they were fishermen.
+  JA: さて、イエスがガリラヤの海べを歩いておられると、ふたりの兄弟、すなわち、ペテロと呼ばれたシモンとその兄弟アンデレとが、海に網を打っているのをごらんになった。彼らは漁師であった。
+[4:19]
+  EN: He said to them, “Come after me, and I will make you fishers for men.”
+  JA: イエスは彼らに言われた、「わたしについてきなさい。あなたがたを、人間をとる漁師にしてあげよう」。
+[4:20]
+  EN: They immediately left their nets and followed him.
+  JA: すると、彼らはすぐに網を捨てて、イエスに従った。
+[4:21]
+  EN: Going on from there, he saw two other brothers, James the son of Zebedee, and John his brother, in the boat with Zebedee their father, mending their nets. He called them.
+  JA: そこから進んで行かれると、ほかのふたりの兄弟、すなわち、ゼベダイの子ヤコブとその兄弟ヨハネとが、父ゼベダイと一緒に、舟の中で網を繕っているのをごらんになった。そこで彼らをお招きになると、
+[4:22]
+  EN: They immediately left the boat and their father, and followed him.
+  JA: すぐ舟と父とをおいて、イエスに従って行った。
+[4:23]
+  EN: Jesus went about in all Galilee, teaching in their synagogues, preaching the Good News of the Kingdom, and healing every disease and every sickness among the people.
+  JA: イエスはガリラヤの全地を巡り歩いて、諸会堂で教え、御国の福音を宣べ伝え、民の中のあらゆる病気、あらゆるわずらいをおいやしになった。
+[4:24]
+  EN: The report about him went out into all Syria. They brought to him all who were sick, afflicted with various diseases and torments, possessed with demons, epileptics, and paralytics; and he healed them.
+  JA: そこで、その評判はシリヤ全地にひろまり、人々があらゆる病にかかっている者、すなわち、いろいろの病気と苦しみとに悩んでいる者、悪霊につかれている者、てんかん、中風の者などをイエスのところに連れてきたので、これらの人々をおいやしになった。
+[4:25]
+  EN: Great multitudes from Galilee, Decapolis, Jerusalem, Judea, and from beyond the Jordan followed him.
+  JA: こうして、ガリラヤ、デカポリス、エルサレム、ユダヤ及びヨルダンの向こうから、おびただしい群衆がきてイエスに従った。
+
+=== MAT 馬太福音 5 ===
+
+[5:1]
+  EN: Seeing the multitudes, he went up onto the mountain. When he had sat down, his disciples came to him.
+  JA: イエスはこの群衆を見て、山に登り、座につかれると、弟子たちがみもとに近寄ってきた。
+[5:2]
+  EN: He opened his mouth and taught them, saying,
+  JA: そこで、イエスは口を開き、彼らに教えて言われた。
+[5:3]
+  EN: “Blessed are the poor in spirit, for theirs is the Kingdom of Heaven.
+  JA: 「こころの貧しい人たちは、さいわいである、天国は彼らのものである。
+[5:4]
+  EN: Blessed are those who mourn, for they shall be comforted.
+  JA: 悲しんでいる人たちは、さいわいである、彼らは慰められるであろう。
+[5:5]
+  EN: Blessed are the gentle, for they shall inherit the earth.
+  JA: 柔和な人たちは、さいわいである、彼らは地を受けつぐであろう。
+[5:6]
+  EN: Blessed are those who hunger and thirst for righteousness, for they shall be filled.
+  JA: 義に飢えかわいている人たちは、さいわいである、彼らは飽き足りるようになるであろう。
+[5:7]
+  EN: Blessed are the merciful, for they shall obtain mercy.
+  JA: あわれみ深い人たちは、さいわいである、彼らはあわれみを受けるであろう。
+[5:8]
+  EN: Blessed are the pure in heart, for they shall see God.
+  JA: 心の清い人たちは、さいわいである、彼らは神を見るであろう。
+[5:9]
+  EN: Blessed are the peacemakers, for they shall be called children of God.
+  JA: 平和をつくり出す人たちは、さいわいである、彼らは神の子と呼ばれるであろう。
+[5:10]
+  EN: Blessed are those who have been persecuted for righteousness’ sake, for theirs is the Kingdom of Heaven.
+  JA: 義のために迫害されてきた人たちは、さいわいである、天国は彼らのものである。
+[5:11]
+  EN: “Blessed are you when people reproach you, persecute you, and say all kinds of evil against you falsely, for my sake.
+  JA: わたしのために人々があなたがたをののしり、また迫害し、あなたがたに対し偽って様々の悪口を言う時には、あなたがたは、さいわいである。
+[5:12]
+  EN: Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted the prophets who were before you.
+  JA: 喜び、よろこべ、天においてあなたがたの受ける報いは大きい。あなたがたより前の預言者たちも、同じように迫害されたのである。
+[5:13]
+  EN: “You are the salt of the earth, but if the salt has lost its flavor, with what will it be salted? It is then good for nothing, but to be cast out and trodden under the feet of men.
+  JA: あなたがたは、地の塩である。もし塩のききめがなくなったら、何によってその味が取りもどされようか。もはや、なんの役にも立たず、ただ外に捨てられて、人々にふみつけられるだけである。
+[5:14]
+  EN: “You are the light of the world. A city located on a hill can’t be hidden.
+  JA: あなたがたは、世の光である。山の上にある町は隠れることができない。
+[5:15]
+  EN: Neither do you light a lamp and put it under a measuring basket, but on a stand; and it shines to all who are in the house.
+  JA: また、あかりをつけて、それを枡の下におく者はいない。むしろ燭台の上において、家の中のすべてのものを照させるのである。
+[5:16]
+  EN: Even so, let your light shine before men, that they may see your good works and glorify your Father who is in heaven.
+  JA: そのように、あなたがたの光を人々の前に輝かし、そして、人々があなたがたのよいおこないを見て、天にいますあなたがたの父をあがめるようにしなさい。
+[5:17]
+  EN: “Don’t think that I came to destroy the law or the prophets. I didn’t come to destroy, but to fulfill.
+  JA: わたしが律法や預言者を廃するためにきた、と思ってはならない。廃するためではなく、成就するためにきたのである。
+[5:18]
+  EN: For most certainly, I tell you, until heaven and earth pass away, not even one smallest letter or one tiny pen stroke shall in any way pass away from the law, until all things are accomplished.
+  JA: よく言っておく。天地が滅び行くまでは、律法の一点、一画もすたることはなく、ことごとく全うされるのである。
+[5:19]
+  EN: Therefore, whoever shall break one of these least commandments and teach others to do so, shall be called least in the Kingdom of Heaven; but whoever shall do and teach them shall be called great in the Kingdom of Heaven.
+  JA: それだから、これらの最も小さいいましめの一つでも破り、またそうするように人に教えたりする者は、天国で最も小さい者と呼ばれるであろう。しかし、これをおこないまたそう教える者は、天国で大いなる者と呼ばれるであろう。
+[5:20]
+  EN: For I tell you that unless your righteousness exceeds that of the scribes and Pharisees, there is no way you will enter into the Kingdom of Heaven.
+  JA: わたしは言っておく。あなたがたの義が律法学者やパリサイ人の義にまさっていなければ、決して天国に、はいることはできない。
+[5:21]
+  EN: “You have heard that it was said to the ancient ones, ‘You shall not murder;’ and ‘Whoever murders will be in danger of the judgment.’
+  JA: 昔の人々に『殺すな。殺す者は裁判を受けねばならない』と言われていたことは、あなたがたの聞いているところである。
+[5:22]
+  EN: But I tell you that everyone who is angry with his brother without a cause  will be in danger of the judgment. Whoever says to his brother, ‘Raca!’  will be in danger of the council. Whoever says, ‘You fool!’ will be in danger of the fire of Gehenna.
+  JA: しかし、わたしはあなたがたに言う。兄弟に対して怒る者は、だれでも裁判を受けねばならない。兄弟にむかって愚か者と言う者は、議会に引きわたされるであろう。また、ばか者と言う者は、地獄の火に投げ込まれるであろう。
+[5:23]
+  EN: “If therefore you are offering your gift at the altar, and there remember that your brother has anything against you,
+  JA: だから、祭壇に供え物をささげようとする場合、兄弟が自分に対して何かうらみをいだいていることを、そこで思い出したなら、
+[5:24]
+  EN: leave your gift there before the altar, and go your way. First be reconciled to your brother, and then come and offer your gift.
+  JA: その供え物を祭壇の前に残しておき、まず行ってその兄弟と和解し、それから帰ってきて、供え物をささげることにしなさい。
+[5:25]
+  EN: Agree with your adversary quickly while you are with him on the way; lest perhaps the prosecutor deliver you to the judge, and the judge deliver you to the officer, and you be cast into prison.
+  JA: あなたを訴える者と一緒に道を行く時には、その途中で早く仲直りをしなさい。そうしないと、その訴える者はあなたを裁判官にわたし、裁判官は下役にわたし、そして、あなたは獄に入れられるであろう。
+[5:26]
+  EN: Most certainly I tell you, you shall by no means get out of there until you have paid the last penny.
+  JA: よくあなたに言っておく。最後の一コドラントを支払ってしまうまでは、決してそこから出てくることはできない。
+[5:27]
+  EN: “You have heard that it was said,  ‘You shall not commit adultery;’
+  JA: 『姦淫するな』と言われていたことは、あなたがたの聞いているところである。
+[5:28]
+  EN: but I tell you that everyone who gazes at a woman to lust after her has committed adultery with her already in his heart.
+  JA: しかし、わたしはあなたがたに言う。だれでも、情欲をいだいて女を見る者は、心の中ですでに姦淫をしたのである。
+[5:29]
+  EN: If your right eye causes you to stumble, pluck it out and throw it away from you. For it is more profitable for you that one of your members should perish than for your whole body to be cast into Gehenna.
+  JA: もしあなたの右の目が罪を犯させるなら、それを抜き出して捨てなさい。五体の一部を失っても、全身が地獄に投げ入れられない方が、あなたにとって益である。
+[5:30]
+  EN: If your right hand causes you to stumble, cut it off, and throw it away from you. For it is more profitable for you that one of your members should perish, than for your whole body to be cast into Gehenna.
+  JA: もしあなたの右の手が罪を犯させるなら、それを切って捨てなさい。五体の一部を失っても、全身が地獄に落ち込まない方が、あなたにとって益である。
+[5:31]
+  EN: “It was also said, ‘Whoever shall put away his wife, let him give her a writing of divorce,’
+  JA: また『妻を出す者は離縁状を渡せ』と言われている。
+[5:32]
+  EN: but I tell you that whoever puts away his wife, except for the cause of sexual immorality, makes her an adulteress; and whoever marries her when she is put away commits adultery.
+  JA: しかし、わたしはあなたがたに言う。だれでも、不品行以外の理由で自分の妻を出す者は、姦淫を行わせるのである。また出された女をめとる者も、姦淫を行うのである。
+[5:33]
+  EN: “Again you have heard that it was said to the ancient ones, ‘You shall not make false vows, but shall perform to the Lord your vows,’
+  JA: また昔の人々に『いつわり誓うな、誓ったことは、すべて主に対して果せ』と言われていたことは、あなたがたの聞いているところである。
+[5:34]
+  EN: but I tell you, don’t swear at all: neither by heaven, for it is the throne of God;
+  JA: しかし、わたしはあなたがたに言う。いっさい誓ってはならない。天をさして誓うな。そこは神の御座であるから。
+[5:35]
+  EN: nor by the earth, for it is the footstool of his feet; nor by Jerusalem, for it is the city of the great King.
+  JA: また地をさして誓うな。そこは神の足台であるから。またエルサレムをさして誓うな。それは『大王の都』であるから。
+[5:36]
+  EN: Neither shall you swear by your head, for you can’t make one hair white or black.
+  JA: また、自分の頭をさして誓うな。あなたは髪の毛一すじさえ、白くも黒くもすることができない。
+[5:37]
+  EN: But let your ‘Yes’ be ‘Yes’ and your ‘No’ be ‘No.’ Whatever is more than these is of the evil one.
+  JA: あなたがたの言葉は、ただ、しかり、しかり、否、否、であるべきだ。それ以上に出ることは、悪から来るのである。
+[5:38]
+  EN: “You have heard that it was said, ‘An eye for an eye, and a tooth for a tooth.’
+  JA: 『目には目を、歯には歯を』と言われていたことは、あなたがたの聞いているところである。
+[5:39]
+  EN: But I tell you, don’t resist him who is evil; but whoever strikes you on your right cheek, turn to him the other also.
+  JA: しかし、わたしはあなたがたに言う。悪人に手向かうな。もし、だれかがあなたの右の頬を打つなら、ほかの頬をも向けてやりなさい。
+[5:40]
+  EN: If anyone sues you to take away your coat, let him have your cloak also.
+  JA: あなたを訴えて、下着を取ろうとする者には、上着をも与えなさい。
+[5:41]
+  EN: Whoever compels you to go one mile, go with him two.
+  JA: もし、だれかが、あなたをしいて一マイル行かせようとするなら、その人と共に二マイル行きなさい。
+[5:42]
+  EN: Give to him who asks you, and don’t turn away him who desires to borrow from you.
+  JA: 求める者には与え、借りようとする者を断るな。
+[5:43]
+  EN: “You have heard that it was said, ‘You shall love your neighbor  and hate your enemy.’
+  JA: 『隣り人を愛し、敵を憎め』と言われていたことは、あなたがたの聞いているところである。
+[5:44]
+  EN: But I tell you, love your enemies, bless those who curse you, do good to those who hate you, and pray for those who mistreat you and persecute you,
+  JA: しかし、わたしはあなたがたに言う。敵を愛し、迫害する者のために祈れ。
+[5:45]
+  EN: that you may be children of your Father who is in heaven. For he makes his sun to rise on the evil and the good, and sends rain on the just and the unjust.
+  JA: こうして、天にいますあなたがたの父の子となるためである。天の父は、悪い者の上にも良い者の上にも、太陽をのぼらせ、正しい者にも正しくない者にも、雨を降らして下さるからである。
+[5:46]
+  EN: For if you love those who love you, what reward do you have? Don’t even the tax collectors do the same?
+  JA: あなたがたが自分を愛する者を愛したからとて、なんの報いがあろうか。そのようなことは取税人でもするではないか。
+[5:47]
+  EN: If you only greet your friends, what more do you do than others? Don’t even the tax collectors do the same?
+  JA: 兄弟だけにあいさつをしたからとて、なんのすぐれた事をしているだろうか。そのようなことは異邦人でもしているではないか。
+[5:48]
+  EN: Therefore you shall be perfect, just as your Father in heaven is perfect.
+  JA: それだから、あなたがたの天の父が完全であられるように、あなたがたも完全な者となりなさい。
+
+=== MAT 馬太福音 6 ===
+
+[6:1]
+  EN: “Be careful that you don’t do your charitable giving before men, to be seen by them, or else you have no reward from your Father who is in heaven.
+  JA: 自分の義を、見られるために人の前で行わないように、注意しなさい。もし、そうしないと、天にいますあなたがたの父から報いを受けることがないであろう。
+[6:2]
+  EN: Therefore, when you do merciful deeds, don’t sound a trumpet before yourself, as the hypocrites do in the synagogues and in the streets, that they may get glory from men. Most certainly I tell you, they have received their reward.
+  JA: だから、施しをする時には、偽善者たちが人にほめられるため会堂や町の中でするように、自分の前でラッパを吹きならすな。よく言っておくが、彼らはその報いを受けてしまっている。
+[6:3]
+  EN: But when you do merciful deeds, don’t let your left hand know what your right hand does,
+  JA: あなたは施しをする場合、右の手のしていることを左の手に知らせるな。
+[6:4]
+  EN: so that your merciful deeds may be in secret, then your Father who sees in secret will reward you openly.
+  JA: それは、あなたのする施しが隠れているためである。すると、隠れた事を見ておられるあなたの父は、報いてくださるであろう。
+[6:5]
+  EN: “When you pray, you shall not be as the hypocrites, for they love to stand and pray in the synagogues and in the corners of the streets, that they may be seen by men. Most certainly, I tell you, they have received their reward.
+  JA: また祈る時には、偽善者たちのようにするな。彼らは人に見せようとして、会堂や大通りのつじに立って祈ることを好む。よく言っておくが、彼らはその報いを受けてしまっている。
+[6:6]
+  EN: But you, when you pray, enter into your inner room, and having shut your door, pray to your Father who is in secret; and your Father who sees in secret will reward you openly.
+  JA: あなたは祈る時、自分のへやにはいり、戸を閉じて、隠れた所においでになるあなたの父に祈りなさい。すると、隠れた事を見ておられるあなたの父は、報いてくださるであろう。
+[6:7]
+  EN: In praying, don’t use vain repetitions as the Gentiles do; for they think that they will be heard for their much speaking.
+  JA: また、祈る場合、異邦人のように、くどくどと祈るな。彼らは言葉かずが多ければ、聞きいれられるものと思っている。
+[6:8]
+  EN: Therefore don’t be like them, for your Father knows what things you need before you ask him.
+  JA: だから、彼らのまねをするな。あなたがたの父なる神は、求めない先から、あなたがたに必要なものはご存じなのである。
+[6:9]
+  EN: Pray like this: “ ‘Our Father in heaven, may your name be kept holy.
+  JA: だから、あなたがたはこう祈りなさい、天にいますわれらの父よ、御名があがめられますように。
+[6:10]
+  EN: Let your Kingdom come. Let your will be done on earth as it is in heaven.
+  JA: 御国がきますように。みこころが天に行われるとおり、地にも行われますように。
+[6:11]
+  EN: Give us today our daily bread.
+  JA: わたしたちの日ごとの食物を、きょうもお与えください。
+[6:12]
+  EN: Forgive us our debts, as we also forgive our debtors.
+  JA: わたしたちに負債のある者をゆるしましたように、わたしたちの負債をもおゆるしください。
+[6:13]
+  EN: Bring us not into temptation, but deliver us from the evil one. For yours is the Kingdom, the power, and the glory forever. Amen.’
+  JA: わたしたちを試みに会わせないで、悪しき者からお救いください。
+[6:14]
+  EN: “For if you forgive men their trespasses, your heavenly Father will also forgive you.
+  JA: もしも、あなたがたが、人々のあやまちをゆるすならば、あなたがたの天の父も、あなたがたをゆるして下さるであろう。
+[6:15]
+  EN: But if you don’t forgive men their trespasses, neither will your Father forgive your trespasses.
+  JA: もし人をゆるさないならば、あなたがたの父も、あなたがたのあやまちをゆるして下さらないであろう。
+[6:16]
+  EN: “Moreover when you fast, don’t be like the hypocrites, with sad faces. For they disfigure their faces that they may be seen by men to be fasting. Most certainly I tell you, they have received their reward.
+  JA: また断食をする時には、偽善者がするように、陰気な顔つきをするな。彼らは断食をしていることを人に見せようとして、自分の顔を見苦しくするのである。よく言っておくが、彼らはその報いを受けてしまっている。
+[6:17]
+  EN: But you, when you fast, anoint your head and wash your face,
+  JA: あなたがたは断食をする時には、自分の頭に油を塗り、顔を洗いなさい。
+[6:18]
+  EN: so that you are not seen by men to be fasting, but by your Father who is in secret; and your Father, who sees in secret, will reward you.
+  JA: それは断食をしていることが人に知れないで、隠れた所においでになるあなたの父に知られるためである。すると、隠れた事を見ておられるあなたの父は、報いて下さるであろう。
+[6:19]
+  EN: “Don’t lay up treasures for yourselves on the earth, where moth and rust consume, and where thieves break through and steal;
+  JA: あなたがたは自分のために、虫が食い、さびがつき、また、盗人らが押し入って盗み出すような地上に、宝をたくわえてはならない。
+[6:20]
+  EN: but lay up for yourselves treasures in heaven, where neither moth nor rust consume, and where thieves don’t break through and steal;
+  JA: むしろ自分のため、虫も食わず、さびもつかず、また、盗人らが押し入って盗み出すこともない天に、宝をたくわえなさい。
+[6:21]
+  EN: for where your treasure is, there your heart will be also.
+  JA: あなたの宝のある所には、心もあるからである。
+[6:22]
+  EN: “The lamp of the body is the eye. If therefore your eye is sound, your whole body will be full of light.
+  JA: 目はからだのあかりである。だから、あなたの目が澄んでおれば、全身も明るいだろう。
+[6:23]
+  EN: But if your eye is evil, your whole body will be full of darkness. If therefore the light that is in you is darkness, how great is the darkness!
+  JA: しかし、あなたの目が悪ければ、全身も暗いだろう。だから、もしあなたの内なる光が暗ければ、その暗さは、どんなであろう。
+[6:24]
+  EN: “No one can serve two masters, for either he will hate the one and love the other, or else he will be devoted to one and despise the other. You can’t serve both God and Mammon.
+  JA: だれも、ふたりの主人に兼ね仕えることはできない。一方を憎んで他方を愛し、あるいは、一方に親しんで他方をうとんじるからである。あなたがたは、神と富とに兼ね仕えることはできない。
+[6:25]
+  EN: Therefore I tell you, don’t be anxious for your life: what you will eat, or what you will drink; nor yet for your body, what you will wear. Isn’t life more than food, and the body more than clothing?
+  JA: それだから、あなたがたに言っておく。何を食べようか、何を飲もうかと、自分の命のことで思いわずらい、何を着ようかと自分のからだのことで思いわずらうな。命は食物にまさり、からだは着物にまさるではないか。
+[6:26]
+  EN: See the birds of the sky, that they don’t sow, neither do they reap, nor gather into barns. Your heavenly Father feeds them. Aren’t you of much more value than they?
+  JA: 空の鳥を見るがよい。まくことも、刈ることもせず、倉に取りいれることもしない。それだのに、あなたがたの天の父は彼らを養っていて下さる。あなたがたは彼らよりも、はるかにすぐれた者ではないか。
+[6:27]
+  EN: “Which of you by being anxious, can add one moment to his lifespan?
+  JA: あなたがたのうち、だれが思いわずらったからとて、自分の寿命をわずかでも延ばすことができようか。
+[6:28]
+  EN: Why are you anxious about clothing? Consider the lilies of the field, how they grow. They don’t toil, neither do they spin,
+  JA: また、なぜ、着物のことで思いわずらうのか。野の花がどうして育っているか、考えて見るがよい。働きもせず、紡ぎもしない。
+[6:29]
+  EN: yet I tell you that even Solomon in all his glory was not dressed like one of these.
+  JA: しかし、あなたがたに言うが、栄華をきわめた時のソロモンでさえ、この花の一つほどにも着飾ってはいなかった。
+[6:30]
+  EN: But if God so clothes the grass of the field, which today exists and tomorrow is thrown into the oven, won’t he much more clothe you, you of little faith?
+  JA: きょうは生えていて、あすは炉に投げ入れられる野の草でさえ、神はこのように装って下さるのなら、あなたがたに、それ以上よくしてくださらないはずがあろうか。ああ、信仰の薄い者たちよ。
+[6:31]
+  EN: “Therefore don’t be anxious, saying, ‘What will we eat?’, ‘What will we drink?’ or, ‘With what will we be clothed?’
+  JA: だから、何を食べようか、何を飲もうか、あるいは何を着ようかと言って思いわずらうな。
+[6:32]
+  EN: For the Gentiles seek after all these things; for your heavenly Father knows that you need all these things.
+  JA: これらのものはみな、異邦人が切に求めているものである。あなたがたの天の父は、これらのものが、ことごとくあなたがたに必要であることをご存じである。
+[6:33]
+  EN: But seek first God’s Kingdom and his righteousness; and all these things will be given to you as well.
+  JA: まず神の国と神の義とを求めなさい。そうすれば、これらのものは、すべて添えて与えられるであろう。
+[6:34]
+  EN: Therefore don’t be anxious for tomorrow, for tomorrow will be anxious for itself. Each day’s own evil is sufficient.
+  JA: だから、あすのことを思いわずらうな。あすのことは、あす自身が思いわずらうであろう。一日の苦労は、その日一日だけで十分である。
+
+=== MAT 馬太福音 7 ===
+
+[7:1]
+  EN: “Don’t judge, so that you won’t be judged.
+  JA: 人をさばくな。自分がさばかれないためである。
+[7:2]
+  EN: For with whatever judgment you judge, you will be judged; and with whatever measure you measure, it will be measured to you.
+  JA: あなたがたがさばくそのさばきで、自分もさばかれ、あなたがたの量るそのはかりで、自分にも量り与えられるであろう。
+[7:3]
+  EN: Why do you see the speck that is in your brother’s eye, but don’t consider the beam that is in your own eye?
+  JA: なぜ、兄弟の目にあるちりを見ながら、自分の目にある梁を認めないのか。
+[7:4]
+  EN: Or how will you tell your brother, ‘Let me remove the speck from your eye,’ and behold, the beam is in your own eye?
+  JA: 自分の目には梁があるのに、どうして兄弟にむかって、あなたの目からちりを取らせてください、と言えようか。
+[7:5]
+  EN: You hypocrite! First remove the beam out of your own eye, and then you can see clearly to remove the speck out of your brother’s eye.
+  JA: 偽善者よ、まず自分の目から梁を取りのけるがよい。そうすれば、はっきり見えるようになって、兄弟の目からちりを取りのけることができるだろう。
+[7:6]
+  EN: “Don’t give that which is holy to the dogs, neither throw your pearls before the pigs, lest perhaps they trample them under their feet, and turn and tear you to pieces.
+  JA: 聖なるものを犬にやるな。また真珠を豚に投げてやるな。恐らく彼らはそれらを足で踏みつけ、向きなおってあなたがたにかみついてくるであろう。
+[7:7]
+  EN: “Ask, and it will be given you. Seek, and you will find. Knock, and it will be opened for you.
+  JA: 求めよ、そうすれば、与えられるであろう。捜せ、そうすれば、見いだすであろう。門をたたけ、そうすれば、あけてもらえるであろう。
+[7:8]
+  EN: For everyone who asks receives. He who seeks finds. To him who knocks it will be opened.
+  JA: すべて求める者は得、捜す者は見いだし、門をたたく者はあけてもらえるからである。
+[7:9]
+  EN: Or who is there among you who, if his son asks him for bread, will give him a stone?
+  JA: あなたがたのうちで、自分の子がパンを求めるのに、石を与える者があろうか。
+[7:10]
+  EN: Or if he asks for a fish, who will give him a serpent?
+  JA: 魚を求めるのに、へびを与える者があろうか。
+[7:11]
+  EN: If you then, being evil, know how to give good gifts to your children, how much more will your Father who is in heaven give good things to those who ask him!
+  JA: このように、あなたがたは悪い者であっても、自分の子供には、良い贈り物をすることを知っているとすれば、天にいますあなたがたの父はなおさら、求めてくる者に良いものを下さらないことがあろうか。
+[7:12]
+  EN: Therefore, whatever you desire for men to do to you, you shall also do to them; for this is the law and the prophets.
+  JA: だから、何事でも人々からしてほしいと望むことは、人々にもそのとおりにせよ。これが律法であり預言者である。
+[7:13]
+  EN: “Enter in by the narrow gate; for the gate is wide and the way is broad that leads to destruction, and there are many who enter in by it.
+  JA: 狭い門からはいれ。滅びにいたる門は大きく、その道は広い。そして、そこからはいって行く者が多い。
+[7:14]
+  EN: How narrow is the gate and the way is restricted that leads to life! There are few who find it.
+  JA: 命にいたる門は狭く、その道は細い。そして、それを見いだす者が少ない。
+[7:15]
+  EN: “Beware of false prophets, who come to you in sheep’s clothing, but inwardly are ravening wolves.
+  JA: にせ預言者を警戒せよ。彼らは、羊の衣を着てあなたがたのところに来るが、その内側は強欲なおおかみである。
+[7:16]
+  EN: By their fruits you will know them. Do you gather grapes from thorns or figs from thistles?
+  JA: あなたがたは、その実によって彼らを見わけるであろう。茨からぶどうを、あざみからいちじくを集める者があろうか。
+[7:17]
+  EN: Even so, every good tree produces good fruit, but the corrupt tree produces evil fruit.
+  JA: そのように、すべて良い木は良い実を結び、悪い木は悪い実を結ぶ。
+[7:18]
+  EN: A good tree can’t produce evil fruit, neither can a corrupt tree produce good fruit.
+  JA: 良い木が悪い実をならせることはないし、悪い木が良い実をならせることはできない。
+[7:19]
+  EN: Every tree that doesn’t grow good fruit is cut down and thrown into the fire.
+  JA: 良い実を結ばない木はことごとく切られて、火の中に投げ込まれる。
+[7:20]
+  EN: Therefore by their fruits you will know them.
+  JA: このように、あなたがたはその実によって彼らを見わけるのである。
+[7:21]
+  EN: “Not everyone who says to me, ‘Lord, Lord,’ will enter into the Kingdom of Heaven, but he who does the will of my Father who is in heaven.
+  JA: わたしにむかって『主よ、主よ』と言う者が、みな天国にはいるのではなく、ただ、天にいますわが父の御旨を行う者だけが、はいるのである。
+[7:22]
+  EN: Many will tell me in that day, ‘Lord, Lord, didn’t we prophesy in your name, in your name cast out demons, and in your name do many mighty works?’
+  JA: その日には、多くの者が、わたしにむかって『主よ、主よ、わたしたちはあなたの名によって預言したではありませんか。また、あなたの名によって悪霊を追い出し、あなたの名によって多くの力あるわざを行ったではありませんか』と言うであろう。
+[7:23]
+  EN: Then I will tell them, ‘I never knew you. Depart from me, you who work iniquity.’
+  JA: そのとき、わたしは彼らにはっきり、こう言おう、『あなたがたを全く知らない。不法を働く者どもよ、行ってしまえ』。
+[7:24]
+  EN: “Everyone therefore who hears these words of mine and does them, I will liken him to a wise man who built his house on the rock.
+  JA: それで、わたしのこれらの言葉を聞いて行うものを、岩の上に自分の家を建てた賢い人に比べることができよう。
+[7:25]
+  EN: The rain came down, the floods came, and the winds blew and beat on that house; and it didn’t fall, for it was founded on the rock.
+  JA: 雨が降り、洪水が押し寄せ、風が吹いてその家に打ちつけても、倒れることはない。岩を土台としているからである。
+[7:26]
+  EN: Everyone who hears these words of mine and doesn’t do them will be like a foolish man who built his house on the sand.
+  JA: また、わたしのこれらの言葉を聞いても行わない者を、砂の上に自分の家を建てた愚かな人に比べることができよう。
+[7:27]
+  EN: The rain came down, the floods came, and the winds blew and beat on that house; and it fell—and its fall was great.”
+  JA: 雨が降り、洪水が押し寄せ、風が吹いてその家に打ちつけると、倒れてしまう。そしてその倒れ方はひどいのである」。
+[7:28]
+  EN: When Jesus had finished saying these things, the multitudes were astonished at his teaching,
+  JA: イエスがこれらの言を語り終えられると、群衆はその教にひどく驚いた。
+[7:29]
+  EN: for he taught them with authority, and not like the scribes.
+  JA: それは律法学者たちのようにではなく、権威ある者のように、教えられたからである。
+
+=== MAT 馬太福音 8 ===
+
+[8:1]
+  EN: When he came down from the mountain, great multitudes followed him.
+  JA: イエスが山をお降りになると、おびただしい群衆がついてきた。
+[8:2]
+  EN: Behold, a leper came to him and worshiped him, saying, “Lord, if you want to, you can make me clean.”
+  JA: すると、そのとき、ひとりのらい病人がイエスのところにきて、ひれ伏して言った、「主よ、みこころでしたら、きよめていただけるのですが」。
+[8:3]
+  EN: Jesus stretched out his hand and touched him, saying, “I want to. Be made clean.” Immediately his leprosy was cleansed.
+  JA: イエスは手を伸ばして、彼にさわり、「そうしてあげよう、きよくなれ」と言われた。すると、らい病は直ちにきよめられた。
+[8:4]
+  EN: Jesus said to him, “See that you tell nobody; but go, show yourself to the priest, and offer the gift that Moses commanded, as a testimony to them.”
+  JA: イエスは彼に言われた、「だれにも話さないように、注意しなさい。ただ行って、自分のからだを祭司に見せ、それから、モーセが命じた供え物をささげて、人々に証明しなさい」。
+[8:5]
+  EN: When he came into Capernaum, a centurion came to him, asking him for help,
+  JA: さて、イエスがカペナウムに帰ってこられたとき、ある百卒長がみもとにきて訴えて言った、
+[8:6]
+  EN: saying, “Lord, my servant lies in the house paralyzed, grievously tormented.”
+  JA: 「主よ、わたしの僕が中風でひどく苦しんで、家に寝ています」。
+[8:7]
+  EN: Jesus said to him, “I will come and heal him.”
+  JA: イエスは彼に、「わたしが行ってなおしてあげよう」と言われた。
+[8:8]
+  EN: The centurion answered, “Lord, I’m not worthy for you to come under my roof. Just say the word, and my servant will be healed.
+  JA: そこで百卒長は答えて言った、「主よ、わたしの屋根の下にあなたをお入れする資格は、わたしにはございません。ただ、お言葉を下さい。そうすれば僕はなおります。
+[8:9]
+  EN: For I am also a man under authority, having under myself soldiers. I tell this one, ‘Go,’ and he goes; and tell another, ‘Come,’ and he comes; and tell my servant, ‘Do this,’ and he does it.”
+  JA: わたしも権威の下にある者ですが、わたしの下にも兵卒がいまして、ひとりの者に『行け』と言えば行き、ほかの者に『こい』と言えばきますし、また、僕に『これをせよ』と言えば、してくれるのです」。
+[8:10]
+  EN: When Jesus heard it, he marveled and said to those who followed, “Most certainly I tell you, I haven’t found so great a faith, not even in Israel.
+  JA: イエスはこれを聞いて非常に感心され、ついてきた人々に言われた、「よく聞きなさい。イスラエル人の中にも、これほどの信仰を見たことがない。
+[8:11]
+  EN: I tell you that many will come from the east and the west, and will sit down with Abraham, Isaac, and Jacob in the Kingdom of Heaven,
+  JA: なお、あなたがたに言うが、多くの人が東から西からきて、天国で、アブラハム、イサク、ヤコブと共に宴会の席につくが、
+[8:12]
+  EN: but the children of the Kingdom will be thrown out into the outer darkness. There will be weeping and gnashing of teeth.”
+  JA: この国の子らは外のやみに追い出され、そこで泣き叫んだり、歯がみをしたりするであろう」。
+[8:13]
+  EN: Jesus said to the centurion, “Go your way. Let it be done for you as you have believed.” His servant was healed in that hour.
+  JA: それからイエスは百卒長に「行け、あなたの信じたとおりになるように」と言われた。すると、ちょうどその時に、僕はいやされた。
+[8:14]
+  EN: When Jesus came into Peter’s house, he saw his wife’s mother lying sick with a fever.
+  JA: それから、イエスはペテロの家にはいって行かれ、そのしゅうとめが熱病で、床についているのをごらんになった。
+[8:15]
+  EN: He touched her hand, and the fever left her. So she got up and served him.
+  JA: そこで、その手にさわられると、熱が引いた。そして女は起きあがってイエスをもてなした。
+[8:16]
+  EN: When evening came, they brought to him many possessed with demons. He cast out the spirits with a word, and healed all who were sick,
+  JA: 夕暮になると、人々は悪霊につかれた者を大ぜい、みもとに連れてきたので、イエスはみ言葉をもって霊どもを追い出し、病人をことごとくおいやしになった。
+[8:17]
+  EN: that it might be fulfilled which was spoken through Isaiah the prophet, saying, “He took our infirmities and bore our diseases.”
+  JA: これは、預言者イザヤによって「彼は、わたしたちのわずらいを身に受け、わたしたちの病を負うた」と言われた言葉が成就するためである。
+[8:18]
+  EN: Now when Jesus saw great multitudes around him, he gave the order to depart to the other side.
+  JA: イエスは、群衆が自分のまわりに群がっているのを見て、向こう岸に行くようにと弟子たちにお命じになった。
+[8:19]
+  EN: A scribe came and said to him, “Teacher, I will follow you wherever you go.”
+  JA: するとひとりの律法学者が近づいてきて言った、「先生、あなたがおいでになる所なら、どこへでも従ってまいります」。
+[8:20]
+  EN: Jesus said to him, “The foxes have holes and the birds of the sky have nests, but the Son of Man has nowhere to lay his head.”
+  JA: イエスはその人に言われた、「きつねには穴があり、空の鳥には巣がある。しかし、人の子にはまくらする所がない」。
+[8:21]
+  EN: Another of his disciples said to him, “Lord, allow me first to go and bury my father.”
+  JA: また弟子のひとりが言った、「主よ、まず、父を葬りに行かせて下さい」。
+[8:22]
+  EN: But Jesus said to him, “Follow me, and leave the dead to bury their own dead.”
+  JA: イエスは彼に言われた、「わたしに従ってきなさい。そして、その死人を葬ることは、死人に任せておくがよい」。
+[8:23]
+  EN: When he got into a boat, his disciples followed him.
+  JA: それから、イエスが舟に乗り込まれると、弟子たちも従った。
+[8:24]
+  EN: Behold, a violent storm came up on the sea, so much that the boat was covered with the waves; but he was asleep.
+  JA: すると突然、海上に激しい暴風が起って、舟は波にのまれそうになった。ところが、イエスは眠っておられた。
+[8:25]
+  EN: The disciples came to him and woke him up, saying, “Save us, Lord! We are dying!”
+  JA: そこで弟子たちはみそばに寄ってきてイエスを起し、「主よ、お助けください、わたしたちは死にそうです」と言った。
+[8:26]
+  EN: He said to them, “Why are you fearful, O you of little faith?”  Then he got up, rebuked the wind and the sea, and there was a great calm.
+  JA: するとイエスは彼らに言われた、「なぜこわがるのか、信仰の薄い者たちよ」。それから起きあがって、風と海とをおしかりになると、大なぎになった。
+[8:27]
+  EN: The men marveled, saying, “What kind of man is this, that even the wind and the sea obey him?”
+  JA: 彼らは驚いて言った、「このかたはどういう人なのだろう。風も海も従わせるとは」。
+[8:28]
+  EN: When he came to the other side, into the country of the Gergesenes, two people possessed by demons met him there, coming out of the tombs, exceedingly fierce, so that nobody could pass that way.
+  JA: それから、向こう岸、ガダラ人の地に着かれると、悪霊につかれたふたりの者が、墓場から出てきてイエスに出会った。彼らは手に負えない乱暴者で、だれもその辺の道を通ることができないほどであった。
+[8:29]
+  EN: Behold, they cried out, saying, “What do we have to do with you, Jesus, Son of God? Have you come here to torment us before the time?”
+  JA: すると突然、彼らは叫んで言った、「神の子よ、あなたはわたしどもとなんの係わりがあるのです。まだその時ではないのに、ここにきて、わたしどもを苦しめるのですか」。
+[8:30]
+  EN: Now there was a herd of many pigs feeding far away from them.
+  JA: さて、そこからはるか離れた所に、おびただしい豚の群れが飼ってあった。
+[8:31]
+  EN: The demons begged him, saying, “If you cast us out, permit us to go away into the herd of pigs.”
+  JA: 悪霊どもはイエスに願って言った、「もしわたしどもを追い出されるのなら、あの豚の群れの中につかわして下さい」。
+[8:32]
+  EN: He said to them, “Go!”
+  JA: そこで、イエスが「行け」と言われると、彼らは出て行って、豚の中へはいり込んだ。すると、その群れ全体が、がけから海へなだれを打って駆け下り、水の中で死んでしまった。
+[8:33]
+  EN: They came out and went into the herd of pigs; and behold, the whole herd of pigs rushed down the cliff into the sea and died in the water.   Those who fed them fled and went away into the city and told everything, including what happened to those who were possessed with demons.
+  JA: 飼う者たちは逃げて町に行き、悪霊につかれた者たちのことなど、いっさいを知らせた。
+[8:34]
+  EN: Behold, all the city came out to meet Jesus. When they saw him, they begged that he would depart from their borders.
+  JA: すると、町中の者がイエスに会いに出てきた。そして、イエスに会うと、この地方から去ってくださるようにと頼んだ。
+
+=== MAT 馬太福音 9 ===
+
+[9:1]
+  EN: He entered into a boat and crossed over, and came into his own city.
+  JA: さて、イエスは舟に乗って海を渡り、自分の町に帰られた。
+[9:2]
+  EN: Behold, they brought to him a man who was paralyzed, lying on a bed. Jesus, seeing their faith, said to the paralytic, “Son, cheer up! Your sins are forgiven you.”
+  JA: すると、人々が中風の者を床の上に寝かせたままでみもとに運んできた。イエスは彼らの信仰を見て、中風の者に、「子よ、しっかりしなさい。あなたの罪はゆるされたのだ」と言われた。
+[9:3]
+  EN: Behold, some of the scribes said to themselves, “This man blasphemes.”
+  JA: すると、ある律法学者たちが心の中で言った、「この人は神を汚している」。
+[9:4]
+  EN: Jesus, knowing their thoughts, said, “Why do you think evil in your hearts?
+  JA: イエスは彼らの考えを見抜いて、「なぜ、あなたがたは心の中で悪いことを考えているのか。
+[9:5]
+  EN: For which is easier, to say, ‘Your sins are forgiven;’ or to say, ‘Get up, and walk’?
+  JA: あなたの罪はゆるされた、と言うのと、起きて歩け、と言うのと、どちらがたやすいか。
+[9:6]
+  EN: But that you may know that the Son of Man has authority on earth to forgive sins—” (then he said to the paralytic), “Get up, and take up your mat, and go to your house.”
+  JA: しかし、人の子は地上で罪をゆるす権威をもっていることが、あなたがたにわかるために」と言い、中風の者にむかって、「起きよ、床を取りあげて家に帰れ」と言われた。
+[9:7]
+  EN: He arose and departed to his house.
+  JA: すると彼は起きあがり、家に帰って行った。
+[9:8]
+  EN: But when the multitudes saw it, they marveled and glorified God, who had given such authority to men.
+  JA: 群衆はそれを見て恐れ、こんな大きな権威を人にお与えになった神をあがめた。
+[9:9]
+  EN: As Jesus passed by from there, he saw a man called Matthew sitting at the tax collection office. He said to him, “Follow me.” He got up and followed him.
+  JA: さてイエスはそこから進んで行かれ、マタイという人が収税所にすわっているのを見て、「わたしに従ってきなさい」と言われた。すると彼は立ちあがって、イエスに従った。
+[9:10]
+  EN: As he sat in the house, behold, many tax collectors and sinners came and sat down with Jesus and his disciples.
+  JA: それから、イエスが家で食事の席についておられた時のことである。多くの取税人や罪人たちがきて、イエスや弟子たちと共にその席に着いていた。
+[9:11]
+  EN: When the Pharisees saw it, they said to his disciples, “Why does your teacher eat with tax collectors and sinners?”
+  JA: パリサイ人たちはこれを見て、弟子たちに言った、「なぜ、あなたがたの先生は、取税人や罪人などと食事を共にするのか」。
+[9:12]
+  EN: When Jesus heard it, he said to them, “Those who are healthy have no need for a physician, but those who are sick do.
+  JA: イエスはこれを聞いて言われた、「丈夫な人には医者はいらない。いるのは病人である。
+[9:13]
+  EN: But you go and learn what this means: ‘I desire mercy, and not sacrifice,’ for I came not to call the righteous, but sinners to repentance.”
+  JA: 『わたしが好むのは、あわれみであって、いけにえではない』とはどういう意味か、学んできなさい。わたしがきたのは、義人を招くためではなく、罪人を招くためである」。
+[9:14]
+  EN: Then John’s disciples came to him, saying, “Why do we and the Pharisees fast often, but your disciples don’t fast?”
+  JA: そのとき、ヨハネの弟子たちがイエスのところにきて言った、「わたしたちとパリサイ人たちとが断食をしているのに、あなたの弟子たちは、なぜ断食をしないのですか」。
+[9:15]
+  EN: Jesus said to them, “Can the friends of the bridegroom mourn as long as the bridegroom is with them? But the days will come when the bridegroom will be taken away from them, and then they will fast.
+  JA: するとイエスは言われた、「婚礼の客は、花婿が一緒にいる間は、悲しんでおられようか。しかし、花婿が奪い去られる日が来る。その時には断食をするであろう。
+[9:16]
+  EN: No one puts a piece of unshrunk cloth on an old garment; for the patch would tear away from the garment, and a worse hole is made.
+  JA: だれも、真新しい布ぎれで、古い着物につぎを当てはしない。そのつぎきれは着物を引き破り、そして、破れがもっとひどくなるから。
+[9:17]
+  EN: Neither do people put new wine into old wineskins, or else the skins would burst, and the wine be spilled, and the skins ruined. No, they put new wine into fresh wineskins, and both are preserved.”
+  JA: だれも、新しいぶどう酒を古い皮袋に入れはしない。もしそんなことをしたら、その皮袋は張り裂け、酒は流れ出るし、皮袋もむだになる。だから、新しいぶどう酒は新しい皮袋に入れるべきである。そうすれば両方とも長もちがするであろう」。
+[9:18]
+  EN: While he told these things to them, behold, a ruler came and worshiped him, saying, “My daughter has just died, but come and lay your hand on her, and she will live.”
+  JA: これらのことを彼らに話しておられると、そこにひとりの会堂司がきて、イエスを拝して言った、「わたしの娘がただ今死にました。しかしおいでになって手をその上においてやって下さい。そうしたら、娘は生き返るでしょう」。
+[9:19]
+  EN: Jesus got up and followed him, as did his disciples.
+  JA: そこで、イエスが立って彼について行かれると、弟子たちも一緒に行った。
+[9:20]
+  EN: Behold, a woman who had a discharge of blood for twelve years came behind him, and touched the fringe of his garment;
+  JA: するとそのとき、十二年間も長血をわずらっている女が近寄ってきて、イエスのうしろからみ衣のふさにさわった。
+[9:21]
+  EN: for she said within herself, “If I just touch his garment, I will be made well.”
+  JA: み衣にさわりさえすれば、なおしていただけるだろう、と心の中で思っていたからである。
+[9:22]
+  EN: But Jesus, turning around and seeing her, said, “Daughter, cheer up! Your faith has made you well.” And the woman was made well from that hour.
+  JA: イエスは振り向いて、この女を見て言われた、「娘よ、しっかりしなさい。あなたの信仰があなたを救ったのです」。するとこの女はその時に、いやされた。
+[9:23]
+  EN: When Jesus came into the ruler’s house and saw the flute players and the crowd in noisy disorder,
+  JA: それからイエスは司の家に着き、笛吹きどもや騒いでいる群衆を見て言われた。
+[9:24]
+  EN: he said to them, “Make room, because the girl isn’t dead, but sleeping.”
+  JA: 「あちらへ行っていなさい。少女は死んだのではない。眠っているだけである」。すると人々はイエスをあざ笑った。
+[9:25]
+  EN: They were ridiculing him.   But when the crowd was sent out, he entered in, took her by the hand, and the girl arose.
+  JA: しかし、群衆を外へ出したのち、イエスは内へはいって、少女の手をお取りになると、少女は起きあがった。
+[9:26]
+  EN: The report of this went out into all that land.
+  JA: そして、そのうわさがこの地方全体にひろまった。
+[9:27]
+  EN: As Jesus passed by from there, two blind men followed him, calling out and saying, “Have mercy on us, son of David!”
+  JA: そこから進んで行かれると、ふたりの盲人が、「ダビデの子よ、わたしたちをあわれんで下さい」と叫びながら、イエスについてきた。
+[9:28]
+  EN: When he had come into the house, the blind men came to him. Jesus said to them, “Do you believe that I am able to do this?” They told him, “Yes, Lord.”
+  JA: そしてイエスが家にはいられると、盲人たちがみもとにきたので、彼らに「わたしにそれができると信じるか」と言われた。彼らは言った、「主よ、信じます」。
+[9:29]
+  EN: Then he touched their eyes, saying, “According to your faith be it done to you.”
+  JA: そこで、イエスは彼らの目にさわって言われた、「あなたがたの信仰どおり、あなたがたの身になるように」。
+[9:30]
+  EN: Then their eyes were opened. Jesus strictly commanded them, saying, “See that no one knows about this.”
+  JA: すると彼らの目が開かれた。イエスは彼らをきびしく戒めて言われた、「だれにも知れないように気をつけなさい」。
+[9:31]
+  EN: But they went out and spread abroad his fame in all that land.
+  JA: しかし、彼らは出て行って、その地方全体にイエスのことを言いひろめた。
+[9:32]
+  EN: As they went out, behold, a mute man who was demon possessed was brought to him.
+  JA: 彼らが出て行くと、人々は悪霊につかれたおしをイエスのところに連れてきた。
+[9:33]
+  EN: When the demon was cast out, the mute man spoke. The multitudes marveled, saying, “Nothing like this has ever been seen in Israel!”
+  JA: すると、悪霊は追い出されて、おしが物を言うようになった。群衆は驚いて、「このようなことがイスラエルの中で見られたことは、これまで一度もなかった」と言った。
+[9:34]
+  EN: But the Pharisees said, “By the prince of the demons, he casts out demons.”
+  JA: しかし、パリサイ人たちは言った、「彼は、悪霊どものかしらによって悪霊どもを追い出しているのだ」。
+[9:35]
+  EN: Jesus went about all the cities and the villages, teaching in their synagogues and preaching the Good News of the Kingdom, and healing every disease and every sickness among the people.
+  JA: イエスは、すべての町々村々を巡り歩いて、諸会堂で教え、御国の福音を宣べ伝え、あらゆる病気、あらゆるわずらいをおいやしになった。
+[9:36]
+  EN: But when he saw the multitudes, he was moved with compassion for them because they were harassed and scattered, like sheep without a shepherd.
+  JA: また群衆が飼う者のない羊のように弱り果てて、倒れているのをごらんになって、彼らを深くあわれまれた。
+[9:37]
+  EN: Then he said to his disciples, “The harvest indeed is plentiful, but the laborers are few.
+  JA: そして弟子たちに言われた、「収穫は多いが、働き人が少ない。
+[9:38]
+  EN: Pray therefore that the Lord of the harvest will send out laborers into his harvest.”
+  JA: だから、収穫の主に願って、その収穫のために働き人を送り出すようにしてもらいなさい」。
+
+=== MAT 馬太福音 10 ===
+
+[10:1]
+  EN: He called to himself his twelve disciples, and gave them authority over unclean spirits, to cast them out, and to heal every disease and every sickness.
+  JA: そこで、イエスは十二弟子を呼び寄せて、汚れた霊を追い出し、あらゆる病気、あらゆるわずらいをいやす権威をお授けになった。
+[10:2]
+  EN: Now the names of the twelve apostles are these. The first, Simon, who is called Peter; Andrew, his brother; James the son of Zebedee; John, his brother;
+  JA: 十二使徒の名は、次のとおりである。まずペテロと呼ばれたシモンとその兄弟アンデレ、それからゼベダイの子ヤコブとその兄弟ヨハネ、
+[10:3]
+  EN: Philip; Bartholomew; Thomas; Matthew the tax collector; James the son of Alphaeus; Lebbaeus, who was also called Thaddaeus;
+  JA: ピリポとバルトロマイ、トマスと取税人マタイ、アルパヨの子ヤコブとタダイ、
+[10:4]
+  EN: Simon the Zealot; and Judas Iscariot, who also betrayed him.
+  JA: 熱心党のシモンとイスカリオテのユダ。このユダはイエスを裏切った者である。
+[10:5]
+  EN: Jesus sent these twelve out and commanded them, saying, “Don’t go among the Gentiles, and don’t enter into any city of the Samaritans.
+  JA: イエスはこの十二人をつかわすに当り、彼らに命じて言われた、「異邦人の道に行くな。またサマリヤ人の町にはいるな。
+[10:6]
+  EN: Rather, go to the lost sheep of the house of Israel.
+  JA: むしろ、イスラエルの家の失われた羊のところに行け。
+[10:7]
+  EN: As you go, preach, saying, ‘The Kingdom of Heaven is at hand!’
+  JA: 行って、『天国が近づいた』と宣べ伝えよ。
+[10:8]
+  EN: Heal the sick, cleanse the lepers, and cast out demons. Freely you received, so freely give.
+  JA: 病人をいやし、死人をよみがえらせ、らい病人をきよめ、悪霊を追い出せ。ただで受けたのだから、ただで与えるがよい。
+[10:9]
+  EN: Don’t take any gold, silver, or brass in your money belts.
+  JA: 財布の中に金、銀または銭を入れて行くな。
+[10:10]
+  EN: Take no bag for your journey, neither two coats, nor sandals, nor staff: for the laborer is worthy of his food.
+  JA: 旅行のための袋も、二枚の下着も、くつも、つえも持って行くな。働き人がその食物を得るのは当然である。
+[10:11]
+  EN: Into whatever city or village you enter, find out who in it is worthy, and stay there until you go on.
+  JA: どの町、どの村にはいっても、その中でだれがふさわしい人か、たずね出して、立ち去るまではその人のところにとどまっておれ。
+[10:12]
+  EN: As you enter into the household, greet it.
+  JA: その家にはいったなら、平安を祈ってあげなさい。
+[10:13]
+  EN: If the household is worthy, let your peace come on it, but if it isn’t worthy, let your peace return to you.
+  JA: もし平安を受けるにふさわしい家であれば、あなたがたの祈る平安はその家に来るであろう。もしふさわしくなければ、その平安はあなたがたに帰って来るであろう。
+[10:14]
+  EN: Whoever doesn’t receive you or hear your words, as you go out of that house or that city, shake the dust off your feet.
+  JA: もしあなたがたを迎えもせず、またあなたがたの言葉を聞きもしない人があれば、その家や町を立ち去る時に、足のちりを払い落しなさい。
+[10:15]
+  EN: Most certainly I tell you, it will be more tolerable for the land of Sodom and Gomorrah in the day of judgment than for that city.
+  JA: あなたがたによく言っておく。さばきの日には、ソドム、ゴモラの地の方が、その町よりは耐えやすいであろう。
+[10:16]
+  EN: “Behold, I send you out as sheep among wolves. Therefore be wise as serpents and harmless as doves.
+  JA: わたしがあなたがたをつかわすのは、羊をおおかみの中に送るようなものである。だから、へびのように賢く、はとのように素直であれ。
+[10:17]
+  EN: But beware of men, for they will deliver you up to councils, and in their synagogues they will scourge you.
+  JA: 人々に注意しなさい。彼らはあなたがたを衆議所に引き渡し、会堂でむち打つであろう。
+[10:18]
+  EN: Yes, and you will be brought before governors and kings for my sake, for a testimony to them and to the nations.
+  JA: またあなたがたは、わたしのために長官たちや王たちの前に引き出されるであろう。それは、彼らと異邦人とに対してあかしをするためである。
+[10:19]
+  EN: But when they deliver you up, don’t be anxious how or what you will say, for it will be given you in that hour what you will say.
+  JA: 彼らがあなたがたを引き渡したとき、何をどう言おうかと心配しないがよい。言うべきことは、その時に授けられるからである。
+[10:20]
+  EN: For it is not you who speak, but the Spirit of your Father who speaks in you.
+  JA: 語る者は、あなたがたではなく、あなたがたの中にあって語る父の霊である。
+[10:21]
+  EN: “Brother will deliver up brother to death, and the father his child. Children will rise up against parents and cause them to be put to death.
+  JA: 兄弟は兄弟を、父は子を殺すために渡し、また子は親に逆らって立ち、彼らを殺させるであろう。
+[10:22]
+  EN: You will be hated by all men for my name’s sake, but he who endures to the end will be saved.
+  JA: またあなたがたは、わたしの名のゆえにすべての人に憎まれるであろう。しかし、最後まで耐え忍ぶ者は救われる。
+[10:23]
+  EN: But when they persecute you in this city, flee into the next, for most certainly I tell you, you will not have gone through the cities of Israel until the Son of Man has come.
+  JA: 一つの町で迫害されたなら、他の町へ逃げなさい。よく言っておく。あなたがたがイスラエルの町々を回り終らないうちに、人の子は来るであろう。
+[10:24]
+  EN: “A disciple is not above his teacher, nor a servant above his lord.
+  JA: 弟子はその師以上のものではなく、僕はその主人以上の者ではない。
+[10:25]
+  EN: It is enough for the disciple that he be like his teacher, and the servant like his lord. If they have called the master of the house Beelzebul, how much more those of his household!
+  JA: 弟子がその師のようであり、僕がその主人のようであれば、それで十分である。もし家の主人がベルゼブルと言われるならば、その家の者どもはなおさら、どんなにか悪く言われることであろう。
+[10:26]
+  EN: Therefore don’t be afraid of them, for there is nothing covered that will not be revealed, or hidden that will not be known.
+  JA: だから彼らを恐れるな。おおわれたもので、現れてこないものはなく、隠れているもので、知られてこないものはない。
+[10:27]
+  EN: What I tell you in the darkness, speak in the light; and what you hear whispered in the ear, proclaim on the housetops.
+  JA: わたしが暗やみであなたがたに話すことを、明るみで言え。耳にささやかれたことを、屋根の上で言いひろめよ。
+[10:28]
+  EN: Don’t be afraid of those who kill the body, but are not able to kill the soul. Rather, fear him who is able to destroy both soul and body in Gehenna.
+  JA: また、からだを殺しても、魂を殺すことのできない者どもを恐れるな。むしろ、からだも魂も地獄で滅ぼす力のあるかたを恐れなさい。
+[10:29]
+  EN: “Aren’t two sparrows sold for an assarion coin? Not one of them falls to the ground apart from your Father’s will.
+  JA: 二羽のすずめは一アサリオンで売られているではないか。しかもあなたがたの父の許しがなければ、その一羽も地に落ちることはない。
+[10:30]
+  EN: But the very hairs of your head are all numbered.
+  JA: またあなたがたの頭の毛までも、みな数えられている。
+[10:31]
+  EN: Therefore don’t be afraid. You are of more value than many sparrows.
+  JA: それだから、恐れることはない。あなたがたは多くのすずめよりも、まさった者である。
+[10:32]
+  EN: Everyone therefore who confesses me before men, I will also confess him before my Father who is in heaven.
+  JA: だから人の前でわたしを受けいれる者を、わたしもまた、天にいますわたしの父の前で受けいれるであろう。
+[10:33]
+  EN: But whoever denies me before men, I will also deny him before my Father who is in heaven.
+  JA: しかし、人の前でわたしを拒む者を、わたしも天にいますわたしの父の前で拒むであろう。
+[10:34]
+  EN: “Don’t think that I came to send peace on the earth. I didn’t come to send peace, but a sword.
+  JA: 地上に平和をもたらすために、わたしがきたと思うな。平和ではなく、つるぎを投げ込むためにきたのである。
+[10:35]
+  EN: For I came to set a man at odds against his father, and a daughter against her mother, and a daughter-in-law against her mother-in-law.
+  JA: わたしがきたのは、人をその父と、娘をその母と、嫁をそのしゅうとめと仲たがいさせるためである。
+[10:36]
+  EN: A man’s foes will be those of his own household.
+  JA: そして家の者が、その人の敵となるであろう。
+[10:37]
+  EN: He who loves father or mother more than me is not worthy of me; and he who loves son or daughter more than me isn’t worthy of me.
+  JA: わたしよりも父または母を愛する者は、わたしにふさわしくない。わたしよりもむすこや娘を愛する者は、わたしにふさわしくない。
+[10:38]
+  EN: He who doesn’t take his cross and follow after me isn’t worthy of me.
+  JA: また自分の十字架をとってわたしに従ってこない者はわたしにふさわしくない。
+[10:39]
+  EN: He who seeks his life will lose it; and he who loses his life for my sake will find it.
+  JA: 自分の命を得ている者はそれを失い、わたしのために自分の命を失っている者は、それを得るであろう。
+[10:40]
+  EN: “He who receives you receives me, and he who receives me receives him who sent me.
+  JA: あなたがたを受けいれる者は、わたしを受けいれるのである。わたしを受けいれる者は、わたしをおつかわしになったかたを受けいれるのである。
+[10:41]
+  EN: He who receives a prophet in the name of a prophet will receive a prophet’s reward. He who receives a righteous man in the name of a righteous man will receive a righteous man’s reward.
+  JA: 預言者の名のゆえに預言者を受けいれる者は、預言者の報いを受け、義人の名のゆえに義人を受けいれる者は、義人の報いを受けるであろう。
+[10:42]
+  EN: Whoever gives one of these little ones just a cup of cold water to drink in the name of a disciple, most certainly I tell you, he will in no way lose his reward.”
+  JA: わたしの弟子であるという名のゆえに、この小さい者のひとりに冷たい水一杯でも飲ませてくれる者は、よく言っておくが、決してその報いからもれることはない」。
+
+=== MAT 馬太福音 11 ===
+
+[11:1]
+  EN: When Jesus had finished directing his twelve disciples, he departed from there to teach and preach in their cities.
+  JA: イエスは十二弟子にこのように命じ終えてから、町々で教えまた宣べ伝えるために、そこを立ち去られた。
+[11:2]
+  EN: Now when John heard in the prison the works of Christ, he sent two of his disciples
+  JA: さて、ヨハネは獄中でキリストのみわざについて伝え聞き、自分の弟子たちをつかわして、
+[11:3]
+  EN: and said to him, “Are you he who comes, or should we look for another?”
+  JA: イエスに言わせた、「『きたるべきかた』はあなたなのですか。それとも、ほかにだれかを待つべきでしょうか」。
+[11:4]
+  EN: Jesus answered them, “Go and tell John the things which you hear and see:
+  JA: イエスは答えて言われた、「行って、あなたがたが見聞きしていることをヨハネに報告しなさい。
+[11:5]
+  EN: the blind receive their sight, the lame walk, the lepers are cleansed, the deaf hear, the dead are raised up, and the poor have good news preached to them.
+  JA: 盲人は見え、足なえは歩き、らい病人はきよまり、耳しいは聞え、死人は生きかえり、貧しい人々は福音を聞かされている。
+[11:6]
+  EN: Blessed is he who finds no occasion for stumbling in me.”
+  JA: わたしにつまずかない者は、さいわいである」。
+[11:7]
+  EN: As these went their way, Jesus began to say to the multitudes concerning John, “What did you go out into the wilderness to see? A reed shaken by the wind?
+  JA: 彼らが帰ってしまうと、イエスはヨハネのことを群衆に語りはじめられた、「あなたがたは、何を見に荒野に出てきたのか。風に揺らぐ葦であるか。
+[11:8]
+  EN: But what did you go out to see? A man in soft clothing? Behold, those who wear soft clothing are in kings’ houses.
+  JA: では、何を見に出てきたのか。柔らかい着物をまとった人か。柔らかい着物をまとった人々なら、王の家にいる。
+[11:9]
+  EN: But why did you go out? To see a prophet? Yes, I tell you, and much more than a prophet.
+  JA: では、なんのために出てきたのか。預言者を見るためか。そうだ、あなたがたに言うが、預言者以上の者である。
+[11:10]
+  EN: For this is he, of whom it is written, ‘Behold, I send my messenger before your face, who will prepare your way before you.’
+  JA: 『見よ、わたしは使をあなたの先につかわし、あなたの前に、道を整えさせるであろう』と書いてあるのは、この人のことである。
+[11:11]
+  EN: Most certainly I tell you, among those who are born of women there has not arisen anyone greater than John the Baptizer; yet he who is least in the Kingdom of Heaven is greater than he.
+  JA: あなたがたによく言っておく。女の産んだ者の中で、バプテスマのヨハネより大きい人物は起らなかった。しかし、天国で最も小さい者も、彼よりは大きい。
+[11:12]
+  EN: From the days of John the Baptizer until now, the Kingdom of Heaven suffers violence, and the violent take it by force.
+  JA: バプテスマのヨハネの時から今に至るまで、天国は激しく襲われている。そして激しく襲う者たちがそれを奪い取っている。
+[11:13]
+  EN: For all the prophets and the law prophesied until John.
+  JA: すべての預言者と律法とが預言したのは、ヨハネの時までである。
+[11:14]
+  EN: If you are willing to receive it, this is Elijah, who is to come.
+  JA: そして、もしあなたがたが受けいれることを望めば、この人こそは、きたるべきエリヤなのである。
+[11:15]
+  EN: He who has ears to hear, let him hear.
+  JA: 耳のある者は聞くがよい。
+[11:16]
+  EN: “But to what shall I compare this generation? It is like children sitting in the marketplaces, who call to their companions
+  JA: 今の時代を何に比べようか。それは子供たちが広場にすわって、ほかの子供たちに呼びかけ、
+[11:17]
+  EN: and say, ‘We played the flute for you, and you didn’t dance. We mourned for you, and you didn’t lament.’
+  JA: 『わたしたちが笛を吹いたのに、あなたたちは踊ってくれなかった。弔いの歌を歌ったのに、胸を打ってくれなかった』と言うのに似ている。
+[11:18]
+  EN: For John came neither eating nor drinking, and they say, ‘He has a demon.’
+  JA: なぜなら、ヨハネがきて、食べることも、飲むこともしないと、あれは悪霊につかれているのだ、と言い、
+[11:19]
+  EN: The Son of Man came eating and drinking, and they say, ‘Behold, a gluttonous man and a drunkard, a friend of tax collectors and sinners!’ But wisdom is justified by her children.”
+  JA: また人の子がきて、食べたり飲んだりしていると、見よ、あれは食をむさぼる者、大酒を飲む者、また取税人、罪人の仲間だ、と言う。しかし、知恵の正しいことは、その働きが証明する」。
+[11:20]
+  EN: Then he began to denounce the cities in which most of his mighty works had been done, because they didn’t repent.
+  JA: それからイエスは、数々の力あるわざがなされたのに、悔い改めることをしなかった町々を、責めはじめられた。
+[11:21]
+  EN: “Woe to you, Chorazin! Woe to you, Bethsaida! For if the mighty works had been done in Tyre and Sidon which were done in you, they would have repented long ago in sackcloth and ashes.
+  JA: 「わざわいだ、コラジンよ。わざわいだ、ベツサイダよ。おまえたちのうちでなされた力あるわざが、もしツロとシドンでなされたなら、彼らはとうの昔に、荒布をまとい灰をかぶって、悔い改めたであろう。
+[11:22]
+  EN: But I tell you, it will be more tolerable for Tyre and Sidon on the day of judgment than for you.
+  JA: しかし、おまえたちに言っておく。さばきの日には、ツロとシドンの方がおまえたちよりも、耐えやすいであろう。
+[11:23]
+  EN: You, Capernaum, who are exalted to heaven, you will go down to Hades.  For if the mighty works had been done in Sodom which were done in you, it would have remained until today.
+  JA: ああ、カペナウムよ、おまえは天にまで上げられようとでもいうのか。黄泉にまで落されるであろう。おまえの中でなされた力あるわざが、もしソドムでなされたなら、その町は今日までも残っていたであろう。
+[11:24]
+  EN: But I tell you that it will be more tolerable for the land of Sodom on the day of judgment, than for you.”
+  JA: しかし、あなたがたに言う。さばきの日には、ソドムの地の方がおまえよりは耐えやすいであろう」。
+[11:25]
+  EN: At that time, Jesus answered, “I thank you, Father, Lord of heaven and earth, that you hid these things from the wise and understanding, and revealed them to infants.
+  JA: そのときイエスは声をあげて言われた、「天地の主なる父よ。あなたをほめたたえます。これらの事を知恵のある者や賢い者に隠して、幼な子にあらわしてくださいました。
+[11:26]
+  EN: Yes, Father, for so it was well-pleasing in your sight.
+  JA: 父よ、これはまことにみこころにかなった事でした。
+[11:27]
+  EN: All things have been delivered to me by my Father. No one knows the Son, except the Father; neither does anyone know the Father, except the Son and he to whom the Son desires to reveal him.
+  JA: すべての事は父からわたしに任せられています。そして、子を知る者は父のほかにはなく、父を知る者は、子と、父をあらわそうとして子が選んだ者とのほかに、だれもありません。
+[11:28]
+  EN: “Come to me, all you who labor and are heavily burdened, and I will give you rest.
+  JA: すべて重荷を負うて苦労している者は、わたしのもとにきなさい。あなたがたを休ませてあげよう。
+[11:29]
+  EN: Take my yoke upon you and learn from me, for I am gentle and humble in heart; and you will find rest for your souls.
+  JA: わたしは柔和で心のへりくだった者であるから、わたしのくびきを負うて、わたしに学びなさい。そうすれば、あなたがたの魂に休みが与えられるであろう。
+[11:30]
+  EN: For my yoke is easy, and my burden is light.”
+  JA: わたしのくびきは負いやすく、わたしの荷は軽いからである」。
+
+=== MAT 馬太福音 12 ===
+
+[12:1]
+  EN: At that time, Jesus went on the Sabbath day through the grain fields. His disciples were hungry and began to pluck heads of grain and to eat.
+  JA: そのころ、ある安息日に、イエスは麦畑の中を通られた。すると弟子たちは、空腹であったので、穂を摘んで食べはじめた。
+[12:2]
+  EN: But the Pharisees, when they saw it, said to him, “Behold, your disciples do what is not lawful to do on the Sabbath.”
+  JA: パリサイ人たちがこれを見て、イエスに言った、「ごらんなさい、あなたの弟子たちが、安息日にしてはならないことをしています」。
+[12:3]
+  EN: But he said to them, “Haven’t you read what David did when he was hungry, and those who were with him:
+  JA: そこでイエスは彼らに言われた、「あなたがたは、ダビデとその供の者たちとが飢えたとき、ダビデが何をしたか読んだことがないのか。
+[12:4]
+  EN: how he entered into God’s house and ate the show bread, which was not lawful for him to eat, nor for those who were with him, but only for the priests?
+  JA: すなわち、神の家にはいって、祭司たちのほか、自分も供の者たちも食べてはならぬ供えのパンを食べたのである。
+[12:5]
+  EN: Or have you not read in the law that on the Sabbath day the priests in the temple profane the Sabbath and are guiltless?
+  JA: また、安息日に宮仕えをしている祭司たちは安息日を破っても罪にはならないことを、律法で読んだことがないのか。
+[12:6]
+  EN: But I tell you that one greater than the temple is here.
+  JA: あなたがたに言っておく。宮よりも大いなる者がここにいる。
+[12:7]
+  EN: But if you had known what this means, ‘I desire mercy, and not sacrifice,’ you wouldn’t have condemned the guiltless.
+  JA: 『わたしが好むのは、あわれみであって、いけにえではない』とはどういう意味か知っていたなら、あなたがたは罪のない者をとがめなかったであろう。
+[12:8]
+  EN: For the Son of Man is Lord of the Sabbath.”
+  JA: 人の子は安息日の主である」。
+[12:9]
+  EN: He departed from there and went into their synagogue.
+  JA: イエスはそこを去って、彼らの会堂にはいられた。
+[12:10]
+  EN: And behold, there was a man with a withered hand. They asked him, “Is it lawful to heal on the Sabbath day?” so that they might accuse him.
+  JA: すると、そのとき、片手のなえた人がいた。人々はイエスを訴えようと思って、「安息日に人をいやしても、さしつかえないか」と尋ねた。
+[12:11]
+  EN: He said to them, “What man is there among you who has one sheep, and if this one falls into a pit on the Sabbath day, won’t he grab on to it and lift it out?
+  JA: イエスは彼らに言われた、「あなたがたのうちに、一匹の羊を持っている人があるとして、もしそれが安息日に穴に落ちこんだなら、手をかけて引き上げてやらないだろうか。
+[12:12]
+  EN: Of how much more value then is a man than a sheep! Therefore it is lawful to do good on the Sabbath day.”
+  JA: 人は羊よりも、はるかにすぐれているではないか。だから、安息日に良いことをするのは、正しいことである」。
+[12:13]
+  EN: Then he told the man, “Stretch out your hand.” He stretched it out; and it was restored whole, just like the other.
+  JA: そしてイエスはその人に、「手を伸ばしなさい」と言われた。そこで手を伸ばすと、ほかの手のように良くなった。
+[12:14]
+  EN: But the Pharisees went out and conspired against him, how they might destroy him.
+  JA: パリサイ人たちは出て行って、なんとかしてイエスを殺そうと相談した。
+[12:15]
+  EN: Jesus, perceiving that, withdrew from there. Great multitudes followed him; and he healed them all,
+  JA: イエスはこれを知って、そこを去って行かれた。ところが多くの人々がついてきたので、彼らを皆いやし、
+[12:16]
+  EN: and commanded them that they should not make him known,
+  JA: そして自分のことを人々にあらわさないようにと、彼らを戒められた。
+[12:17]
+  EN: that it might be fulfilled which was spoken through Isaiah the prophet, saying,
+  JA: これは預言者イザヤの言った言葉が、成就するためである、
+[12:18]
+  EN: “Behold, my servant whom I have chosen, my beloved in whom my soul is well pleased. I will put my Spirit on him. He will proclaim justice to the nations.
+  JA: 「見よ、わたしが選んだ僕、わたしの心にかなう、愛する者。わたしは彼にわたしの霊を授け、そして彼は正義を異邦人に宣べ伝えるであろう。
+[12:19]
+  EN: He will not strive, nor shout, neither will anyone hear his voice in the streets.
+  JA: 彼は争わず、叫ばず、またその声を大路で聞く者はない。
+[12:20]
+  EN: He won’t break a bruised reed. He won’t quench a smoking flax, until he leads justice to victory.
+  JA: 彼が正義に勝ちを得させる時まで、いためられた葦を折ることがなく、煙っている燈心を消すこともない。
+[12:21]
+  EN: In his name, the nations will hope.”
+  JA: 異邦人は彼の名に望みを置くであろう」。
+[12:22]
+  EN: Then one possessed by a demon, blind and mute, was brought to him; and he healed him, so that the blind and mute man both spoke and saw.
+  JA: そのとき、人々が悪霊につかれた盲人のおしを連れてきたので、イエスは彼をいやして、物を言い、また目が見えるようにされた。
+[12:23]
+  EN: All the multitudes were amazed, and said, “Can this be the son of David?”
+  JA: すると群衆はみな驚いて言った、「この人が、あるいはダビデの子ではあるまいか」。
+[12:24]
+  EN: But when the Pharisees heard it, they said, “This man does not cast out demons except by Beelzebul, the prince of the demons.”
+  JA: しかし、パリサイ人たちは、これを聞いて言った、「この人が悪霊を追い出しているのは、まったく悪霊のかしらベルゼブルによるのだ」。
+[12:25]
+  EN: Knowing their thoughts, Jesus said to them, “Every kingdom divided against itself is brought to desolation, and every city or house divided against itself will not stand.
+  JA: イエスは彼らの思いを見抜いて言われた、「おおよそ、内部で分れ争う国は自滅し、内わで分れ争う町や家は立ち行かない。
+[12:26]
+  EN: If Satan casts out Satan, he is divided against himself. How then will his kingdom stand?
+  JA: もしサタンがサタンを追い出すならば、それは内わで分れ争うことになる。それでは、その国はどうして立ち行けよう。
+[12:27]
+  EN: If I by Beelzebul cast out demons, by whom do your children cast them out? Therefore they will be your judges.
+  JA: もしわたしがベルゼブルによって悪霊を追い出すとすれば、あなたがたの仲間はだれによって追い出すのであろうか。だから、彼らがあなたがたをさばく者となるであろう。
+[12:28]
+  EN: But if I by the Spirit of God cast out demons, then God’s Kingdom has come upon you.
+  JA: しかし、わたしが神の霊によって悪霊を追い出しているのなら、神の国はすでにあなたがたのところにきたのである。
+[12:29]
+  EN: Or how can one enter into the house of the strong man and plunder his goods, unless he first bind the strong man? Then he will plunder his house.
+  JA: まただれでも、まず強い人を縛りあげなければ、どうして、その人の家に押し入って家財を奪い取ることができようか。縛ってから、はじめてその家を掠奪することができる。
+[12:30]
+  EN: “He who is not with me is against me, and he who doesn’t gather with me, scatters.
+  JA: わたしの味方でない者は、わたしに反対するものであり、わたしと共に集めない者は、散らすものである。
+[12:31]
+  EN: Therefore I tell you, every sin and blasphemy will be forgiven men, but the blasphemy against the Spirit will not be forgiven men.
+  JA: だから、あなたがたに言っておく。人には、その犯すすべての罪も神を汚す言葉も、ゆるされる。しかし、聖霊を汚す言葉は、ゆるされることはない。
+[12:32]
+  EN: Whoever speaks a word against the Son of Man, it will be forgiven him; but whoever speaks against the Holy Spirit, it will not be forgiven him, either in this age, or in that which is to come.
+  JA: また人の子に対して言い逆らう者は、ゆるされるであろう。しかし、聖霊に対して言い逆らう者は、この世でも、きたるべき世でも、ゆるされることはない。
+[12:33]
+  EN: “Either make the tree good and its fruit good, or make the tree corrupt and its fruit corrupt; for the tree is known by its fruit.
+  JA: 木が良ければ、その実も良いとし、木が悪ければ、その実も悪いとせよ。木はその実でわかるからである。
+[12:34]
+  EN: You offspring of vipers, how can you, being evil, speak good things? For out of the abundance of the heart, the mouth speaks.
+  JA: まむしの子らよ。あなたがたは悪い者であるのに、どうして良いことを語ることができようか。おおよそ、心からあふれることを、口が語るものである。
+[12:35]
+  EN: The good man out of his good treasure brings out good things, and the evil man out of his evil treasure brings out evil things.
+  JA: 善人はよい倉から良い物を取り出し、悪人は悪い倉から悪い物を取り出す。
+[12:36]
+  EN: I tell you that every idle word that men speak, they will give account of it in the day of judgment.
+  JA: あなたがたに言うが、審判の日には、人はその語る無益な言葉に対して、言い開きをしなければならないであろう。
+[12:37]
+  EN: For by your words you will be justified, and by your words you will be condemned.”
+  JA: あなたは、自分の言葉によって正しいとされ、また自分の言葉によって罪ありとされるからである」。
+[12:38]
+  EN: Then certain of the scribes and Pharisees answered, “Teacher, we want to see a sign from you.”
+  JA: そのとき、律法学者、パリサイ人のうちのある人々がイエスにむかって言った、「先生、わたしたちはあなたから、しるしを見せていただきとうございます」。
+[12:39]
+  EN: But he answered them, “An evil and adulterous generation seeks after a sign, but no sign will be given to it but the sign of Jonah the prophet.
+  JA: すると、彼らに答えて言われた、「邪悪で不義な時代は、しるしを求める。しかし、預言者ヨナのしるしのほかには、なんのしるしも与えられないであろう。
+[12:40]
+  EN: For as Jonah was three days and three nights in the belly of the huge fish, so will the Son of Man be three days and three nights in the heart of the earth.
+  JA: すなわち、ヨナが三日三晩、大魚の腹の中にいたように、人の子も三日三晩、地の中にいるであろう。
+[12:41]
+  EN: The men of Nineveh will stand up in the judgment with this generation and will condemn it, for they repented at the preaching of Jonah; and behold, someone greater than Jonah is here.
+  JA: ニネベの人々が、今の時代の人々と共にさばきの場に立って、彼らを罪に定めるであろう。なぜなら、ニネベの人々はヨナの宣教によって悔い改めたからである。しかし見よ、ヨナにまさる者がここにいる。
+[12:42]
+  EN: The Queen of the South will rise up in the judgment with this generation and will condemn it, for she came from the ends of the earth to hear the wisdom of Solomon; and behold, someone greater than Solomon is here.
+  JA: 南の女王が、今の時代の人々と共にさばきの場に立って、彼らを罪に定めるであろう。なぜなら、彼女はソロモンの知恵を聞くために地の果から、はるばるきたからである。しかし見よ、ソロモンにまさる者がここにいる。
+[12:43]
+  EN: “When an unclean spirit has gone out of a man, he passes through waterless places seeking rest, and doesn’t find it.
+  JA: 汚れた霊が人から出ると、休み場を求めて水の無い所を歩きまわるが、見つからない。
+[12:44]
+  EN: Then he says, ‘I will return into my house from which I came;’ and when he has come back, he finds it empty, swept, and put in order.
+  JA: そこで、出てきた元の家に帰ろうと言って帰って見ると、その家はあいていて、そうじがしてある上、飾りつけがしてあった。
+[12:45]
+  EN: Then he goes and takes with himself seven other spirits more evil than he is, and they enter in and dwell there. The last state of that man becomes worse than the first. Even so will it be also to this evil generation.”
+  JA: そこでまた出て行って、自分以上に悪い他の七つの霊を一緒に引き連れてきて中にはいり、そこに住み込む。そうすると、その人ののちの状態は初めよりももっと悪くなるのである。よこしまな今の時代も、このようになるであろう」。
+[12:46]
+  EN: While he was yet speaking to the multitudes, behold, his mother and his brothers stood outside, seeking to speak to him.
+  JA: イエスがまだ群衆に話しておられるとき、その母と兄弟たちとが、イエスに話そうと思って外に立っていた。
+[12:47]
+  EN: One said to him, “Behold, your mother and your brothers stand outside, seeking to speak to you.”
+  JA: それで、ある人がイエスに言った、「ごらんなさい。あなたの母上と兄弟がたが、あなたに話そうと思って、外に立っておられます」。
+[12:48]
+  EN: But he answered him who spoke to him, “Who is my mother? Who are my brothers?”
+  JA: イエスは知らせてくれた者に答えて言われた、「わたしの母とは、だれのことか。わたしの兄弟とは、だれのことか」。
+[12:49]
+  EN: He stretched out his hand toward his disciples, and said, “Behold, my mother and my brothers!
+  JA: そして、弟子たちの方に手をさし伸べて言われた、「ごらんなさい。ここにわたしの母、わたしの兄弟がいる。
+[12:50]
+  EN: For whoever does the will of my Father who is in heaven, he is my brother, and sister, and mother.”
+  JA: 天にいますわたしの父のみこころを行う者はだれでも、わたしの兄弟、また姉妹、また母なのである」。
+
+=== MAT 馬太福音 13 ===
+
+[13:1]
+  EN: On that day Jesus went out of the house and sat by the seaside.
+  JA: その日、イエスは家を出て、海べにすわっておられた。
+[13:2]
+  EN: Great multitudes gathered to him, so that he entered into a boat and sat; and all the multitude stood on the beach.
+  JA: ところが、大ぜいの群衆がみもとに集まったので、イエスは舟に乗ってすわられ、群衆はみな岸に立っていた。
+[13:3]
+  EN: He spoke to them many things in parables, saying, “Behold, a farmer went out to sow.
+  JA: イエスは譬で多くの事を語り、こう言われた、「見よ、種まきが種をまきに出て行った。
+[13:4]
+  EN: As he sowed, some seeds fell by the roadside, and the birds came and devoured them.
+  JA: まいているうちに、道ばたに落ちた種があった。すると、鳥がきて食べてしまった。
+[13:5]
+  EN: Others fell on rocky ground, where they didn’t have much soil, and immediately they sprang up, because they had no depth of earth.
+  JA: ほかの種は土の薄い石地に落ちた。そこは土が深くないので、すぐ芽を出したが、
+[13:6]
+  EN: When the sun had risen, they were scorched. Because they had no root, they withered away.
+  JA: 日が上ると焼けて、根がないために枯れてしまった。
+[13:7]
+  EN: Others fell among thorns. The thorns grew up and choked them.
+  JA: ほかの種はいばらの地に落ちた。すると、いばらが伸びて、ふさいでしまった。
+[13:8]
+  EN: Others fell on good soil and yielded fruit: some one hundred times as much, some sixty, and some thirty.
+  JA: ほかの種は良い地に落ちて実を結び、あるものは百倍、あるものは六十倍、あるものは三十倍にもなった。
+[13:9]
+  EN: He who has ears to hear, let him hear.”
+  JA: 耳のある者は聞くがよい」。
+[13:10]
+  EN: The disciples came, and said to him, “Why do you speak to them in parables?”
+  JA: それから、弟子たちがイエスに近寄ってきて言った、「なぜ、彼らに譬でお話しになるのですか」。
+[13:11]
+  EN: He answered them, “To you it is given to know the mysteries of the Kingdom of Heaven, but it is not given to them.
+  JA: そこでイエスは答えて言われた、「あなたがたには、天国の奥義を知ることが許されているが、彼らには許されていない。
+[13:12]
+  EN: For whoever has, to him will be given, and he will have abundance; but whoever doesn’t have, from him will be taken away even that which he has.
+  JA: おおよそ、持っている人は与えられて、いよいよ豊かになるが、持っていない人は、持っているものまでも取り上げられるであろう。
+[13:13]
+  EN: Therefore I speak to them in parables, because seeing they don’t see, and hearing, they don’t hear, neither do they understand.
+  JA: だから、彼らには譬で語るのである。それは彼らが、見ても見ず、聞いても聞かず、また悟らないからである。
+[13:14]
+  EN: In them the prophecy of Isaiah is fulfilled, which says, ‘By hearing you will hear, and will in no way understand; Seeing you will see, and will in no way perceive;
+  JA: こうしてイザヤの言った預言が、彼らの上に成就したのである。『あなたがたは聞くには聞くが、決して悟らない。見るには見るが、決して認めない。
+[13:15]
+  EN: for this people’s heart has grown callous, their ears are dull of hearing, and they have closed their eyes; or else perhaps they might perceive with their eyes, hear with their ears, understand with their heart, and would turn again, and I would heal them.’
+  JA: この民の心は鈍くなり、その耳は聞えにくく、その目は閉じている。それは、彼らが目で見ず、耳で聞かず、心で悟らず、悔い改めていやされることがないためである』。
+[13:16]
+  EN: “But blessed are your eyes, for they see; and your ears, for they hear.
+  JA: しかし、あなたがたの目は見ており、耳は聞いているから、さいわいである。
+[13:17]
+  EN: For most certainly I tell you that many prophets and righteous men desired to see the things which you see, and didn’t see them; and to hear the things which you hear, and didn’t hear them.
+  JA: あなたがたによく言っておく。多くの預言者や義人は、あなたがたの見ていることを見ようと熱心に願ったが、見ることができず、またあなたがたの聞いていることを聞こうとしたが、聞けなかったのである。
+[13:18]
+  EN: “Hear, then, the parable of the farmer.
+  JA: そこで、種まきの譬を聞きなさい。
+[13:19]
+  EN: When anyone hears the word of the Kingdom and doesn’t understand it, the evil one comes and snatches away that which has been sown in his heart. This is what was sown by the roadside.
+  JA: だれでも御国の言を聞いて悟らないならば、悪い者がきて、その人の心にまかれたものを奪いとって行く。道ばたにまかれたものというのは、そういう人のことである。
+[13:20]
+  EN: What was sown on the rocky places, this is he who hears the word and immediately with joy receives it;
+  JA: 石地にまかれたものというのは、御言を聞くと、すぐに喜んで受ける人のことである。
+[13:21]
+  EN: yet he has no root in himself, but endures for a while. When oppression or persecution arises because of the word, immediately he stumbles.
+  JA: その中に根がないので、しばらく続くだけであって、御言のために困難や迫害が起ってくると、すぐつまずいてしまう。
+[13:22]
+  EN: What was sown among the thorns, this is he who hears the word, but the cares of this age and the deceitfulness of riches choke the word, and he becomes unfruitful.
+  JA: また、いばらの中にまかれたものとは、御言を聞くが、世の心づかいと富の惑わしとが御言をふさぐので、実を結ばなくなる人のことである。
+[13:23]
+  EN: What was sown on the good ground, this is he who hears the word and understands it, who most certainly bears fruit and produces, some one hundred times as much, some sixty, and some thirty.”
+  JA: また、良い地にまかれたものとは、御言を聞いて悟る人のことであって、そういう人が実を結び、百倍、あるいは六十倍、あるいは三十倍にもなるのである」。
+[13:24]
+  EN: He set another parable before them, saying, “The Kingdom of Heaven is like a man who sowed good seed in his field,
+  JA: また、ほかの譬を彼らに示して言われた、「天国は、良い種を自分の畑にまいておいた人のようなものである。
+[13:25]
+  EN: but while people slept, his enemy came and sowed darnel weeds also among the wheat, and went away.
+  JA: 人々が眠っている間に敵がきて、麦の中に毒麦をまいて立ち去った。
+[13:26]
+  EN: But when the blade sprang up and produced grain, then the darnel weeds appeared also.
+  JA: 芽がはえ出て実を結ぶと、同時に毒麦もあらわれてきた。
+[13:27]
+  EN: The servants of the householder came and said to him, ‘Sir, didn’t you sow good seed in your field? Where did these darnel weeds come from?’
+  JA: 僕たちがきて、家の主人に言った、『ご主人様、畑におまきになったのは、良い種ではありませんでしたか。どうして毒麦がはえてきたのですか』。
+[13:28]
+  EN: “He said to them, ‘An enemy has done this.’ “The servants asked him, ‘Do you want us to go and gather them up?’
+  JA: 主人は言った、『それは敵のしわざだ』。すると僕たちが言った『では行って、それを抜き集めましょうか』。
+[13:29]
+  EN: “But he said, ‘No, lest perhaps while you gather up the darnel weeds, you root up the wheat with them.
+  JA: 彼は言った、『いや、毒麦を集めようとして、麦も一緒に抜くかも知れない。
+[13:30]
+  EN: Let both grow together until the harvest, and in the harvest time I will tell the reapers, “First, gather up the darnel weeds, and bind them in bundles to burn them; but gather the wheat into my barn.” ’ ”
+  JA: 収穫まで、両方とも育つままにしておけ。収穫の時になったら、刈る者に、まず毒麦を集めて束にして焼き、麦の方は集めて倉に入れてくれ、と言いつけよう』」。
+[13:31]
+  EN: He set another parable before them, saying, “The Kingdom of Heaven is like a grain of mustard seed which a man took, and sowed in his field,
+  JA: また、ほかの譬を彼らに示して言われた、「天国は、一粒のからし種のようなものである。ある人がそれをとって畑にまくと、
+[13:32]
+  EN: which indeed is smaller than all seeds. But when it is grown, it is greater than the herbs and becomes a tree, so that the birds of the air come and lodge in its branches.”
+  JA: それはどんな種よりも小さいが、成長すると、野菜の中でいちばん大きくなり、空の鳥がきて、その枝に宿るほどの木になる」。
+[13:33]
+  EN: He spoke another parable to them. “The Kingdom of Heaven is like yeast which a woman took and hid in three measures of meal, until it was all leavened.”
+  JA: またほかの譬を彼らに語られた、「天国は、パン種のようなものである。女がそれを取って三斗の粉の中に混ぜると、全体がふくらんでくる」。
+[13:34]
+  EN: Jesus spoke all these things in parables to the multitudes; and without a parable, he didn’t speak to them,
+  JA: イエスはこれらのことをすべて、譬で群衆に語られた。譬によらないでは何事も彼らに語られなかった。
+[13:35]
+  EN: that it might be fulfilled which was spoken through the prophet, saying, “I will open my mouth in parables; I will utter things hidden from the foundation of the world.”
+  JA: これは預言者によって言われたことが、成就するためである、「わたしは口を開いて譬を語り、世の初めから隠されていることを語り出そう」。
+[13:36]
+  EN: Then Jesus sent the multitudes away, and went into the house. His disciples came to him, saying, “Explain to us the parable of the darnel weeds of the field.”
+  JA: それからイエスは、群衆をあとに残して家にはいられた。すると弟子たちは、みもとにきて言った、「畑の毒麦の譬を説明してください」。
+[13:37]
+  EN: He answered them, “He who sows the good seed is the Son of Man,
+  JA: イエスは答えて言われた、「良い種をまく者は、人の子である。
+[13:38]
+  EN: the field is the world, the good seeds are the children of the Kingdom, and the darnel weeds are the children of the evil one.
+  JA: 畑は世界である。良い種と言うのは御国の子たちで、毒麦は悪い者の子たちである。
+[13:39]
+  EN: The enemy who sowed them is the devil. The harvest is the end of the age, and the reapers are angels.
+  JA: それをまいた敵は悪魔である。収穫とは世の終りのことで、刈る者は御使たちである。
+[13:40]
+  EN: As therefore the darnel weeds are gathered up and burned with fire; so will it be at the end of this age.
+  JA: だから、毒麦が集められて火で焼かれるように、世の終りにもそのとおりになるであろう。
+[13:41]
+  EN: The Son of Man will send out his angels, and they will gather out of his Kingdom all things that cause stumbling and those who do iniquity,
+  JA: 人の子はその使たちをつかわし、つまずきとなるものと不法を行う者とを、ことごとく御国からとり集めて、
+[13:42]
+  EN: and will cast them into the furnace of fire. There will be weeping and gnashing of teeth.
+  JA: 炉の火に投げ入れさせるであろう。そこでは泣き叫んだり、歯がみをしたりするであろう。
+[13:43]
+  EN: Then the righteous will shine like the sun in the Kingdom of their Father. He who has ears to hear, let him hear.
+  JA: そのとき、義人たちは彼らの父の御国で、太陽のように輝きわたるであろう。耳のある者は聞くがよい。
+[13:44]
+  EN: “Again, the Kingdom of Heaven is like treasure hidden in the field, which a man found and hid. In his joy, he goes and sells all that he has and buys that field.
+  JA: 天国は、畑に隠してある宝のようなものである。人がそれを見つけると隠しておき、喜びのあまり、行って持ち物をみな売りはらい、そしてその畑を買うのである。
+[13:45]
+  EN: “Again, the Kingdom of Heaven is like a man who is a merchant seeking fine pearls,
+  JA: また天国は、良い真珠を捜している商人のようなものである。
+[13:46]
+  EN: who having found one pearl of great price, he went and sold all that he had and bought it.
+  JA: 高価な真珠一個を見いだすと、行って持ち物をみな売りはらい、そしてこれを買うのである。
+[13:47]
+  EN: “Again, the Kingdom of Heaven is like a dragnet that was cast into the sea and gathered some fish of every kind,
+  JA: また天国は、海におろして、あらゆる種類の魚を囲みいれる網のようなものである。
+[13:48]
+  EN: which, when it was filled, fishermen drew up on the beach. They sat down and gathered the good into containers, but the bad they threw away.
+  JA: それがいっぱいになると岸に引き上げ、そしてすわって、良いのを器に入れ、悪いのを外へ捨てるのである。
+[13:49]
+  EN: So it will be in the end of the world. The angels will come and separate the wicked from among the righteous,
+  JA: 世の終りにも、そのとおりになるであろう。すなわち、御使たちがきて、義人のうちから悪人をえり分け、
+[13:50]
+  EN: and will cast them into the furnace of fire. There will be weeping and gnashing of teeth.”
+  JA: そして炉の火に投げこむであろう。そこでは泣き叫んだり、歯がみをしたりするであろう。
+[13:51]
+  EN: Jesus said to them, “Have you understood all these things?” They answered him, “Yes, Lord.”
+  JA: あなたがたは、これらのことが皆わかったか」。彼らは「わかりました」と答えた。
+[13:52]
+  EN: He said to them, “Therefore every scribe who has been made a disciple in the Kingdom of Heaven is like a man who is a householder, who brings out of his treasure new and old things.”
+  JA: そこで、イエスは彼らに言われた、「それだから、天国のことを学んだ学者は、新しいものと古いものとを、その倉から取り出す一家の主人のようなものである」。
+[13:53]
+  EN: When Jesus had finished these parables, he departed from there.
+  JA: イエスはこれらの譬を語り終えてから、そこを立ち去られた。
+[13:54]
+  EN: Coming into his own country, he taught them in their synagogue, so that they were astonished and said, “Where did this man get this wisdom and these mighty works?
+  JA: そして郷里に行き、会堂で人々を教えられたところ、彼らは驚いて言った、「この人は、この知恵とこれらの力あるわざとを、どこで習ってきたのか。
+[13:55]
+  EN: Isn’t this the carpenter’s son? Isn’t his mother called Mary, and his brothers James, Joses, Simon, and Judas?
+  JA: この人は大工の子ではないか。母はマリヤといい、兄弟たちは、ヤコブ、ヨセフ、シモン、ユダではないか。
+[13:56]
+  EN: Aren’t all of his sisters with us? Where then did this man get all of these things?”
+  JA: またその姉妹たちもみな、わたしたちと一緒にいるではないか。こんな数々のことを、いったい、どこで習ってきたのか」。
+[13:57]
+  EN: They were offended by him.
+  JA: こうして人々はイエスにつまずいた。しかし、イエスは言われた、「預言者は、自分の郷里や自分の家以外では、どこででも敬われないことはない」。
+[13:58]
+  EN: But Jesus said to them, “A prophet is not without honor, except in his own country and in his own house.” He didn’t do many mighty works there because of their unbelief.
+  JA: そして彼らの不信仰のゆえに、そこでは力あるわざを、あまりなさらなかった。
+
+=== MAT 馬太福音 14 ===
+
+[14:1]
+  EN: At that time, Herod the tetrarch heard the report concerning Jesus,
+  JA: そのころ、領主ヘロデはイエスのうわさを聞いて、
+[14:2]
+  EN: and said to his servants, “This is John the Baptizer. He is risen from the dead. That is why these powers work in him.”
+  JA: 家来に言った、「あれはバプテスマのヨハネだ。死人の中からよみがえったのだ。それで、あのような力が彼のうちに働いているのだ」。
+[14:3]
+  EN: For Herod had arrested John, bound him, and put him in prison for the sake of Herodias, his brother Philip’s wife.
+  JA: というのは、ヘロデは先に、自分の兄弟ピリポの妻ヘロデヤのことで、ヨハネを捕えて縛り、獄に入れていた。
+[14:4]
+  EN: For John said to him, “It is not lawful for you to have her.”
+  JA: すなわち、ヨハネはヘロデに、「その女をめとるのは、よろしくない」と言ったからである。
+[14:5]
+  EN: When he would have put him to death, he feared the multitude, because they counted him as a prophet.
+  JA: そこでヘロデはヨハネを殺そうと思ったが、群衆を恐れた。彼らがヨハネを預言者と認めていたからである。
+[14:6]
+  EN: But when Herod’s birthday came, the daughter of Herodias danced among them and pleased Herod.
+  JA: さてヘロデの誕生日の祝に、ヘロデヤの娘がその席上で舞をまい、ヘロデを喜ばせたので、
+[14:7]
+  EN: Therefore he promised with an oath to give her whatever she should ask.
+  JA: 彼女の願うものは、なんでも与えようと、彼は誓って約束までした。
+[14:8]
+  EN: She, being prompted by her mother, said, “Give me here on a platter the head of John the Baptizer.”
+  JA: すると彼女は母にそそのかされて、「バプテスマのヨハネの首を盆に載せて、ここに持ってきていただきとうございます」と言った。
+[14:9]
+  EN: The king was grieved, but for the sake of his oaths and of those who sat at the table with him, he commanded it to be given,
+  JA: 王は困ったが、いったん誓ったのと、また列座の人たちの手前、それを与えるように命じ、
+[14:10]
+  EN: and he sent and beheaded John in the prison.
+  JA: 人をつかわして、獄中でヨハネの首を切らせた。
+[14:11]
+  EN: His head was brought on a platter and given to the young lady; and she brought it to her mother.
+  JA: その首は盆に載せて運ばれ、少女にわたされ、少女はそれを母のところに持って行った。
+[14:12]
+  EN: His disciples came, took the body, and buried it. Then they went and told Jesus.
+  JA: それから、ヨハネの弟子たちがきて、死体を引き取って葬った。そして、イエスのところに行って報告した。
+[14:13]
+  EN: Now when Jesus heard this, he withdrew from there in a boat to a deserted place apart. When the multitudes heard it, they followed him on foot from the cities.
+  JA: イエスはこのことを聞くと、舟に乗ってそこを去り、自分ひとりで寂しい所へ行かれた。しかし、群衆はそれと聞いて、町々から徒歩であとを追ってきた。
+[14:14]
+  EN: Jesus went out, and he saw a great multitude. He had compassion on them and healed their sick.
+  JA: イエスは舟から上がって、大ぜいの群衆をごらんになり、彼らを深くあわれんで、そのうちの病人たちをおいやしになった。
+[14:15]
+  EN: When evening had come, his disciples came to him, saying, “This place is deserted, and the hour is already late. Send the multitudes away, that they may go into the villages, and buy themselves food.”
+  JA: 夕方になったので、弟子たちがイエスのもとにきて言った、「ここは寂しい所でもあり、もう時もおそくなりました。群衆を解散させ、めいめいで食物を買いに、村々へ行かせてください」。
+[14:16]
+  EN: But Jesus said to them, “They don’t need to go away. You give them something to eat.”
+  JA: するとイエスは言われた、「彼らが出かけて行くには及ばない。あなたがたの手で食物をやりなさい」。
+[14:17]
+  EN: They told him, “We only have here five loaves and two fish.”
+  JA: 弟子たちは言った、「わたしたちはここに、パン五つと魚二ひきしか持っていません」。
+[14:18]
+  EN: He said, “Bring them here to me.”
+  JA: イエスは言われた、「それをここに持ってきなさい」。
+[14:19]
+  EN: He commanded the multitudes to sit down on the grass; and he took the five loaves and the two fish, and looking up to heaven, he blessed, broke and gave the loaves to the disciples; and the disciples gave to the multitudes.
+  JA: そして群衆に命じて、草の上にすわらせ、五つのパンと二ひきの魚とを手に取り、天を仰いでそれを祝福し、パンをさいて弟子たちに渡された。弟子たちはそれを群衆に与えた。
+[14:20]
+  EN: They all ate and were filled. They took up twelve baskets full of that which remained left over from the broken pieces.
+  JA: みんなの者は食べて満腹した。パンくずの残りを集めると、十二のかごにいっぱいになった。
+[14:21]
+  EN: Those who ate were about five thousand men, in addition to women and children.
+  JA: 食べた者は、女と子供とを除いて、おおよそ五千人であった。
+[14:22]
+  EN: Immediately Jesus made the disciples get into the boat and go ahead of him to the other side, while he sent the multitudes away.
+  JA: それからすぐ、イエスは群衆を解散させておられる間に、しいて弟子たちを舟に乗り込ませ、向こう岸へ先におやりになった。
+[14:23]
+  EN: After he had sent the multitudes away, he went up into the mountain by himself to pray. When evening had come, he was there alone.
+  JA: そして群衆を解散させてから、祈るためひそかに山へ登られた。夕方になっても、ただひとりそこにおられた。
+[14:24]
+  EN: But the boat was now in the middle of the sea, distressed by the waves, for the wind was contrary.
+  JA: ところが舟は、もうすでに陸から数丁も離れており、逆風が吹いていたために、波に悩まされていた。
+[14:25]
+  EN: In the fourth watch of the night, Jesus came to them, walking on the sea.
+  JA: イエスは夜明けの四時ごろ、海の上を歩いて彼らの方へ行かれた。
+[14:26]
+  EN: When the disciples saw him walking on the sea, they were troubled, saying, “It’s a ghost!” and they cried out for fear.
+  JA: 弟子たちは、イエスが海の上を歩いておられるのを見て、幽霊だと言っておじ惑い、恐怖のあまり叫び声をあげた。
+[14:27]
+  EN: But immediately Jesus spoke to them, saying, “Cheer up! It is I!  Don’t be afraid.”
+  JA: しかし、イエスはすぐに彼らに声をかけて、「しっかりするのだ、わたしである。恐れることはない」と言われた。
+[14:28]
+  EN: Peter answered him and said, “Lord, if it is you, command me to come to you on the waters.”
+  JA: するとペテロが答えて言った、「主よ、あなたでしたか。では、わたしに命じて、水の上を渡ってみもとに行かせてください」。
+[14:29]
+  EN: He said, “Come!”
+  JA: イエスは、「おいでなさい」と言われたので、ペテロは舟からおり、水の上を歩いてイエスのところへ行った。
+[14:30]
+  EN: Peter stepped down from the boat and walked on the waters to come to Jesus.   But when he saw that the wind was strong, he was afraid, and beginning to sink, he cried out, saying, “Lord, save me!”
+  JA: しかし、風を見て恐ろしくなり、そしておぼれかけたので、彼は叫んで、「主よ、お助けください」と言った。
+[14:31]
+  EN: Immediately Jesus stretched out his hand, took hold of him, and said to him, “You of little faith, why did you doubt?”
+  JA: イエスはすぐに手を伸ばし、彼をつかまえて言われた、「信仰の薄い者よ、なぜ疑ったのか」。
+[14:32]
+  EN: When they got up into the boat, the wind ceased.
+  JA: ふたりが舟に乗り込むと、風はやんでしまった。
+[14:33]
+  EN: Those who were in the boat came and worshiped him, saying, “You are truly the Son of God!”
+  JA: 舟の中にいた者たちはイエスを拝して、「ほんとうに、あなたは神の子です」と言った。
+[14:34]
+  EN: When they had crossed over, they came to the land of Gennesaret.
+  JA: それから、彼らは海を渡ってゲネサレの地に着いた。
+[14:35]
+  EN: When the people of that place recognized him, they sent into all that surrounding region and brought to him all who were sick;
+  JA: するとその土地の人々はイエスと知って、その附近全体に人をつかわし、イエスのところに病人をみな連れてこさせた。
+[14:36]
+  EN: and they begged him that they might just touch the fringe of his garment. As many as touched it were made whole.
+  JA: そして彼らにイエスの上着のふさにでも、さわらせてやっていただきたいとお願いした。そしてさわった者は皆いやされた。
+
+=== MAT 馬太福音 15 ===
+
+[15:1]
+  EN: Then Pharisees and scribes came to Jesus from Jerusalem, saying,
+  JA: ときに、パリサイ人と律法学者たちとが、エルサレムからイエスのもとにきて言った、
+[15:2]
+  EN: “Why do your disciples disobey the tradition of the elders? For they don’t wash their hands when they eat bread.”
+  JA: 「あなたの弟子たちは、なぜ昔の人々の言伝えを破るのですか。彼らは食事の時に手を洗っていません」。
+[15:3]
+  EN: He answered them, “Why do you also disobey the commandment of God because of your tradition?
+  JA: イエスは答えて言われた、「なぜ、あなたがたも自分たちの言伝えによって、神のいましめを破っているのか。
+[15:4]
+  EN: For God commanded, ‘Honor your father and your mother,’ and, ‘He who speaks evil of father or mother, let him be put to death.’
+  JA: 神は言われた、『父と母とを敬え』、また『父または母をののしる者は、必ず死に定められる』と。
+[15:5]
+  EN: But you say, ‘Whoever may tell his father or his mother, “Whatever help you might otherwise have gotten from me is a gift devoted to God,”
+  JA: それだのに、あなたがたは『だれでも父または母にむかって、あなたにさしあげるはずのこのものは供え物です、と言えば、
+[15:6]
+  EN: he shall not honor his father or mother.’ You have made the commandment of God void because of your tradition.
+  JA: 父または母を敬わなくてもよろしい』と言っている。こうしてあなたがたは自分たちの言伝えによって、神の言を無にしている。
+[15:7]
+  EN: You hypocrites! Well did Isaiah prophesy of you, saying,
+  JA: 偽善者たちよ、イザヤがあなたがたについて、こういう適切な預言をしている、
+[15:8]
+  EN: ‘These people draw near to me with their mouth, and honor me with their lips; but their heart is far from me.
+  JA: 『この民は、口さきではわたしを敬うが、その心はわたしから遠く離れている。
+[15:9]
+  EN: And they worship me in vain, teaching as doctrine rules made by men.’ ”
+  JA: 人間のいましめを教として教え、無意味にわたしを拝んでいる』」。
+[15:10]
+  EN: He summoned the multitude, and said to them, “Hear, and understand.
+  JA: それからイエスは群衆を呼び寄せて言われた、「聞いて悟るがよい。
+[15:11]
+  EN: That which enters into the mouth doesn’t defile the man; but that which proceeds out of the mouth, this defiles the man.”
+  JA: 口にはいるものは人を汚すことはない。かえって、口から出るものが人を汚すのである」。
+[15:12]
+  EN: Then the disciples came and said to him, “Do you know that the Pharisees were offended when they heard this saying?”
+  JA: そのとき、弟子たちが近寄ってきてイエスに言った、「パリサイ人たちが御言を聞いてつまずいたことを、ご存じですか」。
+[15:13]
+  EN: But he answered, “Every plant which my heavenly Father didn’t plant will be uprooted.
+  JA: イエスは答えて言われた、「わたしの天の父がお植えにならなかったものは、みな抜き取られるであろう。
+[15:14]
+  EN: Leave them alone. They are blind guides of the blind. If the blind guide the blind, both will fall into a pit.”
+  JA: 彼らをそのままにしておけ。彼らは盲人を手引きする盲人である。もし盲人が盲人を手引きするなら、ふたりとも穴に落ち込むであろう」。
+[15:15]
+  EN: Peter answered him, “Explain the parable to us.”
+  JA: ペテロが答えて言った、「その譬を説明してください」。
+[15:16]
+  EN: So Jesus said, “Do you also still not understand?
+  JA: イエスは言われた、「あなたがたも、まだわからないのか。
+[15:17]
+  EN: Don’t you understand that whatever goes into the mouth passes into the belly and then out of the body?
+  JA: 口にはいってくるものは、みな腹の中にはいり、そして、外に出て行くことを知らないのか。
+[15:18]
+  EN: But the things which proceed out of the mouth come out of the heart, and they defile the man.
+  JA: しかし、口から出て行くものは、心の中から出てくるのであって、それが人を汚すのである。
+[15:19]
+  EN: For out of the heart come evil thoughts, murders, adulteries, sexual sins, thefts, false testimony, and blasphemies.
+  JA: というのは、悪い思い、すなわち、殺人、姦淫、不品行、盗み、偽証、誹りは、心の中から出てくるのであって、
+[15:20]
+  EN: These are the things which defile the man; but to eat with unwashed hands doesn’t defile the man.”
+  JA: これらのものが人を汚すのである。しかし、洗わない手で食事することは、人を汚すのではない」。
+[15:21]
+  EN: Jesus went out from there and withdrew into the region of Tyre and Sidon.
+  JA: さて、イエスはそこを出て、ツロとシドンとの地方へ行かれた。
+[15:22]
+  EN: Behold, a Canaanite woman came out from those borders and cried, saying, “Have mercy on me, Lord, you son of David! My daughter is severely possessed by a demon!”
+  JA: すると、そこへ、その地方出のカナンの女が出てきて、「主よ、ダビデの子よ、わたしをあわれんでください。娘が悪霊にとりつかれて苦しんでいます」と言って叫びつづけた。
+[15:23]
+  EN: But he answered her not a word. His disciples came and begged him, saying, “Send her away; for she cries after us.”
+  JA: しかし、イエスはひと言もお答えにならなかった。そこで弟子たちがみもとにきて願って言った、「この女を追い払ってください。叫びながらついてきていますから」。
+[15:24]
+  EN: But he answered, “I wasn’t sent to anyone but the lost sheep of the house of Israel.”
+  JA: するとイエスは答えて言われた、「わたしは、イスラエルの家の失われた羊以外の者には、つかわされていない」。
+[15:25]
+  EN: But she came and worshiped him, saying, “Lord, help me.”
+  JA: しかし、女は近寄りイエスを拝して言った、「主よ、わたしをお助けください」。
+[15:26]
+  EN: But he answered, “It is not appropriate to take the children’s bread and throw it to the dogs.”
+  JA: イエスは答えて言われた、「子供たちのパンを取って小犬に投げてやるのは、よろしくない」。
+[15:27]
+  EN: But she said, “Yes, Lord, but even the dogs eat the crumbs which fall from their masters’ table.”
+  JA: すると女は言った、「主よ、お言葉どおりです。でも、小犬もその主人の食卓から落ちるパンくずは、いただきます」。
+[15:28]
+  EN: Then Jesus answered her, “Woman, great is your faith! Be it done to you even as you desire.” And her daughter was healed from that hour.
+  JA: そこでイエスは答えて言われた、「女よ、あなたの信仰は見あげたものである。あなたの願いどおりになるように」。その時に、娘はいやされた。
+[15:29]
+  EN: Jesus departed from there and came near to the sea of Galilee; and he went up on the mountain and sat there.
+  JA: イエスはそこを去って、ガリラヤの海べに行き、それから山に登ってそこにすわられた。
+[15:30]
+  EN: Great multitudes came to him, having with them the lame, blind, mute, maimed, and many others, and they put them down at his feet. He healed them,
+  JA: すると大ぜいの群衆が、足なえ、不具者、盲人、おし、そのほか多くの人々を連れてきて、イエスの足もとに置いたので、彼らをおいやしになった。
+[15:31]
+  EN: so that the multitude wondered when they saw the mute speaking, the injured healed, the lame walking, and the blind seeing—and they glorified the God of Israel.
+  JA: 群衆は、おしが物を言い、不具者が直り、足なえが歩き、盲人が見えるようになったのを見て驚き、そしてイスラエルの神をほめたたえた。
+[15:32]
+  EN: Jesus summoned his disciples and said, “I have compassion on the multitude, because they have continued with me now three days and have nothing to eat. I don’t want to send them away fasting, or they might faint on the way.”
+  JA: イエスは弟子たちを呼び寄せて言われた、「この群衆がかわいそうである。もう三日間もわたしと一緒にいるのに、何も食べるものがない。しかし、彼らを空腹のままで帰らせたくはない。恐らく途中で弱り切ってしまうであろう」。
+[15:33]
+  EN: The disciples said to him, “Where could we get so many loaves in a deserted place as to satisfy so great a multitude?”
+  JA: 弟子たちは言った、「荒野の中で、こんなに大ぜいの群衆にじゅうぶん食べさせるほどたくさんのパンを、どこで手に入れましょうか」。
+[15:34]
+  EN: Jesus said to them, “How many loaves do you have?” They said, “Seven, and a few small fish.”
+  JA: イエスは弟子たちに「パンはいくつあるか」と尋ねられると、「七つあります。また小さい魚が少しあります」と答えた。
+[15:35]
+  EN: He commanded the multitude to sit down on the ground;
+  JA: そこでイエスは群衆に、地にすわるようにと命じ、
+[15:36]
+  EN: and he took the seven loaves and the fish. He gave thanks and broke them, and gave to the disciples, and the disciples to the multitudes.
+  JA: 七つのパンと魚とを取り、感謝してこれをさき、弟子たちにわたされ、弟子たちはこれを群衆にわけた。
+[15:37]
+  EN: They all ate and were filled. They took up seven baskets full of the broken pieces that were left over.
+  JA: 一同の者は食べて満腹した。そして残ったパンくずを集めると、七つのかごにいっぱいになった。
+[15:38]
+  EN: Those who ate were four thousand men, in addition to women and children.
+  JA: 食べた者は、女と子供とを除いて四千人であった。
+[15:39]
+  EN: Then he sent away the multitudes, got into the boat, and came into the borders of Magdala.
+  JA: そこでイエスは群衆を解散させ、舟に乗ってマガダンの地方へ行かれた。
+
+=== MAT 馬太福音 16 ===
+
+[16:1]
+  EN: The Pharisees and Sadducees came, and testing him, asked him to show them a sign from heaven.
+  JA: パリサイ人とサドカイ人とが近寄ってきて、イエスを試み、天からのしるしを見せてもらいたいと言った。
+[16:2]
+  EN: But he answered them, “When it is evening, you say, ‘It will be fair weather, for the sky is red.’
+  JA: イエスは彼らに言われた、「あなたがたは夕方になると、『空がまっかだから、晴だ』と言い、
+[16:3]
+  EN: In the morning, ‘It will be foul weather today, for the sky is red and threatening.’ Hypocrites! You know how to discern the appearance of the sky, but you can’t discern the signs of the times!
+  JA: また明け方には『空が曇ってまっかだから、きょうは荒れだ』と言う。あなたがたは空の模様を見分けることを知りながら、時のしるしを見分けることができないのか。
+[16:4]
+  EN: An evil and adulterous generation seeks after a sign, and there will be no sign given to it, except the sign of the prophet Jonah.”
+  JA: 邪悪で不義な時代は、しるしを求める。しかし、ヨナのしるしのほかには、なんのしるしも与えられないであろう」。そして、イエスは彼らをあとに残して立ち去られた。
+[16:5]
+  EN: He left them and departed.   The disciples came to the other side and had forgotten to take bread.
+  JA: 弟子たちは向こう岸に行ったが、パンを持って来るのを忘れていた。
+[16:6]
+  EN: Jesus said to them, “Take heed and beware of the yeast of the Pharisees and Sadducees.”
+  JA: そこでイエスは言われた、「パリサイ人とサドカイ人とのパン種を、よくよく警戒せよ」。
+[16:7]
+  EN: They reasoned among themselves, saying, “We brought no bread.”
+  JA: 弟子たちは、これは自分たちがパンを持ってこなかったためであろうと言って、互に論じ合った。
+[16:8]
+  EN: Jesus, perceiving it, said, “Why do you reason among yourselves, you of little faith, because you have brought no bread?
+  JA: イエスはそれと知って言われた、「信仰の薄い者たちよ、なぜパンがないからだと互に論じ合っているのか。
+[16:9]
+  EN: Don’t you yet perceive or remember the five loaves for the five thousand, and how many baskets you took up,
+  JA: まだわからないのか。覚えていないのか。五つのパンを五千人に分けたとき、幾かご拾ったか。
+[16:10]
+  EN: or the seven loaves for the four thousand, and how many baskets you took up?
+  JA: また、七つのパンを四千人に分けたとき、幾かご拾ったか。
+[16:11]
+  EN: How is it that you don’t perceive that I didn’t speak to you concerning bread? But beware of the yeast of the Pharisees and Sadducees.”
+  JA: わたしが言ったのは、パンについてではないことを、どうして悟らないのか。ただ、パリサイ人とサドカイ人とのパン種を警戒しなさい」。
+[16:12]
+  EN: Then they understood that he didn’t tell them to beware of the yeast of bread, but of the teaching of the Pharisees and Sadducees.
+  JA: そのとき彼らは、イエスが警戒せよと言われたのは、パン種のことではなく、パリサイ人とサドカイ人との教のことであると悟った。
+[16:13]
+  EN: Now when Jesus came into the parts of Caesarea Philippi, he asked his disciples, saying, “Who do men say that I, the Son of Man, am?”
+  JA: イエスがピリポ・カイザリヤの地方に行かれたとき、弟子たちに尋ねて言われた、「人々は人の子をだれと言っているか」。
+[16:14]
+  EN: They said, “Some say John the Baptizer, some, Elijah, and others, Jeremiah or one of the prophets.”
+  JA: 彼らは言った、「ある人々はバプテスマのヨハネだと言っています。しかし、ほかの人たちは、エリヤだと言い、また、エレミヤあるいは預言者のひとりだ、と言っている者もあります」。
+[16:15]
+  EN: He said to them, “But who do you say that I am?”
+  JA: そこでイエスは彼らに言われた、「それでは、あなたがたはわたしをだれと言うか」。
+[16:16]
+  EN: Simon Peter answered, “You are the Christ, the Son of the living God.”
+  JA: シモン・ペテロが答えて言った、「あなたこそ、生ける神の子キリストです」。
+[16:17]
+  EN: Jesus answered him, “Blessed are you, Simon Bar Jonah, for flesh and blood has not revealed this to you, but my Father who is in heaven.
+  JA: すると、イエスは彼にむかって言われた、「バルヨナ・シモン、あなたはさいわいである。あなたにこの事をあらわしたのは、血肉ではなく、天にいますわたしの父である。
+[16:18]
+  EN: I also tell you that you are Peter, and on this rock  I will build my assembly, and the gates of Hades will not prevail against it.
+  JA: そこで、わたしもあなたに言う。あなたはペテロである。そして、わたしはこの岩の上にわたしの教会を建てよう。黄泉の力もそれに打ち勝つことはない。
+[16:19]
+  EN: I will give to you the keys of the Kingdom of Heaven, and whatever you bind on earth will have been bound in heaven; and whatever you release on earth will have been released in heaven.”
+  JA: わたしは、あなたに天国のかぎを授けよう。そして、あなたが地上でつなぐことは、天でもつながれ、あなたが地上で解くことは天でも解かれるであろう」。
+[16:20]
+  EN: Then he commanded the disciples that they should tell no one that he was Jesus the Christ.
+  JA: そのとき、イエスは、自分がキリストであることをだれにも言ってはいけないと、弟子たちを戒められた。
+[16:21]
+  EN: From that time, Jesus began to show his disciples that he must go to Jerusalem and suffer many things from the elders, chief priests, and scribes, and be killed, and the third day be raised up.
+  JA: この時から、イエス・キリストは、自分が必ずエルサレムに行き、長老、祭司長、律法学者たちから多くの苦しみを受け、殺され、そして三日目によみがえるべきことを、弟子たちに示しはじめられた。
+[16:22]
+  EN: Peter took him aside and began to rebuke him, saying, “Far be it from you, Lord! This will never be done to you.”
+  JA: すると、ペテロはイエスをわきへ引き寄せて、いさめはじめ、「主よ、とんでもないことです。そんなことがあるはずはございません」と言った。
+[16:23]
+  EN: But he turned and said to Peter, “Get behind me, Satan! You are a stumbling block to me, for you are not setting your mind on the things of God, but on the things of men.”
+  JA: イエスは振り向いて、ペテロに言われた、「サタンよ、引きさがれ。わたしの邪魔をする者だ。あなたは神のことを思わないで、人のことを思っている」。
+[16:24]
+  EN: Then Jesus said to his disciples, “If anyone desires to come after me, let him deny himself, take up his cross, and follow me.
+  JA: それからイエスは弟子たちに言われた、「だれでもわたしについてきたいと思うなら、自分を捨て、自分の十字架を負うて、わたしに従ってきなさい。
+[16:25]
+  EN: For whoever desires to save his life will lose it, and whoever will lose his life for my sake will find it.
+  JA: 自分の命を救おうと思う者はそれを失い、わたしのために自分の命を失う者は、それを見いだすであろう。
+[16:26]
+  EN: For what will it profit a man if he gains the whole world and forfeits his life? Or what will a man give in exchange for his life?
+  JA: たとい人が全世界をもうけても、自分の命を損したら、なんの得になろうか。また、人はどんな代価を払って、その命を買いもどすことができようか。
+[16:27]
+  EN: For the Son of Man will come in the glory of his Father with his angels, and then he will give to everyone according to his deeds.
+  JA: 人の子は父の栄光のうちに、御使たちを従えて来るが、その時には、実際のおこないに応じて、それぞれに報いるであろう。
+[16:28]
+  EN: Most certainly I tell you, there are some standing here who will in no way taste of death until they see the Son of Man coming in his Kingdom.”
+  JA: よく聞いておくがよい、人の子が御国の力をもって来るのを見るまでは、死を味わわない者が、ここに立っている者の中にいる」。
+
+=== MAT 馬太福音 17 ===
+
+[17:1]
+  EN: After six days, Jesus took with him Peter, James, and John his brother, and brought them up into a high mountain by themselves.
+  JA: 六日ののち、イエスはペテロ、ヤコブ、ヤコブの兄弟ヨハネだけを連れて、高い山に登られた。
+[17:2]
+  EN: He was changed before them. His face shone like the sun, and his garments became as white as the light.
+  JA: ところが、彼らの目の前でイエスの姿が変り、その顔は日のように輝き、その衣は光のように白くなった。
+[17:3]
+  EN: Behold, Moses and Elijah appeared to them talking with him.
+  JA: すると、見よ、モーセとエリヤが彼らに現れて、イエスと語り合っていた。
+[17:4]
+  EN: Peter answered and said to Jesus, “Lord, it is good for us to be here. If you want, let’s make three tents here: one for you, one for Moses, and one for Elijah.”
+  JA: ペテロはイエスにむかって言った、「主よ、わたしたちがここにいるのは、すばらしいことです。もし、おさしつかえなければ、わたしはここに小屋を三つ建てましょう。一つはあなたのために、一つはモーセのために、一つはエリヤのために」。
+[17:5]
+  EN: While he was still speaking, behold, a bright cloud overshadowed them. Behold, a voice came out of the cloud, saying, “This is my beloved Son, in whom I am well pleased. Listen to him.”
+  JA: 彼がまだ話し終えないうちに、たちまち、輝く雲が彼らをおおい、そして雲の中から声がした、「これはわたしの愛する子、わたしの心にかなう者である。これに聞け」。
+[17:6]
+  EN: When the disciples heard it, they fell on their faces, and were very afraid.
+  JA: 弟子たちはこれを聞いて非常に恐れ、顔を地に伏せた。
+[17:7]
+  EN: Jesus came and touched them and said, “Get up, and don’t be afraid.”
+  JA: イエスは近づいてきて、手を彼らにおいて言われた、「起きなさい、恐れることはない」。
+[17:8]
+  EN: Lifting up their eyes, they saw no one, except Jesus alone.
+  JA: 彼らが目をあげると、イエスのほかには、だれも見えなかった。
+[17:9]
+  EN: As they were coming down from the mountain, Jesus commanded them, saying, “Don’t tell anyone what you saw, until the Son of Man has risen from the dead.”
+  JA: 一同が山を下って来るとき、イエスは「人の子が死人の中からよみがえるまでは、いま見たことをだれにも話してはならない」と、彼らに命じられた。
+[17:10]
+  EN: His disciples asked him, saying, “Then why do the scribes say that Elijah must come first?”
+  JA: 弟子たちはイエスにお尋ねして言った、「いったい、律法学者たちは、なぜ、エリヤが先に来るはずだと言っているのですか」。
+[17:11]
+  EN: Jesus answered them, “Elijah indeed comes first, and will restore all things;
+  JA: 答えて言われた、「確かに、エリヤがきて、万事を元どおりに改めるであろう。
+[17:12]
+  EN: but I tell you that Elijah has come already, and they didn’t recognize him, but did to him whatever they wanted to. Even so the Son of Man will also suffer by them.”
+  JA: しかし、あなたがたに言っておく。エリヤはすでにきたのだ。しかし人々は彼を認めず、自分かってに彼をあしらった。人の子もまた、そのように彼らから苦しみを受けることになろう」。
+[17:13]
+  EN: Then the disciples understood that he spoke to them of John the Baptizer.
+  JA: そのとき、弟子たちは、イエスがバプテスマのヨハネのことを言われたのだと悟った。
+[17:14]
+  EN: When they came to the multitude, a man came to him, kneeling down to him and saying,
+  JA: さて彼らが群衆のところに帰ると、ひとりの人がイエスに近寄ってきて、ひざまずいて、言った、
+[17:15]
+  EN: “Lord, have mercy on my son, for he is epileptic and suffers grievously; for he often falls into the fire, and often into the water.
+  JA: 「主よ、わたしの子をあわれんでください。てんかんで苦しんでおります。何度も何度も火の中や水の中に倒れるのです。
+[17:16]
+  EN: So I brought him to your disciples, and they could not cure him.”
+  JA: それで、その子をお弟子たちのところに連れてきましたが、なおしていただけませんでした」。
+[17:17]
+  EN: Jesus answered, “Faithless and perverse generation! How long will I be with you? How long will I bear with you? Bring him here to me.”
+  JA: イエスは答えて言われた、「ああ、なんという不信仰な、曲った時代であろう。いつまで、わたしはあなたがたと一緒におられようか。いつまであなたがたに我慢ができようか。その子をここに、わたしのところに連れてきなさい」。
+[17:18]
+  EN: Jesus rebuked the demon, and it went out of him, and the boy was cured from that hour.
+  JA: イエスがおしかりになると、悪霊はその子から出て行った。そして子はその時いやされた。
+[17:19]
+  EN: Then the disciples came to Jesus privately, and said, “Why weren’t we able to cast it out?”
+  JA: それから、弟子たちがひそかにイエスのもとにきて言った、「わたしたちは、どうして霊を追い出せなかったのですか」。
+[17:20]
+  EN: He said to them, “Because of your unbelief. For most certainly I tell you, if you have faith as a grain of mustard seed, you will tell this mountain, ‘Move from here to there,’ and it will move; and nothing will be impossible for you.
+  JA: するとイエスは言われた、「あなたがたの信仰が足りないからである。よく言い聞かせておくが、もし、からし種一粒ほどの信仰があるなら、この山にむかって『ここからあそこに移れ』と言えば、移るであろう。このように、あなたがたにできない事は、何もないであろう。〔
+[17:21]
+  EN: But this kind doesn’t go out except by prayer and fasting.”
+  JA: しかし、このたぐいは、祈と断食とによらなければ、追い出すことはできない〕」。
+[17:22]
+  EN: While they were staying in Galilee, Jesus said to them, “The Son of Man is about to be delivered up into the hands of men,
+  JA: 彼らがガリラヤで集まっていた時、イエスは言われた、「人の子は人々の手にわたされ、
+[17:23]
+  EN: and they will kill him, and the third day he will be raised up.” They were exceedingly sorry.
+  JA: 彼らに殺され、そして三日目によみがえるであろう」。弟子たちは非常に心をいためた。
+[17:24]
+  EN: When they had come to Capernaum, those who collected the didrachma coins came to Peter, and said, “Doesn’t your teacher pay the didrachma?”
+  JA: 彼らがカペナウムにきたとき、宮の納入金を集める人たちがペテロのところにきて言った、「あなたがたの先生は宮の納入金を納めないのか」。
+[17:25]
+  EN: He said, “Yes.” When he came into the house, Jesus anticipated him, saying, “What do you think, Simon? From whom do the kings of the earth receive toll or tribute? From their children, or from strangers?”
+  JA: ペテロは「納めておられます」と言った。そして彼が家にはいると、イエスから先に話しかけて言われた、「シモン、あなたはどう思うか。この世の王たちは税や貢をだれから取るのか。自分の子からか、それとも、ほかの人たちからか」。
+[17:26]
+  EN: Peter said to him, “From strangers.”
+  JA: ペテロが「ほかの人たちからです」と答えると、イエスは言われた、「それでは、子は納めなくてもよいわけである。
+[17:27]
+  EN: Jesus said to him, “Therefore the children are exempt.  But, lest we cause them to stumble, go to the sea, cast a hook, and take up the first fish that comes up. When you have opened its mouth, you will find a stater coin. Take that, and give it to them for me and you.”
+  JA: しかし、彼らをつまずかせないために、海に行って、つり針をたれなさい。そして最初につれた魚をとって、その口をあけると、銀貨一枚が見つかるであろう。それをとり出して、わたしとあなたのために納めなさい」。
+
+=== MAT 馬太福音 18 ===
+
+[18:1]
+  EN: In that hour the disciples came to Jesus, saying, “Who then is greatest in the Kingdom of Heaven?”
+  JA: そのとき、弟子たちがイエスのもとにきて言った、「いったい、天国ではだれがいちばん偉いのですか」。
+[18:2]
+  EN: Jesus called a little child to himself, and set him in the middle of them
+  JA: すると、イエスは幼な子を呼び寄せ、彼らのまん中に立たせて言われた、
+[18:3]
+  EN: and said, “Most certainly I tell you, unless you turn and become as little children, you will in no way enter into the Kingdom of Heaven.
+  JA: 「よく聞きなさい。心をいれかえて幼な子のようにならなければ、天国にはいることはできないであろう。
+[18:4]
+  EN: Whoever therefore humbles himself as this little child is the greatest in the Kingdom of Heaven.
+  JA: この幼な子のように自分を低くする者が、天国でいちばん偉いのである。
+[18:5]
+  EN: Whoever receives one such little child in my name receives me,
+  JA: また、だれでも、このようなひとりの幼な子を、わたしの名のゆえに受けいれる者は、わたしを受けいれるのである。
+[18:6]
+  EN: but whoever causes one of these little ones who believe in me to stumble, it would be better for him if a huge millstone were hung around his neck and that he were sunk in the depths of the sea.
+  JA: しかし、わたしを信ずるこれらの小さい者のひとりをつまずかせる者は、大きなひきうすを首にかけられて海の深みに沈められる方が、その人の益になる。
+[18:7]
+  EN: “Woe to the world because of occasions of stumbling! For it must be that the occasions come, but woe to that person through whom the occasion comes!
+  JA: この世は、罪の誘惑があるから、わざわいである。罪の誘惑は必ず来る。しかし、それをきたらせる人は、わざわいである。
+[18:8]
+  EN: If your hand or your foot causes you to stumble, cut it off and cast it from you. It is better for you to enter into life maimed or crippled, rather than having two hands or two feet to be cast into the eternal fire.
+  JA: もしあなたの片手または片足が、罪を犯させるなら、それを切って捨てなさい。両手、両足がそろったままで、永遠の火に投げ込まれるよりは、片手、片足になって命に入る方がよい。
+[18:9]
+  EN: If your eye causes you to stumble, pluck it out and cast it from you. It is better for you to enter into life with one eye, rather than having two eyes to be cast into the Gehenna of fire.
+  JA: もしあなたの片目が罪を犯させるなら、それを抜き出して捨てなさい。両眼がそろったままで地獄の火に投げ入れられるよりは、片目になって命に入る方がよい。
+[18:10]
+  EN: See that you don’t despise one of these little ones, for I tell you that in heaven their angels always see the face of my Father who is in heaven.
+  JA: あなたがたは、これらの小さい者のひとりをも軽んじないように、気をつけなさい。あなたがたに言うが、彼らの御使たちは天にあって、天にいますわたしの父のみ顔をいつも仰いでいるのである。〔
+[18:11]
+  EN: For the Son of Man came to save that which was lost.
+  JA: 人の子は、滅びる者を救うためにきたのである。〕
+[18:12]
+  EN: “What do you think? If a man has one hundred sheep, and one of them goes astray, doesn’t he leave the ninety-nine, go to the mountains, and seek that which has gone astray?
+  JA: あなたがたはどう思うか。ある人に百匹の羊があり、その中の一匹が迷い出たとすれば、九十九匹を山に残しておいて、その迷い出ている羊を捜しに出かけないであろうか。
+[18:13]
+  EN: If he finds it, most certainly I tell you, he rejoices over it more than over the ninety-nine which have not gone astray.
+  JA: もしそれを見つけたなら、よく聞きなさい、迷わないでいる九十九匹のためよりも、むしろその一匹のために喜ぶであろう。
+[18:14]
+  EN: Even so it is not the will of your Father who is in heaven that one of these little ones should perish.
+  JA: そのように、これらの小さい者のひとりが滅びることは、天にいますあなたがたの父のみこころではない。
+[18:15]
+  EN: “If your brother sins against you, go, show him his fault between you and him alone. If he listens to you, you have gained back your brother.
+  JA: もしあなたの兄弟が罪を犯すなら、行って、彼とふたりだけの所で忠告しなさい。もし聞いてくれたら、あなたの兄弟を得たことになる。
+[18:16]
+  EN: But if he doesn’t listen, take one or two more with you, that at the mouth of two or three witnesses every word may be established.
+  JA: もし聞いてくれないなら、ほかにひとりふたりを、一緒に連れて行きなさい。それは、ふたりまたは三人の証人の口によって、すべてのことがらが確かめられるためである。
+[18:17]
+  EN: If he refuses to listen to them, tell it to the assembly. If he refuses to hear the assembly also, let him be to you as a Gentile or a tax collector.
+  JA: もし彼らの言うことを聞かないなら、教会に申し出なさい。もし教会の言うことも聞かないなら、その人を異邦人または取税人同様に扱いなさい。
+[18:18]
+  EN: Most certainly I tell you, whatever things you bind on earth will have been bound in heaven, and whatever things you release on earth will have been released in heaven.
+  JA: よく言っておく。あなたがたが地上でつなぐことは、天でも皆つながれ、あなたがたが地上で解くことは、天でもみな解かれるであろう。
+[18:19]
+  EN: Again, assuredly I tell you, that if two of you will agree on earth concerning anything that they will ask, it will be done for them by my Father who is in heaven.
+  JA: また、よく言っておく。もしあなたがたのうちのふたりが、どんな願い事についても地上で心を合わせるなら、天にいますわたしの父はそれをかなえて下さるであろう。
+[18:20]
+  EN: For where two or three are gathered together in my name, there I am in the middle of them.”
+  JA: ふたりまたは三人が、わたしの名によって集まっている所には、わたしもその中にいるのである」。
+[18:21]
+  EN: Then Peter came and said to him, “Lord, how often shall my brother sin against me, and I forgive him? Until seven times?”
+  JA: そのとき、ペテロがイエスのもとにきて言った、「主よ、兄弟がわたしに対して罪を犯した場合、幾たびゆるさねばなりませんか。七たびまでですか」。
+[18:22]
+  EN: Jesus said to him, “I don’t tell you until seven times, but, until seventy times seven.
+  JA: イエスは彼に言われた、「わたしは七たびまでとは言わない。七たびを七十倍するまでにしなさい。
+[18:23]
+  EN: Therefore the Kingdom of Heaven is like a certain king who wanted to settle accounts with his servants.
+  JA: それだから、天国は王が僕たちと決算をするようなものだ。
+[18:24]
+  EN: When he had begun to settle, one was brought to him who owed him ten thousand talents.
+  JA: 決算が始まると、一万タラントの負債のある者が、王のところに連れられてきた。
+[18:25]
+  EN: But because he couldn’t pay, his lord commanded him to be sold, with his wife, his children, and all that he had, and payment to be made.
+  JA: しかし、返せなかったので、主人は、その人自身とその妻子と持ち物全部とを売って返すように命じた。
+[18:26]
+  EN: The servant therefore fell down and knelt before him, saying, ‘Lord, have patience with me, and I will repay you all!’
+  JA: そこで、この僕はひれ伏して哀願した、『どうぞお待ちください。全部お返しいたしますから』。
+[18:27]
+  EN: The lord of that servant, being moved with compassion, released him and forgave him the debt.
+  JA: 僕の主人はあわれに思って、彼をゆるし、その負債を免じてやった。
+[18:28]
+  EN: “But that servant went out and found one of his fellow servants who owed him one hundred denarii, and he grabbed him and took him by the throat, saying, ‘Pay me what you owe!’
+  JA: その僕が出て行くと、百デナリを貸しているひとりの仲間に出会い、彼をつかまえ、首をしめて『借金を返せ』と言った。
+[18:29]
+  EN: “So his fellow servant fell down at his feet and begged him, saying, ‘Have patience with me, and I will repay you!’
+  JA: そこでこの仲間はひれ伏し、『どうか待ってくれ。返すから』と言って頼んだ。
+[18:30]
+  EN: He would not, but went and cast him into prison until he should pay back that which was due.
+  JA: しかし承知せずに、その人をひっぱって行って、借金を返すまで獄に入れた。
+[18:31]
+  EN: So when his fellow servants saw what was done, they were exceedingly sorry, and came and told their lord all that was done.
+  JA: その人の仲間たちは、この様子を見て、非常に心をいため、行ってそのことをのこらず主人に話した。
+[18:32]
+  EN: Then his lord called him in and said to him, ‘You wicked servant! I forgave you all that debt because you begged me.
+  JA: そこでこの主人は彼を呼びつけて言った、『悪い僕、わたしに願ったからこそ、あの負債を全部ゆるしてやったのだ。
+[18:33]
+  EN: Shouldn’t you also have had mercy on your fellow servant, even as I had mercy on you?’
+  JA: わたしがあわれんでやったように、あの仲間をあわれんでやるべきではなかったか』。
+[18:34]
+  EN: His lord was angry, and delivered him to the tormentors until he should pay all that was due to him.
+  JA: そして主人は立腹して、負債全部を返してしまうまで、彼を獄吏に引きわたした。
+[18:35]
+  EN: So my heavenly Father will also do to you, if you don’t each forgive your brother from your hearts for his misdeeds.”
+  JA: あなたがためいめいも、もし心から兄弟をゆるさないならば、わたしの天の父もまたあなたがたに対して、そのようになさるであろう」。
+
+=== MAT 馬太福音 19 ===
+
+[19:1]
+  EN: When Jesus had finished these words, he departed from Galilee and came into the borders of Judea beyond the Jordan.
+  JA: イエスはこれらのことを語り終えられてから、ガリラヤを去ってヨルダンの向こうのユダヤの地方へ行かれた。
+[19:2]
+  EN: Great multitudes followed him, and he healed them there.
+  JA: すると大ぜいの群衆がついてきたので、彼らをそこでおいやしになった。
+[19:3]
+  EN: Pharisees came to him, testing him and saying, “Is it lawful for a man to divorce his wife for any reason?”
+  JA: さてパリサイ人たちが近づいてきて、イエスを試みようとして言った、「何かの理由で、夫がその妻を出すのは、さしつかえないでしょうか」。
+[19:4]
+  EN: He answered, “Haven’t you read that he who made them from the beginning made them male and female,
+  JA: イエスは答えて言われた、「あなたがたはまだ読んだことがないのか。『創造者は初めから人を男と女とに造られ、
+[19:5]
+  EN: and said, ‘For this cause a man shall leave his father and mother, and shall be joined to his wife; and the two shall become one flesh’?
+  JA: そして言われた、それゆえに、人は父母を離れ、その妻と結ばれ、ふたりの者は一体となるべきである』。
+[19:6]
+  EN: So that they are no more two, but one flesh. What therefore God has joined together, don’t let man tear apart.”
+  JA: 彼らはもはや、ふたりではなく一体である。だから、神が合わせられたものを、人は離してはならない」。
+[19:7]
+  EN: They asked him, “Why then did Moses command us to give her a certificate of divorce and divorce her?”
+  JA: 彼らはイエスに言った、「それでは、なぜモーセは、妻を出す場合には離縁状を渡せ、と定めたのですか」。
+[19:8]
+  EN: He said to them, “Moses, because of the hardness of your hearts, allowed you to divorce your wives, but from the beginning it has not been so.
+  JA: イエスが言われた、「モーセはあなたがたの心が、かたくななので、妻を出すことを許したのだが、初めからそうではなかった。
+[19:9]
+  EN: I tell you that whoever divorces his wife, except for sexual immorality, and marries another, commits adultery; and he who marries her when she is divorced commits adultery.”
+  JA: そこでわたしはあなたがたに言う。不品行のゆえでなくて、自分の妻を出して他の女をめとる者は、姦淫を行うのである」。
+[19:10]
+  EN: His disciples said to him, “If this is the case of the man with his wife, it is not expedient to marry.”
+  JA: 弟子たちは言った、「もし妻に対する夫の立場がそうだとすれば、結婚しない方がましです」。
+[19:11]
+  EN: But he said to them, “Not all men can receive this saying, but those to whom it is given.
+  JA: するとイエスは彼らに言われた、「その言葉を受けいれることができるのはすべての人ではなく、ただそれを授けられている人々だけである。
+[19:12]
+  EN: For there are eunuchs who were born that way from their mother’s womb, and there are eunuchs who were made eunuchs by men; and there are eunuchs who made themselves eunuchs for the Kingdom of Heaven’s sake. He who is able to receive it, let him receive it.”
+  JA: というのは、母の胎内から独身者に生れついているものがあり、また他から独身者にされたものもあり、また天国のために、みずから進んで独身者となったものもある。この言葉を受けられる者は、受けいれるがよい」。
+[19:13]
+  EN: Then little children were brought to him that he should lay his hands on them and pray; and the disciples rebuked them.
+  JA: そのとき、イエスに手をおいて祈っていただくために、人々が幼な子らをみもとに連れてきた。ところが、弟子たちは彼らをたしなめた。
+[19:14]
+  EN: But Jesus said, “Allow the little children, and don’t forbid them to come to me; for the Kingdom of Heaven belongs to ones like these.”
+  JA: するとイエスは言われた、「幼な子らをそのままにしておきなさい。わたしのところに来るのをとめてはならない。天国はこのような者の国である」。
+[19:15]
+  EN: He laid his hands on them, and departed from there.
+  JA: そして手を彼らの上においてから、そこを去って行かれた。
+[19:16]
+  EN: Behold, one came to him and said, “Good teacher, what good thing shall I do, that I may have eternal life?”
+  JA: すると、ひとりの人がイエスに近寄ってきて言った、「先生、永遠の生命を得るためには、どんなよいことをしたらいいでしょうか」。
+[19:17]
+  EN: He said to him, “Why do you call me good? No one is good but one, that is, God. But if you want to enter into life, keep the commandments.”
+  JA: イエスは言われた、「なぜよい事についてわたしに尋ねるのか。よいかたはただひとりだけである。もし命に入りたいと思うなら、いましめを守りなさい」。
+[19:18]
+  EN: He said to him, “Which ones?”
+  JA: 彼は言った、「どのいましめですか」。イエスは言われた、「『殺すな、姦淫するな、盗むな、偽証を立てるな。
+[19:19]
+  EN: Jesus said, “ ‘You shall not murder.’ ‘You shall not commit adultery.’ ‘You shall not steal.’ ‘You shall not offer false testimony.’  ‘Honor your father and your mother.’ And, ‘You shall love your neighbor as yourself.’ ”
+  JA: 父と母とを敬え』。また『自分を愛するように、あなたの隣り人を愛せよ』」。
+[19:20]
+  EN: The young man said to him, “All these things I have observed from my youth. What do I still lack?”
+  JA: この青年はイエスに言った、「それはみな守ってきました。ほかに何が足りないのでしょう」。
+[19:21]
+  EN: Jesus said to him, “If you want to be perfect, go, sell what you have, and give to the poor, and you will have treasure in heaven; and come, follow me.”
+  JA: イエスは彼に言われた、「もしあなたが完全になりたいと思うなら、帰ってあなたの持ち物を売り払い、貧しい人々に施しなさい。そうすれば、天に宝を持つようになろう。そして、わたしに従ってきなさい」。
+[19:22]
+  EN: But when the young man heard this, he went away sad, for he was one who had great possessions.
+  JA: この言葉を聞いて、青年は悲しみながら立ち去った。たくさんの資産を持っていたからである。
+[19:23]
+  EN: Jesus said to his disciples, “Most certainly I say to you, a rich man will enter into the Kingdom of Heaven with difficulty.
+  JA: それからイエスは弟子たちに言われた、「よく聞きなさい。富んでいる者が天国にはいるのは、むずかしいものである。
+[19:24]
+  EN: Again I tell you, it is easier for a camel to go through a needle’s eye than for a rich man to enter into God’s Kingdom.”
+  JA: また、あなたがたに言うが、富んでいる者が神の国にはいるよりは、らくだが針の穴を通る方が、もっとやさしい」。
+[19:25]
+  EN: When the disciples heard it, they were exceedingly astonished, saying, “Who then can be saved?”
+  JA: 弟子たちはこれを聞いて非常に驚いて言った、「では、だれが救われることができるのだろう」。
+[19:26]
+  EN: Looking at them, Jesus said, “With men this is impossible, but with God all things are possible.”
+  JA: イエスは彼らを見つめて言われた、「人にはそれはできないが、神にはなんでもできない事はない」。
+[19:27]
+  EN: Then Peter answered, “Behold, we have left everything and followed you. What then will we have?”
+  JA: そのとき、ペテロがイエスに答えて言った、「ごらんなさい、わたしたちはいっさいを捨てて、あなたに従いました。ついては、何がいただけるでしょうか」。
+[19:28]
+  EN: Jesus said to them, “Most certainly I tell you that you who have followed me, in the regeneration when the Son of Man will sit on the throne of his glory, you also will sit on twelve thrones, judging the twelve tribes of Israel.
+  JA: イエスは彼らに言われた、「よく聞いておくがよい。世が改まって、人の子がその栄光の座につく時には、わたしに従ってきたあなたがたもまた、十二の位に座してイスラエルの十二の部族をさばくであろう。
+[19:29]
+  EN: Everyone who has left houses, or brothers, or sisters, or father, or mother, or wife, or children, or lands, for my name’s sake, will receive one hundred times, and will inherit eternal life.
+  JA: おおよそ、わたしの名のために、家、兄弟、姉妹、父、母、子、もしくは畑を捨てた者は、その幾倍もを受け、また永遠の生命を受けつぐであろう。
+[19:30]
+  EN: But many will be last who are first, and first who are last.
+  JA: しかし、多くの先の者はあとになり、あとの者は先になるであろう。
+
+=== MAT 馬太福音 20 ===
+
+[20:1]
+  EN: “For the Kingdom of Heaven is like a man who was the master of a household, who went out early in the morning to hire laborers for his vineyard.
+  JA: 天国は、ある家の主人が、自分のぶどう園に労働者を雇うために、夜が明けると同時に、出かけて行くようなものである。
+[20:2]
+  EN: When he had agreed with the laborers for a denarius a day, he sent them into his vineyard.
+  JA: 彼は労働者たちと、一日一デナリの約束をして、彼らをぶどう園に送った。
+[20:3]
+  EN: He went out about the third hour, and saw others standing idle in the marketplace.
+  JA: それから九時ごろに出て行って、他の人々が市場で何もせずに立っているのを見た。
+[20:4]
+  EN: He said to them, ‘You also go into the vineyard, and whatever is right I will give you.’ So they went their way.
+  JA: そして、その人たちに言った、『あなたがたも、ぶどう園に行きなさい。相当な賃銀を払うから』。
+[20:5]
+  EN: Again he went out about the sixth and the ninth hour, and did likewise.
+  JA: そこで、彼らは出かけて行った。主人はまた、十二時ごろと三時ごろとに出て行って、同じようにした。
+[20:6]
+  EN: About the eleventh hour he went out and found others standing idle. He said to them, ‘Why do you stand here all day idle?’
+  JA: 五時ごろまた出て行くと、まだ立っている人々を見たので、彼らに言った、『なぜ、何もしないで、一日中ここに立っていたのか』。
+[20:7]
+  EN: “They said to him, ‘Because no one has hired us.’ “He said to them, ‘You also go into the vineyard, and you will receive whatever is right.’
+  JA: 彼らが『だれもわたしたちを雇ってくれませんから』と答えたので、その人々に言った、『あなたがたも、ぶどう園に行きなさい』。
+[20:8]
+  EN: “When evening had come, the lord of the vineyard said to his manager, ‘Call the laborers and pay them their wages, beginning from the last to the first.’
+  JA: さて、夕方になって、ぶどう園の主人は管理人に言った、『労働者たちを呼びなさい。そして、最後にきた人々からはじめて順々に最初にきた人々にわたるように、賃銀を払ってやりなさい』。
+[20:9]
+  EN: “When those who were hired at about the eleventh hour came, they each received a denarius.
+  JA: そこで、五時ごろに雇われた人々がきて、それぞれ一デナリずつもらった。
+[20:10]
+  EN: When the first came, they supposed that they would receive more; and they likewise each received a denarius.
+  JA: ところが、最初の人々がきて、もっと多くもらえるだろうと思っていたのに、彼らも一デナリずつもらっただけであった。
+[20:11]
+  EN: When they received it, they murmured against the master of the household,
+  JA: もらったとき、家の主人にむかって不平をもらして
+[20:12]
+  EN: saying, ‘These last have spent one hour, and you have made them equal to us who have borne the burden of the day and the scorching heat!’
+  JA: 言った、『この最後の者たちは一時間しか働かなかったのに、あなたは一日じゅう、労苦と暑さを辛抱したわたしたちと同じ扱いをなさいました』。
+[20:13]
+  EN: “But he answered one of them, ‘Friend, I am doing you no wrong. Didn’t you agree with me for a denarius?
+  JA: そこで彼はそのひとりに答えて言った、『友よ、わたしはあなたに対して不正をしてはいない。あなたはわたしと一デナリの約束をしたではないか。
+[20:14]
+  EN: Take that which is yours, and go your way. It is my desire to give to this last just as much as to you.
+  JA: 自分の賃銀をもらって行きなさい。わたしは、この最後の者にもあなたと同様に払ってやりたいのだ。
+[20:15]
+  EN: Isn’t it lawful for me to do what I want to with what I own? Or is your eye evil, because I am good?’
+  JA: 自分の物を自分がしたいようにするのは、当りまえではないか。それともわたしが気前よくしているので、ねたましく思うのか』。
+[20:16]
+  EN: So the last will be first, and the first last. For many are called, but few are chosen.”
+  JA: このように、あとの者は先になり、先の者はあとになるであろう」。
+[20:17]
+  EN: As Jesus was going up to Jerusalem, he took the twelve disciples aside, and on the way he said to them,
+  JA: さて、イエスはエルサレムへ上るとき、十二弟子をひそかに呼びよせ、その途中で彼らに言われた、
+[20:18]
+  EN: “Behold, we are going up to Jerusalem, and the Son of Man will be delivered to the chief priests and scribes, and they will condemn him to death,
+  JA: 「見よ、わたしたちはエルサレムへ上って行くが、人の子は祭司長、律法学者たちの手に渡されるであろう。彼らは彼に死刑を宣告し、
+[20:19]
+  EN: and will hand him over to the Gentiles to mock, to scourge, and to crucify; and the third day he will be raised up.”
+  JA: そして彼をあざけり、むち打ち、十字架につけさせるために、異邦人に引きわたすであろう。そして彼は三日目によみがえるであろう」。
+[20:20]
+  EN: Then the mother of the sons of Zebedee came to him with her sons, kneeling and asking a certain thing of him.
+  JA: そのとき、ゼベダイの子らの母が、その子らと一緒にイエスのもとにきてひざまずき、何事かをお願いした。
+[20:21]
+  EN: He said to her, “What do you want?” She said to him, “Command that these, my two sons, may sit, one on your right hand and one on your left hand, in your Kingdom.”
+  JA: そこでイエスは彼女に言われた、「何をしてほしいのか」。彼女は言った、「わたしのこのふたりのむすこが、あなたの御国で、ひとりはあなたの右に、ひとりは左にすわれるように、お言葉をください」。
+[20:22]
+  EN: But Jesus answered, “You don’t know what you are asking. Are you able to drink the cup that I am about to drink, and be baptized with the baptism that I am baptized with?” They said to him, “We are able.”
+  JA: イエスは答えて言われた、「あなたがたは、自分が何を求めているのか、わかっていない。わたしの飲もうとしている杯を飲むことができるか」。彼らは「できます」と答えた。
+[20:23]
+  EN: He said to them, “You will indeed drink my cup, and be baptized with the baptism that I am baptized with; but to sit on my right hand and on my left hand is not mine to give, but it is for whom it has been prepared by my Father.”
+  JA: イエスは彼らに言われた、「確かに、あなたがたはわたしの杯を飲むことになろう。しかし、わたしの右、左にすわらせることは、わたしのすることではなく、わたしの父によって備えられている人々だけに許されることである」。
+[20:24]
+  EN: When the ten heard it, they were indignant with the two brothers.
+  JA: 十人の者はこれを聞いて、このふたりの兄弟たちのことで憤慨した。
+[20:25]
+  EN: But Jesus summoned them, and said, “You know that the rulers of the nations lord it over them, and their great ones exercise authority over them.
+  JA: そこで、イエスは彼らを呼び寄せて言われた、「あなたがたの知っているとおり、異邦人の支配者たちはその民を治め、また偉い人たちは、その民の上に権力をふるっている。
+[20:26]
+  EN: It shall not be so among you; but whoever desires to become great among you shall be your servant.
+  JA: あなたがたの間ではそうであってはならない。かえって、あなたがたの間で偉くなりたいと思う者は、仕える人となり、
+[20:27]
+  EN: Whoever desires to be first among you shall be your bondservant,
+  JA: あなたがたの間でかしらになりたいと思う者は、僕とならねばならない。
+[20:28]
+  EN: even as the Son of Man came not to be served, but to serve, and to give his life as a ransom for many.”
+  JA: それは、人の子がきたのも、仕えられるためではなく、仕えるためであり、また多くの人のあがないとして、自分の命を与えるためであるのと、ちょうど同じである」。
+[20:29]
+  EN: As they went out from Jericho, a great multitude followed him.
+  JA: それから、彼らがエリコを出て行ったとき、大ぜいの群衆がイエスに従ってきた。
+[20:30]
+  EN: Behold, two blind men sitting by the road, when they heard that Jesus was passing by, cried out, “Lord, have mercy on us, you son of David!”
+  JA: すると、ふたりの盲人が道ばたにすわっていたが、イエスがとおって行かれると聞いて、叫んで言った、「主よ、ダビデの子よ、わたしたちをあわれんで下さい」。
+[20:31]
+  EN: The multitude rebuked them, telling them that they should be quiet, but they cried out even more, “Lord, have mercy on us, you son of David!”
+  JA: 群衆は彼らをしかって黙らせようとしたが、彼らはますます叫びつづけて言った、「主よ、ダビデの子よ、わたしたちをあわれんで下さい」。
+[20:32]
+  EN: Jesus stood still and called them, and asked, “What do you want me to do for you?”
+  JA: イエスは立ちどまり、彼らを呼んで言われた、「わたしに何をしてほしいのか」。
+[20:33]
+  EN: They told him, “Lord, that our eyes may be opened.”
+  JA: 彼らは言った、「主よ、目をあけていただくことです」。
+[20:34]
+  EN: Jesus, being moved with compassion, touched their eyes; and immediately their eyes received their sight, and they followed him.
+  JA: イエスは深くあわれんで、彼らの目にさわられた。すると彼らは、たちまち見えるようになり、イエスに従って行った。

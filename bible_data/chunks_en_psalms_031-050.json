@@ -1,0 +1,99 @@
+[
+  { "id":"CK-EN-PSA031-01", "chapter":31, "verse":1, "text":"take refuge", "blank":"In you, LORD, I take ___.", "answer":"refuge", "tag":"AI()", "freq":"high", "gloss":"尋求庇護", "ref":"詩篇 31:1", "usage":"現代英語常用於描述尋求保護或躲避危險。" },
+  { "id":"CK-EN-PSA031-02", "chapter":31, "verse":4, "text":"pluck me out of", "blank":"Pluck me ___ of the net.", "answer":"out", "tag":"AI()", "freq":"medium", "gloss":"拉出、救出", "ref":"詩篇 31:4", "usage":"現代英語常用，如pluck someone out of danger。" },
+  { "id":"CK-EN-PSA031-03", "chapter":31, "verse":13, "text":"take away", "blank":"they plot to take ___ my life.", "answer":"away", "tag":"AI()", "freq":"high", "gloss":"奪走、拿走", "ref":"詩篇 31:13", "usage":"現代英語極常用，如take away someone's rights。" },
+  { "id":"CK-EN-PSA031-04", "chapter":31, "verse":17, "text":"call on", "blank":"for I have called ___ you.", "answer":"on", "tag":"AI()", "freq":"medium", "gloss":"呼求、求助", "ref":"詩篇 31:17", "usage":"現代英語常用於呼求幫助。" },
+  { "id":"CK-EN-PSA031-05", "chapter":31, "verse":19, "text":"laid up", "blank":"which you have laid ___ for those who fear you.", "answer":"up", "tag":"AI()", "freq":"medium", "gloss":"儲存、留存", "ref":"詩篇 31:19", "usage":"現代英語常用，如lay up treasures。" },
+  { "id":"CK-EN-PSA031-06", "chapter":31, "verse":19, "text":"take refuge in", "blank":"which you have worked for those who take refuge ___ you.", "answer":"in", "tag":"AI()", "freq":"high", "gloss":"尋求庇護", "ref":"詩篇 31:19", "usage":"現代英語常用於描述尋求保護。" },
+  { "id":"CK-EN-PSA031-07", "chapter":31, "verse":22, "text":"cut off", "blank":"I am cut ___ from before your eyes.", "answer":"off", "tag":"AI()", "freq":"high", "gloss":"切斷、隔絕", "ref":"詩篇 31:22", "usage":"現代英語常用，表示切斷或隔絕。" },
+  { "id":"CK-EN-PSA031-08", "chapter":31, "verse":24, "text":"take courage", "blank":"let your heart take ___.", "answer":"courage", "tag":"AI()", "freq":"medium", "gloss":"鼓起勇氣", "ref":"詩篇 31:24", "usage":"現代英語常用，表示鼓起勇氣面對。" },
+
+  { "id":"CK-EN-PSA032-01", "chapter":32, "verse":3, "text":"kept silence", "blank":"When I ___ silence, my bones wasted away.", "answer":"kept", "tag":"AI()", "freq":"medium", "gloss":"保持沉默", "ref":"詩篇 32:3", "usage":"現代英語正式用語，表示保持緘默。" },
+  { "id":"CK-EN-PSA032-02", "chapter":32, "verse":4, "text":"day and night", "blank":"For ___ your hand was heavy on me.", "answer":"day and night", "tag":"AI()", "freq":"high", "gloss":"日夜不停", "ref":"詩篇 32:4", "usage":"現代英語常用於形容持續不斷的狀態。" },
+  { "id":"CK-EN-PSA032-03", "chapter":32, "verse":11, "text":"Shout for joy", "blank":"___, all you who are upright in heart!", "answer":"Shout for joy", "tag":"AI()", "freq":"high", "gloss":"歡呼雀躍", "ref":"詩篇 32:11", "usage":"現代英語常用，表達因喜悅而歡呼。" },
+
+  { "id":"CK-EN-PSA033-01", "chapter":33, "verse":2, "text":"Give thanks to", "blank":"___ the LORD with the lyre.", "answer":"Give thanks to", "tag":"AI()", "freq":"high", "gloss":"感謝、致謝", "ref":"詩篇 33:2", "usage":"現代英語極常用，表達感謝之意。" },
+  { "id":"CK-EN-PSA033-02", "chapter":33, "verse":7, "text":"lays up", "blank":"He lays ___ the deeps in storehouses.", "answer":"up", "tag":"AI()", "freq":"medium", "gloss":"儲存、留存", "ref":"詩篇 33:7", "usage":"現代英語常用，如lay up treasures。" },
+  { "id":"CK-EN-PSA033-03", "chapter":33, "verse":8, "text":"stand in awe of", "blank":"Let all the inhabitants of the world ___ him.", "answer":"stand in awe of", "tag":"AI()", "freq":"medium", "gloss":"心生敬畏", "ref":"詩篇 33:8", "usage":"現代英語常用於表達敬畏震撼。" },
+  { "id":"CK-EN-PSA033-04", "chapter":33, "verse":9, "text":"stood firm", "blank":"He commanded, and it stood ___.", "answer":"firm", "tag":"AI()", "freq":"high", "gloss":"堅立、屹立不搖", "ref":"詩篇 33:9", "usage":"現代英語極常用，表示堅定不搖，如stand firm on your beliefs。" },
+  { "id":"CK-EN-PSA033-05", "chapter":33, "verse":10, "text":"brings...to nothing", "blank":"The LORD brings the counsel of the nations to ___.", "answer":"nothing", "tag":"AI()", "freq":"medium", "gloss":"使落空、挫敗", "ref":"詩篇 33:10", "usage":"現代英語常用於表示使計畫落空，如bring plans to nothing。" },
+
+  { "id":"CK-EN-PSA034-01", "chapter":34, "verse":8, "text":"taste and see", "blank":"Oh ___ that the LORD is good.", "answer":"taste and see", "tag":"AI()", "freq":"medium", "gloss":"親自體驗、驗證", "ref":"詩篇 34:8", "usage":"現代英語偶爾用於表達親身體驗才能明白。" },
+  { "id":"CK-EN-PSA034-02", "chapter":34, "verse":8, "text":"take refuge in", "blank":"Blessed is the man who takes ___ in him.", "answer":"refuge", "tag":"AI()", "freq":"high", "gloss":"尋求庇護", "ref":"詩篇 34:8", "usage":"現代英語常用於描述尋求保護。" },
+  { "id":"CK-EN-PSA034-03", "chapter":34, "verse":16, "text":"cut off", "blank":"to cut ___ their memory from the earth.", "answer":"off", "tag":"AI()", "freq":"high", "gloss":"切斷、消滅", "ref":"詩篇 34:16", "usage":"現代英語常用，表示切斷或消滅。" },
+  { "id":"CK-EN-PSA034-04", "chapter":34, "verse":18, "text":"broken heart", "blank":"The LORD is near to those who have a ___ heart.", "answer":"broken", "tag":"AI()", "freq":"high", "gloss":"心碎、傷心欲絕", "ref":"詩篇 34:18", "usage":"現代英語極常用，表達極度傷心，如have a broken heart。" },
+  { "id":"CK-EN-PSA034-05", "chapter":34, "verse":22, "text":"take refuge in", "blank":"None of those who take refuge ___ him shall be condemned.", "answer":"in", "tag":"AI()", "freq":"high", "gloss":"尋求庇護", "ref":"詩篇 34:22", "usage":"現代英語常用於描述尋求保護。" },
+
+  { "id":"CK-EN-PSA035-01", "chapter":35, "verse":2, "text":"Take hold of", "blank":"___ shield and buckler.", "answer":"Take hold of", "tag":"AI()", "freq":"high", "gloss":"抓住、拿起", "ref":"詩篇 35:2", "usage":"現代英語常用，表示抓住或掌握。" },
+  { "id":"CK-EN-PSA035-02", "chapter":35, "verse":2, "text":"stand up for", "blank":"and stand ___ my help.", "answer":"up for", "tag":"AI()", "freq":"high", "gloss":"支持、捍衛", "ref":"詩篇 35:2", "usage":"現代英語極常用，如stand up for your rights。" },
+  { "id":"CK-EN-PSA035-03", "chapter":35, "verse":4, "text":"turned back", "blank":"Let those who plot my ruin be ___ back.", "answer":"turned", "tag":"AI()", "freq":"high", "gloss":"退卻、折返", "ref":"詩篇 35:4", "usage":"現代英語常用於描述撤退或掉頭返回。" },
+  { "id":"CK-EN-PSA035-04", "chapter":35, "verse":7, "text":"without cause", "blank":"For ___ cause they have hidden their net.", "answer":"without", "tag":"AI()", "freq":"medium", "gloss":"無緣無故", "ref":"詩篇 35:7", "usage":"現代英語常用於正式語境，表示沒有正當理由。" },
+  { "id":"CK-EN-PSA035-05", "chapter":35, "verse":8, "text":"fall into", "blank":"Let him fall ___ that destruction.", "answer":"into", "tag":"AI()", "freq":"high", "gloss":"落入、陷入", "ref":"詩篇 35:8", "usage":"現代英語極常用，如fall into a trap。" },
+  { "id":"CK-EN-PSA035-06", "chapter":35, "verse":11, "text":"rise up", "blank":"Unrighteous witnesses ___ up.", "answer":"rise", "tag":"AI()", "freq":"medium", "gloss":"起來、興起", "ref":"詩篇 35:11", "usage":"現代英語常用於描述群體或個人興起。" },
+  { "id":"CK-EN-PSA035-07", "chapter":35, "verse":16, "text":"gnashed their teeth", "blank":"they ___ their teeth at me.", "answer":"gnashed", "tag":"AI()", "freq":"medium", "gloss":"咬牙切齒", "ref":"詩篇 35:16", "usage":"現代英語文學用語，表示憤怒咬牙。" },
+  { "id":"CK-EN-PSA035-08", "chapter":35, "verse":23, "text":"Wake up!", "blank":"___ Rise up to defend me.", "answer":"Wake up!", "tag":"AI()", "freq":"high", "gloss":"醒來、振作", "ref":"詩篇 35:23", "usage":"現代英語極常用，表示喚醒或振作。" },
+  { "id":"CK-EN-PSA035-09", "chapter":35, "verse":25, "text":"swallowed him up", "blank":"\"We have swallowed him ___!\"", "answer":"up", "tag":"AI()", "freq":"medium", "gloss":"吞沒、吞噬", "ref":"詩篇 35:25", "usage":"現代英語常用，表示完全吞沒或消滅。" },
+
+  { "id":"CK-EN-PSA036-01", "chapter":36, "verse":2, "text":"flatters himself", "blank":"For he ___ in his own eyes.", "answer":"flatters himself", "tag":"AI()", "freq":"medium", "gloss":"自我欺騙、自鳴得意", "ref":"詩篇 36:2", "usage":"現代英語常用，表示自欺欺人地看待自己。" },
+  { "id":"CK-EN-PSA036-02", "chapter":36, "verse":7, "text":"take refuge under the shadow of", "blank":"The children of men ___ your wings.", "answer":"take refuge under the shadow of", "tag":"AI()", "freq":"medium", "gloss":"尋求庇護", "ref":"詩篇 36:7", "usage":"現代英語常用於描述尋求保護。" },
+  { "id":"CK-EN-PSA036-03", "chapter":36, "verse":11, "text":"drive me away", "blank":"Don't let the hand of the wicked ___.", "answer":"drive me away", "tag":"AI()", "freq":"medium", "gloss":"驅趕、趕走", "ref":"詩篇 36:11", "usage":"現代英語常用，表示驅趕或趕走。" },
+
+  { "id":"CK-EN-PSA037-01", "chapter":37, "verse":9, "text":"cut off", "blank":"For evildoers shall be cut ___.", "answer":"off", "tag":"AI()", "freq":"high", "gloss":"切斷、消滅", "ref":"詩篇 37:9", "usage":"現代英語常用，表示切斷或消滅。" },
+  { "id":"CK-EN-PSA037-02", "chapter":37, "verse":9, "text":"inherit the land", "blank":"those who wait for the LORD shall ___ the land.", "answer":"inherit", "tag":"AI()", "freq":"medium", "gloss":"承繼土地、繼承基業", "ref":"詩篇 37:9", "usage":"現代英語常用，表示繼承財產或土地。" },
+  { "id":"CK-EN-PSA037-03", "chapter":37, "verse":11, "text":"inherit the land", "blank":"But the humble shall ___ the land.", "answer":"inherit", "tag":"AI()", "freq":"medium", "gloss":"承繼土地、繼承基業", "ref":"詩篇 37:11", "usage":"現代英語常用，表示繼承財產或土地。" },
+  { "id":"CK-EN-PSA037-04", "chapter":37, "verse":20, "text":"vanish like smoke", "blank":"They will vanish— ___.", "answer":"vanish like smoke", "tag":"AI()", "freq":"medium", "gloss":"如煙消散", "ref":"詩篇 37:20", "usage":"現代英語常用於表示徹底消失。" },
+  { "id":"CK-EN-PSA037-05", "chapter":37, "verse":22, "text":"cut off", "blank":"Those who are cursed by him shall be cut ___.", "answer":"off", "tag":"AI()", "freq":"high", "gloss":"切斷、消滅", "ref":"詩篇 37:22", "usage":"現代英語常用，表示切斷或消滅。" },
+  { "id":"CK-EN-PSA037-06", "chapter":37, "verse":24, "text":"holds him up", "blank":"the LORD ___ with his hand.", "answer":"holds him up", "tag":"AI()", "freq":"high", "gloss":"扶持、支撐", "ref":"詩篇 37:24", "usage":"現代英語極常用，如hold up under pressure。" },
+  { "id":"CK-EN-PSA037-07", "chapter":37, "verse":28, "text":"cut off", "blank":"the children of the wicked shall be cut ___.", "answer":"off", "tag":"AI()", "freq":"high", "gloss":"切斷、消滅", "ref":"詩篇 37:28", "usage":"現代英語常用，表示切斷或消滅。" },
+  { "id":"CK-EN-PSA037-08", "chapter":37, "verse":29, "text":"inherit the land", "blank":"The righteous shall ___ the land.", "answer":"inherit", "tag":"AI()", "freq":"medium", "gloss":"承繼土地、繼承基業", "ref":"詩篇 37:29", "usage":"現代英語常用，表示繼承財產或土地。" },
+  { "id":"CK-EN-PSA037-09", "chapter":37, "verse":34, "text":"cut off", "blank":"When the wicked are cut ___, you shall see it.", "answer":"off", "tag":"AI()", "freq":"high", "gloss":"切斷、消滅", "ref":"詩篇 37:34", "usage":"現代英語常用，表示切斷或消滅。" },
+  { "id":"CK-EN-PSA037-10", "chapter":37, "verse":38, "text":"cut off", "blank":"The future of the wicked shall be cut ___.", "answer":"off", "tag":"AI()", "freq":"high", "gloss":"切斷、消滅", "ref":"詩篇 37:38", "usage":"現代英語常用，表示切斷或消滅。" },
+  { "id":"CK-EN-PSA037-11", "chapter":37, "verse":40, "text":"take refuge in", "blank":"because they have taken refuge ___ him.", "answer":"in", "tag":"AI()", "freq":"high", "gloss":"尋求庇護", "ref":"詩篇 37:40", "usage":"現代英語常用於描述尋求保護。" },
+
+  { "id":"CK-EN-PSA038-01", "chapter":38, "verse":16, "text":"gloat over me", "blank":"Don't let them ___.", "answer":"gloat over me", "tag":"AI()", "freq":"medium", "gloss":"幸災樂禍", "ref":"詩篇 38:16", "usage":"現代英語常用，表示對他人不幸幸災樂禍。" },
+  { "id":"CK-EN-PSA038-02", "chapter":38, "verse":19, "text":"without reason", "blank":"Those who hate me ___ are numerous.", "answer":"without reason", "tag":"AI()", "freq":"high", "gloss":"無緣無故", "ref":"詩篇 38:19", "usage":"現代英語極常用，表示沒有正當理由。" },
+
+  { "id":"CK-EN-PSA039-01", "chapter":39, "verse":2, "text":"held my peace", "blank":"I ___, even from good.", "answer":"held my peace", "tag":"AI()", "freq":"medium", "gloss":"保持沉默", "ref":"詩篇 39:2", "usage":"現代英語仍偶爾使用，如speak now or forever hold your peace。" },
+  { "id":"CK-EN-PSA039-02", "chapter":39, "verse":6, "text":"heaps up", "blank":"He ___, and doesn't know who shall gather.", "answer":"heaps up", "tag":"AI()", "freq":"medium", "gloss":"堆積、累積", "ref":"詩篇 39:6", "usage":"現代英語常用，如heap up trouble/wealth。" },
+
+  { "id":"CK-EN-PSA040-01", "chapter":40, "verse":2, "text":"brought me up", "blank":"He ___ also out of a horrible pit.", "answer":"brought me up", "tag":"AI()", "freq":"medium", "gloss":"帶出、拯救", "ref":"詩篇 40:2", "usage":"現代英語常用，如bring someone up out of trouble。" },
+  { "id":"CK-EN-PSA040-02", "chapter":40, "verse":9, "text":"seal my lips", "blank":"I will not ___, LORD.", "answer":"seal my lips", "tag":"AI()", "freq":"medium", "gloss":"守口如瓶、保密", "ref":"詩篇 40:9", "usage":"現代英語常用，表示保守秘密不透露。" },
+  { "id":"CK-EN-PSA040-03", "chapter":40, "verse":14, "text":"turned backward", "blank":"Let them be ___ who delight in my hurt.", "answer":"turned backward", "tag":"AI()", "freq":"medium", "gloss":"退卻、撤退", "ref":"詩篇 40:14", "usage":"現代英語常用於描述撤退或掉頭返回。" },
+
+  { "id":"CK-EN-PSA041-01", "chapter":41, "verse":4, "text":"Have mercy on me", "blank":"\"LORD, ___! Heal me.\"", "answer":"Have mercy on me", "tag":"AI()", "freq":"high", "gloss":"憐憫、施恩", "ref":"詩篇 41:4", "usage":"現代英語常用於請求同情或寬恕。" },
+  { "id":"CK-EN-PSA041-02", "chapter":41, "verse":10, "text":"Have mercy on me", "blank":"But you, LORD, ___, and raise me up.", "answer":"have mercy on me", "tag":"AI()", "freq":"high", "gloss":"憐憫、施恩", "ref":"詩篇 41:10", "usage":"現代英語常用於請求同情或寬恕。" },
+  { "id":"CK-EN-PSA041-03", "chapter":41, "verse":10, "text":"raise me up", "blank":"and ___, that I may repay them.", "answer":"raise me up", "tag":"AI()", "freq":"medium", "gloss":"扶起、提拔", "ref":"詩篇 41:10", "usage":"現代英語常用，表示提振或提拔某人。" },
+  { "id":"CK-EN-PSA041-04", "chapter":41, "verse":11, "text":"triumph over me", "blank":"because my enemy doesn't ___.", "answer":"triumph over me", "tag":"AI()", "freq":"medium", "gloss":"戰勝、凱旋", "ref":"詩篇 41:11", "usage":"現代英語常用於表示克服或戰勝對手。" },
+
+  { "id":"CK-EN-PSA042-01", "chapter":42, "verse":1, "text":"pants for", "blank":"As the deer ___ the water brooks.", "answer":"pants for", "tag":"AI()", "freq":"medium", "gloss":"渴望、渴求", "ref":"詩篇 42:1", "usage":"現代英語詩意用語，表示強烈渴望某物。" },
+  { "id":"CK-EN-PSA042-02", "chapter":42, "verse":3, "text":"day and night", "blank":"My tears have been my food ___.", "answer":"day and night", "tag":"AI()", "freq":"high", "gloss":"日夜不停", "ref":"詩篇 42:3", "usage":"現代英語常用於形容持續不斷的狀態。" },
+  { "id":"CK-EN-PSA042-03", "chapter":42, "verse":4, "text":"pour out my soul", "blank":"I remember, and ___ within me.", "answer":"pour out my soul", "tag":"AI()", "freq":"medium", "gloss":"傾訴心聲", "ref":"詩篇 42:4", "usage":"現代英語常用，如pour out one's heart/soul。" },
+
+  { "id":"CK-EN-PSA043-01", "chapter":43, "verse":1, "text":"plead my cause", "blank":"and ___ against an ungodly nation.", "answer":"plead my cause", "tag":"AI()", "freq":"medium", "gloss":"為我申辯、辯護", "ref":"詩篇 43:1", "usage":"現代英語法律/正式用語，表示為某人的立場辯護。" },
+
+  { "id":"CK-EN-PSA044-01", "chapter":44, "verse":2, "text":"drove out", "blank":"You ___ the nations with your hand.", "answer":"drove out", "tag":"AI()", "freq":"medium", "gloss":"驅逐、趕走", "ref":"詩篇 44:2", "usage":"現代英語常用，如drive out invaders。" },
+  { "id":"CK-EN-PSA044-02", "chapter":44, "verse":5, "text":"push down", "blank":"Through you, we will ___ our adversaries.", "answer":"push down", "tag":"AI()", "freq":"medium", "gloss":"壓制、擊敗", "ref":"詩篇 44:5", "usage":"現代英語常用，表示壓制或擊敗對手。" },
+  { "id":"CK-EN-PSA044-03", "chapter":44, "verse":5, "text":"tread down", "blank":"we will ___ those who rise up against us.", "answer":"tread down", "tag":"AI()", "freq":"medium", "gloss":"踐踏、征服", "ref":"詩篇 44:5", "usage":"現代英語常用於比喻徹底征服或壓制。" },
+  { "id":"CK-EN-PSA044-04", "chapter":44, "verse":5, "text":"rise up against", "blank":"those who ___ us.", "answer":"rise up against", "tag":"AI()", "freq":"high", "gloss":"起來反抗", "ref":"詩篇 44:5", "usage":"現代英語常用於描述群體起義反抗。" },
+  { "id":"CK-EN-PSA044-05", "chapter":44, "verse":8, "text":"give thanks", "blank":"We will ___ to your name forever.", "answer":"give thanks", "tag":"AI()", "freq":"high", "gloss":"感謝、致謝", "ref":"詩篇 44:8", "usage":"現代英語極常用，表達感謝之意。" },
+  { "id":"CK-EN-PSA044-06", "chapter":44, "verse":10, "text":"turn back", "blank":"You make us ___ from the adversary.", "answer":"turn back", "tag":"AI()", "freq":"high", "gloss":"退卻、折返", "ref":"詩篇 44:10", "usage":"現代英語常用於描述撤退或掉頭返回。" },
+  { "id":"CK-EN-PSA044-07", "chapter":44, "verse":14, "text":"byword among the nations", "blank":"You make us a ___.", "answer":"byword among the nations", "tag":"AI()", "freq":"medium", "gloss":"成為笑柄、成為典型代稱", "ref":"詩篇 44:14", "usage":"現代英語常用，如his name became a byword for failure。" },
+  { "id":"CK-EN-PSA044-08", "chapter":44, "verse":14, "text":"shaking of the head", "blank":"a ___ among the peoples.", "answer":"shaking of the head", "tag":"AI()", "freq":"medium", "gloss":"搖頭表示懷疑或不屑", "ref":"詩篇 44:14", "usage":"現代英語常用，表示搖頭表達懷疑或不屑。" },
+  { "id":"CK-EN-PSA044-09", "chapter":44, "verse":18, "text":"turned back", "blank":"Our heart has not ___.", "answer":"turned back", "tag":"AI()", "freq":"high", "gloss":"退卻、變節", "ref":"詩篇 44:18", "usage":"現代英語常用於描述撤退或掉頭返回。" },
+  { "id":"CK-EN-PSA044-10", "chapter":44, "verse":23, "text":"Wake up!", "blank":"___ Why do you sleep, Lord?", "answer":"Wake up!", "tag":"AI()", "freq":"high", "gloss":"醒來、振作", "ref":"詩篇 44:23", "usage":"現代英語極常用，表示喚醒或振作。" },
+  { "id":"CK-EN-PSA044-11", "chapter":44, "verse":24, "text":"hide your face", "blank":"Why do you ___, and forget our affliction?", "answer":"hide your face", "tag":"AI()", "freq":"high", "gloss":"迴避、不理睬", "ref":"詩篇 44:24", "usage":"現代英語常用於表示刻意迴避某人。" },
+  { "id":"CK-EN-PSA044-12", "chapter":44, "verse":26, "text":"Rise up to help us", "blank":"___. Redeem us for your loving kindness' sake.", "answer":"Rise up to help us", "tag":"AI()", "freq":"medium", "gloss":"起身相助", "ref":"詩篇 44:26", "usage":"現代英語常用於表示起身採取行動幫助他人。" },
+
+  { "id":"CK-EN-PSA045-01", "chapter":45, "verse":1, "text":"overflows with", "blank":"My heart ___ a noble theme.", "answer":"overflows with", "tag":"AI()", "freq":"high", "gloss":"洋溢、滿懷", "ref":"詩篇 45:1", "usage":"現代英語極常用，如overflow with joy/gratitude。" },
+
+  { "id":"CK-EN-PSA046-01", "chapter":46, "verse":6, "text":"lifted his voice", "blank":"He ___ and the earth melted.", "answer":"lifted his voice", "tag":"AI()", "freq":"medium", "gloss":"發聲、開口", "ref":"詩篇 46:6", "usage":"現代英語常用，如lift your voice in song/protest。" },
+  { "id":"CK-EN-PSA046-02", "chapter":46, "verse":10, "text":"Be still", "blank":"\"___, and know that I am God.\"", "answer":"Be still", "tag":"AI()", "freq":"high", "gloss":"安靜、靜下心來", "ref":"詩篇 46:10", "usage":"現代英語極常用，如靜心冥想語境的be still and know。" },
+
+  { "id":"CK-EN-PSA047-01", "chapter":47, "verse":1, "text":"clap your hands", "blank":"Oh ___, all you nations.", "answer":"clap your hands", "tag":"AI()", "freq":"high", "gloss":"拍手", "ref":"詩篇 47:1", "usage":"現代英語極常用，表示鼓掌慶祝。" },
+
+  { "id":"CK-EN-PSA048-01", "chapter":48, "verse":6, "text":"Trembling took hold of", "blank":"___ them there.", "answer":"Trembling took hold of", "tag":"AI()", "freq":"medium", "gloss":"為...所攫獲", "ref":"詩篇 48:6", "usage":"現代英語常用，如take hold of the situation。" },
+
+  { "id":"CK-EN-PSA049-01", "chapter":49, "verse":14, "text":"have dominion over", "blank":"The upright shall ___ them in the morning.", "answer":"have dominion over", "tag":"AI()", "freq":"medium", "gloss":"支配、統治", "ref":"詩篇 49:14", "usage":"現代英語正式用語，表示支配控制。" },
+
+  { "id":"CK-EN-PSA050-01", "chapter":50, "verse":15, "text":"Call on me", "blank":"___ in the day of trouble.", "answer":"Call on me", "tag":"AI()", "freq":"medium", "gloss":"呼求、求助", "ref":"詩篇 50:15", "usage":"現代英語常用於呼求幫助。" }
+]

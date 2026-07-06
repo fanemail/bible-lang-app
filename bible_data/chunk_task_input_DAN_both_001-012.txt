@@ -1,0 +1,1107 @@
+
+=== DAN 但以理書 1 ===
+
+[1:1]
+  EN: In the third year of the reign of Jehoiakim king of Judah, Nebuchadnezzar king of Babylon came to Jerusalem and besieged it.
+  JA: ユダの王エホヤキムの治世の第三年にバビロンの王ネブカデネザルはエルサレムにきて、これを攻め囲んだ。
+[1:2]
+  EN: The Lord gave Jehoiakim king of Judah into his hand, with some of the vessels of the house of God; and he carried them into the land of Shinar to the house of his god. He brought the vessels into the treasure house of his god.
+  JA: 主はユダの王エホヤキムと、神の宮の器具の一部とを、彼の手にわたされたので、彼はこれをシナルの地の自分の神の宮に携えゆき、その器具を自分の神の蔵に納めた。
+[1:3]
+  EN: The king spoke to Ashpenaz, the master of his eunuchs, that he should bring in some of the children of Israel, even of the royal offspring and of the nobles:
+  JA: 時に王は宦官の長アシペナズに、イスラエルの人々の中から、王の血統の者と、貴族たる者数人とを、連れて来るように命じた。
+[1:4]
+  EN: youths in whom was no defect, but well-favored, skillful in all wisdom, endowed with knowledge, understanding science, and who had the ability to stand in the king’s palace; and that he should teach them the learning and the language of the Chaldeans.
+  JA: すなわち身に傷がなく、容姿が美しく、すべての知恵にさとく、知識があって、思慮深く、王の宮に仕えるに足る若者を連れてこさせ、これにカルデヤびとの文学と言語とを学ばせようとした。
+[1:5]
+  EN: The king appointed for them a daily portion of the king’s delicacies and of the wine which he drank, and that they should be nourished three years, that at its end they should stand before the king.
+  JA: そして王は王の食べる食物と、王の飲む酒の中から、日々の分を彼らに与えて、三年のあいだ彼らを養い育て、その後、彼らをして王の前に、はべらせようとした。
+[1:6]
+  EN: Now among these of the children of Judah were Daniel, Hananiah, Mishael, and Azariah.
+  JA: 彼らのうちに、ユダの部族のダニエル、ハナニヤ、ミシャエル、アザリヤがあった。
+[1:7]
+  EN: The prince of the eunuchs gave names to them: to Daniel he gave the name Belteshazzar; to Hananiah, Shadrach; to Mishael, Meshach; and to Azariah, Abednego.
+  JA: 宦官の長は彼らに名を与えて、ダニエルをベルテシャザルと名づけ、ハナニヤをシャデラクと名づけ、ミシャエルをメシャクと名づけ、アザリヤをアベデネゴと名づけた。
+[1:8]
+  EN: But Daniel purposed in his heart that he would not defile himself with the king’s delicacies, nor with the wine which he drank. Therefore he requested of the prince of the eunuchs that he might not defile himself.
+  JA: ダニエルは王の食物と、王の飲む酒とをもって、自分を汚すまいと、心に思い定めたので、自分を汚させることのないように、宦官の長に求めた。
+[1:9]
+  EN: Now God made Daniel find kindness and compassion in the sight of the prince of the eunuchs.
+  JA: 神はダニエルをして、宦官の長の前に、恵みとあわれみとを得させられたので、
+[1:10]
+  EN: The prince of the eunuchs said to Daniel, “I fear my lord the king, who has appointed your food and your drink. For why should he see your faces worse looking than the youths who are of your own age? Then you would endanger my head with the king.”
+  JA: 宦官の長はダニエルに言った、「わが主なる王は、あなたがたの食べ物と、飲み物とを定められたので、わたしはあなたがたの健康の状態が、同年輩の若者たちよりも悪いと、王が見られることを恐れるのです。そうすればあなたがたのために、わたしのこうべが、王の前に危くなるでしょう」。
+[1:11]
+  EN: Then Daniel said to the steward whom the prince of the eunuchs had appointed over Daniel, Hananiah, Mishael, and Azariah:
+  JA: そこでダニエルは宦官の長がダニエル、ハナニヤ、ミシャエルおよびアザリヤの上に立てた家令に言った、
+[1:12]
+  EN: “Test your servants, I beg you, ten days; and let them give us vegetables to eat and water to drink.
+  JA: 「どうぞ、しもべらを十日の間ためしてください。わたしたちにただ野菜を与えて食べさせ、水を飲ませ、
+[1:13]
+  EN: Then let our faces be examined before you, and the face of the youths who eat of the king’s delicacies; and as you see, deal with your servants.”
+  JA: そしてわたしたちの顔色と、王の食物を食べる若者の顔色とをくらべて見て、あなたの見るところにしたがって、しもべらを扱ってください」。
+[1:14]
+  EN: So he listened to them in this matter, and tested them for ten days.
+  JA: 家令はこの事について彼らの言うところを聞きいれ、十日の間、彼らをためした。
+[1:15]
+  EN: At the end of ten days, their faces appeared fairer and they were fatter in flesh than all the youths who ate of the king’s delicacies.
+  JA: 十日の終りになってみると、彼らの顔色は王の食物を食べたすべての若者よりも美しく、また肉も肥え太っていた。
+[1:16]
+  EN: So the steward took away their delicacies and the wine that they were given to drink, and gave them vegetables.
+  JA: それで家令は彼らの食物と、彼らの飲むべき酒とを除いて、彼らに野菜を与えた。
+[1:17]
+  EN: Now as for these four youths, God gave them knowledge and skill in all learning and wisdom; and Daniel had understanding in all visions and dreams.
+  JA: この四人の者には、神は知識を与え、すべての文学と知恵にさとい者とされた。ダニエルはまたすべての幻と夢とを理解した。
+[1:18]
+  EN: At the end of the days which the king had appointed for bringing them in, the prince of the eunuchs brought them in before Nebuchadnezzar.
+  JA: さて、王が命じたところの若者を召し入れるまでの日数が過ぎたので、宦官の町は彼らをネブカデネザルの前に連れていった。
+[1:19]
+  EN: The king talked with them; and among them all was found no one like Daniel, Hananiah, Mishael, and Azariah. Therefore they stood before the king.
+  JA: 王が彼らと語ってみると、彼らすべての中にはダニエル、ハナニヤ、ミシャエル、アザリヤにならぶ者がなかったので、彼らは王の前にはべることとなった。
+[1:20]
+  EN: In every matter of wisdom and understanding concerning which the king inquired of them, he found them ten times better than all the magicians and enchanters who were in all his realm.
+  JA: 王が彼らにさまざまの事を尋ねてみると、彼らは知恵と理解において、全国の博士、法術士にまさること十倍であった。
+[1:21]
+  EN: Daniel continued even to the first year of King Cyrus.
+  JA: ダニエルはクロス王の元年まで仕えていた。
+
+=== DAN 但以理書 2 ===
+
+[2:1]
+  EN: In the second year of the reign of Nebuchadnezzar, Nebuchadnezzar dreamed dreams; and his spirit was troubled, and his sleep went from him.
+  JA: ネブカデネザルの治世の第二年に、ネブカデネザルは夢を見、そのために心に思い悩んで眠ることができなかった。
+[2:2]
+  EN: Then the king commanded that the magicians, the enchanters, the sorcerers, and the Chaldeans be called to tell the king his dreams. So they came in and stood before the king.
+  JA: そこで王は命じて王のためにその夢を解かせようと、博士、法術士、魔術士、カルデヤびとを召させたので、彼らはきて王の前に立った。
+[2:3]
+  EN: The king said to them, “I have dreamed a dream, and my spirit is troubled to know the dream.”
+  JA: 王は彼らにむかって、「わたしは夢を見たが、その夢を知ろうと心に思い悩んでいる」と言ったので、
+[2:4]
+  EN: Then the Chaldeans spoke to the king in the Syrian language, “O king, live forever! Tell your servants the dream, and we will show the interpretation.”
+  JA: カルデヤびとらはアラム語で王に言った、「王よ、とこしえに生きながらえられますように。どうぞしもべらにその夢をお話しください。わたしたちはその解き明かしを申しあげましょう」。
+[2:5]
+  EN: The king answered the Chaldeans, “The thing has gone from me. If you don’t make known to me the dream and its interpretation, you will be cut in pieces, and your houses will be made a dunghill.
+  JA: 王は答えてカルデヤびとに言った、「わたしの言うことは必ず行う。あなたがたがもしその夢と、その解き明かしを、わたしに示さないならば、あなたがたの身は切り裂かれ、あなたがたの家は滅ぼされる。
+[2:6]
+  EN: But if you show the dream and its interpretation, you will receive from me gifts, rewards, and great honor. Therefore show me the dream and its interpretation.”
+  JA: しかし、その夢とその解き明かしとを示すならば、贈り物と報酬と大いなる栄誉とを、わたしから受けるだろう。それゆえその夢とその解き明かしとを、わたしに示しなさい」。
+[2:7]
+  EN: They answered the second time and said, “Let the king tell his servants the dream, and we will show the interpretation.”
+  JA: 彼らは再び答えて言った、「王よ、しもべらにその夢をお話しください。そうすればわたしたちはその解き明かしを示しましょう」。
+[2:8]
+  EN: The king answered, “I know of a certainty that you are trying to gain time, because you see the thing has gone from me.
+  JA: 王は答えて言った、「あなたがたはわたしが言ったことは、必ず行うことを承知しているので、時を延ばそうとしているのを、わたしは確かに知っている。
+[2:9]
+  EN: But if you don’t make known to me the dream, there is but one law for you; for you have prepared lying and corrupt words to speak before me, until the situation changes. Therefore tell me the dream, and I will know that you can show me its interpretation.”
+  JA: もしその夢をわたしに示さないならば、あなたがたの受ける刑罰はただ一つあるのみだ。あなたがたは一致して、偽りと、欺きの言葉をわたしの前に述べて、時の変るのを待とうとしているのだ。まずその夢をわたしに示しなさい。そうすれば、わたしはあなたがたがその解き明かしをも、示しうることを知るだろう」。
+[2:10]
+  EN: The Chaldeans answered the king and said, “There is not a man on the earth who can show the king’s matter, because no king, lord, or ruler has asked such a thing of any magician, enchanter, or Chaldean.
+  JA: カルデヤびとらは王の前に答えて言った、「世の中には王のその要求に応じうる者はひとりもありません。どんな大いなる力ある王でも、このような事を、博士、法術士、カルデヤびとに尋ねた者はありませんでした。
+[2:11]
+  EN: It is a rare thing that the king requires, and there is no other who can show it before the king except the gods, whose dwelling is not with flesh.”
+  JA: 王の尋ねられる事はむずかしい事であって、肉なる者と共におられない神々を除いては、王の前にこれを示しうる者はないでしょう」。
+[2:12]
+  EN: Because of this, the king was angry and very furious, and commanded that all the wise men of Babylon be destroyed.
+  JA: これによって王は怒り、かつ大いに憤り、バビロンの知者をすべて滅ぼせと命じた。
+[2:13]
+  EN: So the decree went out, and the wise men were to be slain. They sought Daniel and his companions to be slain.
+  JA: この命令が発せられたので、知者らは殺されることになった。またダニエルとその同僚をも殺そうと求めた。
+[2:14]
+  EN: Then Daniel returned answer with counsel and prudence to Arioch the captain of the king’s guard, who had gone out to kill the wise men of Babylon.
+  JA: そして王の侍衛の長アリオクが、バビロンの知者らを殺そうと出てきたので、ダニエルは思慮と知恵とをもってこれに応答した。
+[2:15]
+  EN: He answered Arioch the king’s captain, “Why is the decree so urgent from the king?” Then Arioch made the thing known to Daniel.
+  JA: すなわち王の高官アリオクに「どうして王はそんなにきびしい命令を出されたのですか」と言った。アリオクがその事をダニエルに告げ知らせると、
+[2:16]
+  EN: Daniel went in, and desired of the king that he would appoint him a time, and he would show the king the interpretation.
+  JA: ダニエルは王のところへはいっていって、その解き明かしを示すために、しばらくの時を与えられるよう王に願った。
+[2:17]
+  EN: Then Daniel went to his house and made the thing known to Hananiah, Mishael, and Azariah, his companions:
+  JA: それからダニエルは家に帰り、同僚のハナニヤ、ミシャエルおよびアザリヤにこの事を告げ知らせ、
+[2:18]
+  EN: that they would desire mercies of the God of heaven concerning this secret, that Daniel and his companions would not perish with the rest of the wise men of Babylon.
+  JA: 共にこの秘密について天の神のあわれみを請い、ダニエルとその同僚とが、他のバビロンの知者と共に滅ぼされることのないように求めた。
+[2:19]
+  EN: Then the secret was revealed to Daniel in a vision of the night. Then Daniel blessed the God of heaven.
+  JA: ついに夜の幻のうちにこの秘密がダニエルに示されたので、ダニエルは天の神をほめたたえた。
+[2:20]
+  EN: Daniel answered, “Blessed be the name of God forever and ever; for wisdom and might are his.
+  JA: ダニエルは言った、「神のみ名は永遠より永遠に至るまでほむべきかな、知恵と権能とは神のものである。
+[2:21]
+  EN: He changes the times and the seasons. He removes kings and sets up kings. He gives wisdom to the wise, and knowledge to those who have understanding.
+  JA: 神は時と季節とを変じ、王を廃し、王を立て、知者に知恵を与え、賢者に知識を授けられる。
+[2:22]
+  EN: He reveals the deep and secret things. He knows what is in the darkness, and the light dwells with him.
+  JA: 神は深妙、秘密の事をあらわし、暗黒にあるものを知り、光をご自身のうちに宿す。
+[2:23]
+  EN: I thank you and praise you, O God of my fathers, who have given me wisdom and might, and have now made known to me what we desired of you; for you have made known to us the king’s matter.”
+  JA: わが先祖たちの神よ、あなたはわたしに知恵と力とを賜い、今われわれがあなたに請い求めたところのものをわたしに示し、王の求めたことをわれわれに示されたので、わたしはあなたに感謝し、あなたをさんびします」。
+[2:24]
+  EN: Therefore Daniel went in to Arioch, whom the king had appointed to destroy the wise men of Babylon. He went and said this to him: “Don’t destroy the wise men of Babylon. Bring me in before the king, and I will show to the king the interpretation.”
+  JA: そこでダニエルは、王がバビロンの知者たちを滅ぼすことを命じておいたアリオクのもとへ行って、彼にこう言った、「バビロンの知者たちを滅ぼしてはなりません。わたしを王の前に連れて行ってください。わたしはその解き明かしを王に示します」。
+[2:25]
+  EN: Then Arioch brought in Daniel before the king in haste, and said this to him: “I have found a man of the children of the captivity of Judah who will make known to the king the interpretation.”
+  JA: アリオクは急いでダニエルを王の前に連れて行き、王にこう言った、「ユダから捕え移した者の中に、その解き明かしを王にお知らせすることのできる、ひとりの人を見つけました」。
+[2:26]
+  EN: The king answered Daniel, whose name was Belteshazzar, “Are you able to make known to me the dream which I have seen, and its interpretation?”
+  JA: 王は答えて、ベルテシャザルという名のダニエルに言った、「あなたはわたしが見た夢と、その解き明かしとをわたしに知らせることができるのか」。
+[2:27]
+  EN: Daniel answered before the king, and said, “The secret which the king has demanded can’t be shown to the king by wise men, enchanters, magicians, or soothsayers;
+  JA: ダニエルは王に答えて言った、「王が求められる秘密は、知者、法術士、博士、占い師など、これを王に示すことはできません。
+[2:28]
+  EN: but there is a God in heaven who reveals secrets, and he has made known to King Nebuchadnezzar what will be in the latter days. Your dream and the visions of your head on your bed are these:
+  JA: しかし秘密をあらわすひとりの神が天におられます。彼は後の日に起るべき事を、ネブカデネザル王に知らされたのです。あなたの夢と、あなたが床にあって見た脳中の幻はこれです。
+[2:29]
+  EN: “As for you, O king, your thoughts came on your bed, what should happen hereafter; and he who reveals secrets has made known to you what will happen.
+  JA: 王よ、あなたが床におられたとき、この後どんな事があろうかと、思いまわされたが、秘密をあらわされるかたが、将来どんな事が起るかを、あなたに知らされたのです。
+[2:30]
+  EN: But as for me, this secret is not revealed to me for any wisdom that I have more than any living, but to the intent that the interpretation may be made known to the king, and that you may know the thoughts of your heart.
+  JA: この秘密をわたしにあらわされたのは、すべての生ける者にまさって、わたしに知恵があるためではなく、ただその解き明かしを、王にお知らせすることによって、あなたが心に思われたことを、お知りになるためです。
+[2:31]
+  EN: “You, O king, saw, and behold, a great image. This image, which was mighty, and whose brightness was excellent, stood before you; and its appearance was terrifying.
+  JA: 王よ、あなたは一つの大いなる像が、あなたの前に立っているのを見られました。その像は大きく、非常に光り輝いて、恐ろしい外観をもっていました。
+[2:32]
+  EN: As for this image, its head was of fine gold, its chest and its arms of silver, its belly and its thighs of bronze,
+  JA: その像の頭は純金、胸と両腕とは銀、腹と、ももとは青銅、
+[2:33]
+  EN: its legs of iron, its feet part of iron and part of clay.
+  JA: すねは鉄、足の一部は鉄、一部は粘土です。
+[2:34]
+  EN: You saw until a stone was cut out without hands, which struck the image on its feet that were of iron and clay, and broke them in pieces.
+  JA: あなたが見ておられたとき、一つの石が人手によらずに切り出されて、その像の鉄と粘土との足を撃ち、これを砕きました。
+[2:35]
+  EN: Then the iron, the clay, the bronze, the silver, and the gold were broken in pieces together, and became like the chaff of the summer threshing floors. The wind carried them away, so that no place was found for them. The stone that struck the image became a great mountain and filled the whole earth.
+  JA: こうして鉄と、粘土と、青銅と、銀と、金とはみな共に砕けて、夏の打ち場のもみがらのようになり、風に吹き払われて、あとかたもなくなりました。ところがその像を撃った石は、大きな山となって全地に満ちました。
+[2:36]
+  EN: “This is the dream; and we will tell its interpretation before the king.
+  JA: これがその夢です。今わたしたちはその解き明かしを、王の前に申しあげましょう。
+[2:37]
+  EN: You, O king, are king of kings, to whom the God of heaven has given the kingdom, the power, the strength, and the glory.
+  JA: 王よ、あなたは諸王の王であって、天の神はあなたに国と力と勢いと栄えとを賜い、
+[2:38]
+  EN: Wherever the children of men dwell, he has given the animals of the field and the birds of the sky into your hand, and has made you rule over them all. You are the head of gold.
+  JA: また人の子ら、野の獣、空の鳥はどこにいるものでも、皆これをあなたの手に与えて、ことごとく治めさせられました。あなたはあの金の頭です。
+[2:39]
+  EN: “After you, another kingdom will arise that is inferior to you; and another third kingdom of bronze, which will rule over all the earth.
+  JA: あなたの後にあなたに劣る一つの国が起ります。また第三に青銅の国が起って、全世界を治めるようになります。
+[2:40]
+  EN: The fourth kingdom will be strong as iron, because iron breaks in pieces and subdues all things; and as iron that crushes all these, it will break in pieces and crush.
+  JA: 第四の国は鉄のように強いでしょう。鉄はよくすべての物をこわし砕くからです。鉄がこれらをことごとく打ち砕くように、その国はこわし砕くでしょう。
+[2:41]
+  EN: Whereas you saw the feet and toes, part of potters’ clay and part of iron, it will be a divided kingdom; but there will be in it of the strength of the iron, because you saw the iron mixed with miry clay.
+  JA: あなたはその足と足の指を見られましたが、その一部は陶器師の粘土、一部は鉄であったので、それは分裂した国をさします。しかしあなたが鉄と粘土との混じったのを見られたように、その国には鉄の強さがあるでしょう。
+[2:42]
+  EN: As the toes of the feet were part of iron, and part of clay, so the kingdom will be partly strong and partly brittle.
+  JA: その足の指の一部は鉄、一部は粘土であったように、その国は一部は強く、一部はもろいでしょう。
+[2:43]
+  EN: Whereas you saw the iron mixed with miry clay, they will mingle themselves with the seed of men; but they won’t cling to one another, even as iron does not mix with clay.
+  JA: あなたが鉄と粘土との混じったのを見られたように、それらは婚姻によって、互に混ざるでしょう。しかし鉄と粘土とは相混じらないように、かれとこれと相合することはありません。
+[2:44]
+  EN: “In the days of those kings the God of heaven will set up a kingdom which will never be destroyed, nor will its sovereignty be left to another people; but it will break in pieces and consume all these kingdoms, and it will stand forever.
+  JA: それらの王たちの世に、天の神は一つの国を立てられます。これはいつまでも滅びることがなく、その主権は他の民にわたされず、かえってこれらのもろもろの国を打ち破って滅ぼすでしょう。そしてこの国は立って永遠に至るのです。
+[2:45]
+  EN: Because you saw that a stone was cut out of the mountain without hands, and that it broke in pieces the iron, the bronze, the clay, the silver, and the gold, the great God has made known to the king what will happen hereafter. The dream is certain, and its interpretation sure.”
+  JA: 一つの石が人手によらずに山から切り出され、その石が鉄と、青銅と、粘土と、銀と、金とを打ち砕いたのを、あなたが見られたのはこの事です。大いなる神がこの後に起るべきことを、王に知らされたのです。その夢はまことであって、この解き明かしは確かです」。
+[2:46]
+  EN: Then King Nebuchadnezzar fell on his face, worshiped Daniel, and commanded that they should offer an offering and sweet odors to him.
+  JA: そこでネブカデネザル王はひれ伏して、ダニエルを拝し、供え物と薫香とを、彼にささげることを命じた。
+[2:47]
+  EN: The king answered to Daniel, and said, “Of a truth your God is the God of gods, and the Lord of kings, and a revealer of secrets, since you have been able to reveal this secret.”
+  JA: そして王はダニエルに答えて言った、「あなたがこの秘密をあらわすことができたのを見ると、まことに、あなたがたの神は神々の神、王たちの主であって、秘密をあらわされるかただ」。
+[2:48]
+  EN: Then the king made Daniel great and gave him many great gifts, and made him rule over the whole province of Babylon and to be chief governor over all the wise men of Babylon.
+  JA: こうして王はダニエルに高い位を授け、多くの大いなる贈り物を与えて、彼をバビロン全州の総督とし、またバビロンの知者たちを統轄する者の長とした。
+[2:49]
+  EN: Daniel requested of the king, and he appointed Shadrach, Meshach, and Abednego over the affairs of the province of Babylon, but Daniel was in the king’s gate.
+  JA: 王はまたダニエルの願いによって、シャデラクとメシャクとアベデネゴを任命して、バビロン州の事務をつかさどらせた。ただしダニエルは王の宮にとどまっていた。
+
+=== DAN 但以理書 3 ===
+
+[3:1]
+  EN: Nebuchadnezzar the king made an image of gold, whose height was sixty cubits and its width six cubits. He set it up in the plain of Dura, in the province of Babylon.
+  JA: ネブカデネザル王は一つの金の像を造った。その高さは六十キュビト、その幅は六キュビトで、彼はこれをバビロン州のドラの平野に立てた。
+[3:2]
+  EN: Then Nebuchadnezzar the king sent to gather together the local governors, the deputies, and the governors, the judges, the treasurers, the counselors, the sheriffs, and all the rulers of the provinces, to come to the dedication of the image which Nebuchadnezzar the king had set up.
+  JA: そしてネブカデネザル王は、総督、長官、知事、参議、庫官、法官、高僧および諸州の官吏たちを召し集め、ネブカデネザル王の立てたこの像の落成式に臨ませようとした。
+[3:3]
+  EN: Then the local governors, the deputies, and the governors, the judges, the treasurers, the counselors, the sheriffs, and all the rulers of the provinces were gathered together to the dedication of the image that Nebuchadnezzar the king had set up; and they stood before the image that Nebuchadnezzar had set up.
+  JA: そこで、総督、長官、知事、参議、庫官、法官、高僧および諸州の官吏たちは、ネブカデネザル王の立てた像の落成式に臨み、そのネブカデネザルの立てた像の前に立った。
+[3:4]
+  EN: Then the herald cried aloud, “To you it is commanded, peoples, nations, and languages,
+  JA: 時に伝令者は大声に呼ばわって言った、「諸民、諸族、諸国語の者よ、あなたがたにこう命じられる。
+[3:5]
+  EN: that whenever you hear the sound of the horn, flute, zither, lyre, harp, pipe, and all kinds of music, you fall down and worship the golden image that Nebuchadnezzar the king has set up.
+  JA: 角笛、横笛、琴、三角琴、立琴、風笛などの、もろもろの楽器の音を聞く時は、ひれ伏してネブカデネザル王の立てた金の像を拝まなければならない。
+[3:6]
+  EN: Whoever doesn’t fall down and worship shall be cast into the middle of a burning fiery furnace the same hour.”
+  JA: だれでもひれ伏して拝まない者は、ただちに火の燃える炉の中に投げ込まれる」と。
+[3:7]
+  EN: Therefore at that time, when all the peoples heard the sound of the horn, flute, zither, lyre, harp, pipe, and all kinds of music, all the peoples, the nations, and the languages fell down and worshiped the golden image that Nebuchadnezzar the king had set up.
+  JA: そこで民らはみな、角笛、横笛、琴、三角琴、立琴、風笛などの、もろもろの楽器の音を聞くや、諸民、諸族、諸国語の者たちはみな、ひれ伏して、ネブカデネザル王の立てた金の像を拝んだ。
+[3:8]
+  EN: Therefore at that time certain Chaldeans came near and brought accusation against the Jews.
+  JA: その時、あるカルデヤびとらが進みきて、ユダヤ人をあしざまに訴えた。
+[3:9]
+  EN: They answered Nebuchadnezzar the king, “O king, live for ever!
+  JA: すなわち彼らはネブカデネザル王に言った、「王よ、とこしえに生きながらえられますように。
+[3:10]
+  EN: You, O king, have made a decree that every man who hears the sound of the horn, flute, zither, lyre, harp, pipe, and all kinds of music shall fall down and worship the golden image;
+  JA: 王よ、あなたは命令を出して仰せられました。すべて、角笛、横笛、琴、三角琴、立琴、風笛などの、もろもろの楽器の音を聞く者は皆、ひれ伏して金の像を拝まなければならない。
+[3:11]
+  EN: and whoever doesn’t fall down and worship shall be cast into the middle of a burning fiery furnace.
+  JA: また、だれでもひれ伏して拝まない者はみな、火の燃える炉の中に投げ込まれると。
+[3:12]
+  EN: There are certain Jews whom you have appointed over the affairs of the province of Babylon: Shadrach, Meshach, and Abednego. These men, O king, have not respected you. They don’t serve your gods, and don’t worship the golden image which you have set up.”
+  JA: ここにあなたが任命して、バビロン州の事務をつかさどらせられているユダヤ人シャデラク、メシャクおよびアベデネゴがおります。王よ、この人々はあなたを尊ばず、あなたの神々にも仕えず、あなたの立てられた金の像をも拝もうとしません」。
+[3:13]
+  EN: Then Nebuchadnezzar in rage and fury commanded that Shadrach, Meshach, and Abednego be brought. Then these men were brought before the king.
+  JA: そこでネブカデネザルは怒りかつ憤って、シャデラク、メシャクおよびアベデネゴを連れてこいと命じたので、この人々を王の前に連れてきた。
+[3:14]
+  EN: Nebuchadnezzar answered them, “Is it true, Shadrach, Meshach, and Abednego, that you don’t serve my gods and you don’t worship the golden image which I have set up?
+  JA: ネブカデネザルは彼らに言った、「シャデラク、メシャク、アベデネゴよ、あなたがたがわが神々に仕えず、またわたしの立てた金の像を拝まないとは、ほんとうなのか。
+[3:15]
+  EN: Now if you are ready whenever you hear the sound of the horn, flute, zither, lyre, harp, pipe, and all kinds of music to fall down and worship the image which I have made, good; but if you don’t worship, you shall be cast the same hour into the middle of a burning fiery furnace. Who is that god who will deliver you out of my hands?”
+  JA: あなたがたがもし、角笛、横笛、琴、三角琴、立琴、風笛などの、もろもろの楽器の音を聞くときにひれ伏して、わたしが立てた像を、ただちに拝むならば、それでよろしい。しかし、拝むことをしないならば、ただちに火の燃える炉の中に投げ込まれる。いったい、どの神が、わたしの手からあなたがたを救うことができようか」。
+[3:16]
+  EN: Shadrach, Meshach, and Abednego answered the king, “Nebuchadnezzar, we have no need to answer you in this matter.
+  JA: シャデラク、メシャクおよびアベデネゴは王に答えて言った、「ネブカデネザルよ、この事について、お答えする必要はありません。
+[3:17]
+  EN: If it happens, our God whom we serve is able to deliver us from the burning fiery furnace; and he will deliver us out of your hand, O king.
+  JA: もしそんなことになれば、わたしたちの仕えている神は、その火の燃える炉から、わたしたちを救い出すことができます。また王よ、あなたの手から、わたしたちを救い出されます。
+[3:18]
+  EN: But if not, let it be known to you, O king, that we will not serve your gods or worship the golden image which you have set up.”
+  JA: たといそうでなくても、王よ、ご承知ください。わたしたちはあなたの神々に仕えず、またあなたの立てた金の像を拝みません」。
+[3:19]
+  EN: Then Nebuchadnezzar was full of fury, and the form of his appearance was changed against Shadrach, Meshach, and Abednego. He spoke, and commanded that they should heat the furnace seven times more than it was usually heated.
+  JA: そこでネブカデネザルは怒りに満ち、シャデラク、メシャクおよびアベデネゴにむかって、顔色を変え、炉を平常よりも七倍熱くせよと命じた。
+[3:20]
+  EN: He commanded certain mighty men who were in his army to bind Shadrach, Meshach, and Abednego, and to cast them into the burning fiery furnace.
+  JA: またその軍勢の中の力の強い人々を呼んで、シャデラク、メシャクおよびアベデネゴを縛って、彼らを火の燃える炉の中に投げ込めと命じた。
+[3:21]
+  EN: Then these men were bound in their pants, their tunics, and their mantles, and their other clothes, and were cast into the middle of the burning fiery furnace.
+  JA: そこでこの人々は、外套、下着、帽子、その他の衣服のまま縛られて、火の燃える炉の中に投げ込まれた。
+[3:22]
+  EN: Therefore because the king’s commandment was urgent and the furnace exceedingly hot, the flame of the fire killed those men who took up Shadrach, Meshach, and Abednego.
+  JA: 王の命令はきびしく、かつ炉は、はなはだしく熱していたので、シャデラク、メシャクおよびアベデネゴを引きつれていった人々は、その火炎に焼き殺された。
+[3:23]
+  EN: These three men, Shadrach, Meshach, and Abednego, fell down bound into the middle of the burning fiery furnace.
+  JA: シャデラク、メシャク、アベデネゴの三人は縛られたままで、火の燃える炉の中に落ち込んだ。
+[3:24]
+  EN: Then Nebuchadnezzar the king was astonished and rose up in haste. He spoke and said to his counselors, “Didn’t we cast three men bound into the middle of the fire?” They answered the king, “True, O king.”
+  JA: その時、ネブカデネザル王は驚いて急ぎ立ちあがり、大臣たちに言った、「われわれはあの三人を縛って、火の中に投げ入れたではないか」。彼らは王に答えて言った、「王よ、そのとおりです」。
+[3:25]
+  EN: He answered, “Look, I see four men loose, walking in the middle of the fire, and they are unharmed. The appearance of the fourth is like a son of the gods.”
+  JA: 王は答えて言った、「しかし、わたしの見るのに四人の者がなわめなしに、火の中を歩いているが、なんの害をも受けていない。その第四の者の様子は神の子のようだ」。
+[3:26]
+  EN: Then Nebuchadnezzar came near to the mouth of the burning fiery furnace. He spoke and said, “Shadrach, Meshach, and Abednego, you servants of the Most High God, come out, and come here!”
+  JA: そこでネブカデネザルは、その火の燃える炉の入口に近寄って、「いと高き神のしもべシャデラク、メシャク、アベデネゴよ、出てきなさい」と言ったので、シャデラク、メシャク、アベデネゴはその火の中から出てきた。
+[3:27]
+  EN: Then Shadrach, Meshach, and Abednego came out of the middle of the fire.   The local governors, the deputies, and the governors, and the king’s counselors, being gathered together, saw these men, that the fire had no power on their bodies. The hair of their head wasn’t singed. Their pants weren’t changed. The smell of fire wasn’t even on them.
+  JA: 総督、長官、知事および王の大臣たちも集まってきて、この人々を見たが、火は彼らの身にはなんの力もなく、その頭の毛は焼けず、その外套はそこなわれず、火のにおいもこれに付かなかった。
+[3:28]
+  EN: Nebuchadnezzar spoke and said, “Blessed be the God of Shadrach, Meshach, and Abednego, who has sent his angel and delivered his servants who trusted in him, and have changed the king’s word, and have yielded their bodies, that they might not serve nor worship any god except their own God.
+  JA: ネブカデネザルは言った、「シャデラク、メシャク、アベデネゴの神はほむべきかな。神はその使者をつかわして、自分に寄り頼むしもべらを救った。また彼らは自分の神以外の神に仕え、拝むよりも、むしろ王の命令を無視し、自分の身をも捨てようとしたのだ。
+[3:29]
+  EN: Therefore I make a decree that every people, nation, and language which speak anything evil against the God of Shadrach, Meshach, and Abednego shall be cut in pieces, and their houses shall be made a dunghill, because there is no other god who is able to deliver like this.”
+  JA: それでわたしはいま命令を下す。諸民、諸族、諸国語の者のうちだれでも、シャデラク、メシャク、アベデネゴの神をののしる者があるならば、その身は切り裂かれ、その家は滅ぼされなければならない。このように救を施すことのできる神は、ほかにないからだ」。
+[3:30]
+  EN: Then the king promoted Shadrach, Meshach, and Abednego in the province of Babylon.
+  JA: こうして、王はシャデラク、メシャクおよびアベデネゴの位を進めて、バビロン州におらせた。
+
+=== DAN 但以理書 4 ===
+
+[4:1]
+  EN: Nebuchadnezzar the king, to all the peoples, nations, and languages, who dwell in all the earth: Peace be multiplied to you.
+  JA: ネブカデネザル王は全世界に住む諸民、諸族、諸国語の者に告げる。どうか、あなたがたに平安が増すように。
+[4:2]
+  EN: It has seemed good to me to show the signs and wonders that the Most High God has worked toward me.
+  JA: いと高き神はわたしにしるしと奇跡とを行われた。わたしはこれを知らせたいと思う。
+[4:3]
+  EN: How great are his signs! How mighty are his wonders! His kingdom is an everlasting kingdom. His dominion is from generation to generation.
+  JA: ああ、そのしるしの大いなること、ああ、その奇跡のすばらしいこと、その国は永遠の国、その主権は世々に及ぶ。
+[4:4]
+  EN: I, Nebuchadnezzar, was at rest in my house, and flourishing in my palace.
+  JA: われネブカデネザルはわが家に安らかにおり、わが宮にあって栄えていたが、
+[4:5]
+  EN: I saw a dream which made me afraid; and the thoughts on my bed and the visions of my head troubled me.
+  JA: わたしは一つの夢を見て、そのために恐れた。すなわち床にあって、その事を思いめぐらし、わが脳中の幻のために心を悩ました。
+[4:6]
+  EN: Therefore I made a decree to bring in all the wise men of Babylon before me, that they might make known to me the interpretation of the dream.
+  JA: そこでわたしは命令を下し、バビロンの知者をことごとくわが前に召し寄せて、その夢の解き明かしを示させようとした。
+[4:7]
+  EN: Then the magicians, the enchanters, the Chaldeans, and the soothsayers came in; and I told them the dream, but they didn’t make known to me its interpretation.
+  JA: すると、博士、法術士、カルデヤびと、占い師たちがきたので、わたしはその夢を彼らに語ったが、彼らはその解き明かしを示すことができなかった。
+[4:8]
+  EN: But at last, Daniel came in before me, whose name was Belteshazzar according to the name of my god, and in whom is the spirit of the holy gods. I told the dream before him, saying,
+  JA: 最後にダニエルがわたしの前にきた、――彼の名はわが神の名にちなんで、ベルテシャザルととなえられ、彼のうちには聖なる神の霊がやどっていた――わたしは彼にその夢を語って言った、
+[4:9]
+  EN: “Belteshazzar, master of the magicians, because I know that the spirit of the holy gods is in you and no secret troubles you, tell me the visions of my dream that I have seen, and its interpretation.
+  JA: 「博士の長ベルテシャザルよ、わたしは知っている。聖なる神の霊があなたのうちにやどっているから、どんな秘密もあなたにはむずかしいことはない。ここにわたしが見た夢がある。その解き明かしをわたしに告げなさい。
+[4:10]
+  EN: These were the visions of my head on my bed: I saw, and behold, a tree in the middle of the earth; and its height was great.
+  JA: わたしが床にあって見た脳中の幻はこれである。わたしが見たのに、地の中央に一本の木があって、そのたけが高かったが、
+[4:11]
+  EN: The tree grew and was strong. Its height reached to the sky and its sight to the end of all the earth.
+  JA: その木は成長して強くなり、天に達するほどの高さになって、地の果までも見えわたり、
+[4:12]
+  EN: Its leaves were beautiful, and it had much fruit, and in it was food for all. The animals of the field had shade under it, and the birds of the sky lived in its branches, and all flesh was fed from it.
+  JA: その葉は美しく、その実は豊かで、すべての者がその中から食物を獲、また野の獣はその陰にやどり、空の鳥はその枝にすみ、すべての肉なる者はこれによって養われた。
+[4:13]
+  EN: “I saw in the visions of my head on my bed, and behold, a holy watcher came down from the sky.
+  JA: わたしが床にあって見た脳中の幻の中に、ひとりの警護者、ひとりの聖者の天から下るのを見たが、
+[4:14]
+  EN: He cried aloud and said this: ‘Cut down the tree, and cut off its branches! Shake off its leaves and scatter its fruit! Let the animals get away from under it and the birds from its branches.
+  JA: 彼は声高く呼ばわって、こう言った、『この木を切り倒し、その枝を切りはらい、その葉をゆり落し、その実を打ち散らし、獣をその下から逃げ去らせ、鳥をその枝から飛び去らせよ。
+[4:15]
+  EN: Nevertheless leave the stump of its roots in the earth, even with a band of iron and bronze, in the tender grass of the field; and let it be wet with the dew of the sky. Let his portion be with the animals in the grass of the earth.
+  JA: ただしその根の切り株を地に残し、それに鉄と青銅のなわをかけて、野の若草の中におき、天からくだる露にぬれさせ、また地の草の中で、獣と共にその分にあずからせよ。
+[4:16]
+  EN: Let his heart be changed from man’s, and let an animal’s heart be given to him. Then let seven times pass over him.
+  JA: またその心は変って人間の心のようでなく、獣の心が与えられて、七つの時を過ごさせよ。
+[4:17]
+  EN: “ ‘The sentence is by the decree of the watchers and the demand by the word of the holy ones, to the intent that the living may know that the Most High rules in the kingdom of men, and gives it to whomever he will, and sets up over it the lowest of men.’
+  JA: この宣言は警護者たちの命令によるもの、この決定は聖者たちの言葉によるもので、いと高き者が、人間の国を治めて、自分の意のままにこれを人に与え、また人のうちの最も卑しい者を、その上に立てられるという事を、すべての者に知らせるためである』と。
+[4:18]
+  EN: “This dream I, King Nebuchadnezzar, have seen; and you, Belteshazzar, declare the interpretation, because all the wise men of my kingdom are not able to make known to me the interpretation; but you are able, for the spirit of the holy gods is in you.”
+  JA: われネブカデネザル王はこの夢を見た。ベルテシャザルよ、あなたはその解き明かしをわたしに告げなさい。わが国の知者たちは、いずれもその解き明かしを、わたしに示すことができなかったけれども、あなたにはそれができる。あなたのうちには、聖なる神の霊がやどっているからだ」。
+[4:19]
+  EN: Then Daniel, whose name was Belteshazzar, was stricken mute for a while, and his thoughts troubled him. The king answered, “Belteshazzar, don’t let the dream or the interpretation, trouble you.”
+  JA: その時、その名をベルテシャザルととなえるダニエルは、しばらくのあいだ驚き、思い悩んだので、王は彼に告げて言った、「ベルテシャザルよ、あなたはこの夢と、その解き明かしのために、悩むには及ばない」。ベルテシャザルは答えて言った、「わが主よ、どうか、この夢は、あなたを憎む者にかかわるように。この解き明かしは、あなたの敵に臨むように。
+[4:20]
+  EN: Belteshazzar answered, “My lord, may the dream be for those who hate you, and its interpretation to your adversaries.   The tree that you saw, which grew and was strong, whose height reached to the sky and its sight to all the earth;
+  JA: あなたが見られた木、すなわちその成長して強くなり、天に達するほどの高さになって、地の果までも見えわたり、
+[4:21]
+  EN: whose leaves were beautiful and its fruit plentiful, and in it was food for all; under which the animals of the field lived, and on whose branches the birds of the sky had their habitation—
+  JA: その葉は美しく、その実は豊かで、すべての者がその中から食物を獲、また野の獣がその陰にやどり、空の鳥がその枝に住んだ木、
+[4:22]
+  EN: it is you, O king, that have grown and become strong; for your greatness has grown, and reaches to the sky, and your dominion to the end of the earth.
+  JA: 王よ、それはすなわちあなたです。あなたは成長して強くなり、天に達するほどに大きくなり、あなたの主権は地の果にまで及びました。
+[4:23]
+  EN: “Whereas the king saw a holy watcher coming down from the sky and saying, ‘Cut down the tree, and destroy it; nevertheless leave the stump of its roots in the earth, even with a band of iron and bronze, in the tender grass of the field, and let it be wet with the dew of the sky. Let his portion be with the animals of the field, until seven times pass over him.’
+  JA: ところが、王はひとりの警護者、ひとりの聖者が、天から下って、こう言うのを見られました、『この木を切り倒して、これを滅ぼせ。ただしその根の切り株を地に残し、それに鉄と青銅のなわをかけて、野の若草の中におき、天からくだる露にぬれさせ、また野の獣と共にその分にあずからせて、七つの時を過ごさせよ』と。
+[4:24]
+  EN: “This is the interpretation, O king, and it is the decree of the Most High, which has come on my lord the king:
+  JA: 王よ、その解き明かしはこうです。すなわちこれはいと高き者の命令であって、わが主なる王に臨まんとするものです。
+[4:25]
+  EN: You will be driven from men and your dwelling shall be with the animals of the field. You will be made to eat grass as oxen, and will be wet with the dew of the sky, and seven times shall pass over you, until you know that the Most High rules in the kingdom of men, and gives it to whomever he will.
+  JA: すなわちあなたは追われて世の人を離れ、野の獣と共におり、牛のように草を食い、天からくだる露にぬれるでしょう。こうして七つの時が過ぎて、ついにあなたは、いと高き者が人間の国を治めて、自分の意のままに、これを人に与えられることを知るに至るでしょう。
+[4:26]
+  EN: Whereas it was commanded to leave the stump of the roots of the tree, your kingdom shall be sure to you after you know that Heaven rules.
+  JA: また彼らはその木の根の切り株を残しおけと命じたので、あなたが、天はまことの支配者であるということを知った後、あなたの国はあなたに確保されるでしょう。
+[4:27]
+  EN: Therefore, O king, let my counsel be acceptable to you, and break off your sins by righteousness, and your iniquities by showing mercy to the poor. Perhaps there may be a lengthening of your tranquility.”
+  JA: それゆえ王よ、あなたはわたしの勧告をいれ、義を行って罪を離れ、しえたげられる者をあわれんで、不義を離れなさい。そうすれば、あるいはあなたの繁栄が、長く続くかもしれません」。
+[4:28]
+  EN: All this came on the King Nebuchadnezzar.
+  JA: この事は皆ネブカデネザル王に臨んだ。
+[4:29]
+  EN: At the end of twelve months he was walking in the royal palace of Babylon.
+  JA: 十二か月を経て後、王がバビロンの王宮の屋上を歩いていたとき、
+[4:30]
+  EN: The king spoke and said, “Is not this great Babylon, which I have built for the royal dwelling place by the might of my power and for the glory of my majesty?”
+  JA: 王は自ら言った、「この大いなるバビロンは、わたしの大いなる力をもって建てた王城であって、わが威光を輝かすものではないか」。
+[4:31]
+  EN: While the word was in the king’s mouth, a voice came from the sky, saying, “O King Nebuchadnezzar, to you it is spoken: ‘The kingdom has departed from you.
+  JA: その言葉がなお王の口にあるうちに、天から声がくだって言った、「ネブカデネザル王よ、あなたに告げる。国はあなたを離れ去った。
+[4:32]
+  EN: You shall be driven from men, and your dwelling shall be with the animals of the field. You shall be made to eat grass like oxen. Seven times shall pass over you, until you know that the Most High rules in the kingdom of men, and gives it to whomever he will.’ ”
+  JA: あなたは、追われて世の人を離れ、野の獣と共におり、牛のように草を食い、こうして七つの時を経て、ついにあなたは、いと高き者が人間の国を治めて、自分の意のままに、これを人に与えられることを知るに至るだろう」。
+[4:33]
+  EN: This was fulfilled the same hour on Nebuchadnezzar. He was driven from men and ate grass like oxen; and his body was wet with the dew of the sky until his hair had grown like eagles’ feathers, and his nails like birds’ claws.
+  JA: この言葉は、ただちにネブカデネザルに成就した。彼は追われて世の人を離れ、牛のように草を食い、その身は天からくだる露にぬれ、ついにその毛は、わしの羽のようになり、そのつめは鳥のつめのようになった。
+[4:34]
+  EN: At the end of the days I, Nebuchadnezzar, lifted up my eyes to heaven, and my understanding returned to me; and I blessed the Most High, and I praised and honored him who lives forever, for his dominion is an everlasting dominion, and his kingdom from generation to generation.
+  JA: こうしてその期間が満ちた後、われネブカデネザルは、目をあげて天を仰ぎ見ると、わたしの理性が自分に帰ったので、わたしはいと高き者をほめ、その永遠に生ける者をさんびし、かつあがめた。その主権は永遠の主権、その国は世々かぎりなく、
+[4:35]
+  EN: All the inhabitants of the earth are reputed as nothing; and he does according to his will in the army of heaven, and among the inhabitants of the earth; and no one can stop his hand, or ask him, “What are you doing?”
+  JA: 地に住む民はすべて無き者のように思われ、天の衆群にも、地に住む民にも、彼はその意のままに事を行われる。だれも彼の手をおさえて「あなたは何をするのか」と言いうる者はない。
+[4:36]
+  EN: At the same time my understanding returned to me; and for the glory of my kingdom, my majesty and brightness returned to me. My counselors and my lords sought me; and I was established in my kingdom, and excellent greatness was added to me.
+  JA: この時わたしの理性は自分に帰り、またわが国の光栄のために、わが尊厳と光輝とが、わたしに帰った。わが大臣、わが貴族らもきて、わたしに求め、わたしは国の上に堅く立って、前にもまさって大いなる者となった。
+[4:37]
+  EN: Now I, Nebuchadnezzar, praise and extol and honor the King of heaven; for all his works are truth, and his ways justice; and those who walk in pride he is able to abase.
+  JA: そこでわれネブカデネザルは今、天の王をほめたたえ、かつあがめたてまつる。そのみわざはことごとく真実で、その道は正しく、高ぶり歩む者を低くされる。
+
+=== DAN 但以理書 5 ===
+
+[5:1]
+  EN: Belshazzar the king made a great feast to a thousand of his lords, and drank wine before the thousand.
+  JA: ベルシャザル王は、その大臣一千人のために、盛んな酒宴を設け、その一千人の前で酒を飲んでいた。
+[5:2]
+  EN: Belshazzar, while he tasted the wine, commanded that the golden and silver vessels which Nebuchadnezzar his father had taken out of the temple which was in Jerusalem be brought to him, that the king and his lords, his wives and his concubines, might drink from them.
+  JA: 酒が進んだとき、ベルシャザルは、その父ネブカデネザルがエルサレムの神殿から取ってきた金銀の器を持ってこいと命じた。王とその大臣たち、および王の妻とそばめらが、これをもって酒を飲むためであった。
+[5:3]
+  EN: Then they brought the golden vessels that were taken out of the temple of God’s house which was at Jerusalem; and the king and his lords, his wives and his concubines, drank from them.
+  JA: そこで人々はそのエルサレムの神の宮すなわち神殿から取ってきた金銀の器を持ってきたので、王とその大臣たち、および王の妻とそばめらは、これをもって飲んだ。
+[5:4]
+  EN: They drank wine, and praised the gods of gold, and of silver, of bronze, of iron, of wood, and of stone.
+  JA: すなわち彼らは酒を飲んで、金、銀、青銅、鉄、木、石などの神々をほめたたえた。
+[5:5]
+  EN: In the same hour, the fingers of a man’s hand came out and wrote near the lamp stand on the plaster of the wall of the king’s palace. The king saw the part of the hand that wrote.
+  JA: すると突然人の手の指があらわれて、燭台と相対する王の宮殿の塗り壁に物を書いた。王はその物を書いた手の先を見た。
+[5:6]
+  EN: Then the king’s face was changed in him, and his thoughts troubled him; and the joints of his thighs were loosened, and his knees struck one against another.
+  JA: そのために王の顔色は変り、その心は思い悩んで乱れ、その腰のつがいはゆるみ、ひざは震えて互に打ちあった。
+[5:7]
+  EN: The king cried aloud to bring in the enchanters, the Chaldeans, and the soothsayers. The king spoke and said to the wise men of Babylon, “Whoever reads this writing and shows me its interpretation shall be clothed with purple, and have a chain of gold about his neck, and shall be the third ruler in the kingdom.”
+  JA: 王は大声に呼ばわって、法術士、カルデヤびと、占い師らを召してこさせた。王はバビロンの知者たちに告げて言った、「この文字を読み、その解き明かしをわたしに示す者には紫の衣を着せ、首に金の鎖をかけさせて、国の第三のつかさとしよう」と。
+[5:8]
+  EN: Then all the king’s wise men came in; but they could not read the writing, and couldn’t make known to the king the interpretation.
+  JA: 王の知者たちは皆はいってきた。しかしその文字を読むことができず、またその解き明かしを王に示すことができなかったので、
+[5:9]
+  EN: Then King Belshazzar was greatly troubled, and his face was changed in him, and his lords were perplexed.
+  JA: ベルシャザル王は大いに思い悩んで、その顔色は変り、王の大臣たちも当惑した。
+[5:10]
+  EN: The queen by reason of the words of the king and his lords came into the banquet house. The queen spoke and said, “O king, live forever; don’t let your thoughts trouble you, nor let your face be changed.
+  JA: 時に王妃は王と大臣たちの言葉を聞いて、その宴会場にはいってきた。そして王妃は言った、「王よ、どうか、とこしえに生きながらえられますように。あなたは心に思い悩んではなりません。また顔色を変えるには及びません。
+[5:11]
+  EN: There is a man in your kingdom in whom is the spirit of the holy gods; and in the days of your father, light and understanding and wisdom, like the wisdom of the gods, were found in him. The king, Nebuchadnezzar, your father—yes, the king, your father—made him master of the magicians, enchanters, Chaldeans, and soothsayers,
+  JA: あなたの国には、聖なる神の霊のやどっているひとりの人がおります。あなたの父の代に、彼は、明知、分別および神のような知恵のあることをあらわしました。あなたの父ネブカデネザル王は、彼を立てて、博士、法術士、カルデヤびと、占い師らの長とされました。
+[5:12]
+  EN: because an excellent spirit, knowledge, understanding, interpreting of dreams, showing of dark sentences, and dissolving of doubts were found in the same Daniel, whom the king named Belteshazzar. Now let Daniel be called, and he will show the interpretation.”
+  JA: 彼は、王がベルテシャザルという名を与えたダニエルという者ですが、このダニエルには、すぐれた霊、知識、分別があって、夢を解き、なぞを解き、難問を解くことができます。ゆえにダニエルを召しなさい。彼はその解き明かしを示すでしょう」。
+[5:13]
+  EN: Then Daniel was brought in before the king. The king spoke and said to Daniel, “Are you that Daniel of the children of the captivity of Judah, whom the king my father brought out of Judah?
+  JA: そこでダニエルは王の前に召された。王はダニエルに言った、「あなたは、わが父の王が、ユダからひきつれてきたユダの捕囚のひとりなのか。
+[5:14]
+  EN: I have heard of you, that the spirit of the gods is in you and that light, understanding, and excellent wisdom are found in you.
+  JA: 聞くところによると、あなたのうちには、聖なる神の霊がやどっていて、明知、分別および非凡な知恵があるそうだ。
+[5:15]
+  EN: Now the wise men, the enchanters, have been brought in before me, that they should read this writing, and make known to me its interpretation; but they could not show the interpretation of the thing.
+  JA: わたしは、知者、法術士らを、わが前に召しよせて、この文字を読ませ、その解き明かしを示させようとしたが、彼らは、この事の解き明かしを示すことができなかった。
+[5:16]
+  EN: But I have heard of you, that you can give interpretations and dissolve doubts. Now if you can read the writing and make known to me its interpretation, you shall be clothed with purple, and have a chain of gold around your neck, and shall be the third ruler in the kingdom.”
+  JA: しかしまた聞くところによると、あなたは解き明かしをなし、かつ難問を解くことができるそうだ。それで、あなたがもし、この文字を読み、その解き明かしをわたしに示すことができたなら、あなたに紫の衣を着せ、金の鎖を首にかけさせて、この国の第三のつかさとしよう」。
+[5:17]
+  EN: Then Daniel answered before the king, “Let your gifts be to yourself, and give your rewards to another. Nevertheless, I will read the writing to the king, and make known to him the interpretation.
+  JA: ダニエルは王の前に答えて言った、「あなたの賜物は、あなたご自身にとっておき、あなたの贈り物は、他人にお与えください。それでも、わたしは王のためにその文字を読み、その解き明かしをお知らせいたしましょう。
+[5:18]
+  EN: “To you, king, the Most High God gave Nebuchadnezzar your father the kingdom, and greatness, and glory, and majesty.
+  JA: 王よ、いと高き神はあなたの父ネブカデネザルに国と権勢と、光栄と尊厳とを賜いました。
+[5:19]
+  EN: Because of the greatness that he gave him, all the peoples, nations, and languages trembled and feared before him. He killed whom he wanted to, and he kept alive whom he wanted to. He raised up whom he wanted to, and he put down whom he wanted to.
+  JA: 彼に権勢を賜わったことによって、諸民、諸族、諸国語の者はみな、彼の前におののき恐れました。彼は自分の欲する者を殺し、自分の欲する者を生かし、自分の欲する者を上げ、自分の欲する者を下しました。
+[5:20]
+  EN: But when his heart was lifted up, and his spirit was hardened so that he dealt proudly, he was deposed from his kingly throne, and they took his glory from him.
+  JA: しかし彼は心に高ぶり、かたくなになり、ごうまんにふるまったので、王位からしりぞけられ、その光栄を奪われ、
+[5:21]
+  EN: He was driven from the sons of men, and his heart was made like the animals’, and his dwelling was with the wild donkeys. He was fed with grass like oxen, and his body was wet with the dew of the sky, until he knew that the Most High God rules in the kingdom of men, and that he sets up over it whomever he will.
+  JA: 追われて世の人と離れ、その思いは獣のようになり、そのすまいは野ろばと共にあり、牛のように草を食い、その身は天からくだる露にぬれ、こうしてついに彼は、いと高き神が人間の国を治めて、自分の意のままに人を立てられるということを、知るようになりました。
+[5:22]
+  EN: “You, his son, Belshazzar, have not humbled your heart, though you knew all this,
+  JA: ベルシャザルよ、あなたは彼の子であって、この事をことごとく知っていながら、なお心を低くせず、
+[5:23]
+  EN: but have lifted up yourself against the Lord of heaven; and they have brought the vessels of his house before you, and you and your lords, your wives, and your concubines, have drunk wine from them. You have praised the gods of silver and gold, of bronze, iron, wood, and stone, which don’t see, or hear, or know; and you have not glorified the God in whose hand your breath is, and whose are all your ways.
+  JA: かえって天の主にむかって、みずから高ぶり、その宮の器物をあなたの前に持ってこさせ、あなたとあなたの大臣たちと、あなたの妻とそばめたちは、それをもって酒を飲み、そしてあなたは見ることも、聞くことも、物を知ることもできない金、銀、青銅、鉄、木、石の神々をほめたたえたが、あなたの命をその手ににぎり、あなたのすべての道をつかさどられる神をあがめようとはしなかった。
+[5:24]
+  EN: Then the part of the hand was sent from before him, and this writing was inscribed.
+  JA: それゆえ、彼の前からこの手が出てきて、この文字が書きしるされたのです。
+[5:25]
+  EN: “This is the writing that was inscribed: ‘MENE, MENE, TEKEL, UPHARSIN.’
+  JA: そのしるされた文字はこうです。メネ、メネ、テケル、ウパルシン。
+[5:26]
+  EN: “This is the interpretation of the thing: MENE: God has counted your kingdom, and brought it to an end.
+  JA: その事の解き明かしはこうです、メネは神があなたの治世を数えて、これをその終りに至らせたことをいうのです。
+[5:27]
+  EN: TEKEL: you are weighed in the balances, and are found wanting.
+  JA: テケルは、あなたがはかりで量られて、その量の足りないことがあらわれたことをいうのです。
+[5:28]
+  EN: PERES: your kingdom is divided, and given to the Medes and Persians.”
+  JA: ペレスは、あなたの国が分かたれて、メデアとペルシャの人々に与えられることをいうのです」。
+[5:29]
+  EN: Then Belshazzar commanded, and they clothed Daniel with purple, and put a chain of gold about his neck, and made proclamation concerning him, that he should be the third ruler in the kingdom.
+  JA: そこでベルシャザルは命じて、ダニエルに紫の衣を着せ、金の鎖をその首にかけさせ、彼について布告を発して、彼は国の第三のつかさであると言わせた。
+[5:30]
+  EN: In that night Belshazzar the Chaldean King was slain.
+  JA: カルデヤびとの王ベルシャザルは、その夜のうちに殺され、
+[5:31]
+  EN: Darius the Mede received the kingdom, being about sixty-two years old.
+  JA: メデアびとダリヨスが、その国を受けた。この時ダリヨスは、おおよそ六十二歳であった。
+
+=== DAN 但以理書 6 ===
+
+[6:1]
+  EN: It pleased Darius to set over the kingdom one hundred twenty local governors, who should be throughout the whole kingdom;
+  JA: ダリヨスは全国を治めるために、その国に百二十人の総督を立てることをよしとし、
+[6:2]
+  EN: and over them three presidents, of whom Daniel was one, that these local governors might give account to them, and that the king should suffer no loss.
+  JA: また彼らの上に三人の総監を立てた。ダニエルはそのひとりであった。これは総督たちをして、この三人の前に、その職務に関する報告をさせて、王に損失の及ぶことのないようにするためであった。
+[6:3]
+  EN: Then this Daniel was distinguished above the presidents and the local governors, because an excellent spirit was in him; and the king thought to set him over the whole realm.
+  JA: ダニエルは彼のうちにあるすぐれた霊のゆえに、他のすべての総監および総督たちにまさっていたので、王は彼を立てて全国を治めさせようとした。
+[6:4]
+  EN: Then the presidents and the local governors sought to find occasion against Daniel as touching the kingdom; but they could find no occasion or fault, because he was faithful. There wasn’t any error or fault found in him.
+  JA: そこで総監および総督らは、国事についてダニエルを訴えるべき口実を得ようとしたが、訴えるべきなんの口実も、なんのとがをも見いだすことができなかった。それは彼が忠信な人であって、その身になんのあやまちも、とがも見いだされなかったからである。
+[6:5]
+  EN: Then these men said, “We won’t find any occasion against this Daniel, unless we find it against him concerning the law of his God.”
+  JA: そこでその人々は言った、「われわれはダニエルの神の律法に関して、彼を訴える口実を得るのでなければ、ついに彼を訴えることはできまい」と。
+[6:6]
+  EN: Then these presidents and local governors assembled together to the king, and said this to him, “King Darius, live forever!
+  JA: こうして総監と総督らは、王のもとに集まってきて、王に言った、「ダリヨス王よ、どうかとこしえに生きながらえられますように。
+[6:7]
+  EN: All the presidents of the kingdom, the deputies and the local governors, the counselors and the governors, have consulted together to establish a royal statute and to make a strong decree, that whoever asks a petition of any god or man for thirty days, except of you, O king, he shall be cast into the den of lions.
+  JA: 国の総監、長官および総督、参議および知事らは、相はかって、王が一つのおきてを立て、一つの禁令を定められるよう求めることになりました。王よ、それはこうです。すなわち今から三十日の間は、ただあなたにのみ願い事をさせ、もしあなたをおいて、神または人にこれをなす者があれば、すべてその者を、ししの穴に投げ入れるというのです。
+[6:8]
+  EN: Now, O king, establish the decree and sign the writing, that it not be changed, according to the law of the Medes and Persians, which doesn’t alter.”
+  JA: それで王よ、その禁令を定め、その文書に署名して、メデアとペルシャの変ることのない法律のごとく、これを変えることのできないようにしてください」。
+[6:9]
+  EN: Therefore King Darius signed the writing and the decree.
+  JA: そこでダリヨス王は、その禁令の文書に署名した。
+[6:10]
+  EN: When Daniel knew that the writing was signed, he went into his house (now his windows were open in his room toward Jerusalem) and he kneeled on his knees three times a day, and prayed, and gave thanks before his God, as he did before.
+  JA: ダニエルは、その文書の署名されたことを知って家に帰り、二階のへやの、エルサレムに向かって窓の開かれた所で、以前からおこなっていたように、一日に三度ずつ、ひざをかがめて神の前に祈り、かつ感謝した。
+[6:11]
+  EN: Then these men assembled together, and found Daniel making petition and supplication before his God.
+  JA: そこでその人々は集まってきて、ダニエルがその神の前に祈り、かつ求めていることを見たので、
+[6:12]
+  EN: Then they came near, and spoke before the king concerning the king’s decree: “Haven’t you signed a decree that every man who makes a petition to any god or man within thirty days, except to you, O king, shall be cast into the den of lions?” The king answered, “This thing is true, according to the law of the Medes and Persians, which doesn’t alter.”
+  JA: 彼らは王の前にきて、王の禁令について奏上して言った、「王よ、あなたは禁令に署名して、今から三十日の間は、ただあなたにのみ願い事をさせ、もしあなたをおいて、神または人に、これをなす者があれば、すべてその者を、ししの穴に投げ入れると、定められたではありませんか」。王は答えて言った、「その事は確かであって、メデアとペルシャの法律のごとく、変えることのできないものだ」。
+[6:13]
+  EN: Then they answered and said before the king, “That Daniel, who is of the children of the captivity of Judah, doesn’t respect you, O king, nor the decree that you have signed, but makes his petition three times a day.”
+  JA: 彼らは王の前に答えて言った、「王よ、ユダから引いてきた捕囚のひとりである、かのダニエルは、あなたをも、あなたの署名された禁令をも顧みず、一日に三度ずつ、祈をささげています」。
+[6:14]
+  EN: Then the king, when he heard these words, was very displeased, and set his heart on Daniel to deliver him; and he labored until the going down of the sun to rescue him.
+  JA: 王はこの言葉を聞いて大いに憂え、ダニエルを救おうと心を用い、日の入るまで、彼を救い出すことに努めた。
+[6:15]
+  EN: Then these men assembled together to the king, and said to the king, “Know, O king, that it is a law of the Medes and Persians, that no decree nor statute which the king establishes may be changed.”
+  JA: 時にその人々は、また王のもとに集まってきて、王に言った、「王よ、メデアとペルシャの法律によれば、王の立てた禁令、または、おきては変えることのできないものであることを、ご承知ください」。
+[6:16]
+  EN: Then the king commanded, and they brought Daniel and cast him into the den of lions. The king spoke and said to Daniel, “Your God whom you serve continually, he will deliver you.”
+  JA: そこで王は命令を下したので、ダニエルは引き出されて、ししの穴に投げ入れられた。王はダニエルに言った、「どうか、あなたの常に仕える神が、あなたを救われるように」。
+[6:17]
+  EN: A stone was brought, and laid on the mouth of the den; and the king sealed it with his own signet, and with the signet of his lords; that nothing might be changed concerning Daniel.
+  JA: そして一つの石を持ってきて、穴の口をふさいだので、王は自分の印と、大臣らの印をもって、これに封印した。これはダニエルの処置を変えることのないようにするためであった。
+[6:18]
+  EN: Then the king went to his palace, and passed the night fasting. No musical instruments were brought before him; and his sleep fled from him.
+  JA: こうして王はその宮殿に帰ったが、その夜は食をとらず、また、そばめたちを召し寄せず、全く眠ることもしなかった。
+[6:19]
+  EN: Then the king arose very early in the morning, and went in haste to the den of lions.
+  JA: こうして王は朝まだき起きて、ししの穴へ急いで行ったが、
+[6:20]
+  EN: When he came near to the den to Daniel, he cried with a troubled voice. The king spoke and said to Daniel, “Daniel, servant of the living God, is your God, whom you serve continually, able to deliver you from the lions?”
+  JA: ダニエルのいる穴に近づいたとき、悲しげな声をあげて呼ばわり、ダニエルに言った、「生ける神のしもべダニエルよ、あなたが常に仕えている神はあなたを救って、ししの害を免れさせることができたか」。
+[6:21]
+  EN: Then Daniel said to the king, “O king, live forever!
+  JA: ダニエルは王に言った、「王よ、どうか、とこしえに生きながらえられますように。
+[6:22]
+  EN: My God has sent his angel, and has shut the lions’ mouths, and they have not hurt me, because innocence was found in me before him; and also before you, O king, I have done no harm.”
+  JA: わたしの神はその使をおくって、ししの口を閉ざされたので、ししはわたしを害しませんでした。これはわたしに罪のないことが、神の前に認められたからです。王よ、わたしはあなたの前にも、何も悪い事をしなかったのです」。
+[6:23]
+  EN: Then the king was exceedingly glad, and commanded that they should take Daniel up out of the den. So Daniel was taken up out of the den, and no kind of harm was found on him, because he had trusted in his God.
+  JA: そこで王は大いに喜び、ダニエルを穴の中から出せと命じたので、ダニエルは穴の中から出されたが、その身になんの害をも受けていなかった。これは彼が自分の神を頼みとしていたからである。
+[6:24]
+  EN: The king commanded, and they brought those men who had accused Daniel, and they cast them into the den of lions—them, their children, and their wives; and the lions mauled them, and broke all their bones in pieces before they came to the bottom of the den.
+  JA: 王はまた命令を下して、ダニエルをあしざまに訴えた人々を引いてこさせ、彼らをその妻子と共に、ししの穴に投げ入れさせた。彼らが穴の底に達しないうちに、ししは彼らにとびかかって、その骨までもかみ砕いた。
+[6:25]
+  EN: Then King Darius wrote to all the peoples, nations, and languages who dwell in all the earth: “Peace be multiplied to you.
+  JA: そこでダリヨス王は全世界に住む諸民、諸族、諸国語の者に詔を書きおくって言った、「どうか、あなたがたに平安が増すように。
+[6:26]
+  EN: “I make a decree that in all the dominion of my kingdom men tremble and fear before the God of Daniel. “For he is the living God, and steadfast forever. His kingdom is that which will not be destroyed. His dominion will be even to the end.
+  JA: わたしは命令を出す。わが国のすべての州の人は、皆ダニエルの神を、おののき恐れなければならない。彼は生ける神であって、とこしえに変ることなく、その国は滅びず、その主権は終りまで続く。
+[6:27]
+  EN: He delivers and rescues. He works signs and wonders in heaven and in earth, who has delivered Daniel from the power of the lions.”
+  JA: 彼は救を施し、助けをなし、天においても、地においても、しるしと奇跡とをおこない、ダニエルを救って、ししの力をのがれさせたかたである」。
+[6:28]
+  EN: So this Daniel prospered in the reign of Darius and in the reign of Cyrus the Persian.
+  JA: こうして、このダニエルはダリヨスの世と、ペルシャ人クロスの世において栄えた。
+
+=== DAN 但以理書 7 ===
+
+[7:1]
+  EN: In the first year of Belshazzar king of Babylon, Daniel had a dream and visions of his head while on his bed. Then he wrote the dream and told the sum of the matters.
+  JA: バビロンの王ベルシャザルの元年に、ダニエルは床にあって夢を見、また脳中に幻を得たので、彼はその夢をしるして、その事の大意を述べた。
+[7:2]
+  EN: Daniel spoke and said, “I saw in my vision by night, and, behold, the four winds of the sky broke out on the great sea.
+  JA: ダニエルは述べて言った、「わたしは夜の幻のうちに見た。見よ、天の四方からの風が大海をかきたてると、
+[7:3]
+  EN: Four great animals came up from the sea, different from one another.
+  JA: 四つの大きな獣が海からあがってきた。その形は、おのおの異なり、
+[7:4]
+  EN: “The first was like a lion, and had eagle’s wings. I watched until its wings were plucked, and it was lifted up from the earth and made to stand on two feet as a man. A man’s heart was given to it.
+  JA: 第一のものは、ししのようで、わしの翼をもっていたが、わたしが見ていると、その翼は抜きとられ、また地から起されて、人のように二本の足で立たせられ、かつ人の心が与えられた。
+[7:5]
+  EN: “Behold, there was another animal, a second, like a bear. It was raised up on one side, and three ribs were in its mouth between its teeth. They said this to it: ‘Arise! Devour much flesh!’
+  JA: 見よ、第二の獣は熊のようであった。これはそのからだの一方をあげ、その口の歯の間に、三本の肋骨をくわえていたが、これに向かって『起きあがって、多くの肉を食らえ』と言う声があった。
+[7:6]
+  EN: “After this I saw, and behold, another, like a leopard, which had on its back four wings of a bird. The animal also had four heads; and dominion was given to it.
+  JA: その後わたしが見たのは、ひょうのような獣で、その背には鳥の翼が四つあった。またこの獣には四つの頭があり、主権が与えられた。
+[7:7]
+  EN: “After this I saw in the night visions, and, behold, there was a fourth animal, awesome, powerful, and exceedingly strong. It had great iron teeth. It devoured and broke in pieces, and stamped the residue with its feet. It was different from all the animals that were before it. It had ten horns.
+  JA: その後わたしが夜の幻のうちに見た第四の獣は、恐ろしい、ものすごい、非常に強いもので、大きな鉄の歯があり、食らい、かつ、かみ砕いて、その残りを足で踏みつけた。これは、その前に出たすべての獣と違って、十の角を持っていた。
+[7:8]
+  EN: “I considered the horns, and behold, there came up among them another horn, a little one, before which three of the first horns were plucked up by the roots; and behold, in this horn were eyes like the eyes of a man, and a mouth speaking arrogantly.
+  JA: わたしが、その角を注意して見ていると、その中に、また一つの小さい角が出てきたが、この小さい角のために、さきの角のうち三つがその根から抜け落ちた。見よ、この小さい角には、人の目のような目があり、また大きな事を語る口があった。
+[7:9]
+  EN: “I watched until thrones were placed, and one who was Ancient of Days sat. His clothing was white as snow, and the hair of his head like pure wool. His throne was fiery flames, and its wheels burning fire.
+  JA: わたしが見ていると、もろもろのみ座が設けられて、日の老いたる者が座しておられた。その衣は雪のように白く、頭の毛は混じりもののない羊の毛のようであった。そのみ座は火の炎であり、その車輪は燃える火であった。
+[7:10]
+  EN: A fiery stream issued and came out from before him. Thousands of thousands ministered to him. Ten thousand times ten thousand stood before him. The judgment was set. The books were opened.
+  JA: 彼の前から、ひと筋の火の流れが出てきた。彼に仕える者は千々、彼の前にはべる者は万々、審判を行う者はその席に着き、かずかずの書き物が開かれた。
+[7:11]
+  EN: “I watched at that time because of the voice of the arrogant words which the horn spoke. I watched even until the animal was slain, and its body destroyed, and it was given to be burned with fire.
+  JA: わたしは、その角の語る大いなる言葉の声がするので見ていたが、わたしが見ている間にその獣は殺され、そのからだはそこなわれて、燃える火に投げ入れられた。
+[7:12]
+  EN: As for the rest of the animals, their dominion was taken away; yet their lives were prolonged for a season and a time.
+  JA: その他の獣はその主権を奪われたが、その命は、時と季節の来るまで延ばされた。
+[7:13]
+  EN: “I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the Ancient of Days, and they brought him near before him.
+  JA: わたしはまた夜の幻のうちに見ていると、見よ、人の子のような者が、天の雲に乗ってきて、日の老いたる者のもとに来ると、その前に導かれた。
+[7:14]
+  EN: Dominion was given him, and glory, and a kingdom, that all the peoples, nations, and languages should serve him. His dominion is an everlasting dominion, which will not pass away, and his kingdom one that will not be destroyed.
+  JA: 彼に主権と光栄と国とを賜い、諸民、諸族、諸国語の者を彼に仕えさせた。その主権は永遠の主権であって、なくなることがなく、その国は滅びることがない。
+[7:15]
+  EN: “As for me, Daniel, my spirit was grieved within my body, and the visions of my head troubled me.
+  JA: そこで、われダニエル、わがうちなる霊は憂え、わが脳中の幻は、わたしを悩ましたので、
+[7:16]
+  EN: I came near to one of those who stood by, and asked him the truth concerning all this.
+  JA: わたしは、そこに立っている者のひとりに近寄って、このすべての事の真意を尋ねた。するとその者は、わたしにこの事の解き明かしを告げ知らせた。
+[7:17]
+  EN: “So he told me, and made me know the interpretation of the things.   ‘These great animals, which are four, are four kings, who will arise out of the earth.
+  JA: 『この四つの大きな獣は、地に起らんとする四人の王である。
+[7:18]
+  EN: But the saints of the Most High will receive the kingdom, and possess the kingdom forever, even forever and ever.’
+  JA: しかしついには、いと高き者の聖徒が国を受け、永遠にその国を保って、世々かぎりなく続く』。
+[7:19]
+  EN: “Then I desired to know the truth concerning the fourth animal, which was different from all of them, exceedingly terrible, whose teeth were of iron, and its nails of bronze; which devoured, broke in pieces, and stamped the residue with its feet;
+  JA: そこでわたしは、さらに第四の獣の真意を知ろうとした。その獣は他の獣と異なって、はなはだ恐ろしく、その歯は鉄、そのつめは青銅であって、食らい、かつ、かみ砕いて、その残りを足で踏みつけた。
+[7:20]
+  EN: and concerning the ten horns that were on its head and the other horn which came up, and before which three fell, even that horn that had eyes and a mouth that spoke arrogantly, whose look was more stout than its fellows.
+  JA: この獣の頭には、十の角があったが、そのほかに一つの角が出てきたので、この角のために、三つの角が抜け落ちた。この角には目があり、また大きな事を語る口があって、その形は、その同類のものよりも大きく見えた。
+[7:21]
+  EN: I saw, and the same horn made war with the saints, and prevailed against them,
+  JA: わたしが見ていると、この角は聖徒と戦って、彼らに勝ったが、
+[7:22]
+  EN: until the Ancient of Days came, and judgment was given to the saints of the Most High, and the time came that the saints possessed the kingdom.
+  JA: ついに日の老いたる者がきて、いと高き者の聖徒のために審判をおこなった。そしてその時がきて、この聖徒たちは国を受けた。
+[7:23]
+  EN: “So he said, ‘The fourth animal will be a fourth kingdom on earth, which will be different from all the kingdoms, and will devour the whole earth, and will tread it down and break it in pieces.
+  JA: 彼はこう言った、『第四の獣は地上の第四の国である。これはすべての国と異なって、全世界を併合し、これを踏みつけ、かつ打ち砕く。
+[7:24]
+  EN: As for the ten horns, ten kings will arise out of this kingdom. Another will arise after them; and he will be different from the former, and he will put down three kings.
+  JA: 十の角はこの国から起る十人の王である。その後にまたひとりの王が起る。彼は先の者と異なり、かつ、その三人の王を倒す。
+[7:25]
+  EN: He will speak words against the Most High, and will wear out the saints of the Most High. He will plan to change the times and the law; and they will be given into his hand until a time and times and half a time.
+  JA: 彼は、いと高き者に敵して言葉を出し、かつ、いと高き者の聖徒を悩ます。彼はまた時と律法とを変えようと望む。聖徒はひと時と、ふた時と、半時の間、彼の手にわたされる。
+[7:26]
+  EN: “ ‘But the judgment will be set, and they will take away his dominion, to consume and to destroy it to the end.
+  JA: しかし審判が行われ、彼の主権は奪われて、永遠に滅び絶やされ、
+[7:27]
+  EN: The kingdom and the dominion, and the greatness of the kingdoms under the whole sky, will be given to the people of the saints of the Most High. His kingdom is an everlasting kingdom, and all dominions will serve and obey him.’
+  JA: 国と主権と全天下の国々の権威とは、いと高き者の聖徒たる民に与えられる。彼らの国は永遠の国であって、諸国の者はみな彼らに仕え、かつ従う』。
+[7:28]
+  EN: “Here is the end of the matter. As for me, Daniel, my thoughts troubled me greatly, and my face was changed in me; but I kept the matter in my heart.”
+  JA: その事はここで終った。われダニエルは、これを思いまわして、非常に悩み、顔色も変った。しかし、わたしはこの事を心に留めた」。
+
+=== DAN 但以理書 8 ===
+
+[8:1]
+  EN: In the third year of the reign of King Belshazzar, a vision appeared to me, even to me, Daniel, after that which appeared to me at the first.
+  JA: われダニエルは先に幻を見たが、後またベルシャザル王の治世の第三年に、一つの幻がわたしに示された。
+[8:2]
+  EN: I saw the vision. Now it was so, that when I saw, I was in the citadel of Susa, which is in the province of Elam. I saw in the vision, and I was by the river Ulai.
+  JA: その幻を見たのは、エラム州の首都スサにいた時であって、ウライ川のほとりにおいてであった。
+[8:3]
+  EN: Then I lifted up my eyes and saw, and behold, a ram which had two horns stood before the river. The two horns were high, but one was higher than the other, and the higher came up last.
+  JA: わたしが目をあげて見ると、川の岸に一匹の雄羊が立っていた。これに二つの角があって、その角は共に長かったが、一つの角は他の角よりも長かった。その長いのは後に伸びたのである。
+[8:4]
+  EN: I saw the ram pushing westward, northward, and southward. No animals could stand before him. There wasn’t any who could deliver out of his hand, but he did according to his will, and magnified himself.
+  JA: わたしが見ていると、その雄羊は、西、北、南にむかって突撃したが、これに当ることのできる獣は一匹もなく、またその手から救い出すことのできるものもなかった。これはその心のままにふるまい、みずから高ぶっていた。
+[8:5]
+  EN: As I was considering, behold, a male goat came from the west over the surface of the whole earth, and didn’t touch the ground. The goat had a notable horn between his eyes.
+  JA: わたしがこれを考え、見ていると、一匹の雄やぎが、全地のおもてを飛びわたって西からきたが、その足は土を踏まなかった。このやぎには、目の間に著しい一つの角があった。
+[8:6]
+  EN: He came to the ram that had the two horns, which I saw standing before the river, and ran on him in the fury of his power.
+  JA: この者は、さきにわたしが川の岸に立っているのを見た、あの二つの角のある雄羊にむかってきて、激しく怒ってこれに走り寄った。
+[8:7]
+  EN: I saw him come close to the ram, and he was moved with anger against him, and struck the ram, and broke his two horns. There was no power in the ram to stand before him; but he cast him down to the ground and trampled on him. There was no one who could deliver the ram out of his hand.
+  JA: わたしが見ていると、それが雄羊に近寄るや、これにむかって怒りを発し、雄羊を撃って、その二つの角を砕いた。雄羊には、これに当る力がなかったので、やぎは雄羊を地に打ち倒して踏みつけた。また、その雄羊を、やぎの力から救いうる者がなかった。
+[8:8]
+  EN: The male goat magnified himself exceedingly. When he was strong, the great horn was broken; and instead of it there came up four notable horns toward the four winds of the sky.
+  JA: こうして、その雄やぎは、はなはだしく高ぶったが、その盛んになった時、あの大きな角が折れて、その代りに四つの著しい角が生じ、天の四方に向かった。
+[8:9]
+  EN: Out of one of them came out a little horn which grew exceedingly great—toward the south, and toward the east, and toward the glorious land.
+  JA: その角の一つから、一つの小さい角が出て、南に向かい、東に向かい、麗しい地に向かって、はなはだしく大きくなり、
+[8:10]
+  EN: It grew great, even to the army of the sky; and it cast down some of the army and of the stars to the ground and trampled on them.
+  JA: 天の衆群に及ぶまでに大きくなり、星の衆群のうちの数個を地に投げ下して、これを踏みつけ、
+[8:11]
+  EN: Yes, it magnified itself, even to the prince of the army; and it took away from him the continual burnt offering, and the place of his sanctuary was cast down.
+  JA: またみずから高ぶって、その衆群の主に敵し、その常供の燔祭を取り除き、かつその聖所を倒した。
+[8:12]
+  EN: The army was given over to it together with the continual burnt offering through disobedience. It cast down truth to the ground, and it did its pleasure and prospered.
+  JA: そしてその衆群は、罪によって、常供の燔祭と共に、これにわたされた。その角はまた真理を地に投げうち、ほしいままにふるまって、みずから栄えた。
+[8:13]
+  EN: Then I heard a holy one speaking; and another holy one said to that certain one who spoke, “How long will the vision about the continual burnt offering, and the disobedience that makes desolate, to give both the sanctuary and the army to be trodden under foot be?”
+  JA: それから、わたしはひとりの聖者の語っているのを聞いた。またひとりの聖者があって、その語っている聖者にむかって言った、「常供の燔祭と、荒すことをなす罪と、聖所とその衆群がわたされて、足の下に踏みつけられることについて、幻にあらわれたことは、いつまでだろうか」と。
+[8:14]
+  EN: He said to me, “To two thousand and three hundred evenings and mornings. Then the sanctuary will be cleansed.”
+  JA: 彼は言った、「二千三百の夕と朝の間である。そして聖所は清められてその正しい状態に復する」。
+[8:15]
+  EN: When I, even I Daniel, had seen the vision, I sought to understand it. Then behold, there stood before me someone with the appearance of a man.
+  JA: われダニエルはこの幻を見て、その意味を知ろうと求めていた時、見よ、人のように見える者が、わたしの前に立った。
+[8:16]
+  EN: I heard a man’s voice between the banks of the Ulai, which called and said, “Gabriel, make this man understand the vision.”
+  JA: わたしはウライ川の両岸の間から人の声が出て、呼ばわるのを聞いた、「ガブリエルよ、この幻をその人に悟らせよ」。
+[8:17]
+  EN: So he came near where I stood; and when he came, I was frightened, and fell on my face; but he said to me, “Understand, son of man, for the vision belongs to the time of the end.”
+  JA: すると彼はわたしの立っている所にきた。彼がきたとき、わたしは恐れて、ひれ伏した。しかし、彼はわたしに言った、「人の子よ、悟りなさい。この幻は終りの時にかかわるものです」。
+[8:18]
+  EN: Now as he was speaking with me, I fell into a deep sleep with my face toward the ground; but he touched me and set me upright.
+  JA: 彼がわたしに語っていた時、わたしは地にひれ伏して、深い眠りに陥ったが、彼はわたしに手を触れ、わたしを立たせて、
+[8:19]
+  EN: He said, “Behold, I will make you know what will be in the latter time of the indignation, for it belongs to the appointed time of the end.
+  JA: 言った、「見よ、わたしは憤りの終りの時に起るべきことを、あなたに知らせよう。それは定められた終りの時にかかわるものであるから。
+[8:20]
+  EN: The ram which you saw, that had the two horns, they are the kings of Media and Persia.
+  JA: あなたが見た、あの二つの角のある雄羊は、メデアとペルシャの王です。
+[8:21]
+  EN: The rough male goat is the king of Greece. The great horn that is between his eyes is the first king.
+  JA: また、かの雄やぎはギリシヤの王です、その目の間の大きな角は、その第一の王です。
+[8:22]
+  EN: As for that which was broken, in the place where four stood up, four kingdoms will stand up out of the nation, but not with his power.
+  JA: またその角が折れて、その代りに四つの角が生じたのは、その民から四つの国が起るのです。しかし、第一の王のような勢力はない。
+[8:23]
+  EN: “In the latter time of their kingdom, when the transgressors have come to the full, a king of fierce face, and understanding riddles, will stand up.
+  JA: 彼らの国の終りの時になり、罪びとの罪が満ちるに及んで、ひとりの王が起るでしょう。その顔は猛悪で、彼はなぞを解き、
+[8:24]
+  EN: His power will be mighty, but not by his own power. He will destroy awesomely, and will prosper in what he does. He will destroy the mighty ones and the holy people.
+  JA: その勢力は盛んであって、恐ろしい破壊をなし、そのなすところ成功して、有力な人々と、聖徒である民を滅ぼすでしょう。
+[8:25]
+  EN: Through his policy he will cause deceit to prosper in his hand. He will magnify himself in his heart, and he will destroy many in their security. He will also stand up against the prince of princes, but he will be broken without human hands.
+  JA: 彼は悪知恵をもって、偽りをその手におこない遂げ、みずから心に高ぶり、不意に多くの人を打ち滅ぼし、また君の君たる者に敵するでしょう。しかし、ついに彼は人手によらずに滅ぼされるでしょう。
+[8:26]
+  EN: “The vision of the evenings and mornings which has been told is true; but seal up the vision, for it belongs to many days to come.”
+  JA: 先に示された朝夕の幻は真実です。しかし、あなたはその幻を秘密にしておかなければならない。これは多くの日の後にかかわる事だから」。
+[8:27]
+  EN: I, Daniel, fainted, and was sick for some days. Then I rose up and did the king’s business. I wondered at the vision, but no one understood it.
+  JA: われダニエルは疲れはてて、数日の間病みわずらったが、後起きて、王の事務を執った。しかし、わたしはこの幻の事を思って驚いた。またこれを悟ることができなかった。
+
+=== DAN 但以理書 9 ===
+
+[9:1]
+  EN: In the first year of Darius the son of Ahasuerus, of the offspring of the Medes, who was made king over the realm of the Chaldeans—
+  JA: メデアびとアハシュエロスの子ダリヨスが、カルデヤびとの王となったその元年、
+[9:2]
+  EN: in the first year of his reign I, Daniel, understood by the books the number of the years about which the LORD’s word came to Jeremiah the prophet for the accomplishing of the desolations of Jerusalem, even seventy years.
+  JA: すなわちその治世の第一年に、われダニエルは主が預言者エレミヤに臨んで告げられたその言葉により、エルサレムの荒廃の終るまでに経ねばならぬ年の数は七十年であることを、文書によって悟った。
+[9:3]
+  EN: I set my face to the Lord God, to seek by prayer and petitions, with fasting and sackcloth and ashes.
+  JA: それでわたしは、わが顔を主なる神に向け、断食をなし、荒布を着、灰をかぶって祈り、かつ願い求めた。
+[9:4]
+  EN: I prayed to the LORD my God, and made confession, and said,
+  JA: すなわちわたしは、わが神、主に祈り、ざんげして言った、「ああ、大いなる恐るべき神、主、おのれを愛し、おのれの戒めを守る者のために契約を保ち、いつくしみを施される者よ、
+[9:5]
+  EN: “Oh, Lord, the great and dreadful God, who keeps covenant and loving kindness with those who love him and keep his commandments,   we have sinned, and have dealt perversely, and have done wickedly, and have rebelled, even turning aside from your precepts and from your ordinances.
+  JA: われわれは罪を犯し、悪をおこない、よこしまなふるまいをなし、そむいて、あなたの戒めと、おきてを離れました。
+[9:6]
+  EN: We haven’t listened to your servants the prophets, who spoke in your name to our kings, our princes, and our fathers, and to all the people of the land.
+  JA: われわれはまた、あなたのしもべなる預言者たちが、あなたの名をもって、われわれの王たち、君たち、先祖たち、および国のすべての民に告げた言葉に聞き従いませんでした。
+[9:7]
+  EN: “Lord, righteousness belongs to you, but to us confusion of face, as it is today; to the men of Judah, and to the inhabitants of Jerusalem, and to all Israel, who are near and who are far off, through all the countries where you have driven them, because of their trespass that they have trespassed against you.
+  JA: 主よ、正義はあなたのものですが、恥はわれわれに加えられて、今日のような有様です。すなわちユダの人々、エルサレムの住民および全イスラエルの者は、近き者も、遠き者もみな、あなたが追いやられたすべての国々で恥をこうむりました。これは彼らがあなたにそむいて犯した罪によるのです。
+[9:8]
+  EN: Lord, to us belongs confusion of face, to our kings, to our princes, and to our fathers, because we have sinned against you.
+  JA: 主よ、恥はわれわれのもの、われわれの王たち、君たちおよび先祖たちのものです。これはわれわれがあなたにむかって罪を犯したからです。
+[9:9]
+  EN: To the Lord our God belong mercies and forgiveness, for we have rebelled against him.
+  JA: あわれみと、ゆるしはわれわれの神、主のものです。これはわれわれが彼にそむいたからです。
+[9:10]
+  EN: We haven’t obeyed the LORD our God’s voice, to walk in his laws, which he set before us by his servants the prophets.
+  JA: またわれわれの神、主のみ声に聞き従わず、主がそのしもべ預言者たちによって、われわれの前に賜わった律法を行わなかったからです。
+[9:11]
+  EN: Yes, all Israel have transgressed your law, turning aside, that they should not obey your voice.
+  JA: まことにイスラエルの人々は皆あなたの律法を犯し、離れ去って、あなたのみ声に聞き従わなかったので、神のしもべモーセの律法にしるされたのろいと誓いが、われわれの上に注ぎかかりました。これはわれわれが神にむかって罪を犯したからです。
+[9:12]
+  EN: “Therefore the curse and the oath written in the law of Moses the servant of God has been poured out on us, for we have sinned against him.   He has confirmed his words, which he spoke against us and against our judges who judged us, by bringing on us a great evil; for under the whole sky, such has not been done as has been done to Jerusalem.
+  JA: すなわち神は大いなる災をわれわれの上にくだして、さきにわれわれと、われわれを治めたつかさたちにむかって告げられた言葉を実行されたのです。あのエルサレムに臨んだような事は、全天下にいまだかつてなかった事です。
+[9:13]
+  EN: As it is written in the law of Moses, all this evil has come on us. Yet we have not entreated the favor of the LORD our God, that we should turn from our iniquities and have discernment in your truth.
+  JA: モーセの律法にしるされたように、この災はすべてわれわれに臨みましたが、なおわれわれの神、主の恵みを請い求めることをせず、その不義を離れて、あなたの真理を悟ることをもしませんでした。
+[9:14]
+  EN: Therefore the LORD has watched over the evil, and brought it on us; for the LORD our God is righteous in all his works which he does, and we have not obeyed his voice.
+  JA: それゆえ、主はこれを心に留めて、災をわれわれに下されたのです。われわれの神、主は、何事をされるにも、正しくあらせられます。ところが、われわれはそのみ声に聞き従わなかったのです。
+[9:15]
+  EN: “Now, Lord our God, who has brought your people out of the land of Egypt with a mighty hand, and have gotten yourself renown, as it is today, we have sinned. We have done wickedly.
+  JA: われわれの神、主よ、あなたは強きみ手をもって、あなたの民をエジプトの地から導き出して、今日のように、み名をあげられました。われわれは罪を犯し、よこしまなふるまいをしました。
+[9:16]
+  EN: Lord, according to all your righteousness, please let your anger and your wrath be turned away from your city Jerusalem, your holy mountain; because for our sins and for the iniquities of our fathers, Jerusalem and your people have become a reproach to all who are around us.
+  JA: 主よ、どうぞあなたが、これまで正しいみわざをなされたように、あなたの町エルサレム、あなたの聖なる山から、あなたの怒りと憤りとを取り去ってください。これはわれわれの罪と、われわれの先祖の不義のために、エルサレムと、あなたの民が、われわれの周囲の者の物笑いとなったからです。
+[9:17]
+  EN: “Now therefore, our God, listen to the prayer of your servant and to his petitions, and cause your face to shine on your sanctuary that is desolate, for the Lord’s sake.
+  JA: それゆえ、われわれの神よ、しもべの祈と願いを聞いてください。主よ、あなたご自身のために、あの荒れたあなたの聖所に、あなたのみ顔を輝かせてください。
+[9:18]
+  EN: My God, turn your ear and hear. Open your eyes and see our desolations, and the city which is called by your name; for we do not present our petitions before you for our righteousness, but for your great mercies’ sake.
+  JA: わが神よ、耳を傾けて聞いてください。目を開いて、われわれの荒れたさまを見、み名をもってとなえられる町をごらんください。われわれがあなたの前に祈をささげるのは、われわれの義によるのではなく、ただあなたの大いなるあわれみによるのです。
+[9:19]
+  EN: Lord, hear. Lord, forgive. Lord, listen and do. Don’t defer, for your own sake, my God, because your city and your people are called by your name.”
+  JA: 主よ、聞いてください。主よ、ゆるしてください。主よ、み心に留めて、おこなってください。わが神よ、あなたご自身のために、これを延ばさないでください。あなたの町と、あなたの民は、み名をもってとなえられているからです」。
+[9:20]
+  EN: While I was speaking, praying, and confessing my sin and the sin of my people Israel, and presenting my supplication before the LORD my God for the holy mountain of my God—
+  JA: わたしがこう言って祈り、かつわが罪とわが民イスラエルの罪をざんげし、わが神の聖なる山のために、わが神、主の前に願いをしていたとき、
+[9:21]
+  EN: yes, while I was speaking in prayer—the man Gabriel, whom I had seen in the vision at the beginning, being caused to fly swiftly, touched me about the time of the evening offering.
+  JA: すなわちわたしが祈の言葉を述べていたとき、わたしが初めに幻のうちに見た、かの人ガブリエルは、すみやかに飛んできて、夕の供え物をささげるころ、わたしに近づき、
+[9:22]
+  EN: He instructed me and talked with me, and said, “Daniel, I have now come to give you wisdom and understanding.
+  JA: わたしに告げて言った、「ダニエルよ、わたしは今あなたに、知恵と悟りを与えるためにきました。
+[9:23]
+  EN: At the beginning of your petitions the commandment went out, and I have come to tell you, for you are greatly beloved. Therefore consider the matter and understand the vision.
+  JA: あなたが祈を始めたとき、み言葉が出たので、それをあなたに告げるためにきたのです。あなたは大いに愛せられている者です。ゆえに、このみ言葉を考えて、この幻を悟りなさい。
+[9:24]
+  EN: “Seventy weeks are decreed on your people and on your holy city, to finish disobedience, to make an end of sins, to make reconciliation for iniquity, to bring in everlasting righteousness, to seal up vision and prophecy, and to anoint the most holy.
+  JA: あなたの民と、あなたの聖なる町については、七十週が定められています。これはとがを終らせ、罪に終りを告げ、不義をあがない、永遠の義をもたらし、幻と預言者を封じ、いと聖なる者に油を注ぐためです。
+[9:25]
+  EN: “Know therefore and discern that from the going out of the commandment to restore and build Jerusalem to the Anointed One, the prince, will be seven weeks and sixty-two weeks. It will be built again, with street and moat, even in troubled times.
+  JA: それゆえ、エルサレムを建て直せという命令が出てから、メシヤなるひとりの君が来るまで、七週と六十二週あることを知り、かつ悟りなさい。その間に、しかも不安な時代に、エルサレムは広場と街路とをもって、建て直されるでしょう。
+[9:26]
+  EN: After the sixty-two weeks the Anointed One will be cut off, and will have nothing. The people of the prince who come will destroy the city and the sanctuary. Its end will be with a flood, and war will be even to the end. Desolations are determined.
+  JA: その六十二週の後にメシヤは断たれるでしょう。ただし自分のためにではありません。またきたるべき君の民は、町と聖所とを滅ぼすでしょう。その終りは洪水のように臨むでしょう。そしてその終りまで戦争が続き、荒廃は定められています。
+[9:27]
+  EN: He will make a firm covenant with many for one week. In the middle of the week he will cause the sacrifice and the offering to cease. On the wing of abominations will come one who makes desolate; and even to the decreed full end, wrath will be poured out on the desolate.”
+  JA: 彼は一週の間多くの者と、堅く契約を結ぶでしょう。そして彼はその週の半ばに、犠牲と供え物とを廃するでしょう。また荒す者が憎むべき者の翼に乗って来るでしょう。こうしてついにその定まった終りが、その荒す者の上に注がれるのです」。
+
+=== DAN 但以理書 10 ===
+
+[10:1]
+  EN: In the third year of Cyrus king of Persia a message was revealed to Daniel, whose name was called Belteshazzar; and the message was true, even a great warfare. He understood the message, and had understanding of the vision.
+  JA: ペルシャの王クロスの第三年に、ベルテシャザルと名づけられたダニエルに、一つの言葉が啓示されたが、その言葉は真実であり、大いなる戦いを意味するものであった。彼はその言葉に心を留め、その幻を悟った。
+[10:2]
+  EN: In those days I, Daniel, was mourning three whole weeks.
+  JA: そのころ、われダニエルは三週の間、悲しんでいた。
+[10:3]
+  EN: I ate no pleasant food. No meat or wine came into my mouth. I didn’t anoint myself at all, until three whole weeks were fulfilled.
+  JA: すなわち三週間の全く満ちるまでは、うまい物を食べず、肉と酒とを口にせず、また身に油を塗らなかった。
+[10:4]
+  EN: In the twenty-fourth day of the first month, as I was by the side of the great river, which is Hiddekel,
+  JA: 正月の二十四日に、わたしがチグリスという大川の岸に立っていたとき、
+[10:5]
+  EN: I lifted up my eyes and looked, and behold, there was a man clothed in linen, whose waist was adorned with pure gold of Uphaz.
+  JA: 目をあげて望み見ると、ひとりの人がいて、亜麻布の衣を着、ウパズの金の帯を腰にしめていた。
+[10:6]
+  EN: His body also was like beryl, and his face as the appearance of lightning, and his eyes as flaming torches. His arms and his feet were like burnished bronze. The voice of his words was like the voice of a multitude.
+  JA: そのからだは緑柱石のごとく、その顔は電光のごとく、その目は燃えるたいまつのごとく、その腕と足は、みがいた青銅のように輝き、その言葉の声は、群衆の声のようであった。
+[10:7]
+  EN: I, Daniel, alone saw the vision, for the men who were with me didn’t see the vision, but a great quaking fell on them, and they fled to hide themselves.
+  JA: この幻を見た者は、われダニエルのみであって、わたしと共にいた人々は、この幻を見なかったが、彼らは大いにおののいて、逃げかくれた。
+[10:8]
+  EN: So I was left alone and saw this great vision. No strength remained in me; for my face grew deathly pale, and I retained no strength.
+  JA: それでわたしひとり残って、この大いなる幻を見たので、力が抜け去り、わが顔の輝きは恐ろしく変って、全く力がなくなった。
+[10:9]
+  EN: Yet I heard the voice of his words. When I heard the voice of his words, then I fell into a deep sleep on my face, with my face toward the ground.
+  JA: わたしはその言葉の声を聞いたが、その言葉の声を聞いたとき、顔を伏せ、地にひれ伏して、深い眠りに陥った。
+[10:10]
+  EN: Behold, a hand touched me, which set me on my knees and on the palms of my hands.
+  JA: 見よ、一つの手があって、わたしに触れたので、わたしは震えながらひざまずき、手をつくと、
+[10:11]
+  EN: He said to me, “Daniel, you greatly beloved man, understand the words that I speak to you, and stand upright, for I have been sent to you, now.” When he had spoken this word to me, I stood trembling.
+  JA: 彼はわたしに言った、「大いに愛せられる人ダニエルよ、わたしがあなたに告げる言葉に心を留め、立ちあがりなさい。わたしは今あなたのもとにつかわされたのです」。彼がこの言葉をわたしに告げているとき、わたしは震えながら立ちあがった。
+[10:12]
+  EN: Then he said to me, “Don’t be afraid, Daniel; for from the first day that you set your heart to understand, and to humble yourself before your God, your words were heard. I have come for your words’ sake.
+  JA: すると彼はわたしに言った、「ダニエルよ、恐れるに及ばない。あなたが悟ろうと心をこめ、あなたの神の前に身を悩ましたその初めの日から、あなたの言葉は、すでに聞かれたので、わたしは、あなたの言葉のゆえにきたのです。
+[10:13]
+  EN: But the prince of the kingdom of Persia withstood me twenty-one days; but, behold, Michael, one of the chief princes, came to help me because I remained there with the kings of Persia.
+  JA: ペルシャの国の君が、二十一日の間わたしの前に立ちふさがったが、天使の長のひとりであるミカエルがきて、わたしを助けたので、わたしは、彼をペルシャの国の君と共に、そこに残しておき、
+[10:14]
+  EN: Now I have come to make you understand what will happen to your people in the latter days, for the vision is yet for many days.”
+  JA: 末の日に、あなたの民に臨まんとする事を、あなたに悟らせるためにきたのです。この幻は、なおきたるべき日にかかわるものです」。
+[10:15]
+  EN: When he had spoken these words to me, I set my face toward the ground and was mute.
+  JA: 彼がこれらの言葉を、わたしに述べていたとき、わたしは、地にひれ伏して黙っていたが、
+[10:16]
+  EN: Behold, one in the likeness of the sons of men touched my lips. Then I opened my mouth, and spoke and said to him who stood before me, “My lord, by reason of the vision my sorrows have overtaken me, and I retain no strength.
+  JA: 見よ、人の子のような者が、わたしのくちびるにさわったので、わたしは口を開き、わが前に立っている者に語って言った、「わが主よ、この幻によって、苦しみがわたしに臨み、全く力を失いました。
+[10:17]
+  EN: For how can the servant of this my lord talk with this my lord? For as for me, immediately there remained no strength in me. There was no breath left in me.”
+  JA: わが主のしもべは、どうしてわが主と語ることができましょう。わたしは全く力を失い、息も止まるばかりです」。
+[10:18]
+  EN: Then one like the appearance of a man touched me again, and he strengthened me.
+  JA: 人の形をした者は、再びわたしにさわり、わたしを力づけて、
+[10:19]
+  EN: He said, “Greatly beloved man, don’t be afraid. Peace be to you. Be strong. Yes, be strong.” When he spoke to me, I was strengthened, and said, “Let my lord speak, for you have strengthened me.”
+  JA: 言った、「大いに愛せられる人よ、恐れるには及ばない。安心しなさい。心を強くし、勇気を出しなさい」。彼がこう言ったとき、わたしは力づいて言った、「わが主よ、語ってください。あなたは、わたしに力をつけてくださったから」。
+[10:20]
+  EN: Then he said, “Do you know why I have come to you? Now I will return to fight with the prince of Persia. When I go out, behold, the prince of Greece will come.
+  JA: そこで彼は言った、「あなたは、わたしがなんのためにきたかを知っていますか。わたしは、今帰っていって、ペルシャの君と戦おうとしているのです。彼との戦いがすむと、ギリシヤの君があらわれるでしょう。
+[10:21]
+  EN: But I will tell you that which is inscribed in the writing of truth. There is no one who holds with me against these but Michael your prince.
+  JA: しかしわたしは、まず真理の書にしるされている事を、あなたに告げよう。わたしを助けて、彼らと戦う者は、あなたがたの君ミカエルのほかにはありません。
+
+=== DAN 但以理書 11 ===
+
+[11:1]
+  EN: “As for me, in the first year of Darius the Mede, I stood up to confirm and strengthen him.
+  JA: わたしはまたメデアびとダリヨスの元年に立って彼を強め、彼を力づけたことがあります。
+[11:2]
+  EN: “Now I will show you the truth. Behold, three more kings will stand up in Persia. The fourth will be far richer than all of them. When he has grown strong through his riches, he will stir up all against the realm of Greece.
+  JA: わたしは今あなたに真理を示そう。見よ、ペルシャになお三人の王が起るでしょう。その第四の者は、他のすべての者にまさって富み、その富によって強くなったとき、彼はすべてのものを動員して、ギリシヤの国を攻めます。
+[11:3]
+  EN: A mighty king will stand up, who will rule with great dominion, and do according to his will.
+  JA: またひとりの勇ましい王が起り、大いなる権力をもって世を治め、その意のままに事をなすでしょう。
+[11:4]
+  EN: When he stands up, his kingdom will be broken and will be divided toward the four winds of the sky, but not to his posterity, nor according to his dominion with which he ruled; for his kingdom will be plucked up, even for others besides these.
+  JA: 彼が強くなった時、その国は破られ、天の四方に分かたれます。それは彼の子孫に帰せず、また彼が治めたほどの権力もなく、彼の国は抜き取られて、これら以外の者どもに帰するでしょう。
+[11:5]
+  EN: “The king of the south will be strong. One of his princes will become stronger than him, and have dominion. His dominion will be a great dominion.
+  JA: 南の王は強くなります。しかしその将軍のひとりが、彼にまさって強くなり、権力をふるいます。その権力は、大いなる権力です。
+[11:6]
+  EN: At the end of years they will join themselves together; and the daughter of the king of the south will come to the king of the north to make an agreement, but she will not retain the strength of her arm. He will also not stand, nor will his arm; but she will be given up, with those who brought her, and he who became the father of her, and he who strengthened her in those times.
+  JA: 年を経て後、彼らは縁組をなし、南の王の娘が、北の王にきて、和親をはかります。しかしその女は、その腕の力を保つことができず、またその王も、その子も立つことができません。その女と、その従者と、その子およびその女を獲た者とは、わたされるでしょう。
+[11:7]
+  EN: “But out of a shoot from her roots one will stand up in his place, who will come to the army and will enter into the fortress of the king of the north, and will deal against them and will prevail.
+  JA: そのころ、この女の根から、一つの芽が起って彼に代り、北の王の軍勢にむかってきて、その城に討ち入り、これを攻めて勝つでしょう。
+[11:8]
+  EN: He will also carry their gods with their molten images, and with their goodly vessels of silver and of gold, captive into Egypt. He will refrain some years from the king of the north.
+  JA: 彼はまた彼らの神々、鋳像および金銀の貴重な器物を、エジプトに携え去り、そして数年の間、北の王を討つことを控えます。
+[11:9]
+  EN: He will come into the realm of the king of the south, but he will return into his own land.
+  JA: その後、北の王は、南の王の国に討ち入るが、自分の国に帰るでしょう。
+[11:10]
+  EN: His sons will wage war, and will assemble a multitude of great forces which will come on, and overflow, and pass through. They will return and wage war, even to his fortress.
+  JA: その子らはまた憤激して、あまたの大軍を集め、進んで行って、みなぎりあふれ、通り過ぎるが、また行って、その城にまで攻め寄せるでしょう。
+[11:11]
+  EN: “The king of the south will be moved with anger and will come out and fight with him, even with the king of the north. He will send out a great multitude, and the multitude will be given into his hand.
+  JA: そこで南の王は、大いに怒り、出てきて北の王と戦います。彼は大軍を起すけれども、その軍は相手の手にわたされるでしょう。
+[11:12]
+  EN: The multitude will be carried off, and his heart will be exalted. He will cast down tens of thousands, but he won’t prevail.
+  JA: 彼がその軍を打ち破ったとき、その心は高ぶり、数万人を倒します。しかし、勝つことはありません。
+[11:13]
+  EN: The king of the north will return, and will send out a multitude greater than the former. He will come on at the end of the times, even of years, with a great army and with abundant supplies.
+  JA: それは北の王がまた初めよりも大いなる軍を起し、数年の後、大いなる軍勢と多くの軍需品とをもって、攻めて来るからです。
+[11:14]
+  EN: “In those times many will stand up against the king of the south. Also the children of the violent among your people will lift themselves up to establish the vision, but they will fall.
+  JA: そのころ多くの者が起って、南の王に敵します。またあなたの民のうちのあらくれ者が、みずから高ぶって事をなし、幻を成就しようとするが失敗するでしょう。
+[11:15]
+  EN: So the king of the north will come and cast up a mound, and take a well-fortified city. The forces of the south won’t stand, neither will his select troops, neither will there be any strength to stand.
+  JA: こうして北の王がきて、塁を築き、堅固な町を取るが、南の王の力は、これに立ち向かうことができず、またそのえり抜きの民も、これに立ち向かう力がありません。
+[11:16]
+  EN: But he who comes against him will do according to his own will, and no one will stand before him. He will stand in the glorious land, and destruction will be in his hand.
+  JA: これに攻めて来る者は、その心のままに事をなし、その前に立ち向かうことのできる者はなく、彼は麗しい地に立ち、その地は全く彼のために荒されます。
+[11:17]
+  EN: He will set his face to come with the strength of his whole kingdom, and with him equitable conditions. He will perform them. He will give him the daughter of women, to destroy the kingdom, but she will not stand, and won’t be for him.
+  JA: 彼は全国の力をもって討ち入ろうと、その顔を向けるが、相手と仲直りをし、その娘を与えて、その国を取ろうとします。しかし、その事は成らず、また彼の利益にはならないでしょう。
+[11:18]
+  EN: After this he will turn his face to the islands, and will take many, but a prince will cause the reproach offered by him to cease. Yes, moreover, he will cause his reproach to turn on him.
+  JA: その後、彼は顔を海沿いの国々に向けて、その多くのものを取ります。しかし、ひとりの大将があって、彼が与えた恥辱をそそぎ、その恥辱を彼の上に返します。
+[11:19]
+  EN: Then he will turn his face toward the fortresses of his own land; but he will stumble and fall, and won’t be found.
+  JA: こうして彼は、その顔を自分の国の要害に向けるが、彼はつまずき倒れて消えうせるでしょう。
+[11:20]
+  EN: “Then one who will cause a tax collector to pass through the kingdom to maintain its glory will stand up in his place; but within few days he shall be destroyed, not in anger, and not in battle.
+  JA: 彼に代って起る者は、栄光の国に人をつかわして、租税を取り立てさせるでしょう。しかし彼は、怒りにも戦いにもよらず、数日のうちに滅ぼされます。
+[11:21]
+  EN: “In his place a contemptible person will stand up, to whom they had not given the honor of the kingdom; but he will come in time of security, and will obtain the kingdom by flatteries.
+  JA: 彼に代って起る者は、卑しむべき者であって、彼には、王の尊厳が与えられず、彼は不意にきて、巧言をもって国を獲るでしょう。
+[11:22]
+  EN: The overwhelming forces will be overwhelmed from before him, and will be broken. Yes, also the prince of the covenant.
+  JA: 洪水のような軍勢は、彼の前に押し流されて敗られ、契約の君たる者もまた敗られるでしょう。
+[11:23]
+  EN: After the treaty made with him he will work deceitfully; for he will come up and will become strong with few people.
+  JA: 彼は、これと同盟を結んで後、偽りのおこないをなし、わずかな民をもって強くなり、
+[11:24]
+  EN: In time of security he will come even on the fattest places of the province. He will do that which his fathers have not done, nor his fathers’ fathers. He will scatter among them prey, plunder, and wealth. Yes, he will devise his plans against the strongholds, but only for a time.
+  JA: 不意にその州の最も肥えた所に攻め入り、その父も、その父の父もしなかった事をおこない、その奪った物、かすめた物および財宝を、人々の中に散らすでしょう。彼はまた計略をめぐらして、堅固な城を攻めるが、ただし、それは時の至るまでです。
+[11:25]
+  EN: “He will stir up his power and his courage against the king of the south with a great army; and the king of the south will wage war in battle with an exceedingly great and mighty army, but he won’t stand; for they will devise plans against him.
+  JA: 彼はその勢力と勇気とを奮い起し、大軍を率いて南の王を攻めます。南の王もまたみずから奮い、はなはだ大いなる強力な軍勢をもって戦います。しかし、彼に対して、陰謀をめぐらす者があるので、これに立ち向かうことができません。
+[11:26]
+  EN: Yes, those who eat of his delicacies will destroy him, and his army will be swept away. Many will fall down slain.
+  JA: すなわち彼の食物を食べる者たちが、彼を滅ぼします。そして、その軍勢は押し流されて、多くの者が倒れ死ぬでしょう。
+[11:27]
+  EN: As for both these kings, their hearts will be to do evil, and they will speak lies at one table; but it won’t prosper, for the end will still be at the appointed time.
+  JA: このふたりの王は、害を与えようと心にはかり、ひとつ食卓に共に食して、偽りを語るが、それは成功しません。終りはなお定まった時の来るまでこないからです。
+[11:28]
+  EN: Then he will return into his land with great wealth. His heart will be against the holy covenant. He will take action, and return to his own land.
+  JA: 彼は大いなる財宝をもって、自分の国に帰るでしょう。しかし、彼の心は聖なる契約にそむき、ほしいままに事をなして、自分の国に帰ります。
+[11:29]
+  EN: “He will return at the appointed time and come into the south; but it won’t be in the latter time as it was in the former.
+  JA: 定まった時になって、彼はまた南に討ち入ります。しかし、この時は前の時のようではありません。
+[11:30]
+  EN: For ships of Kittim will come against him. Therefore he will be grieved, and will return, and have indignation against the holy covenant, and will take action. He will even return, and have regard to those who forsake the holy covenant.
+  JA: それはキッテムの船が、彼に立ち向かって来るので、彼は脅かされて帰り、聖なる契約に対して憤り、事を行うでしょう。彼は帰っていって、聖なる契約を捨てる者を顧み用いるでしょう。
+[11:31]
+  EN: “Forces from him will profane the sanctuary, even the fortress, and will take away the continual burnt offering. Then they will set up the abomination that makes desolate.
+  JA: 彼から軍勢が起って、神殿と城郭を汚し、常供の燔祭を取り除き、荒す憎むべきものを立てるでしょう。
+[11:32]
+  EN: He will corrupt those who do wickedly against the covenant by flatteries; but the people who know their God will be strong and take action.
+  JA: 彼は契約を破る者どもを、巧言をもってそそのかし、そむかせるが、自分の神を知る民は、堅く立って事を行います。
+[11:33]
+  EN: “Those who are wise among the people will instruct many; yet they will fall by the sword and by flame, by captivity and by plunder, many days.
+  JA: 民のうちの賢い人々は、多くの人を悟りに至らせます。それでも、彼らはしばらくの間、やいばにかかり、火に焼かれ、捕われ、かすめられなどして倒れます。
+[11:34]
+  EN: Now when they fall, they will be helped with a little help; but many will join themselves to them with flatteries.
+  JA: その倒れるとき、彼らは少しの助けを獲ます。また多くの人が、巧言をもって彼らにくみするでしょう。
+[11:35]
+  EN: Some of those who are wise will fall—to refine them, and to purify, and to make them white, even to the time of the end, because it is yet for the time appointed.
+  JA: また賢い者のうちのある者は、終りの時まで、自分を練り、清め、白くするために倒れるでしょう。終りはなお定まった時の来るまでこないからです。
+[11:36]
+  EN: “The king will do according to his will. He will exalt himself and magnify himself above every god, and will speak marvelous things against the God of gods. He will prosper until the indignation is accomplished, for that which is determined will be done.
+  JA: この王は、その心のままに事をおこない、すべての神を越えて、自分を高くし、自分を大いにし、神々の神たる者にむかって、驚くべき事を語り、憤りのやむ時まで栄えるでしょう。これは定められた事が成就するからです。
+[11:37]
+  EN: He won’t regard the gods of his fathers, or the desire of women, or regard any god; for he will magnify himself above all.
+  JA: 彼はその先祖の神々を顧みず、また婦人の好む者も、いかなる神をも顧みないでしょう。彼はすべてにまさって、自分を大いなる者とするからです。
+[11:38]
+  EN: But in their place, he will honor the god of fortresses. He will honor a god whom his fathers didn’t know with gold, silver, and with precious stones and pleasant things.
+  JA: 彼はこれらの者の代りに、要害の神をあがめ、金、銀、宝石、および宝物をもって、その先祖たちの知らなかった神をあがめ、
+[11:39]
+  EN: He will deal with the strongest fortresses by the help of a foreign god. He will increase with glory whoever acknowledges him. He will cause them to rule over many, and will divide the land for a price.
+  JA: 異邦の神の助けによって、最も強固な城にむかって、事をなすでしょう。そして彼を認める者には、栄誉を増し与え、これに多くの人を治めさせ、賞与として土地を分け与えるでしょう。
+[11:40]
+  EN: “At the time of the end the king of the south will contend with him; and the king of the north will come against him like a whirlwind, with chariots, with horsemen, and with many ships. He will enter into the countries, and will overflow and pass through.
+  JA: 終りの時になって、南の王は彼と戦います。北の王は、戦車と騎兵と、多くの船をもって、つむじ風のように彼を攻め、国々にはいっていって、みなぎりあふれ、通り過ぎるでしょう。
+[11:41]
+  EN: He will enter also into the glorious land, and many countries will be overthrown; but these will be delivered out of his hand: Edom, Moab, and the chief of the children of Ammon.
+  JA: 彼はまた麗しい国にはいります。また彼によって、多くの者が滅ぼされます。しかし、エドム、モアブ、アンモンびとらのうちのおもな者は、彼の手から救われましょう。
+[11:42]
+  EN: He will also stretch out his hand on the countries. The land of Egypt won’t escape.
+  JA: 彼は国々にその手を伸ばし、エジプトの地も免れません。
+[11:43]
+  EN: But he will have power over the treasures of gold and of silver, and over all the precious things of Egypt. The Libyans and the Ethiopians will follow his steps.
+  JA: 彼は金銀の財宝と、エジプトのすべての宝物を支配し、リビヤびと、エチオピヤびとは、彼のあとに従います。
+[11:44]
+  EN: But news out of the east and out of the north will trouble him; and he will go out with great fury to destroy and utterly to sweep away many.
+  JA: しかし東と北からの知らせが彼を驚かし、彼は多くの人を滅ぼし絶やそうと、大いなる怒りをもって出て行きます。
+[11:45]
+  EN: He will plant the tents of his palace between the sea and the glorious holy mountain; yet he will come to his end, and no one will help him.
+  JA: 彼は海と麗しい聖山との間に、天幕の宮殿を設けるでしょう。しかし、彼はついにその終りにいたり、彼を助ける者はないでしょう。
+
+=== DAN 但以理書 12 ===
+
+[12:1]
+  EN: “At that time Michael will stand up, the great prince who stands for the children of your people; and there will be a time of trouble, such as never was since there was a nation even to that same time. At that time your people will be delivered, everyone who is found written in the book.
+  JA: その時あなたの民を守っている大いなる君ミカエルが立ちあがります。また国が始まってから、その時にいたるまで、かつてなかったほどの悩みの時があるでしょう。しかし、その時あなたの民は救われます。すなわちあの書に名をしるされた者は皆救われます。
+[12:2]
+  EN: Many of those who sleep in the dust of the earth will awake, some to everlasting life, and some to shame and everlasting contempt.
+  JA: また地のちりの中に眠っている者のうち、多くの者は目をさますでしょう。そのうち永遠の生命にいたる者もあり、また恥と、限りなき恥辱をうける者もあるでしょう。
+[12:3]
+  EN: Those who are wise will shine as the brightness of the expanse. Those who turn many to righteousness will shine as the stars forever and ever.
+  JA: 賢い者は、大空の輝きのように輝き、また多くの人を義に導く者は、星のようになって永遠にいたるでしょう。
+[12:4]
+  EN: But you, Daniel, shut up the words and seal the book, even to the time of the end. Many will run back and forth, and knowledge will be increased.”
+  JA: ダニエルよ、あなたは終りの時までこの言葉を秘し、この書を封じておきなさい。多くの者は、あちこちと探り調べ、そして知識が増すでしょう」。
+[12:5]
+  EN: Then I, Daniel, looked, and behold, two others stood, one on the river bank on this side, and the other on the river bank on that side.
+  JA: そこで、われダニエルが見ていると、ほかにまたふたりの者があって、ひとりは川のこなたの岸に、ひとりは川のかなたの岸に立っていた。
+[12:6]
+  EN: One said to the man clothed in linen, who was above the waters of the river, “How long will it be to the end of these wonders?”
+  JA: わたしは、かの亜麻布を着て川の水の上にいる人にむかって言った、「この異常なできごとは、いつになって終るでしょうか」と。
+[12:7]
+  EN: I heard the man clothed in linen, who was above the waters of the river, when he held up his right hand and his left hand to heaven, and swore by him who lives forever that it will be for a time, times, and a half; and when they have finished breaking in pieces the power of the holy people, all these things will be finished.
+  JA: かの亜麻布を着て、川の水の上にいた人が、天に向かって、その右の手と左の手をあげ、永遠に生ける者をさして誓い、それは、ひと時とふた時と半時である。聖なる民を打ち砕く力が消え去る時に、これらの事はみな成就するだろうと言うのを、わたしは聞いた。
+[12:8]
+  EN: I heard, but I didn’t understand. Then I said, “My lord, what will be the outcome of these things?”
+  JA: わたしはこれを聞いたけれども悟れなかった。わたしは言った、「わが主よ、これらの事の結末はどんなでしょうか」。
+[12:9]
+  EN: He said, “Go your way, Daniel; for the words are shut up and sealed until the time of the end.
+  JA: 彼は言った、「ダニエルよ、あなたの道を行きなさい。この言葉は終りの時まで秘し、かつ封じておかれます。
+[12:10]
+  EN: Many will purify themselves, and make themselves white, and be refined, but the wicked will do wickedly; and none of the wicked will understand, but those who are wise will understand.
+  JA: 多くの者は、自分を清め、自分を白くし、かつ練られるでしょう。しかし、悪い者は悪い事をおこない、ひとりも悟ることはないが、賢い者は悟るでしょう。
+[12:11]
+  EN: “From the time that the continual burnt offering is taken away and the abomination that makes desolate set up, there will be one thousand two hundred ninety days.
+  JA: 常供の燔祭が取り除かれ、荒す憎むべきものが立てられる時から、千二百九十日が定められている。
+[12:12]
+  EN: Blessed is he who waits, and comes to the one thousand three hundred thirty-five days.
+  JA: 待っていて千三百三十五日に至る者はさいわいです。
+[12:13]
+  EN: “But go your way until the end; for you will rest, and will stand in your inheritance at the end of the days.”
+  JA: しかし、終りまであなたの道を行きなさい。あなたは休みに入り、定められた日の終りに立って、あなたの分を受けるでしょう」。

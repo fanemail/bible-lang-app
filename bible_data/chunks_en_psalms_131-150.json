@@ -1,0 +1,53 @@
+[
+  { "id":"CK-EN-PSA132-01", "chapter":132, "verse":9, "text":"shout for joy", "blank":"Let your saints ___!", "answer":"shout for joy", "tag":"AI()", "freq":"high", "gloss":"歡呼雀躍", "ref":"詩篇 132:9", "usage":"現代英語常用，表達因喜悅而歡呼。" },
+  { "id":"CK-EN-PSA132-02", "chapter":132, "verse":10, "text":"turn away the face", "blank":"don't ___ of your anointed one.", "answer":"turn away the face", "tag":"AI()", "freq":"medium", "gloss":"轉臉不顧、拒絕", "ref":"詩篇 132:10", "usage":"現代英語常用「turn away」表示拒絕理睬。" },
+  { "id":"CK-EN-PSA132-03", "chapter":132, "verse":16, "text":"shout aloud for joy", "blank":"Her saints will ___.", "answer":"shout aloud for joy", "tag":"AI()", "freq":"high", "gloss":"高聲歡呼", "ref":"詩篇 132:16", "usage":"現代英語常用，表達因喜悅而高聲歡呼。" },
+
+  { "id":"CK-EN-PSA134-01", "chapter":134, "verse":2, "text":"Lift up your hands", "blank":"___ in the sanctuary.", "answer":"Lift up your hands", "tag":"AI()", "freq":"medium", "gloss":"舉手", "ref":"詩篇 134:2", "usage":"現代英語常用於表達舉手敬拜或祈求。" },
+
+  { "id":"CK-EN-PSA136-01", "chapter":136, "verse":1, "text":"Give thanks to", "blank":"___ the LORD, for he is good.", "answer":"Give thanks to", "tag":"AI()", "freq":"high", "gloss":"感謝、致謝", "ref":"詩篇 136:1", "usage":"現代英語極常用，表達感謝之意。" },
+  { "id":"CK-EN-PSA136-02", "chapter":136, "verse":26, "text":"give thanks to", "blank":"Oh ___ the God of heaven.", "answer":"give thanks to", "tag":"AI()", "freq":"high", "gloss":"感謝、致謝", "ref":"詩篇 136:26", "usage":"現代英語極常用，表達感謝之意。" },
+
+  { "id":"CK-EN-PSA137-01", "chapter":137, "verse":6, "text":"tongue stick to the roof of my mouth", "blank":"Let my ___ if I don't remember you.", "answer":"tongue stick to the roof of my mouth", "tag":"AI()", "freq":"medium", "gloss":"口乾舌燥、無言以對", "ref":"詩篇 137:6", "usage":"現代英語常用於形容極度緊張或無言以對。" },
+
+  { "id":"CK-EN-PSA138-01", "chapter":138, "verse":1, "text":"give you thanks", "blank":"I will ___ with my whole heart.", "answer":"give you thanks", "tag":"AI()", "freq":"high", "gloss":"感謝、致謝", "ref":"詩篇 138:1", "usage":"現代英語極常用，表達感謝之意。" },
+  { "id":"CK-EN-PSA138-02", "chapter":138, "verse":1, "text":"with my whole heart", "blank":"I will give you thanks ___.", "answer":"with my whole heart", "tag":"AI()", "freq":"high", "gloss":"全心全意", "ref":"詩篇 138:1", "usage":"現代英語常用，表示全心投入。" },
+  { "id":"CK-EN-PSA138-03", "chapter":138, "verse":2, "text":"bow down toward", "blank":"I will ___ your holy temple.", "answer":"bow down toward", "tag":"AI()", "freq":"high", "gloss":"俯伏、跪拜", "ref":"詩篇 138:2", "usage":"現代英語常用，表示俯伏敬拜。" },
+  { "id":"CK-EN-PSA138-04", "chapter":138, "verse":7, "text":"stretch out your hand", "blank":"You will ___ against the wrath of my enemies.", "answer":"stretch out your hand", "tag":"AI()", "freq":"high", "gloss":"伸出手", "ref":"詩篇 138:7", "usage":"現代英語極常用，如stretch out one's hand。" },
+
+  { "id":"CK-EN-PSA139-01", "chapter":139, "verse":5, "text":"hem me in", "blank":"You ___ behind and before.", "answer":"hem me in", "tag":"AI()", "freq":"medium", "gloss":"包圍、限制", "ref":"詩篇 139:5", "usage":"現代英語常用，表示包圍或限制某人。" },
+  { "id":"CK-EN-PSA139-02", "chapter":139, "verse":21, "text":"rise up against", "blank":"Am I not grieved with those who ___ you?", "answer":"rise up against", "tag":"AI()", "freq":"high", "gloss":"起來反抗", "ref":"詩篇 139:21", "usage":"現代英語常用於描述群體起義反抗。" },
+
+  { "id":"CK-EN-PSA140-01", "chapter":140, "verse":4, "text":"trip my feet", "blank":"the violent men who have determined to ___.", "answer":"trip my feet", "tag":"AI()", "freq":"medium", "gloss":"絆倒、設陷阱", "ref":"詩篇 140:4", "usage":"現代英語常用「trip someone up」表示使人跌倒或陷入圈套。" },
+
+  { "id":"CK-EN-PSA141-01", "chapter":141, "verse":2, "text":"lifting up of my hands", "blank":"the ___ like the evening sacrifice.", "answer":"lifting up of my hands", "tag":"AI()", "freq":"medium", "gloss":"舉手祈求", "ref":"詩篇 141:2", "usage":"現代英語常用「lift up」表示舉手敬拜或祈求。" },
+  { "id":"CK-EN-PSA141-02", "chapter":141, "verse":8, "text":"take refuge in", "blank":"I ___ you.", "answer":"take refuge in", "tag":"AI()", "freq":"high", "gloss":"尋求庇護", "ref":"詩篇 141:8", "usage":"現代英語常用於描述尋求保護。" },
+
+  { "id":"CK-EN-PSA142-01", "chapter":142, "verse":2, "text":"pour out my complaint", "blank":"I ___ before him.", "answer":"pour out my complaint", "tag":"AI()", "freq":"high", "gloss":"傾訴不滿", "ref":"詩篇 142:2", "usage":"現代英語常用「pour out」表示傾訴心聲。" },
+  { "id":"CK-EN-PSA142-02", "chapter":142, "verse":5, "text":"land of the living", "blank":"my portion in the ___.", "answer":"land of the living", "tag":"AI()", "freq":"medium", "gloss":"人世間、活著的世界", "ref":"詩篇 142:5", "usage":"現代英語偶爾用於幽默或嚴肅語境。" },
+
+  { "id":"CK-EN-PSA143-01", "chapter":143, "verse":3, "text":"struck my life down to the ground", "blank":"He has ___.", "answer":"struck my life down to the ground", "tag":"AI()", "freq":"medium", "gloss":"將生命擊倒在地", "ref":"詩篇 143:3", "usage":"現代英語常用「bring down」表示打壓擊垮。" },
+  { "id":"CK-EN-PSA143-02", "chapter":143, "verse":6, "text":"spread out my hands", "blank":"I ___ to you.", "answer":"spread out my hands", "tag":"AI()", "freq":"medium", "gloss":"伸手祈求", "ref":"詩篇 143:6", "usage":"現代英語常用「spread out」表示展開、伸出。" },
+  { "id":"CK-EN-PSA143-03", "chapter":143, "verse":7, "text":"hide your face from", "blank":"Don't ___ me.", "answer":"hide your face from", "tag":"AI()", "freq":"high", "gloss":"迴避、不理睬", "ref":"詩篇 143:7", "usage":"現代英語常用於表示刻意迴避某人。" },
+  { "id":"CK-EN-PSA143-04", "chapter":143, "verse":8, "text":"lift up my soul", "blank":"for I ___ to you.", "answer":"lift up my soul", "tag":"AI()", "freq":"medium", "gloss":"仰望、敬拜", "ref":"詩篇 143:8", "usage":"現代英語常用「lift up」表示仰望或敬拜。" },
+  { "id":"CK-EN-PSA143-05", "chapter":143, "verse":12, "text":"cut off my enemies", "blank":"In your loving kindness, ___.", "answer":"cut off my enemies", "tag":"AI()", "freq":"high", "gloss":"切斷、消滅敵人", "ref":"詩篇 143:12", "usage":"現代英語常用「cut off」表示切斷或消滅。" },
+
+  { "id":"CK-EN-PSA144-01", "chapter":144, "verse":2, "text":"take refuge", "blank":"he in whom I ___.", "answer":"take refuge", "tag":"AI()", "freq":"high", "gloss":"尋求庇護", "ref":"詩篇 144:2", "usage":"現代英語常用於描述尋求保護。" },
+  { "id":"CK-EN-PSA144-02", "chapter":144, "verse":7, "text":"Stretch out your hand", "blank":"___ from above, rescue me.", "answer":"Stretch out your hand", "tag":"AI()", "freq":"high", "gloss":"伸出手", "ref":"詩篇 144:7", "usage":"現代英語極常用，如stretch out one's hand。" },
+
+  { "id":"CK-EN-PSA145-01", "chapter":145, "verse":14, "text":"raises up all those who are bowed down", "blank":"The LORD upholds all who fall, and ___.", "answer":"raises up all those who are bowed down", "tag":"AI()", "freq":"medium", "gloss":"扶起受挫之人", "ref":"詩篇 145:14", "usage":"現代英語常用「raise up」表示扶起或提振。" },
+  { "id":"CK-EN-PSA145-02", "chapter":145, "verse":16, "text":"open your hand", "blank":"You ___, and satisfy the desire of every living thing.", "answer":"open your hand", "tag":"AI()", "freq":"medium", "gloss":"敞開手掌、慷慨給予", "ref":"詩篇 145:16", "usage":"現代英語常用，表示慷慨給予。" },
+  { "id":"CK-EN-PSA145-03", "chapter":145, "verse":18, "text":"call on him", "blank":"to all who ___ in truth.", "answer":"call on him", "tag":"AI()", "freq":"medium", "gloss":"呼求、求助", "ref":"詩篇 145:18", "usage":"現代英語常用於呼求幫助或祈求。" },
+
+  { "id":"CK-EN-PSA146-01", "chapter":146, "verse":8, "text":"raises up those who are bowed down", "blank":"The LORD ___.", "answer":"raises up those who are bowed down", "tag":"AI()", "freq":"medium", "gloss":"扶起受挫之人", "ref":"詩篇 146:8", "usage":"現代英語常用「raise up」表示扶起或提振。" },
+  { "id":"CK-EN-PSA146-02", "chapter":146, "verse":9, "text":"turns...upside down", "blank":"he ___ the way of the wicked.", "answer":"turns upside down", "tag":"AI()", "freq":"high", "gloss":"徹底顛覆、翻轉", "ref":"詩篇 146:9", "usage":"現代英語極常用，如turn the situation upside down。" },
+
+  { "id":"CK-EN-PSA147-01", "chapter":147, "verse":2, "text":"builds up Jerusalem", "blank":"The LORD ___.", "answer":"builds up Jerusalem", "tag":"AI()", "freq":"medium", "gloss":"建立、重建耶路撒冷", "ref":"詩篇 147:2", "usage":"現代英語常用「build up」表示建立或鞏固。" },
+  { "id":"CK-EN-PSA147-02", "chapter":147, "verse":3, "text":"heals the broken in heart", "blank":"He ___, and binds up their wounds.", "answer":"heals the broken in heart", "tag":"AI()", "freq":"high", "gloss":"醫治傷心的人", "ref":"詩篇 147:3", "usage":"現代英語常用「broken heart」表示極度傷心。" },
+  { "id":"CK-EN-PSA147-03", "chapter":147, "verse":6, "text":"brings the wicked down to the ground", "blank":"He ___.", "answer":"brings the wicked down to the ground", "tag":"AI()", "freq":"medium", "gloss":"使惡人跌落塵埃", "ref":"詩篇 147:6", "usage":"現代英語常用「bring down」表示打壓擊垮。" },
+
+  { "id":"CK-EN-PSA148-01", "chapter":148, "verse":14, "text":"lifted up the horn", "blank":"He has ___ of his people.", "answer":"lifted up the horn", "tag":"AI()", "freq":"medium", "gloss":"提升力量、賦予尊榮", "ref":"詩篇 148:14", "usage":"現代英語常用「lift up」表示提升或彰顯。" },
+
+  { "id":"CK-EN-PSA149-01", "chapter":149, "verse":6, "text":"two-edged sword", "blank":"and a ___ in their hand.", "answer":"two-edged sword", "tag":"AI()", "freq":"high", "gloss":"雙刃劍、利弊並存之物", "ref":"詩篇 149:6", "usage":"現代英語極常用著名比喻，如double-edged sword。" },
+  { "id":"CK-EN-PSA149-02", "chapter":149, "verse":7, "text":"execute vengeance", "blank":"to ___ on the nations.", "answer":"execute vengeance", "tag":"AI()", "freq":"medium", "gloss":"執行報復", "ref":"詩篇 149:7", "usage":"現代英語正式用語，表示施行報復或正義。" }
+]

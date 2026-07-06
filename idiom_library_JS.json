@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "JS-001",
+    "text": "開いた口が塞がらない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-002",
+    "text": "青菜に塩",
+    "source": "JS"
+  },
+  {
+    "id": "JS-003",
+    "text": "赤子の手を捻る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-004",
+    "text": "悪法も又法なり",
+    "source": "JS"
+  },
+  {
+    "id": "JS-005",
+    "text": "足が出る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-006",
+    "text": "あしがはやい",
+    "source": "JS"
+  },
+  {
+    "id": "JS-007",
+    "text": "足を掬う",
+    "source": "JS"
+  },
+  {
+    "id": "JS-008",
+    "text": "足元を掬う",
+    "source": "JS"
+  },
+  {
+    "id": "JS-009",
+    "text": "足元を見る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-010",
+    "text": "足を引っ張る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-011",
+    "text": "頭が固い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-012",
+    "text": "頭に入れる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-013",
+    "text": "頭を下げる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-014",
+    "text": "あてにならない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-015",
+    "text": "あにはからん",
+    "source": "JS"
+  },
+  {
+    "id": "JS-016",
+    "text": "危ない橋を渡る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-017",
+    "text": "鮑の貝の片想い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-018",
+    "text": "暗礁に乗り上げる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-019",
+    "text": "言うまでもない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-020",
+    "text": "息が長い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-021",
+    "text": "息を抜く",
+    "source": "JS"
+  },
+  {
+    "id": "JS-022",
+    "text": "息を呑む",
+    "source": "JS"
+  },
+  {
+    "id": "JS-023",
+    "text": "息を引き取る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-024",
+    "text": "何れにしても",
+    "source": "JS"
+  },
+  {
+    "id": "JS-025",
+    "text": "磯の鮑の片思い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-026",
+    "text": "痛し痒し",
+    "source": "JS"
+  },
+  {
+    "id": "JS-027",
+    "text": "一から十まで",
+    "source": "JS"
+  },
+  {
+    "id": "JS-028",
+    "text": "一事が万事",
+    "source": "JS"
+  },
+  {
+    "id": "JS-029",
+    "text": "一緒になる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-030",
+    "text": "いつのまにか",
+    "source": "JS"
+  },
+  {
+    "id": "JS-031",
+    "text": "命あっての物種",
+    "source": "JS"
+  },
+  {
+    "id": "JS-032",
+    "text": "衣鉢を継ぐ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-033",
+    "text": "色をかえ品をかえ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-034",
+    "text": "慇懃を通ずる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-035",
+    "text": "韻を踏む",
+    "source": "JS"
+  },
+  {
+    "id": "JS-036",
+    "text": "薄紙を剥ぐよう",
+    "source": "JS"
+  },
+  {
+    "id": "JS-037",
+    "text": "鵜の目鷹の目",
+    "source": "JS"
+  },
+  {
+    "id": "JS-038",
+    "text": "売り言葉に買い言葉",
+    "source": "JS"
+  },
+  {
+    "id": "JS-039",
+    "text": "噂をすれば影",
+    "source": "JS"
+  },
+  {
+    "id": "JS-040",
+    "text": "大船に乗ったよう",
+    "source": "JS"
+  },
+  {
+    "id": "JS-041",
+    "text": "大船に乗る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-042",
+    "text": "奥歯に物が挟まる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-043",
+    "text": "推して知るべし",
+    "source": "JS"
+  },
+  {
+    "id": "JS-044",
+    "text": "おそかれはやかれ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-045",
+    "text": "恐れ入谷の鬼子母神",
+    "source": "JS"
+  },
+  {
+    "id": "JS-046",
+    "text": "小田原評定",
+    "source": "JS"
+  },
+  {
+    "id": "JS-047",
+    "text": "御茶の子さいさい",
+    "source": "JS"
+  },
+  {
+    "id": "JS-048",
+    "text": "負んぶに抱っこ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-049",
+    "text": "顔を出す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-050",
+    "text": "笠の台",
+    "source": "JS"
+  },
+  {
+    "id": "JS-051",
+    "text": "数え切れない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-052",
+    "text": "肩を並べる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-053",
+    "text": "兜を脱ぐ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-054",
+    "text": "烏の行水",
+    "source": "JS"
+  },
+  {
+    "id": "JS-055",
+    "text": "借りてきた猫",
+    "source": "JS"
+  },
+  {
+    "id": "JS-056",
+    "text": "既往は咎めず",
+    "source": "JS"
+  },
+  {
+    "id": "JS-057",
+    "text": "気がある",
+    "source": "JS"
+  },
+  {
+    "id": "JS-058",
+    "text": "気が大きい",
+    "source": "JS"
+  },
+  {
+    "id": "JS-059",
+    "text": "気が重い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-060",
+    "text": "気が変わる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-061",
+    "text": "気が利く",
+    "source": "JS"
+  },
+  {
+    "id": "JS-062",
+    "text": "気が気でない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-063",
+    "text": "気が狂う",
+    "source": "JS"
+  },
+  {
+    "id": "JS-064",
+    "text": "気が知れない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-065",
+    "text": "気がする",
+    "source": "JS"
+  },
+  {
+    "id": "JS-066",
+    "text": "気が小さい",
+    "source": "JS"
+  },
+  {
+    "id": "JS-067",
+    "text": "気が違う",
+    "source": "JS"
+  },
+  {
+    "id": "JS-068",
+    "text": "気が抜ける",
+    "source": "JS"
+  },
+  {
+    "id": "JS-069",
+    "text": "気が乗る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-070",
+    "text": "気が早い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-071",
+    "text": "気が引ける",
+    "source": "JS"
+  },
+  {
+    "id": "JS-072",
+    "text": "気が触れる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-073",
+    "text": "気が向く",
+    "source": "JS"
+  },
+  {
+    "id": "JS-074",
+    "text": "気が緩む",
+    "source": "JS"
+  },
+  {
+    "id": "JS-075",
+    "text": "聞きしに勝る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-076",
+    "text": "気に入る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-077",
+    "text": "気に掛かる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-078",
+    "text": "気に掛ける",
+    "source": "JS"
+  },
+  {
+    "id": "JS-079",
+    "text": "気に食わない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-080",
+    "text": "気に障る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-081",
+    "text": "気にする",
+    "source": "JS"
+  },
+  {
+    "id": "JS-082",
+    "text": "気に留める",
+    "source": "JS"
+  },
+  {
+    "id": "JS-083",
+    "text": "気になる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-084",
+    "text": "気に病む",
+    "source": "JS"
+  },
+  {
+    "id": "JS-085",
+    "text": "踵を接する",
+    "source": "JS"
+  },
+  {
+    "id": "JS-086",
+    "text": "決まりが悪い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-087",
+    "text": "肝に銘じる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-088",
+    "text": "肝に銘ずる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-089",
+    "text": "巨星墜つ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-090",
+    "text": "気を失う",
+    "source": "JS"
+  },
+  {
+    "id": "JS-091",
+    "text": "気を落とす",
+    "source": "JS"
+  },
+  {
+    "id": "JS-092",
+    "text": "気を配る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-093",
+    "text": "気を遣う",
+    "source": "JS"
+  },
+  {
+    "id": "JS-094",
+    "text": "奇を衒う",
+    "source": "JS"
+  },
+  {
+    "id": "JS-095",
+    "text": "気を取られる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-096",
+    "text": "気を抜く",
+    "source": "JS"
+  },
+  {
+    "id": "JS-097",
+    "text": "気を引く",
+    "source": "JS"
+  },
+  {
+    "id": "JS-098",
+    "text": "気を揉む",
+    "source": "JS"
+  },
+  {
+    "id": "JS-099",
+    "text": "気を許す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-100",
+    "text": "空気を読む",
+    "source": "JS"
+  },
+  {
+    "id": "JS-101",
+    "text": "くせに",
+    "source": "JS"
+  },
+  {
+    "id": "JS-102",
+    "text": "口が重い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-103",
+    "text": "口が堅い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-104",
+    "text": "口が酸っぱくなる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-105",
+    "text": "口にする",
+    "source": "JS"
+  },
+  {
+    "id": "JS-106",
+    "text": "口を酸っぱくする",
+    "source": "JS"
+  },
+  {
+    "id": "JS-107",
+    "text": "口を揃える",
+    "source": "JS"
+  },
+  {
+    "id": "JS-108",
+    "text": "口を挟む",
+    "source": "JS"
+  },
+  {
+    "id": "JS-109",
+    "text": "口を開く",
+    "source": "JS"
+  },
+  {
+    "id": "JS-110",
+    "text": "首を切る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-111",
+    "text": "首を出す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-112",
+    "text": "首を長くする",
+    "source": "JS"
+  },
+  {
+    "id": "JS-113",
+    "text": "決河の勢い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-114",
+    "text": "犬猿の仲",
+    "source": "JS"
+  },
+  {
+    "id": "JS-115",
+    "text": "鯉口を切る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-116",
+    "text": "恋に落ちる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-117",
+    "text": "幸か不幸か",
+    "source": "JS"
+  },
+  {
+    "id": "JS-118",
+    "text": "好事魔多し",
+    "source": "JS"
+  },
+  {
+    "id": "JS-119",
+    "text": "郷に入っては郷に従え",
+    "source": "JS"
+  },
+  {
+    "id": "JS-120",
+    "text": "業を煮やす",
+    "source": "JS"
+  },
+  {
+    "id": "JS-121",
+    "text": "呉牛月に喘ぐ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-122",
+    "text": "呱呱の声をあげる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-123",
+    "text": "心が晴れる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-124",
+    "text": "心を痛める",
+    "source": "JS"
+  },
+  {
+    "id": "JS-125",
+    "text": "心を奪う",
+    "source": "JS"
+  },
+  {
+    "id": "JS-126",
+    "text": "心を鬼にする",
+    "source": "JS"
+  },
+  {
+    "id": "JS-127",
+    "text": "心を籠める",
+    "source": "JS"
+  },
+  {
+    "id": "JS-128",
+    "text": "心を寄せる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-129",
+    "text": "腰を掛ける",
+    "source": "JS"
+  },
+  {
+    "id": "JS-130",
+    "text": "転ばぬ先の杖",
+    "source": "JS"
+  },
+  {
+    "id": "JS-131",
+    "text": "最初で最後",
+    "source": "JS"
+  },
+  {
+    "id": "JS-132",
+    "text": "先を争う",
+    "source": "JS"
+  },
+  {
+    "id": "JS-133",
+    "text": "砂漠の船",
+    "source": "JS"
+  },
+  {
+    "id": "JS-134",
+    "text": "さばを読む",
+    "source": "JS"
+  },
+  {
+    "id": "JS-135",
+    "text": "鯖を読む",
+    "source": "JS"
+  },
+  {
+    "id": "JS-136",
+    "text": "さもありなん",
+    "source": "JS"
+  },
+  {
+    "id": "JS-137",
+    "text": "三人寄れば文殊の知恵",
+    "source": "JS"
+  },
+  {
+    "id": "JS-138",
+    "text": "時間を費やす",
+    "source": "JS"
+  },
+  {
+    "id": "JS-139",
+    "text": "舌が回る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-140",
+    "text": "舌の根も乾かぬうち",
+    "source": "JS"
+  },
+  {
+    "id": "JS-141",
+    "text": "私腹を肥やす",
+    "source": "JS"
+  },
+  {
+    "id": "JS-142",
+    "text": "娑婆で見た弥三郎",
+    "source": "JS"
+  },
+  {
+    "id": "JS-143",
+    "text": "衆寡敵せず",
+    "source": "JS"
+  },
+  {
+    "id": "JS-144",
+    "text": "尻目に懸ける",
+    "source": "JS"
+  },
+  {
+    "id": "JS-145",
+    "text": "知る由も無い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-146",
+    "text": "吝ん坊の柿の種",
+    "source": "JS"
+  },
+  {
+    "id": "JS-147",
+    "text": "死んで花実が咲くものか",
+    "source": "JS"
+  },
+  {
+    "id": "JS-148",
+    "text": "陣門に降る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-149",
+    "text": "姿を消す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-150",
+    "text": "雀の涙",
+    "source": "JS"
+  },
+  {
+    "id": "JS-151",
+    "text": "隅に置けない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-152",
+    "text": "俎上に載せる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-153",
+    "text": "ぞっとしない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-154",
+    "text": "袖にする",
+    "source": "JS"
+  },
+  {
+    "id": "JS-155",
+    "text": "その手は桑名の焼き蛤",
+    "source": "JS"
+  },
+  {
+    "id": "JS-156",
+    "text": "対岸の火事",
+    "source": "JS"
+  },
+  {
+    "id": "JS-157",
+    "text": "太鼓判を捺す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-158",
+    "text": "多勢に無勢",
+    "source": "JS"
+  },
+  {
+    "id": "JS-159",
+    "text": "只より高いものはない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-160",
+    "text": "種を宿す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-161",
+    "text": "頼みの綱",
+    "source": "JS"
+  },
+  {
+    "id": "JS-162",
+    "text": "暖を取る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-163",
+    "text": "血が騒ぐ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-164",
+    "text": "血が流れる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-165",
+    "text": "力になる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-166",
+    "text": "力を入れる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-167",
+    "text": "力を落とす",
+    "source": "JS"
+  },
+  {
+    "id": "JS-168",
+    "text": "力を貸す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-169",
+    "text": "血と汗",
+    "source": "JS"
+  },
+  {
+    "id": "JS-170",
+    "text": "血の気が引く",
+    "source": "JS"
+  },
+  {
+    "id": "JS-171",
+    "text": "血も涙もない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-172",
+    "text": "血を流す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-173",
+    "text": "梃子でも動かない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-174",
+    "text": "鉄槌を下す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-175",
+    "text": "轍を踏む",
+    "source": "JS"
+  },
+  {
+    "id": "JS-176",
+    "text": "手に入れる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-177",
+    "text": "手にする",
+    "source": "JS"
+  },
+  {
+    "id": "JS-178",
+    "text": "手に取る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-179",
+    "text": "手に取るばかり",
+    "source": "JS"
+  },
+  {
+    "id": "JS-180",
+    "text": "手に取るよう",
+    "source": "JS"
+  },
+  {
+    "id": "JS-181",
+    "text": "手も足も出ない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-182",
+    "text": "手を動かす",
+    "source": "JS"
+  },
+  {
+    "id": "JS-183",
+    "text": "手をかえ品をかえ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-184",
+    "text": "手を変え品を変え",
+    "source": "JS"
+  },
+  {
+    "id": "JS-185",
+    "text": "手を替え品を替え",
+    "source": "JS"
+  },
+  {
+    "id": "JS-186",
+    "text": "手を切る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-187",
+    "text": "手を組む",
+    "source": "JS"
+  },
+  {
+    "id": "JS-188",
+    "text": "手を加える",
+    "source": "JS"
+  },
+  {
+    "id": "JS-189",
+    "text": "手をこまぬく",
+    "source": "JS"
+  },
+  {
+    "id": "JS-190",
+    "text": "手を拱く",
+    "source": "JS"
+  },
+  {
+    "id": "JS-191",
+    "text": "手をこまねく",
+    "source": "JS"
+  },
+  {
+    "id": "JS-192",
+    "text": "手を出す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-193",
+    "text": "手を抜く",
+    "source": "JS"
+  },
+  {
+    "id": "JS-194",
+    "text": "手を引く",
+    "source": "JS"
+  },
+  {
+    "id": "JS-195",
+    "text": "手を焼く",
+    "source": "JS"
+  },
+  {
+    "id": "JS-196",
+    "text": "天狗になる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-197",
+    "text": "天寿を全うする",
+    "source": "JS"
+  },
+  {
+    "id": "JS-198",
+    "text": "天にも昇る心地",
+    "source": "JS"
+  },
+  {
+    "id": "JS-199",
+    "text": "天秤に掛ける",
+    "source": "JS"
+  },
+  {
+    "id": "JS-200",
+    "text": "とうのむかし",
+    "source": "JS"
+  },
+  {
+    "id": "JS-201",
+    "text": "とおのむかし",
+    "source": "JS"
+  },
+  {
+    "id": "JS-202",
+    "text": "とかげの尻尾切り",
+    "source": "JS"
+  },
+  {
+    "id": "JS-203",
+    "text": "取って代わる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-204",
+    "text": "徒党を組む",
+    "source": "JS"
+  },
+  {
+    "id": "JS-205",
+    "text": "取る物も取り敢えず",
+    "source": "JS"
+  },
+  {
+    "id": "JS-206",
+    "text": "度を越す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-207",
+    "text": "度を過ごす",
+    "source": "JS"
+  },
+  {
+    "id": "JS-208",
+    "text": "無きにしも非ず",
+    "source": "JS"
+  },
+  {
+    "id": "JS-209",
+    "text": "泣きを見る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-210",
+    "text": "名も無い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-211",
+    "text": "寝返りを打つ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-212",
+    "text": "猫の手も借りたい",
+    "source": "JS"
+  },
+  {
+    "id": "JS-213",
+    "text": "猫の額",
+    "source": "JS"
+  },
+  {
+    "id": "JS-214",
+    "text": "根も葉もない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-215",
+    "text": "年貢を納める",
+    "source": "JS"
+  },
+  {
+    "id": "JS-216",
+    "text": "念頭に置く",
+    "source": "JS"
+  },
+  {
+    "id": "JS-217",
+    "text": "念を押す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-218",
+    "text": "喉から手が出る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-219",
+    "text": "ばかにする",
+    "source": "JS"
+  },
+  {
+    "id": "JS-220",
+    "text": "馬鹿の一つ覚え",
+    "source": "JS"
+  },
+  {
+    "id": "JS-221",
+    "text": "計り知れない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-222",
+    "text": "梯子を外す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-223",
+    "text": "恥と頭は掻きしだい",
+    "source": "JS"
+  },
+  {
+    "id": "JS-224",
+    "text": "恥と頭は搔きしだい",
+    "source": "JS"
+  },
+  {
+    "id": "JS-225",
+    "text": "肌に粟を生ずる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-226",
+    "text": "ばつが悪い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-227",
+    "text": "鳩が豆鉄砲を食らったよう",
+    "source": "JS"
+  },
+  {
+    "id": "JS-228",
+    "text": "鳩に豆鉄砲",
+    "source": "JS"
+  },
+  {
+    "id": "JS-229",
+    "text": "鼻が曲がる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-230",
+    "text": "鼻であしらう",
+    "source": "JS"
+  },
+  {
+    "id": "JS-231",
+    "text": "鼻で笑う",
+    "source": "JS"
+  },
+  {
+    "id": "JS-232",
+    "text": "鼻に掛ける",
+    "source": "JS"
+  },
+  {
+    "id": "JS-233",
+    "text": "鼻を突く",
+    "source": "JS"
+  },
+  {
+    "id": "JS-234",
+    "text": "幅を利かせる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-235",
+    "text": "腹が立つ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-236",
+    "text": "腹を立てる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-237",
+    "text": "日が浅い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-238",
+    "text": "引けを取る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-239",
+    "text": "筆紙に尽くし難い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-240",
+    "text": "人手に渡る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-241",
+    "text": "人の褌で相撲を取る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-242",
+    "text": "人の道",
+    "source": "JS"
+  },
+  {
+    "id": "JS-243",
+    "text": "人目に余る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-244",
+    "text": "人目を引く",
+    "source": "JS"
+  },
+  {
+    "id": "JS-245",
+    "text": "火に油を注ぐ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-246",
+    "text": "非の打ち所が無い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-247",
+    "text": "百年の計",
+    "source": "JS"
+  },
+  {
+    "id": "JS-248",
+    "text": "不幸中の幸い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-249",
+    "text": "腑に落ちない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-250",
+    "text": "不問に付す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-251",
+    "text": "屁でもない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-252",
+    "text": "棒に振る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-253",
+    "text": "ボタンの掛け違い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-254",
+    "text": "ボタンを掛け違える",
+    "source": "JS"
+  },
+  {
+    "id": "JS-255",
+    "text": "熱りが冷める",
+    "source": "JS"
+  },
+  {
+    "id": "JS-256",
+    "text": "骨が折れる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-257",
+    "text": "骨を埋める",
+    "source": "JS"
+  },
+  {
+    "id": "JS-258",
+    "text": "骨を折る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-259",
+    "text": "骨を刺す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-260",
+    "text": "法螺を吹く",
+    "source": "JS"
+  },
+  {
+    "id": "JS-261",
+    "text": "本日は晴天なり",
+    "source": "JS"
+  },
+  {
+    "id": "JS-262",
+    "text": "盆と正月が一緒に来たよう",
+    "source": "JS"
+  },
+  {
+    "id": "JS-263",
+    "text": "眉を顰める",
+    "source": "JS"
+  },
+  {
+    "id": "JS-264",
+    "text": "水と油",
+    "source": "JS"
+  },
+  {
+    "id": "JS-265",
+    "text": "見た所",
+    "source": "JS"
+  },
+  {
+    "id": "JS-266",
+    "text": "道草を食う",
+    "source": "JS"
+  },
+  {
+    "id": "JS-267",
+    "text": "三日にあげず",
+    "source": "JS"
+  },
+  {
+    "id": "JS-268",
+    "text": "耳にする",
+    "source": "JS"
+  },
+  {
+    "id": "JS-269",
+    "text": "耳に残る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-270",
+    "text": "耳を貸す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-271",
+    "text": "実を結ぶ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-272",
+    "text": "虫の知らせ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-273",
+    "text": "胸糞が悪い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-274",
+    "text": "無にする",
+    "source": "JS"
+  },
+  {
+    "id": "JS-275",
+    "text": "胸が一杯になる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-276",
+    "text": "胸を撫で下ろす",
+    "source": "JS"
+  },
+  {
+    "id": "JS-277",
+    "text": "無服の殤",
+    "source": "JS"
+  },
+  {
+    "id": "JS-278",
+    "text": "目が泳ぐ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-279",
+    "text": "目が眩む",
+    "source": "JS"
+  },
+  {
+    "id": "JS-280",
+    "text": "目尻を下げる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-281",
+    "text": "目で殺す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-282",
+    "text": "目に余る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-283",
+    "text": "目にする",
+    "source": "JS"
+  },
+  {
+    "id": "JS-284",
+    "text": "目に付く",
+    "source": "JS"
+  },
+  {
+    "id": "JS-285",
+    "text": "めのくりだま",
+    "source": "JS"
+  },
+  {
+    "id": "JS-286",
+    "text": "目もくれない",
+    "source": "JS"
+  },
+  {
+    "id": "JS-287",
+    "text": "目を掛ける",
+    "source": "JS"
+  },
+  {
+    "id": "JS-288",
+    "text": "目を配る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-289",
+    "text": "目を留める",
+    "source": "JS"
+  },
+  {
+    "id": "JS-290",
+    "text": "目を細める",
+    "source": "JS"
+  },
+  {
+    "id": "JS-291",
+    "text": "めんくりだま",
+    "source": "JS"
+  },
+  {
+    "id": "JS-292",
+    "text": "面倒を見る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-293",
+    "text": "面目が立つ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-294",
+    "text": "もうはまだなりまだはもうなり",
+    "source": "JS"
+  },
+  {
+    "id": "JS-295",
+    "text": "勿怪の幸い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-296",
+    "text": "本を正す",
+    "source": "JS"
+  },
+  {
+    "id": "JS-297",
+    "text": "焼きを入れる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-298",
+    "text": "薬餌に親しむ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-299",
+    "text": "止むに止まれず",
+    "source": "JS"
+  },
+  {
+    "id": "JS-300",
+    "text": "ゆきつもどりつ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-301",
+    "text": "指切り拳万嘘吐いたら針千本飲ます",
+    "source": "JS"
+  },
+  {
+    "id": "JS-302",
+    "text": "夢枕に立つ",
+    "source": "JS"
+  },
+  {
+    "id": "JS-303",
+    "text": "夢を見る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-304",
+    "text": "横になる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-305",
+    "text": "予防は治療に勝る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-306",
+    "text": "藜羹を食らう者は大牢の滋味を知らず",
+    "source": "JS"
+  },
+  {
+    "id": "JS-307",
+    "text": "路頭に迷う",
+    "source": "JS"
+  },
+  {
+    "id": "JS-308",
+    "text": "別れを告げる",
+    "source": "JS"
+  },
+  {
+    "id": "JS-309",
+    "text": "脇が甘い",
+    "source": "JS"
+  },
+  {
+    "id": "JS-310",
+    "text": "渡りに船",
+    "source": "JS"
+  },
+  {
+    "id": "JS-311",
+    "text": "我に返る",
+    "source": "JS"
+  },
+  {
+    "id": "JS-312",
+    "text": "我を忘れる",
+    "source": "JS"
+  }
+]
