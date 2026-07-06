@@ -194,6 +194,21 @@
   .seg button.active{background:var(--accent); color:#fff;}
   .seg button:disabled{opacity:.4; cursor:default;}
 
+  /* appModeSeg現在有4個選項（閱讀/經文互譯/經文填空/語塊），面板較窄，
+     改用2x2網格排列，比單列4等分更容易點擊、文字也不會被擠壓。 */
+  #appModeSeg{
+    display:grid; grid-template-columns:1fr 1fr;
+    border:1px solid var(--border); border-radius:10px; overflow:hidden;
+  }
+  #appModeSeg button{
+    flex:none; background:var(--bg); border:none; color:var(--text);
+    padding:9px 4px; font-size:12.5px; cursor:pointer;
+    border-right:1px solid var(--border); border-bottom:1px solid var(--border);
+  }
+  #appModeSeg button:nth-child(2n){ border-right:none; }
+  #appModeSeg button:nth-child(3), #appModeSeg button:nth-child(4){ border-bottom:none; }
+  #appModeSeg button.active{ background:var(--accent); color:#fff; }
+
   /* ============ 主內容 ============ */
   main{
     max-width:720px;
@@ -397,6 +412,36 @@
   .chunk-gloss-lbl{ font-size:11px; color:var(--text-soft); margin-bottom:2px; text-transform:uppercase; letter-spacing:.05em; }
   .chunk-gloss{ font-size:16px; font-weight:700; color:var(--chunk-text); margin-bottom:14px; }
   .chunk-ref{ font-size:12.5px; color:var(--text-soft); }
+  .chunk-verse-lbl{ font-size:12px; color:var(--text-soft); margin-top:14px; margin-bottom:4px; }
+  .chunk-verse-box{
+    background:var(--bg); border:1px solid var(--border); border-radius:10px;
+    padding:10px 12px; font-size:15px; line-height:1.8;
+  }
+
+  /* 互動模式：語塊總覽（按書卷分組瀏覽） */
+  .chunk-book-group{
+    background:var(--bg-card); border:1px solid var(--border); border-radius:14px;
+    margin-bottom:10px; overflow:hidden;
+  }
+  .chunk-book-header{
+    width:100%; display:flex; align-items:center; justify-content:space-between;
+    gap:8px; border:none; background:transparent; color:var(--text);
+    font-size:15px; font-weight:700; padding:14px 16px; cursor:pointer; font-family:inherit;
+  }
+  .chunk-book-count{
+    font-size:12px; font-weight:400; color:var(--text-soft); margin-right:auto; margin-left:8px;
+  }
+  .chunk-book-arrow{ font-size:12px; color:var(--text-soft); }
+  .chunk-book-list{ border-top:1px solid var(--border); }
+  .chunk-row{
+    display:flex; align-items:baseline; justify-content:space-between; gap:10px;
+    padding:11px 16px; border-left:4px solid var(--border); border-bottom:1px solid var(--border);
+    cursor:pointer;
+  }
+  .chunk-row:last-child{ border-bottom:none; }
+  .chunk-row:active{ background:var(--bg); }
+  .chunk-row-text{ font-size:14.5px; line-height:1.5; }
+  .chunk-row-ref{ font-size:12px; color:var(--text-soft); white-space:nowrap; flex:0 0 auto; }
 
   /* ============ Phase 4：學習追蹤與填空測驗 ============ */
   .progress-box{
@@ -565,8 +610,10 @@
   <div class="panel-row">
     <label data-i18n="mode">模式</label>
     <div class="seg" id="appModeSeg">
-      <button class="active" data-val="read" data-i18n="modeRead">閱讀模式</button>
-      <button data-val="quiz" data-i18n="modeInteractive">互動模式</button>
+      <button class="active" data-val="read" data-i18n="modeRead">閱讀</button>
+      <button data-val="translate" data-i18n="modeTranslate">經文互譯</button>
+      <button data-val="fill" data-i18n="modeFill">經文填空</button>
+      <button data-val="chunks" data-i18n="modeChunks">語塊</button>
     </div>
   </div>
 
@@ -636,9 +683,6 @@
       <div class="progress-label" data-i18n="progressDesc">已內化語義塊（示範規模，正式版對應全書高頻顆粒）</div>
       <div class="progress-bar-track"><div class="progress-bar-fill" id="progressBarFill" style="width:0%"></div></div>
     </div>
-    <button class="sheet-star" id="quizBtn" style="width:100%; justify-content:center; margin-top:0;">
-      🎯 <span data-i18n="quizBtn">情境復現測驗</span>
-    </button>
   </div>
 </div>
 
@@ -675,16 +719,11 @@
   <div id="chunkNotebookList"></div>
 </div>
 
-<div class="sheet-backdrop" id="quizSheetBackdrop"></div>
-<div class="sheet" id="quizSheet">
-  <div class="sheet-handle"></div>
-  <button class="sheet-close" id="quizSheetClose" aria-label="關閉">✕</button>
-  <div id="quizSheetBody"></div>
-</div>
-
 <main>
   <div id="verseList"></div>
   <div id="quizView" style="display:none;"></div>
+  <div id="fillQuizView" style="display:none;"></div>
+  <div id="chunkListView" style="display:none;"></div>
 </main>
 
 <!-- 詞彙數據庫（7042條，由 build_vocab_data.py 從 vocab_db.jsonl 轉出）
@@ -1229,8 +1268,10 @@ panelBackdrop.addEventListener('click', ()=>{
    這是大多數App的慣例做法（切語言＝整個介面跟著換，不是只換內文）。 */
 const PANEL_I18N = {
   mode:              { zh:"模式", en:"Mode", ja:"モード" },
-  modeRead:          { zh:"閱讀模式", en:"Reading Mode", ja:"読書モード" },
-  modeInteractive:   { zh:"互動模式", en:"Interactive Mode", ja:"インタラクティブモード" },
+  modeRead:          { zh:"閱讀", en:"Read", ja:"読書" },
+  modeTranslate:     { zh:"經文互譯", en:"Verse Translate", ja:"聖句対訳" },
+  modeFill:          { zh:"經文填空", en:"Fill Blank", ja:"穴埋め" },
+  modeChunks:        { zh:"語塊", en:"Chunks", ja:"チャンク" },
   defaultLang:       { zh:"缺省語言（決定標題／目錄／經文排序，缺省語言永遠排最前）",
                         en:"Default Language (decides title/menu/verse order; shown first)",
                         ja:"既定言語（タイトル／目次／聖句の並び順を決定、常に先頭に表示）" },
@@ -1255,7 +1296,6 @@ const PANEL_I18N = {
   progressDesc:      { zh:"已內化語義塊（示範規模，正式版對應全書高頻顆粒）",
                         en:"Internalized chunks (demo scale; full version covers high-frequency chunks book-wide)",
                         ja:"内化済みチャンク（デモ規模、正式版は全巻高頻度チャンクに対応）" },
-  quizBtn:           { zh:"情境復現測驗", en:"Context Recall Quiz", ja:"文脈再現クイズ" },
 };
 function applyPanelI18n(lang){
   document.querySelectorAll('#panel [data-i18n]').forEach(el=>{
@@ -1282,6 +1322,7 @@ setupSeg('defaultLangSeg', val=>{
   renderVerses();
   applyPanelI18n(val);
   if(quizCurrent) renderQuizView();
+  if(typeof CHUNK_LIST_BY_BOOK !== 'undefined') renderChunkListView();
 });
 setupSeg('fontSizeSeg', val=>{
   document.documentElement.style.setProperty('--font-scale', val);
@@ -1538,6 +1579,34 @@ function playVerseRealAudio(info, btnEl){
 const chunkSheet = document.getElementById('chunkSheet');
 const chunkSheetBackdrop = document.getElementById('chunkSheetBackdrop');
 const chunkSheetBody = document.getElementById('chunkSheetBody');
+/* 所在經文預覽區內的單詞/語塊/朗讀點擊代理（跟quizView/verseList同一套代理邏輯）。
+   只掛一次在chunkSheetBody上，避免renderChunkSheet每次重繪都重複綁定。 */
+function getVerseTextForChunk(bookCode, lang, chapter, verse){
+  const source = BOOK_TEXT_SOURCES[bookCode];
+  const chapterObj = source ? source.chapters[chapter] : null;
+  const v = chapterObj ? chapterObj.verses[verse] : null;
+  return v ? v[lang] : null;
+}
+chunkSheetBody.addEventListener('click', e=>{
+  const wordEl = e.target.closest('.word');
+  if(wordEl){ openWordSheet(wordEl.dataset.id); return; }
+  const chunkEl = e.target.closest('.chunk');
+  if(chunkEl){ openChunkSheet(chunkEl.dataset.cid); return; }
+  const speakBtn = e.target.closest('button[data-speak-lang]');
+  if(speakBtn && speakBtn.dataset.book){
+    const lang = speakBtn.dataset.speakLang;
+    const bookCode = speakBtn.dataset.book;
+    const chapter = parseInt(speakBtn.dataset.chapter);
+    const verse = parseInt(speakBtn.dataset.verse);
+    const text = getVerseTextForChunk(bookCode, lang, chapter, verse);
+    const audioInfo = getVerseAudioInfo(bookCode, lang, chapter, verse);
+    if(audioInfo){
+      playVerseRealAudio(audioInfo, speakBtn);
+    }else if(text){
+      speak(text, LANGS[lang].ttsLang);
+    }
+  }
+});
 
 function openChunkSheet(id){
   const c = CHUNKS_BY_ID[id];
@@ -1550,12 +1619,17 @@ function openChunkSheet(id){
 function renderChunkSheet(c){
   const on = getChunkNotebook().includes(c.id);
   const audioInfo = CHUNK_AUDIO_SAFE[c.id];
+  const verseText = getVerseTextForChunk(c.book, c.lang, c.chapter, c.verse);
   chunkSheetBody.innerHTML = `
     <span class="chunk-tag">${c.tag}</span>
     <div class="chunk-phrase">${c.text}</div>
     <div class="chunk-gloss-lbl">附注 gloss</div>
     <div class="chunk-gloss">${c.gloss}</div>
     <div class="chunk-ref">出處：${c.ref}</div>
+    ${verseText ? `
+    <div class="chunk-verse-lbl">所在經文</div>
+    <div class="chunk-verse-box">${quizVerseLineHtml(c.book, c.lang, c.chapter, c.verse, verseText)}</div>
+    ` : ''}
     ${audioInfo
       ? `<button class="sheet-star" id="chunkRealAudioBtn" style="margin-top:14px;">🎧 播放真人語音</button>
          <button class="sheet-star" id="chunkSpeakBtn" style="margin-top:10px;">🔊 TTS朗讀（機器合成）</button>`
@@ -1714,6 +1788,13 @@ const QUIZ_POOL = buildQuizPool();
 if(QUIZ_POOL.length === 0){
   console.warn('QUIZ_POOL為空——三語配對測驗題庫沒有任何一節三語文字齊全，請確認BOOK_TEXT_SOURCES資料是否正確載入。');
 }
+/* 保底範例（若資料庫因故載入失敗導致QUIZ_POOL為空，仍用這節固定經文示範，不留白） */
+const QUIZ_FALLBACK_ENTRY = {
+  book:'PSA', chapter:23, verse:1,
+  zh:'耶和華是我的牧者，我必不致缺乏。',
+  en:'The LORD is my shepherd; I shall lack nothing.',
+  ja:'主はわたしの牧者であって、わたしには乏しいことがない。'
+};
 
 let quizLangSetting = localStorage.getItem('bible_quizLang') || 'random'; // 'random' | 'zh' | 'en' | 'ja'
 let quizCurrent = null;    // { entry, promptLang }；null＝清零狀態
@@ -1818,9 +1899,7 @@ function renderQuizView(){
   document.getElementById('quizLangSelect').addEventListener('change', e=>{
     quizLangSetting = e.target.value;
     localStorage.setItem('bible_quizLang', quizLangSetting);
-    quizCurrent = null;       // 需求2：切換出題語言後回到清零狀態，需重新按「出題」
-    quizRevealed = false;
-    renderQuizView();
+    generateQuizQuestion(); // 用範例取代清零：切換出題語言後直接示範一題，不留白
   });
   document.getElementById('quizGenBtn').addEventListener('click', generateQuizQuestion);
   document.getElementById('quizRevealBtn').addEventListener('click', revealQuizAnswer);
@@ -1868,9 +1947,10 @@ function renderQuizBodyHtml(){
 }
 
 function generateQuizQuestion(){
-  // 需求2：無論目前處在什麼狀況，一點「出題」即清零後衝到開始
-  if(!QUIZ_POOL.length){ quizCurrent = null; renderQuizView(); return; }
-  const entry = QUIZ_POOL[Math.floor(Math.random()*QUIZ_POOL.length)];
+  // 無論目前處在什麼狀況，一點「出題」即清零重來；若題庫真的異常為空，改用固定保底範例（詩23:1），不留白
+  const entry = QUIZ_POOL.length
+    ? QUIZ_POOL[Math.floor(Math.random()*QUIZ_POOL.length)]
+    : QUIZ_FALLBACK_ENTRY;
   quizCurrent = { entry, promptLang: pickQuizPromptLang() };
   quizRevealed = false;
   quizUserInput = { zh:'', en:'', ja:'' };
@@ -1910,12 +1990,16 @@ document.getElementById('quizView').addEventListener('click', e=>{
   }
 });
 
-/* ============ 模式切換：閱讀模式 / 互動模式 ============ */
+/* ============ 模式切換：閱讀 / 經文互譯 / 經文填空 / 語塊 ============ */
 function switchAppMode(mode){
-  document.getElementById('verseList').style.display = mode === 'quiz' ? 'none' : '';
-  document.getElementById('quizView').style.display = mode === 'quiz' ? '' : 'none';
+  document.getElementById('verseList').style.display     = mode === 'read'      ? '' : 'none';
+  document.getElementById('quizView').style.display      = mode === 'translate' ? '' : 'none';
+  document.getElementById('fillQuizView').style.display  = mode === 'fill'      ? '' : 'none';
+  document.getElementById('chunkListView').style.display = mode === 'chunks'    ? '' : 'none';
   localStorage.setItem('bible_appMode', mode);
-  if(mode === 'quiz') renderQuizView(); // 需求2：進入互動模式時維持目前狀態渲染（首次載入quizCurrent本來就是null＝清零狀態）
+  if(mode === 'translate'){ if(!quizCurrent) generateQuizQuestion(); else renderQuizView(); } // 經文互譯：首次進入自動示範一題，不留白；已有題目則維持現狀
+  if(mode === 'fill') renderFillQuizView();       // 經文填空：沿用原本「一進來就自動出題」的體驗
+  if(mode === 'chunks') renderChunkListView();    // 語塊：按書卷分組列表
 }
 setupSeg('appModeSeg', switchAppMode);
 (function restoreAppMode(){
@@ -1924,10 +2008,71 @@ setupSeg('appModeSeg', switchAppMode);
   switchAppMode(saved);
 })();
 
-/* ============ Phase 4：情境復現填空測驗 ============ */
-const quizSheet = document.getElementById('quizSheet');
-const quizSheetBackdrop = document.getElementById('quizSheetBackdrop');
-const quizSheetBody = document.getElementById('quizSheetBody');
+/* ============ 語塊總覽（新功能）：按書卷分組瀏覽所有已標注語塊 ============
+   只按書卷分組（不細分到章），同一列合併顯示英/日語塊，用跟閱讀模式一致的
+   --en-color/--ja-color在每列左側標色區分語言（目前尚無中文語塊）。
+   點擊任一列，開啟既有的語塊詳情彈窗（openChunkSheet），裡面已包含讀音/附注/
+   加入語塊本功能，另外新增了「所在經文」（見renderChunkSheet的修改）。 */
+function buildChunkListByBook(){
+  const map = {};
+  BOOK_ORDER.forEach(bookCode=>{
+    const list = CHUNKS.filter(c=>c.book===bookCode).slice().sort((a,b)=>
+      (a.chapter-b.chapter) || (a.verse-b.verse) || (a.lang<b.lang?-1:1)
+    );
+    if(list.length) map[bookCode] = list;
+  });
+  return map;
+}
+const CHUNK_LIST_BY_BOOK = buildChunkListByBook();
+let chunkListExpanded = {};
+
+const CHUNK_LIST_UI = {
+  title: { zh:'語塊總覽（按書卷分組）', en:'Chunk Library (by book)', ja:'チャンク一覧（書巻別）' },
+};
+
+function renderChunkListView(){
+  const el = document.getElementById('chunkListView');
+  el.innerHTML = `
+    <div class="verse" style="text-align:center;font-weight:700;">${qt(CHUNK_LIST_UI.title)}</div>
+    ${Object.keys(CHUNK_LIST_BY_BOOK).map(bookCode=>{
+      const list = CHUNK_LIST_BY_BOOK[bookCode];
+      const open = !!chunkListExpanded[bookCode];
+      const bookLabel = BOOKS[bookCode] ? BOOKS[bookCode][defaultLang] : bookCode;
+      return `
+        <div class="chunk-book-group">
+          <button class="chunk-book-header" data-book="${bookCode}">
+            <span>${bookLabel}</span>
+            <span class="chunk-book-count">${list.length}</span>
+            <span class="chunk-book-arrow">${open ? '▾' : '▸'}</span>
+          </button>
+          ${open ? `
+          <div class="chunk-book-list">
+            ${list.map(c=>`
+              <div class="chunk-row" data-cid="${c.id}" style="border-left-color:var(${c.lang==='en'?'--en-color':'--ja-color'});">
+                <span class="chunk-row-text">${escapeHtml(c.text)}</span>
+                <span class="chunk-row-ref">${c.chapter}:${c.verse}</span>
+              </div>
+            `).join('')}
+          </div>` : ''}
+        </div>
+      `;
+    }).join('')}
+  `;
+  el.querySelectorAll('.chunk-book-header').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      const book = btn.dataset.book;
+      chunkListExpanded[book] = !chunkListExpanded[book];
+      renderChunkListView();
+    });
+  });
+}
+document.getElementById('chunkListView').addEventListener('click', e=>{
+  const row = e.target.closest('.chunk-row');
+  if(row) openChunkSheet(row.dataset.cid);
+});
+
+/* ============ Phase 4：情境復現填空測驗（現在是主內容區的「經文填空」模式，
+   不再是彈出式sheet；沿用原本「一進來就自動出題」的體驗） ============ */
 let quizCurrentId = null;
 
 function pickQuizChunk(){
@@ -1937,10 +2082,12 @@ function pickQuizChunk(){
   return pool[Math.floor(Math.random() * pool.length)];
 }
 
-function renderQuiz(){
+function renderFillQuizView(){
+  if(!quizCurrentId) quizCurrentId = pickQuizChunk().id;
   const c = CHUNKS_BY_ID[quizCurrentId];
   const internalized = getInternalized().includes(c.id);
-  quizSheetBody.innerHTML = `
+  const el = document.getElementById('fillQuizView');
+  el.innerHTML = `
     <div class="quiz-prompt-lbl">你還記得這個顆粒嗎？</div>
     <div class="quiz-blank">${c.blank}</div>
     <input class="quiz-input" id="quizInput" placeholder="輸入缺少的單詞" autocomplete="off">
@@ -1983,7 +2130,7 @@ function renderQuiz(){
   input.addEventListener('keydown', e=>{ if(e.key === 'Enter') checkAnswer(); });
   document.getElementById('quizNextBtn').addEventListener('click', ()=>{
     quizCurrentId = pickQuizChunk().id;
-    renderQuiz();
+    renderFillQuizView();
   });
   document.getElementById('quizMarkBtn').addEventListener('click', ()=>{
     const on = !getInternalized().includes(c.id);
@@ -1991,19 +2138,6 @@ function renderQuiz(){
     renderMarkBtnState();
   });
 }
-
-document.getElementById('quizBtn').addEventListener('click', ()=>{
-  quizCurrentId = pickQuizChunk().id;
-  renderQuiz();
-  quizSheet.classList.add('open');
-  quizSheetBackdrop.classList.add('open');
-});
-document.getElementById('quizSheetClose').addEventListener('click', ()=>{
-  quizSheet.classList.remove('open'); quizSheetBackdrop.classList.remove('open');
-});
-quizSheetBackdrop.addEventListener('click', ()=>{
-  quizSheet.classList.remove('open'); quizSheetBackdrop.classList.remove('open');
-});
 
 window.addEventListener('scroll', ()=>{
   localStorage.setItem('bible_scrollY', window.scrollY);
