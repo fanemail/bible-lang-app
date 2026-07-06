@@ -27,6 +27,7 @@
     --chunk-bg-hover:#dccf9e;
     --chunk-border:#c9b878;
     --chunk-text:#6b5518;
+    --quiz-bar-bg:#f2ead9;   /* 互動模式二級置頂欄底色：比bg-card深、比topbar的settings/chapter區塊淺，形成第三種色階 */
   }
   [data-theme="dark"]{
     --bg:#1c1a17;
@@ -47,6 +48,7 @@
     --chunk-bg-hover:#5c4d2a;
     --chunk-border:#8a7538;
     --chunk-text:#e8d38a;
+    --quiz-bar-bg:#332b1e;
   }
   *{box-sizing:border-box;}
   html,body{margin:0;padding:0;}
@@ -445,6 +447,62 @@
   }
   .quiz-mark-btn.on{ background:var(--accent); color:#fff; border-color:var(--accent); }
 
+  /* 互動模式：三語經文配對測驗 */
+  .quiz-answer-input{
+    width:100%; border:1px solid var(--border); border-radius:10px;
+    padding:10px 12px; font-size:15px; background:var(--bg); color:var(--text);
+    font-family:inherit; resize:vertical; min-height:44px; box-sizing:border-box;
+  }
+  .quiz-reveal-box{ background:var(--bg); border-radius:10px; padding:10px 12px; }
+  /* 互動模式二級置頂欄：貼在主頂欄下方，跟主頂欄用不同色階（--quiz-bar-bg）區分層級。
+     手機（<600px）：2x2網格平均分佈，避免擠成一團；
+     桌面（≥600px，跟全站既有斷點一致）：改成單列、justify-content:space-between平均分散。 */
+  .quiz-topbar{
+    position:sticky; top:var(--nav-h); z-index:5;
+    display:grid; grid-template-columns:1fr 1fr; gap:10px;
+    align-items:center;
+    background:var(--quiz-bar-bg); border:1px solid var(--border); border-radius:14px;
+    padding:10px 14px; margin-bottom:12px;
+  }
+  .quiz-topbar-title{
+    justify-self:start;
+    background:var(--accent-soft); color:var(--accent);
+    font-weight:700; font-size:13px; white-space:nowrap;
+    padding:6px 14px; border-radius:20px;
+  }
+  .quiz-lang-group{
+    justify-self:end; display:flex; align-items:center; gap:6px; min-width:0;
+  }
+  .quiz-lang-group-label{ font-size:12px; color:var(--text-soft); white-space:nowrap; }
+  .quiz-lang-select{
+    border:1px solid var(--border); border-radius:8px; padding:6px 8px;
+    background:var(--bg); color:var(--text); font-size:13px; flex:0 0 auto; min-width:0;
+  }
+  .quiz-topbar-btn{
+    border:none; border-radius:8px; padding:8px 0; font-size:13px; font-weight:700;
+    cursor:pointer; background:var(--accent); color:#fff; width:100%;
+  }
+  .quiz-topbar-btn.secondary{ background:var(--bg); color:var(--text); border:1px solid var(--border); }
+  .quiz-topbar-btn:disabled{ opacity:.4; cursor:default; }
+  @media (min-width:600px){
+    .quiz-topbar{
+      grid-template-columns:none;
+      display:flex; flex-wrap:nowrap; justify-content:space-between; gap:14px;
+    }
+    .quiz-topbar-title, .quiz-lang-group{ justify-self:auto; flex:0 0 auto; }
+    .quiz-topbar-btn{ width:auto; padding:8px 20px; flex:0 0 auto; }
+  }
+  .quiz-diff-box{
+    width:100%; border:1px solid var(--border); border-radius:10px;
+    padding:10px 12px; font-size:15px; background:var(--bg); color:var(--text);
+    line-height:1.8; box-sizing:border-box; white-space:pre-wrap;
+  }
+  .diff-del{ color:#a3372e; text-decoration:line-through; }
+  .diff-ins{ background:#dcefd8; color:#2f6b25; border-radius:3px; padding:0 2px; }
+  [data-theme="dark"] .diff-del{ color:#e79b93; }
+  [data-theme="dark"] .diff-ins{ background:#26382a; color:#8fd681; }
+  .quiz-diff-legend{ font-size:12px; color:var(--text-soft); margin:-4px 0 12px; }
+
 
 
 
@@ -506,9 +564,9 @@
 
   <div class="panel-row">
     <label data-i18n="mode">模式</label>
-    <div class="seg">
-      <button class="active" disabled data-i18n="modeRead">閱讀模式</button>
-      <button disabled title="尚未開放" data-i18n="modeInteractive">互動模式</button>
+    <div class="seg" id="appModeSeg">
+      <button class="active" data-val="read" data-i18n="modeRead">閱讀模式</button>
+      <button data-val="quiz" data-i18n="modeInteractive">互動模式</button>
     </div>
   </div>
 
@@ -626,6 +684,7 @@
 
 <main>
   <div id="verseList"></div>
+  <div id="quizView" style="display:none;"></div>
 </main>
 
 <!-- 詞彙數據庫（7042條，由 build_vocab_data.py 從 vocab_db.jsonl 轉出）
@@ -1222,6 +1281,7 @@ setupSeg('defaultLangSeg', val=>{
   localStorage.setItem('bible_defaultLang', val);
   renderVerses();
   applyPanelI18n(val);
+  if(quizCurrent) renderQuizView();
 });
 setupSeg('fontSizeSeg', val=>{
   document.documentElement.style.setProperty('--font-scale', val);
@@ -1621,6 +1681,248 @@ function updateProgress(){
   document.getElementById('progressBarFill').style.width = pct + '%';
 }
 updateProgress();
+
+/* ============ 互動模式：三語經文配對測驗 ============
+   出題邏輯：從BOOKS登記的11卷之中，找出「三語文字皆已存在」的節，組成題庫QUIZ_POOL。
+   二級置頂欄（quiz-topbar）常駐在頂欄下方，內容由左到右：標題／出題語言下拉／出題／答案，
+   節省手機畫面（不用滑到內容區才能操作）。
+   狀態機：quizCurrent為null代表「清零狀態」（首次開啟、或切換出題語言後都會回到這個狀態），
+   此時畫面只顯示提示文字，不顯示題目。按下「出題」永遠是「無論目前處在什麼狀態，
+   立刻清空目前輸入、重新隨機抽一題、顯示題目」，不會有殘留的舊答案或舊輸入。
+   按「答案」時：(a) 把使用者目前打的內容跟資料庫正確經文做逐字/逐詞比對（computeDiff），
+   直接疊在輸入框原本的位置上，用顏色標示「你打對的部分」「你打錯/多打的部分（刪除線）」
+   「你漏打的部分（自動補上，底色標示）」；(b) 同時在下方保留完整的正確經文，
+   沿用既有的語塊高亮/單詞查詢/真人語音點讀功能，供學習查閱。 */
+function buildQuizPool(){
+  const pool = [];
+  BOOK_ORDER.forEach(bookCode=>{
+    const source = BOOK_TEXT_SOURCES[bookCode];
+    if(!source) return;
+    Object.keys(source.chapters).forEach(chNum=>{
+      const chapterObj = source.chapters[chNum];
+      Object.keys(chapterObj.verses).forEach(vNum=>{
+        const v = chapterObj.verses[vNum];
+        if(v.en && v.zh && v.ja){
+          pool.push({ book:bookCode, chapter:parseInt(chNum), verse:parseInt(vNum), en:v.en, zh:v.zh, ja:v.ja });
+        }
+      });
+    });
+  });
+  return pool;
+}
+const QUIZ_POOL = buildQuizPool();
+if(QUIZ_POOL.length === 0){
+  console.warn('QUIZ_POOL為空——三語配對測驗題庫沒有任何一節三語文字齊全，請確認BOOK_TEXT_SOURCES資料是否正確載入。');
+}
+
+let quizLangSetting = localStorage.getItem('bible_quizLang') || 'random'; // 'random' | 'zh' | 'en' | 'ja'
+let quizCurrent = null;    // { entry, promptLang }；null＝清零狀態
+let quizRevealed = false;
+let quizUserInput = { zh:'', en:'', ja:'' };
+
+function pickQuizPromptLang(){
+  if(quizLangSetting !== 'random') return quizLangSetting;
+  const langs = ['zh','en','ja'];
+  return langs[Math.floor(Math.random()*langs.length)];
+}
+
+const QUIZ_LANG_LABEL = {
+  zh:{ zh:'中文', en:'中文',    ja:'中文'   },
+  en:{ zh:'英文', en:'English', ja:'英語'   },
+  ja:{ zh:'日文', en:'Japanese',ja:'日本語' },
+};
+const QUIZ_UI = {
+  title:       { zh:'經文三語配對', en:'Trilingual Verse Match', ja:'聖句三言語対応' },
+  promptLbl:   { zh:'題目', en:'Prompt', ja:'出題' },
+  yourAnswer:  { zh:'輸入你的翻譯', en:'Enter your translation', ja:'あなたの訳を入力' },
+  answerLbl:   { zh:'正確經文', en:'Correct verse', ja:'正解' },
+  genBtn:      { zh:'出題', en:'New', ja:'出題' },
+  reveal:      { zh:'答案', en:'Answer', ja:'答え' },
+  langSettingLbl: { zh:'出題語言', en:'Prompt Lang', ja:'出題言語' },
+  placeholder: { zh:'憑記憶輸入……', en:'Type from memory…', ja:'記憶を頼りに入力……' },
+  langRandom:  { zh:'隨機', en:'Random', ja:'ランダム' },
+  emptyState:  { zh:'點擊上方「出題」開始配對測驗', en:'Tap "New" above to start', ja:'上の「出題」をタップして開始' },
+  diffLegend:  { zh:'綠色底色＝你漏打的部分（已自動補上）　　刪除線＝你多打或打錯的部分',
+                 en:'Green highlight = missing (auto-filled)　　Strikethrough = extra or incorrect',
+                 ja:'緑色＝抜け（自動補完）　　取り消し線＝誤り・余分な部分' },
+};
+function qt(dict){ return dict[defaultLang] || dict.zh; }
+
+/* 產生單語一節的可互動HTML（語塊高亮+單詞查詢+真人語音/TTS朗讀按鈕），跟renderVerses()同一套邏輯 */
+function quizVerseLineHtml(bookCode, lang, chapter, verseNum, text){
+  const hasAudio = getVerseAudioInfo(bookCode, lang, chapter, verseNum);
+  const icon = hasAudio ? '🎧' : '🔊';
+  return `${highlightText(highlightChunks(text, lang, bookCode), lang)}<button class="inline-btn speak" data-speak-lang="${lang}" data-book="${bookCode}" data-chapter="${chapter}" data-verse="${verseNum}" aria-label="朗讀">${icon}</button>`;
+}
+
+/* ---- 逐字/逐詞比對：英文用單詞切詞，中/日用單字切詞（無空格語言的合理折衷） ---- */
+function escapeHtml(s){
+  return String(s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function diffTokenize(text, lang){
+  if(!text) return [];
+  if(lang === 'en') return text.match(/[A-Za-z']+|[^A-Za-z']+/g) || [];
+  return Array.from(text);
+}
+/* 標準LCS回溯法：same＝雙方相同；del＝使用者多打/打錯（只出現在使用者輸入）；
+   ins＝使用者漏打（只出現在正確答案，視為「自動增補」） */
+function computeDiff(userTokens, correctTokens){
+  const n = userTokens.length, m = correctTokens.length;
+  const dp = Array.from({length:n+1}, ()=> new Array(m+1).fill(0));
+  for(let i=n-1;i>=0;i--){
+    for(let j=m-1;j>=0;j--){
+      dp[i][j] = userTokens[i]===correctTokens[j] ? dp[i+1][j+1]+1 : Math.max(dp[i+1][j], dp[i][j+1]);
+    }
+  }
+  const ops = [];
+  let i=0,j=0;
+  while(i<n && j<m){
+    if(userTokens[i]===correctTokens[j]){ ops.push({type:'same',text:userTokens[i]}); i++; j++; }
+    else if(dp[i+1][j] >= dp[i][j+1]){ ops.push({type:'del',text:userTokens[i]}); i++; }
+    else{ ops.push({type:'ins',text:correctTokens[j]}); j++; }
+  }
+  while(i<n){ ops.push({type:'del',text:userTokens[i]}); i++; }
+  while(j<m){ ops.push({type:'ins',text:correctTokens[j]}); j++; }
+  return ops;
+}
+function diffHtml(userText, correctText, lang){
+  const ops = computeDiff(diffTokenize(userText, lang), diffTokenize(correctText, lang));
+  if(!userText) return `<span class="diff-ins">${escapeHtml(correctText)}</span>`;
+  return ops.map(op=>{
+    const esc = escapeHtml(op.text);
+    if(op.type==='same') return esc;
+    if(op.type==='del') return `<span class="diff-del">${esc}</span>`;
+    return `<span class="diff-ins">${esc}</span>`;
+  }).join('');
+}
+
+/* ---- 渲染 ---- */
+function renderQuizView(){
+  const el = document.getElementById('quizView');
+  const langOptions = ['random','zh','en','ja'];
+  el.innerHTML = `
+    <div class="quiz-topbar" id="quizTopbar">
+      <span class="quiz-topbar-title">${qt(QUIZ_UI.title)}</span>
+      <div class="quiz-lang-group">
+        <label class="quiz-lang-group-label" for="quizLangSelect">${qt(QUIZ_UI.langSettingLbl)}</label>
+        <select id="quizLangSelect" class="quiz-lang-select">
+          ${langOptions.map(v=>`<option value="${v}" ${quizLangSetting===v?'selected':''}>${v==='random'?qt(QUIZ_UI.langRandom):QUIZ_LANG_LABEL[v][defaultLang]}</option>`).join('')}
+        </select>
+      </div>
+      <button id="quizGenBtn" class="quiz-topbar-btn">${qt(QUIZ_UI.genBtn)}</button>
+      <button id="quizRevealBtn" class="quiz-topbar-btn secondary" ${(!quizCurrent || quizRevealed)?'disabled':''}>${qt(QUIZ_UI.reveal)}</button>
+    </div>
+    <div id="quizBody">${renderQuizBodyHtml()}</div>
+  `;
+
+  document.getElementById('quizLangSelect').addEventListener('change', e=>{
+    quizLangSetting = e.target.value;
+    localStorage.setItem('bible_quizLang', quizLangSetting);
+    quizCurrent = null;       // 需求2：切換出題語言後回到清零狀態，需重新按「出題」
+    quizRevealed = false;
+    renderQuizView();
+  });
+  document.getElementById('quizGenBtn').addEventListener('click', generateQuizQuestion);
+  document.getElementById('quizRevealBtn').addEventListener('click', revealQuizAnswer);
+
+  if(quizCurrent && !quizRevealed){
+    ['zh','en','ja'].filter(l=>l!==quizCurrent.promptLang).forEach(l=>{
+      const ta = document.querySelector(`textarea[data-lang-input="${l}"]`);
+      if(ta){
+        ta.value = quizUserInput[l] || '';
+        ta.addEventListener('input', e=>{ quizUserInput[l] = e.target.value; });
+      }
+    });
+  }
+}
+
+function renderQuizBodyHtml(){
+  if(!quizCurrent){
+    return `<div class="verse" style="text-align:center;color:var(--text-soft);">${qt(QUIZ_UI.emptyState)}</div>`;
+  }
+  const { entry, promptLang } = quizCurrent;
+  const otherLangs = ['zh','en','ja'].filter(l=>l!==promptLang);
+  const bookLabel = BOOKS[entry.book] ? BOOKS[entry.book][defaultLang] : entry.book;
+
+  return `
+    <div class="verse">
+      <div class="lbl">${qt(QUIZ_UI.promptLbl)}（${QUIZ_LANG_LABEL[promptLang][defaultLang]} · ${bookLabel} ${entry.chapter}:${entry.verse}）</div>
+      <span class="primary-text" data-lang="${promptLang}">${quizVerseLineHtml(entry.book, promptLang, entry.chapter, entry.verse, entry[promptLang])}</span>
+    </div>
+    ${otherLangs.map(l=>`
+      <div class="verse-extra" data-lang-block="${l}" style="display:block;">
+        <div class="lbl">${qt(QUIZ_UI.yourAnswer)}（${QUIZ_LANG_LABEL[l][defaultLang]}）</div>
+        ${quizRevealed
+          ? `<div class="quiz-diff-box">${diffHtml(quizUserInput[l]||'', entry[l], l)}</div>`
+          : `<textarea class="quiz-answer-input" data-lang-input="${l}" rows="2" placeholder="${qt(QUIZ_UI.placeholder)}"></textarea>`
+        }
+        ${quizRevealed ? `
+        <div class="quiz-reveal-box" data-reveal-lang="${l}" style="margin-top:8px;">
+          <div class="lbl">${qt(QUIZ_UI.answerLbl)}</div>
+          <span class="extra-text" data-lang="${l}">${quizVerseLineHtml(entry.book, l, entry.chapter, entry.verse, entry[l])}</span>
+        </div>` : ''}
+      </div>
+    `).join('')}
+    ${quizRevealed ? `<div class="quiz-diff-legend">${qt(QUIZ_UI.diffLegend)}</div>` : ''}
+  `;
+}
+
+function generateQuizQuestion(){
+  // 需求2：無論目前處在什麼狀況，一點「出題」即清零後衝到開始
+  if(!QUIZ_POOL.length){ quizCurrent = null; renderQuizView(); return; }
+  const entry = QUIZ_POOL[Math.floor(Math.random()*QUIZ_POOL.length)];
+  quizCurrent = { entry, promptLang: pickQuizPromptLang() };
+  quizRevealed = false;
+  quizUserInput = { zh:'', en:'', ja:'' };
+  renderQuizView();
+}
+
+function revealQuizAnswer(){
+  if(!quizCurrent || quizRevealed) return;
+  // 重新渲染前，先把目前輸入框裡使用者實際打的內容存起來，避免渲染後遺失
+  ['zh','en','ja'].forEach(l=>{
+    const ta = document.querySelector(`textarea[data-lang-input="${l}"]`);
+    if(ta) quizUserInput[l] = ta.value;
+  });
+  quizRevealed = true;
+  renderQuizView();
+}
+
+/* 事件代理：quizView內的單詞/語塊點擊、朗讀按鈕，複用既有彈窗與播放邏輯（跟#verseList的代理邏輯對應） */
+document.getElementById('quizView').addEventListener('click', e=>{
+  const wordEl = e.target.closest('.word');
+  if(wordEl){ openWordSheet(wordEl.dataset.id); return; }
+  const chunkEl = e.target.closest('.chunk');
+  if(chunkEl){ openChunkSheet(chunkEl.dataset.cid); return; }
+  const speakBtn = e.target.closest('button[data-speak-lang]');
+  if(speakBtn && quizCurrent){
+    const lang = speakBtn.dataset.speakLang;
+    const bookCode = speakBtn.dataset.book;
+    const chapter = parseInt(speakBtn.dataset.chapter);
+    const verse = parseInt(speakBtn.dataset.verse);
+    const text = quizCurrent.entry[lang];
+    const audioInfo = getVerseAudioInfo(bookCode, lang, chapter, verse);
+    if(audioInfo){
+      playVerseRealAudio(audioInfo, speakBtn);
+    }else{
+      speak(text, LANGS[lang].ttsLang);
+    }
+  }
+});
+
+/* ============ 模式切換：閱讀模式 / 互動模式 ============ */
+function switchAppMode(mode){
+  document.getElementById('verseList').style.display = mode === 'quiz' ? 'none' : '';
+  document.getElementById('quizView').style.display = mode === 'quiz' ? '' : 'none';
+  localStorage.setItem('bible_appMode', mode);
+  if(mode === 'quiz') renderQuizView(); // 需求2：進入互動模式時維持目前狀態渲染（首次載入quizCurrent本來就是null＝清零狀態）
+}
+setupSeg('appModeSeg', switchAppMode);
+(function restoreAppMode(){
+  const saved = localStorage.getItem('bible_appMode') || 'read';
+  document.querySelectorAll('#appModeSeg button').forEach(b=>b.classList.toggle('active', b.dataset.val === saved));
+  switchAppMode(saved);
+})();
 
 /* ============ Phase 4：情境復現填空測驗 ============ */
 const quizSheet = document.getElementById('quizSheet');
