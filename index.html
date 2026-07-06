@@ -1,0 +1,1715 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<title>聖經多語言學習 — Phase 1 MVP（詩篇示範）</title>
+<style>
+  :root{
+    --bg:#faf8f3;
+    --bg-card:#ffffff;
+    --text:#2a2622;
+    --text-soft:#6b6357;
+    --accent:#8a6d3b;
+    --accent-soft:#e8dfc9;
+    --border:#e4ddcd;
+    --en-color:#2f5f8a;
+    --ja-color:#8a4b1f;   /* 棕色，與中文黑字形成高對比 */
+    --zh-color:#1c1a17;   /* 高對比近黑 */
+    --font-scale:1;
+    --line-scale:1.7;
+    --nav-h:74px;
+    --col-settings-bg:#e8dfc9;
+    --col-chapter-bg:#f3ede0;
+    --col-brand-bg:#8a6d3b;
+    --col-brand-text:#fff8ec;
+    --chunk-bg:#e9dfc0;
+    --chunk-bg-hover:#dccf9e;
+    --chunk-border:#c9b878;
+    --chunk-text:#6b5518;
+  }
+  [data-theme="dark"]{
+    --bg:#1c1a17;
+    --bg-card:#26231f;
+    --text:#ece7dd;
+    --text-soft:#a89f8f;
+    --accent:#d8b478;
+    --accent-soft:#3a3327;
+    --border:#3a352c;
+    --en-color:#82b3e0;
+    --ja-color:#d99a5b;   /* 深色模式下的棕色，保持高對比 */
+    --zh-color:#f2ede2;
+    --col-settings-bg:#332c22;
+    --col-chapter-bg:#2c2822;
+    --col-brand-bg:#5c4726;
+    --col-brand-text:#f5e6c8;
+    --chunk-bg:#4a3f22;
+    --chunk-bg-hover:#5c4d2a;
+    --chunk-border:#8a7538;
+    --chunk-text:#e8d38a;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Noto Sans TC","Hiragino Sans","PingFang TC",-apple-system,BlinkMacSystemFont,sans-serif;
+    padding-top:var(--nav-h);
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  /* ============ 固定置頂欄：單一列，三個功能區各自底色，每區兩行文字 ============ */
+  header.topbar{
+    position:fixed; top:0; left:0; right:0;
+    min-height:var(--nav-h);
+    display:flex;
+    z-index:100;
+    box-shadow:0 1px 4px rgba(0,0,0,.12);
+  }
+  header.topbar > button{
+    flex:1;
+    display:flex; flex-direction:column;
+    align-items:center; justify-content:center;
+    gap:2px;
+    border:none; cursor:pointer;
+    font-family:inherit;
+    padding:4px 6px;
+  }
+  .col-settings{
+    background:var(--col-settings-bg);
+    color:var(--accent);
+    flex:0.85 !important;
+  }
+  .col-settings .row1{font-size:24px; line-height:1;}
+  .col-settings .row2{font-size:15px; font-weight:700;}
+
+  .col-chapter{
+    background:var(--col-chapter-bg);
+    color:var(--text);
+    flex:1.5 !important;
+    border-left:1px solid rgba(0,0,0,.06);
+    border-right:1px solid rgba(0,0,0,.06);
+  }
+  .col-chapter .row1{font-size:15px; font-weight:700; color:var(--text-soft); letter-spacing:.05em;}
+  .col-chapter .row2{font-size:15px; font-weight:700;}
+
+  .col-brand{
+    background:var(--col-brand-bg);
+    color:var(--col-brand-text);
+    flex:1 !important;
+    cursor:default;
+  }
+  .col-brand .row1{font-size:18px; font-weight:700; letter-spacing:.03em;}
+  .col-brand .row2{font-size:15px; opacity:.9;}
+  .en-tag{font-size:1em; font-weight:400; opacity:.85;}
+
+  .nav-arrows{
+    display:flex; flex:0 0 auto;
+  }
+  .nav-arrow{
+    width:30px; height:100%;
+    border:none; background:transparent; color:var(--text);
+    font-size:22px; line-height:1; cursor:pointer;
+    font-family:inherit;
+  }
+  .nav-arrow:active{opacity:.5;}
+  @media (max-width:599px){
+    .nav-arrow{width:38px; font-size:24px;}
+  }
+
+  /* 通用：中英日/雙語並列樣式——手機直向堆疊，PC(≥600px)橫向連接顯示（用點分隔）。
+     供頂欄篇章顯示、品牌/設置標題、抽屜「換書卷」按鈕等任何需要同時顯示多語言的地方共用。 */
+  .i18n-inline{display:flex; flex-direction:column; align-items:center; gap:0;}
+  .i18n-inline .lang-part{white-space:nowrap;}
+  @media (min-width:600px){
+    .i18n-inline{flex-direction:row; gap:6px;}
+    .i18n-inline .lang-part:not(:last-child)::after{content:"·"; margin-left:6px; opacity:.4; font-weight:400;}
+  }
+
+  /* ============ 抽屜：書卷/章節導覽（點中間欄開啟） ============ */
+  .drawer-backdrop, .panel-backdrop{
+    position:fixed; inset:0; background:rgba(0,0,0,.35);
+    z-index:150; opacity:0; pointer-events:none; transition:opacity .2s;
+  }
+  .drawer-backdrop.open, .panel-backdrop.open{opacity:1; pointer-events:auto;}
+  .drawer{
+    position:fixed; top:0; left:0; bottom:0;
+    width:min(320px, 84vw);
+    background:var(--bg-card);
+    z-index:151;
+    transform:translateX(-100%);
+    transition:transform .25s ease;
+    overflow-y:auto;
+    padding:16px;
+    border-right:1px solid var(--border);
+  }
+  .drawer.open{transform:translateX(0);}
+  .drawer h3{margin:16px 0 8px; font-size:14px; color:var(--text-soft); font-weight:700;}
+  .drawer h3:first-child{margin-top:0;}
+  .booklist{display:flex; flex-wrap:wrap; gap:6px;}
+  .booklist button{
+    border:1px solid var(--border); background:var(--bg);
+    color:var(--text); border-radius:8px; padding:10px 14px;
+    font-size:17px; cursor:pointer;
+  }
+  .booklist button.current{background:var(--accent); color:#fff; border-color:var(--accent);}
+  .booklist button:disabled{opacity:.35; cursor:default;}
+  .drawer-back-btn{
+    display:flex; align-items:center; gap:8px;
+    margin-bottom:12px; padding:8px 12px;
+    border:1px solid var(--border); background:var(--bg);
+    color:var(--accent); border-radius:8px; font-size:15px; font-weight:700;
+    cursor:pointer; font-family:inherit;
+  }
+  .drawer-back-arrow{font-size:18px; line-height:1;}
+
+  /* ============ 設置面板（點左側欄開啟，含閱讀/互動模式、缺省語言等） ============ */
+  .panel{
+    position:fixed; right:0; top:0; bottom:0;
+    width:min(340px, 88vw);
+    background:var(--bg-card);
+    z-index:151;
+    transform:translateX(100%);
+    transition:transform .25s ease;
+    overflow-y:auto;
+    padding:18px;
+    border-left:1px solid var(--border);
+  }
+  .panel.open{transform:translateX(0);}
+  .panel h2{font-size:16px; margin:0 0 16px;}
+  .panel-row{margin-bottom:18px;}
+  .panel-row label{
+    display:block; font-size:12px; color:var(--text-soft);
+    margin-bottom:8px; font-weight:700;
+  }
+  .seg{display:flex; border:1px solid var(--border); border-radius:10px; overflow:hidden;}
+  .seg button{
+    flex:1; background:var(--bg); border:none; color:var(--text);
+    padding:9px 4px; font-size:13px; cursor:pointer; border-right:1px solid var(--border);
+  }
+  .seg button:last-child{border-right:none;}
+  .seg button.active{background:var(--accent); color:#fff;}
+  .seg button:disabled{opacity:.4; cursor:default;}
+
+  /* ============ 主內容 ============ */
+  main{
+    max-width:720px;
+    margin:0 auto;
+    padding:18px 14px 80px;
+  }
+
+  .verse{
+    background:var(--bg-card);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:14px 16px;
+    margin-bottom:12px;
+  }
+  .verse-num{
+    display:inline-block;
+    font-size:calc(13px * var(--font-scale));
+    color:var(--accent);
+    font-weight:700;
+    margin-right:6px;
+  }
+  .primary-text{
+    font-size:calc(17px * var(--font-scale));
+    line-height:var(--line-scale);
+  }
+  /* 主要語言文字段落依語言決定顏色 */
+  .primary-text[data-lang="zh"]{color:var(--zh-color);}
+  .primary-text[data-lang="en"]{color:var(--en-color);}
+  .primary-text[data-lang="ja"]{color:var(--ja-color);}
+
+  /* 行內小按鈕：緊接在該語言句末標點之後 */
+  .inline-btn{
+    display:inline-flex; align-items:center; justify-content:center;
+    border:1px solid var(--border);
+    background:var(--bg);
+    color:var(--text-soft);
+    font-size:calc(11px * var(--font-scale));
+    padding:2px 7px;
+    border-radius:20px;
+    cursor:pointer;
+    margin-left:4px;
+    vertical-align:middle;
+    line-height:1.6;
+  }
+  .inline-btn.speak{
+    padding:2px 6px;
+    font-size:calc(12px * var(--font-scale));
+  }
+  .inline-btn.badge.active{
+    background:var(--accent); color:#fff; border-color:var(--accent);
+    cursor:default; font-weight:700;
+  }
+  .inline-btn.badge.clickable{
+    cursor:pointer;
+  }
+  .inline-btn.badge.clickable:hover{
+    background:var(--accent-soft);
+  }
+  .inline-btn.badge.on{
+    background:var(--accent-soft); color:var(--accent); border-color:var(--accent);
+  }
+
+  .verse-extra{
+    margin-top:8px;
+    padding-top:8px;
+    border-top:1px dashed var(--border);
+    display:none;
+  }
+  .verse-extra.show{display:block;}
+  .verse-extra .lbl{
+    font-size:calc(10.5px * var(--font-scale));
+    letter-spacing:.05em;
+    color:var(--text-soft);
+    margin-bottom:2px;
+    text-transform:uppercase;
+  }
+  .verse-extra .extra-text{
+    font-size:calc(15.5px * var(--font-scale));
+    line-height:var(--line-scale);
+  }
+  .verse-extra .extra-text[data-lang="zh"]{color:var(--zh-color);}
+  .verse-extra .extra-text[data-lang="en"]{color:var(--en-color);}
+  .verse-extra .extra-text[data-lang="ja"]{color:var(--ja-color);}
+
+  /* ============ Phase 2：可點擊單詞 ============ */
+  .word{
+    cursor:pointer;
+    border-bottom:1.5px dotted currentColor;
+    opacity:.92;
+  }
+  .word:hover, .word:active{
+    background:var(--accent-soft);
+  }
+  .word.saved{
+    border-bottom-style:solid;
+  }
+
+  /* ============ 單詞卡（底部彈出） ============ */
+  .sheet-backdrop{
+    position:fixed; inset:0; background:rgba(0,0,0,.35);
+    z-index:180; opacity:0; pointer-events:none; transition:opacity .2s;
+  }
+  .sheet-backdrop.open{opacity:1; pointer-events:auto;}
+  .sheet{
+    position:fixed; left:0; right:0; bottom:0;
+    max-height:72vh;
+    background:var(--bg-card);
+    border-radius:18px 18px 0 0;
+    z-index:181;
+    transform:translateY(100%);
+    transition:transform .25s ease;
+    padding:16px 18px 24px;
+    overflow-y:auto;
+    box-shadow:0 -2px 12px rgba(0,0,0,.15);
+  }
+  .sheet.open{transform:translateY(0);}
+  .sheet-handle{
+    width:36px; height:4px; background:var(--border); border-radius:4px;
+    margin:0 auto 14px;
+  }
+  .sheet-close{
+    position:absolute; top:12px; right:14px;
+    background:none; border:none; font-size:20px; color:var(--text-soft); cursor:pointer;
+  }
+  .word-row{
+    display:flex; align-items:center; gap:10px;
+    padding:10px 4px;
+    border-bottom:1px solid var(--border);
+    cursor:pointer;
+  }
+  .word-row:last-of-type{border-bottom:none;}
+  .word-row .wr-main{flex:1; display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;}
+  .word-row .wr-word{font-size:19px; font-weight:700;}
+  .word-row .wr-word[data-lang="zh"]{color:var(--zh-color);}
+  .word-row .wr-word[data-lang="en"]{color:var(--en-color);}
+  .word-row .wr-word[data-lang="ja"]{color:var(--ja-color);}
+  .word-row .wr-phon{font-size:13px; color:var(--text-soft);}
+  .word-row .wr-freq{
+    font-size:10.5px; color:var(--accent); background:var(--accent-soft);
+    padding:2px 6px; border-radius:8px; font-weight:700;
+  }
+  .word-row .wr-play{
+    border:1px solid var(--border); background:var(--bg); border-radius:50%;
+    width:32px; height:32px; font-size:14px; cursor:pointer; flex-shrink:0;
+  }
+  .word-row.selected{background:var(--accent-soft);}
+  .word-def{
+    margin:10px 4px 4px; padding:12px 14px;
+    background:var(--bg); border-radius:10px;
+    font-size:14.5px; line-height:1.7; color:var(--text);
+    display:none;
+  }
+  .word-def.show{display:block;}
+  .sheet-star{
+    display:flex; align-items:center; gap:6px;
+    border:1px solid var(--border); background:var(--bg);
+    color:var(--text-soft); border-radius:20px; padding:8px 14px;
+    font-size:13px; cursor:pointer; margin-top:14px;
+  }
+  .sheet-star.on{
+    background:var(--accent); color:#fff; border-color:var(--accent);
+  }
+
+  /* ============ 生詞本清單面板 ============ */
+  .vocab-item{
+    display:flex; align-items:center; gap:8px;
+    padding:9px 4px; border-bottom:1px solid var(--border);
+    font-size:14px;
+  }
+  .vocab-item .vi-lang{
+    font-size:14px; font-weight:700; min-width:52px;
+  }
+  .vocab-item .vi-lang[data-lang="zh"]{color:var(--zh-color);}
+  .vocab-item .vi-lang[data-lang="en"]{color:var(--en-color);}
+  .vocab-item .vi-lang[data-lang="ja"]{color:var(--ja-color);}
+  .vocab-item .vi-remove{
+    margin-left:auto; background:none; border:none; color:var(--text-soft);
+    font-size:16px; cursor:pointer; padding:4px 8px;
+  }
+  .vocab-empty{color:var(--text-soft); font-size:13px; padding:12px 4px;}
+
+  /* ============ Phase 3：語義塊高亮 ============ */
+  .chunk{
+    background:var(--chunk-bg);
+    border-radius:5px;
+    padding:0 2px;
+    cursor:pointer;
+    box-shadow:0 0 0 1px var(--chunk-border) inset;
+  }
+  .chunk:hover{ background:var(--chunk-bg-hover); }
+  .chunk.saved{ box-shadow:0 0 0 2px var(--chunk-text) inset; }
+  .chunk-tag{
+    display:inline-block;
+    font-size:12px; font-weight:700; color:var(--chunk-text);
+    background:var(--chunk-bg-hover);
+    padding:2px 8px; border-radius:6px; margin-bottom:8px;
+  }
+  .chunk-phrase{
+    font-size:17px; font-weight:700; margin-bottom:10px;
+  }
+  .chunk-gloss-lbl{ font-size:11px; color:var(--text-soft); margin-bottom:2px; text-transform:uppercase; letter-spacing:.05em; }
+  .chunk-gloss{ font-size:16px; font-weight:700; color:var(--chunk-text); margin-bottom:14px; }
+  .chunk-ref{ font-size:12.5px; color:var(--text-soft); }
+
+  /* ============ Phase 4：學習追蹤與填空測驗 ============ */
+  .progress-box{
+    background:var(--bg); border-radius:10px; padding:12px 14px; margin-bottom:10px;
+  }
+  .progress-num{ font-size:22px; font-weight:700; color:var(--accent); }
+  .progress-label{ font-size:12px; color:var(--text-soft); margin-top:2px; }
+  .progress-bar-track{
+    height:6px; background:var(--border); border-radius:3px; margin-top:10px; overflow:hidden;
+  }
+  .progress-bar-fill{
+    height:100%; background:var(--accent); border-radius:3px; transition:width .3s;
+  }
+  .quiz-prompt-lbl{ font-size:12px; color:var(--text-soft); margin-bottom:6px; }
+  .quiz-blank{
+    font-size:19px; font-weight:700; margin-bottom:14px; line-height:1.6;
+  }
+  .quiz-input{
+    width:100%; border:1px solid var(--border); border-radius:10px;
+    padding:10px 12px; font-size:16px; background:var(--bg); color:var(--text);
+    margin-bottom:10px;
+  }
+  .quiz-btn-row{ display:flex; gap:8px; margin-bottom:12px; }
+  .quiz-btn-row button{
+    flex:1; border:none; border-radius:10px; padding:10px; font-size:14px;
+    font-weight:700; cursor:pointer;
+  }
+  .quiz-check-btn{ background:var(--accent); color:#fff; }
+  .quiz-next-btn{ background:var(--bg); color:var(--text); border:1px solid var(--border) !important; }
+  .quiz-feedback{
+    border-radius:10px; padding:10px 14px; margin-bottom:12px; font-size:14px; font-weight:700;
+    display:none;
+  }
+  .quiz-feedback.show{display:block;}
+  .quiz-feedback.correct{ background:#dcefd8; color:#2f6b25; }
+  .quiz-feedback.wrong{ background:#f5dede; color:#a3372e; }
+  [data-theme="dark"] .quiz-feedback.correct{ background:#26382a; color:#8fd681; }
+  [data-theme="dark"] .quiz-feedback.wrong{ background:#3a2726; color:#e79b93; }
+  .quiz-reveal{
+    background:var(--bg); border-radius:10px; padding:12px 14px;
+    font-size:14px; line-height:1.8; color:var(--text); margin-bottom:12px;
+    display:none;
+  }
+  .quiz-reveal.show{display:block;}
+  .quiz-mark-btn{
+    width:100%; border:1px solid var(--border); background:var(--bg); color:var(--text-soft);
+    border-radius:20px; padding:9px; font-size:13px; cursor:pointer;
+  }
+  .quiz-mark-btn.on{ background:var(--accent); color:#fff; border-color:var(--accent); }
+
+
+
+
+  /* ============ 響應式斷點 ============ */
+  @media (min-width:600px){
+    main{padding:24px 20px 90px;}
+    .verse{padding:16px 20px;}
+  }
+  @media (min-width:900px){
+    main{max-width:760px;}
+  }
+  @media (max-height:420px) and (orientation:landscape){
+    :root{--nav-h:52px;}
+    .col-settings .row2, .col-chapter .row1, .col-brand .row2{display:none;}
+    .verse{padding:10px 14px; margin-bottom:8px;}
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="nav-arrows">
+    <button id="navBackBtn" class="nav-arrow" aria-label="返回上一步" title="返回上一步">‹</button>
+    <button id="navForwardBtn" class="nav-arrow" aria-label="前進下一步" title="前進下一步">›</button>
+  </div>
+  <button class="col-chapter" id="chapterBtn" aria-label="開啟書卷目錄">
+    <span class="row1" id="chapterRow1">篇章</span>
+    <span class="row2 i18n-inline" id="chapterRow2">詩篇 1章</span>
+  </button>
+  <button class="col-brand" disabled>
+    <span class="row1 i18n-inline"><span class="lang-part">聖經</span><span class="lang-part en-tag">Bible</span></span>
+    <span class="row2 i18n-inline"><span class="lang-part">語言神經內化</span><span class="lang-part en-tag">Language Learning</span></span>
+  </button>
+  <button class="col-settings" id="settingsBtn" aria-label="開啟設置">
+    <span class="row1">⚙</span>
+    <span class="row2 i18n-inline"><span class="lang-part">設置</span><span class="lang-part en-tag">Settings</span></span>
+  </button>
+</header>
+
+<div class="drawer-backdrop" id="drawerBackdrop"></div>
+<div class="drawer" id="drawer">
+  <div id="drawerBookView">
+    <h3>書卷（D6修復：11卷已標注語塊的書卷，其餘55卷待補經文資料後開放）</h3>
+    <div class="booklist" id="bookList"></div>
+  </div>
+  <div id="drawerChapterView" style="display:none;">
+    <button id="drawerBackToBooks" class="drawer-back-btn">
+      <span class="drawer-back-arrow">‹</span>
+      <span class="i18n-inline"><span class="lang-part">換書卷</span><span class="lang-part">Switch Book</span><span class="lang-part">書巻を変更</span></span>
+    </button>
+    <h3 id="drawerChapterBookName"></h3>
+    <div class="booklist" id="chapterList"></div>
+  </div>
+</div>
+
+<div class="panel-backdrop" id="panelBackdrop"></div>
+<div class="panel" id="panel">
+  <h2 class="i18n-inline"><span class="lang-part">設置</span><span class="lang-part">Settings</span><span class="lang-part">設定</span></h2>
+
+  <div class="panel-row">
+    <label data-i18n="mode">模式</label>
+    <div class="seg">
+      <button class="active" disabled data-i18n="modeRead">閱讀模式</button>
+      <button disabled title="尚未開放" data-i18n="modeInteractive">互動模式</button>
+    </div>
+  </div>
+
+  <div class="panel-row">
+    <label data-i18n="defaultLang">缺省語言（決定標題／目錄／經文排序，缺省語言永遠排最前）</label>
+    <div class="seg" id="defaultLangSeg">
+      <button data-val="zh" class="active">中</button>
+      <button data-val="en">EN</button>
+      <button data-val="ja">日</button>
+    </div>
+  </div>
+
+  <div class="panel-row">
+    <label data-i18n="fontSize">字體大小</label>
+    <div class="seg" id="fontSizeSeg">
+      <button data-val="0.85" data-i18n="fontSizeSm">小</button>
+      <button data-val="1" class="active" data-i18n="fontSizeMd">中</button>
+      <button data-val="1.2" data-i18n="fontSizeLg">大</button>
+      <button data-val="1.45" data-i18n="fontSizeXl">特大</button>
+    </div>
+  </div>
+
+  <div class="panel-row">
+    <label data-i18n="lineHeight">行距</label>
+    <div class="seg" id="lineHeightSeg">
+      <button data-val="1.4" data-i18n="lineHeightCompact">緊湊</button>
+      <button data-val="1.7" class="active" data-i18n="lineHeightStandard">標準</button>
+      <button data-val="2.1" data-i18n="lineHeightLoose">寬鬆</button>
+    </div>
+  </div>
+
+  <div class="panel-row">
+    <label data-i18n="theme">顯示模式</label>
+    <div class="seg" id="themeSeg">
+      <button data-val="light" class="active" data-i18n="themeLight">日間</button>
+      <button data-val="dark" data-i18n="themeDark">夜間</button>
+    </div>
+  </div>
+
+  <div class="panel-row">
+    <label data-i18n="rate">朗讀語速（Web Speech，過渡方案）</label>
+    <div class="seg" id="rateSeg">
+      <button data-val="0.75">0.75x</button>
+      <button data-val="1" class="active">1x</button>
+      <button data-val="1.25">1.25x</button>
+    </div>
+  </div>
+
+  <div class="panel-row">
+    <label data-i18n="vocabLabel">單詞學習</label>
+    <button class="sheet-star" id="vocabBtn" style="width:100%; justify-content:center; margin-top:0;">
+      📖 <span data-i18n="vocabBtn">生詞本</span>（<span id="vocabCount">0</span>）
+    </button>
+  </div>
+
+  <div class="panel-row">
+    <label data-i18n="chunkLabel">語塊學習</label>
+    <button class="sheet-star" id="chunkNotebookBtn" style="width:100%; justify-content:center; margin-top:0;">
+      🧩 <span data-i18n="chunkBtn">語塊本</span>（<span id="chunkNotebookCount">0</span>）
+    </button>
+  </div>
+
+  <div class="panel-row">
+    <label data-i18n="progressLabel">學習追蹤（顆粒內化進度）</label>
+    <div class="progress-box">
+      <span class="progress-num" id="progressNum">0 / 6</span>
+      <div class="progress-label" data-i18n="progressDesc">已內化語義塊（示範規模，正式版對應全書高頻顆粒）</div>
+      <div class="progress-bar-track"><div class="progress-bar-fill" id="progressBarFill" style="width:0%"></div></div>
+    </div>
+    <button class="sheet-star" id="quizBtn" style="width:100%; justify-content:center; margin-top:0;">
+      🎯 <span data-i18n="quizBtn">情境復現測驗</span>
+    </button>
+  </div>
+</div>
+
+<div class="sheet-backdrop" id="wordSheetBackdrop"></div>
+<div class="sheet" id="wordSheet">
+  <div class="sheet-handle"></div>
+  <button class="sheet-close" id="wordSheetClose" aria-label="關閉">✕</button>
+  <div id="wordSheetBody"></div>
+</div>
+
+<div class="sheet-backdrop" id="vocabSheetBackdrop"></div>
+<div class="sheet" id="vocabSheet">
+  <div class="sheet-handle"></div>
+  <button class="sheet-close" id="vocabSheetClose" aria-label="關閉">✕</button>
+  <div class="panel-row" style="margin-bottom:8px;"><label style="margin-bottom:2px;">生詞本</label></div>
+  <div id="vocabList"></div>
+</div>
+
+<div class="sheet-backdrop" id="chunkSheetBackdrop"></div>
+<div class="sheet" id="chunkSheet">
+  <div class="sheet-handle"></div>
+  <button class="sheet-close" id="chunkSheetClose" aria-label="關閉">✕</button>
+  <div id="chunkSheetBody"></div>
+</div>
+
+<!-- D1新增：語塊真人語音播放器，全站共用一個，切語塊時重新設定src/起訖時間即可，不需要每條語塊各自建一個 -->
+<audio id="chunkAudioPlayer" preload="none"></audio>
+
+<div class="sheet-backdrop" id="chunkNotebookSheetBackdrop"></div>
+<div class="sheet" id="chunkNotebookSheet">
+  <div class="sheet-handle"></div>
+  <button class="sheet-close" id="chunkNotebookSheetClose" aria-label="關閉">✕</button>
+  <div class="panel-row" style="margin-bottom:8px;"><label style="margin-bottom:2px;">語塊本</label></div>
+  <div id="chunkNotebookList"></div>
+</div>
+
+<div class="sheet-backdrop" id="quizSheetBackdrop"></div>
+<div class="sheet" id="quizSheet">
+  <div class="sheet-handle"></div>
+  <button class="sheet-close" id="quizSheetClose" aria-label="關閉">✕</button>
+  <div id="quizSheetBody"></div>
+</div>
+
+<main>
+  <div id="verseList"></div>
+</main>
+
+<!-- 詞彙數據庫（7042條，由 build_vocab_data.py 從 vocab_db.jsonl 轉出）
+     必須放在下方主 script 之前載入，主 script 會讀取全域變數 VOCAB_DATA。
+     此檔案需與 index.html 放在同一資料夾。 -->
+<script src="vocab_data.js"></script>
+<!-- 詩篇全卷資料（150章，由 build_psalms_data.py 從 psalms_full_output.json 轉出）
+     同樣需放在主 script 之前載入，全域變數 PSALMS_DATA，需與 index.html 同資料夾。 -->
+<script src="psalms_data.js"></script>
+<!-- D6新增：其餘10卷經文資料（由 build_book_text_data.py 從 bible_data/bible_text/{代碼}.json 轉出），
+     全域變數 {代碼}_DATA，格式跟PSALMS_DATA一樣：{ chapters:{ "1":{verses:{"1":{en,zh,ja}}} } }，
+     需與 index.html 同資料夾。若對應json當初沒有下載/轉換，該卷全域變數會是undefined，
+     BOOK_TEXT_SOURCES會自動判斷回傳null，不會噴錯，只是該卷維持顯示「尚未接入」提示。 -->
+<script src="PRO_data.js"></script>
+<script src="ISA_data.js"></script>
+<script src="ECC_data.js"></script>
+<script src="GEN_data.js"></script>
+<script src="MAT_data.js"></script>
+<script src="MRK_data.js"></script>
+<script src="LUK_data.js"></script>
+<script src="JHN_data.js"></script>
+<script src="REV_data.js"></script>
+<script src="DAN_data.js"></script>
+<!-- D6修復：語塊庫（11卷1164條，由 merge_chunks.py 從各卷B任務JSON彙整），
+     全域變數 CHUNKS_DATA，格式 { 書卷代碼: { en:[...], ja:[...] } }，需與 index.html 同資料夾。
+     此檔案之前一直沒被引入，是D6故障點B的直接原因。 -->
+<script src="chunks_data.js"></script>
+<!-- D1新增：語塊音頻時間戳查表（由build_chunk_audio.py產生），全域變數CHUNK_AUDIO，
+     格式 { 語塊id: {book,lang,chapter,verse,audioFile,startTime,endTime,matchedText} }。
+     收錄已跑過WhisperX對齊且成功配對的語塊，目前涵蓋詩篇英文457/458條、日文397/397條；
+     其餘尚未對齊的書卷/語言找不到對應項目時，語塊卡片會自動退回原本的TTS朗讀，不影響既有功能。 -->
+<script src="chunk_audio.js"></script>
+<!-- D1新增：整節真人語音時間戳查表（由build_verse_audio.py產生），全域變數VERSE_AUDIO，
+     格式 { "書卷-語言-章-節": {book,lang,chapter,verse,audioFile,startTime,endTime} }。
+     不需要文字比對，直接來自WhisperX對齊結果，目前涵蓋詩篇英文2461節、日文2452節（150章中10章
+     共9節缺口，詳見MASTER_BLUEPRINT六#7，查無資料時自動退回TTS，不影響其他節正常播放）。 -->
+<script src="verse_audio.js"></script>
+
+<script>
+/* ============ 響應式：動態量測頂欄實際高度 ============
+   頂欄現在同時顯示中英日（或中英）多語文字，在窄螢幕上可能自動換行、
+   高度因此隨螢幕寬度、字型載入、切換書卷（不同語言書名長度不同）而變動。
+   若--nav-h寫死固定值，換行時內容會被裁切、或main內文被頂欄蓋住一截。
+   改用ResizeObserver即時量測頂欄目前的實際高度、寫回CSS變數，
+   讓main的padding-top（用同一個變數）永遠跟頂欄實際高度同步，
+   不需要為PC/手機各自手動試數字，任何螢幕寬度都能自動適配。 */
+(function(){
+  const topbarEl = document.querySelector('header.topbar');
+  function syncNavHeight(){
+    document.documentElement.style.setProperty('--nav-h', topbarEl.offsetHeight + 'px');
+  }
+  if(window.ResizeObserver){
+    new ResizeObserver(syncNavHeight).observe(topbarEl);
+  }else{
+    window.addEventListener('resize', syncNavHeight);
+    window.addEventListener('load', syncNavHeight);
+  }
+  syncNavHeight();
+})();
+
+/* ============ 詩篇全卷資料（150章，來自 psalms_full_output.json） ============
+   資料本體不內嵌於本檔案，改由 psalms_data.js（用 build_psalms_data.py 從
+   psalms_full_output.json 轉出）透過 <script src="psalms_data.js"> 於本區塊之前載入，
+   全域變數 PSALMS_DATA，格式：{ book:"psalms", chapters:{ "1":{verses:{"1":{en,zh,ja}, ...}}, ... } }
+   bibleData 改為 let（非 const），因為切換章節時會重新賦值。
+   來源：英文 WEB（ebible.org）／中文 和合本繁體（ebible.org）／日文 口語訳（jpn.bible，注音已去除）。 */
+const PSALMS_DATA_SAFE = (typeof PSALMS_DATA !== 'undefined') ? PSALMS_DATA : { book:"psalms", chapters:{} };
+if(Object.keys(PSALMS_DATA_SAFE.chapters).length === 0){
+  console.warn('PSALMS_DATA 未載入或為空——請確認 psalms_data.js 是否放在 index.html 同一資料夾，且 <script src="psalms_data.js"> 有正確引入。');
+}
+
+/* ============ D6修復：11卷書卷登記表（故障點A） ============
+   涵蓋chunks_data.js裡已標注語塊的11卷。章數為該書卷實際總章數（非僅已標注語塊的章數），
+   例如創世記標了50章的選項，但B任務目前只做了1-11章的語塊，12章之後選了會有經文（若之後補上
+   bible_text/GEN.json）但暫時不會有語塊高亮，這是預期行為，不是bug。
+   BOOK_TEXT_SOURCES：D6經文本體已於本輪窗口補齊，11卷皆有對應資料源。每個非詩篇項目都用
+   typeof判斷是否為undefined，若對應的{代碼}_data.js當初沒有轉出/沒有正確載入，會自動回傳null，
+   由buildChapterVerses顯示「經文尚未接入」提示而不是報錯，這是刻意保留的防呆機制。 */
+const BOOKS = {
+  PSA:{ zh:"詩篇",     en:"Psalms",      ja:"詩篇",           chapters:150 },
+  PRO:{ zh:"箴言",     en:"Proverbs",    ja:"箴言",           chapters:31  },
+  ISA:{ zh:"以賽亞書", en:"Isaiah",      ja:"イザヤ書",       chapters:66  },
+  ECC:{ zh:"傳道書",   en:"Ecclesiastes",ja:"伝道の書",       chapters:12  },
+  GEN:{ zh:"創世記",   en:"Genesis",     ja:"創世記",         chapters:50  },
+  MAT:{ zh:"馬太福音", en:"Matthew",     ja:"マタイによる福音書", chapters:28 },
+  MRK:{ zh:"馬可福音", en:"Mark",        ja:"マルコによる福音書", chapters:16 },
+  LUK:{ zh:"路加福音", en:"Luke",        ja:"ルカによる福音書",   chapters:24 },
+  JHN:{ zh:"約翰福音", en:"John",        ja:"ヨハネによる福音書", chapters:21 },
+  REV:{ zh:"啟示錄",   en:"Revelation",  ja:"ヨハネの黙示録",     chapters:22 },
+  DAN:{ zh:"但以理書", en:"Daniel",      ja:"ダニエル書",         chapters:12 },
+};
+const BOOK_ORDER = ["PSA","PRO","ISA","ECC","GEN","MAT","MRK","LUK","JHN","REV","DAN"];
+
+/* 頂欄「篇章」按鈕中間欄：同時顯示中英日三語書名+章節，PC橫向連接、手機直向堆疊（見CSS響應式斷點） */
+function chapterDisplayHtml(bookCode, chapterNum){
+  const b = BOOKS[bookCode];
+  const chapterLabelMap = { zh:'章', ja:'篇', en:'' };
+  return ['zh','en','ja'].map(l => {
+    const label = l === 'en' ? `${b.en} ${chapterNum}` : `${b[l]}${chapterNum}${chapterLabelMap[l]}`;
+    return `<span class="lang-part">${label}</span>`;
+  }).join('');
+}
+const BOOK_TEXT_SOURCES = {
+  PSA: PSALMS_DATA_SAFE,
+  PRO: (typeof PRO_DATA !== 'undefined') ? PRO_DATA : null,
+  ISA: (typeof ISA_DATA !== 'undefined') ? ISA_DATA : null,
+  ECC: (typeof ECC_DATA !== 'undefined') ? ECC_DATA : null,
+  GEN: (typeof GEN_DATA !== 'undefined') ? GEN_DATA : null,
+  MAT: (typeof MAT_DATA !== 'undefined') ? MAT_DATA : null,
+  MRK: (typeof MRK_DATA !== 'undefined') ? MRK_DATA : null,
+  LUK: (typeof LUK_DATA !== 'undefined') ? LUK_DATA : null,
+  JHN: (typeof JHN_DATA !== 'undefined') ? JHN_DATA : null,
+  REV: (typeof REV_DATA !== 'undefined') ? REV_DATA : null,
+  DAN: (typeof DAN_DATA !== 'undefined') ? DAN_DATA : null,
+};
+
+let currentBook = 'PSA';
+let bibleData = { book:'PSA', chapter:1, bookNames: BOOKS.PSA, verses:[] };
+
+/* 把某書卷某一章的 {節號:{en,zh,ja}} 物件轉成 renderVerses() 需要的陣列格式，並依節號排序。
+   若該書卷尚無經文資料源（BOOK_TEXT_SOURCES裡沒有對應項或為null），回傳空陣列，
+   renderVerses()會顯示「經文尚未接入」提示而不是空白一片，避免使用者誤以為是壞掉了。 */
+function buildChapterVerses(bookCode, chapterNum){
+  const source = BOOK_TEXT_SOURCES[bookCode];
+  if(!source) return [];
+  const chapterObj = source.chapters[String(chapterNum)];
+  if(!chapterObj) return [];
+  const vnums = Object.keys(chapterObj.verses).sort((a,b)=> parseInt(a)-parseInt(b));
+  return vnums.map(vn => ({
+    n: parseInt(vn),
+    en: chapterObj.verses[vn].en || '',
+    zh: chapterObj.verses[vn].zh || '',
+    ja: chapterObj.verses[vn].ja || '',
+  }));
+}
+
+/* ============ Phase 2 正式版：三語詞彙數據庫（7042條，來自 vocab_db.jsonl） ============
+   資料本體不內嵌於本檔案，改由 vocab_data.js（用 build_vocab_data.py 從 vocab_db.jsonl 轉出）
+   透過 <script src="vocab_data.js"> 於本區塊之前載入為全域變數 VOCAB_DATA，避免：
+   (a) 本檔案肥大 (b) file:// 本機開啟時 fetch() 的 CORS 限制。
+   欄位：id / en / en_ipa / zh / zh_py / zh_def / ja / ja_kana / ja_def / freq
+   目前 zh_py / ja_kana / ja_def 尚為 null（有道API日文與拼音尚未補齊），
+   renderWordSheet() 已對這些欄位做 null-safe 處理，不影響現有功能。
+   注意：本詞庫不含 en_def（英文釋義），這點與早期示範格式不同，UI已對應調整。 */
+const VOCAB = (typeof VOCAB_DATA !== 'undefined') ? VOCAB_DATA : [];
+const VOCAB_BY_ID = Object.fromEntries(VOCAB.map(v=>[v.id, v]));
+if(VOCAB.length === 0){
+  console.warn('VOCAB_DATA 未載入或為空——請確認 vocab_data.js 是否放在 index.html 同一資料夾，且 <script src="vocab_data.js"> 有正確引入。');
+}
+
+/* ============ 資料品質防呆：偵測翻譯API額度超限等錯誤訊息誤存入詞典欄位 ============
+   已知污染來源：MyMemory翻譯API免費額度超限時，會把警告句原封不動當成翻譯結果回傳，
+   若建庫腳本沒有捕捉這種情況，警告句就會被寫進 en/zh/ja/zh_def/ja_def 欄位。
+   這裡只做「顯示層防呆」，不會動 vocab_data.js 本身，資料本身仍需之後重新查詢修復。
+   注意：此區塊必須放在 getVocabIndex/highlightText/renderVerses 呼叫之前，
+   因為 renderVerses() 在腳本一開始就會執行，若 isBadData 定義在檔案後段會報錯。 */
+const BAD_DATA_PATTERN = /mymemory|usagelimits|TRANSLATIONS FOR TODAY/i;
+function isBadData(s){ return !!s && BAD_DATA_PATTERN.test(s); }
+function safeField(s){ return isBadData(s) ? '⚠ 資料異常（API額度污染，待重新查詢）' : s; }
+
+(function scanBadVocabOnLoad(){
+  const fields = ['en','zh','ja','zh_def','ja_def'];
+  const bad = VOCAB.filter(v => fields.some(f => isBadData(v[f])));
+  if(bad.length){
+    window.BAD_VOCAB_IDS = bad.map(v=>v.id);
+    console.warn(`[詞典資料檢查] 發現 ${bad.length} / ${VOCAB.length} 條詞條含API錯誤訊息污染。`
+      + `完整ID清單存於 window.BAD_VOCAB_IDS，可在Console輸入該變數查看。`);
+  }
+})();
+
+/* ============ D6修復：語塊資料改為讀取 chunks_data.js 的 CHUNKS_DATA（11卷1164條） ============
+   原本這裡是內嵌6條demo資料，跟chunks_data.js完全無關（故障點B）。
+   現在改為：把CHUNKS_DATA（{ 書卷代碼: { en:[...], ja:[...] } }）展平成單一陣列，
+   每條額外標記 book/lang，供highlightChunks()依「目前書卷+目前語言」篩選比對。
+   CHUNKS_BY_ID仍保留全域查找（語塊本、測驗模式跨書卷收藏都需要用到）。 */
+const CHUNKS_DATA_SAFE = (typeof CHUNKS_DATA !== 'undefined') ? CHUNKS_DATA : {};
+if(Object.keys(CHUNKS_DATA_SAFE).length === 0){
+  console.warn('CHUNKS_DATA 未載入或為空——請確認 chunks_data.js 是否放在 index.html 同一資料夾，且 <script src="chunks_data.js"> 有正確引入。');
+}
+const CHUNKS = [];
+Object.keys(CHUNKS_DATA_SAFE).forEach(bookCode=>{
+  ['en','ja'].forEach(lang=>{
+    (CHUNKS_DATA_SAFE[bookCode][lang] || []).forEach(c=>{
+      CHUNKS.push(Object.assign({}, c, { book: bookCode, lang: lang }));
+    });
+  });
+});
+const CHUNKS_BY_ID = Object.fromEntries(CHUNKS.map(c=>[c.id, c]));
+
+/* ============ D1新增：語塊音頻查表（chunk_audio.js的CHUNK_AUDIO） ============
+   格式：{ 語塊id: {book,chapter,verse,audioFile,startTime,endTime,matchedText} }
+   只有跑過WhisperX對齊且成功配對的英文語塊才會出現在這裡（目前是詩篇457條）。
+   查不到的語塊（包含全部日文語塊、還沒對齊的其他書卷）視為沒有真人語音可播放，
+   語塊卡片會自動退回原本就有的TTS朗讀按鈕，不影響原有功能。 */
+const CHUNK_AUDIO_SAFE = (typeof CHUNK_AUDIO !== 'undefined') ? CHUNK_AUDIO : {};
+if(Object.keys(CHUNK_AUDIO_SAFE).length === 0){
+  console.warn('CHUNK_AUDIO 未載入或為空——語塊播放將全部退回TTS朗讀。請確認 chunk_audio.js 是否放在 index.html 同一資料夾。');
+}
+/* 音頻檔案實際路徑：bible_data/audio/{語言}/{書卷代碼}/{audioFile}，跟A3下載腳本的目錄結構一致。
+   D1日文擴展：改用info.lang判斷資料夾（en或ja），不再寫死en，
+   chunk_audio.js/verse_audio.js的每筆資料現在都帶lang欄位可供判斷。 */
+function chunkAudioPath(info){
+  return `bible_data/audio/${info.lang}/${info.book}/${info.audioFile}`;
+}
+
+/* ============ D1新增：整節真人語音查表（verse_audio.js的VERSE_AUDIO） ============
+   不需要文字比對，直接來自WhisperX對齊結果裡每節本來就有的startTime/endTime。
+   ★D1日文擴展：key格式從「書卷-章-節」改成「書卷-語言-章-節」，因為現在中英日
+   可能都有各自的整節時間戳，同一個書卷+章+節但不同語言，起訖時間也不同，
+   不加語言區分會互相覆蓋。呼叫端需要多傳一個lang參數。 */
+const VERSE_AUDIO_SAFE = (typeof VERSE_AUDIO !== 'undefined') ? VERSE_AUDIO : {};
+if(Object.keys(VERSE_AUDIO_SAFE).length === 0){
+  console.warn('VERSE_AUDIO 未載入或為空——整節播放將全部退回TTS朗讀。請確認 verse_audio.js 是否放在 index.html 同一資料夾。');
+}
+function getVerseAudioInfo(bookCode, lang, chapter, verseNum){
+  return VERSE_AUDIO_SAFE[`${bookCode}-${lang}-${chapter}-${verseNum}`] || null;
+}
+
+/* 在文字中標記語義塊：先做語塊層（可能跨詞），再做單詞層，兩者可巢狀共存。
+   D6修復：移除原本「if(lang !== 'en') return text;」的寫死跳過（故障點C），
+   改為依 bookCode+lang 篩選出該卷該語言的語塊清單再比對。
+   中文目前語塊庫（IS/IC/JS）皆未含zh欄位，故中文永遠無語塊可比對，函式本身已能正確處理（filter結果為空陣列）。 */
+function highlightChunks(text, lang, bookCode){
+  const pool = CHUNKS.filter(c => c.book === bookCode && c.lang === lang);
+  if(!pool.length) return text;
+  let result = text;
+  const sorted = [...pool].sort((a,b)=> b.text.length - a.text.length);
+  sorted.forEach(c=>{
+    if(result.includes(c.text)){
+      result = result.replace(c.text, `<span class="chunk" data-cid="${c.id}">${c.text}</span>`);
+    }
+  });
+  return result;
+}
+
+
+/* 各語言的比對索引（一次性建立、快取重複使用）。
+   7042詞規模下，若每節文字都重新遍歷整個VOCAB陣列會明顯變慢，
+   改為預先把該語言所有詞條組成一個大型交替regex，一次replace掃過全文。
+   長字串優先比對（sort by length desc），避免短詞先吃掉長詞的一部分。 */
+const VOCAB_INDEX = {};
+function getVocabIndex(lang){
+  if(VOCAB_INDEX[lang]) return VOCAB_INDEX[lang];
+  const entries = VOCAB.filter(v => v[lang] && !isBadData(v[lang])).sort((a,b)=> b[lang].length - a[lang].length);
+  const map = new Map();
+  const escaped = [];
+  entries.forEach(v=>{
+    const key = lang === 'en' ? v[lang].toLowerCase() : v[lang];
+    if(!map.has(key)){
+      map.set(key, v.id);
+      escaped.push(v[lang].replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));
+    }
+  });
+  if(!escaped.length){
+    VOCAB_INDEX[lang] = { map, pattern:null };
+    return VOCAB_INDEX[lang];
+  }
+  const wordPart = lang === 'en'
+    ? ('\\b(?:' + escaped.join('|') + ')\\b')
+    : ('(?:' + escaped.join('|') + ')');
+  /* 關鍵修正：正則第一個分支專門「吃掉」完整的HTML標籤（<...>），原樣放行不比對，
+     避免字典詞（例如"span"這種常見英文單字）剛好比對命中highlightChunks已插入的
+     </span>標籤內部文字，把HTML結構劈壞。第二分支才是真正的字典詞比對。 */
+  const pattern = new RegExp('(<[^>]+>)|(' + wordPart + ')', lang === 'en' ? 'gi' : 'g');
+  VOCAB_INDEX[lang] = { map, pattern };
+  return VOCAB_INDEX[lang];
+}
+
+/* 在文字中標記可點擊單詞：命中的字串包成 <span class="word">；HTML標籤本身原樣跳過 */
+function highlightText(text, lang){
+  const idx = getVocabIndex(lang);
+  if(!idx.pattern) return text;
+  return text.replace(idx.pattern, (m, tag)=>{
+    if(tag) return tag; // 命中的是HTML標籤本身，不比對字典，原樣保留
+    const key = lang === 'en' ? m.toLowerCase() : m;
+    const id = idx.map.get(key);
+    return id ? `<span class="word" data-id="${id}">${m}</span>` : m;
+  });
+}
+
+const LANGS = {
+  zh:{ label:"中", ttsLang:"zh-TW" },
+  ja:{ label:"日", ttsLang:"ja-JP" },
+  en:{ label:"EN", ttsLang:"en-US" }
+};
+const BADGE_ORDER = ["zh","ja","en"]; // 固定顯示順序：中、日、EN
+
+let defaultLang = localStorage.getItem('bible_defaultLang') || 'zh';
+
+/* ============ 渲染逐節（依缺省語言決定排序：缺省語言永遠排最前） ============ */
+function renderVerses(){
+  const verseList = document.getElementById('verseList');
+  verseList.innerHTML = '';
+  const others = BADGE_ORDER.filter(l => l !== defaultLang);
+
+  if(bibleData.verses.length === 0){
+    verseList.innerHTML = `
+      <div class="verse" style="text-align:center; color:var(--text-soft);">
+        本卷（${bibleData.bookNames.zh}）第${bibleData.chapter}章尚未接入經文資料庫<br>
+        <span style="font-size:13px;">語塊庫已就緒，等 bible_text/${bibleData.book}.json 上傳並載入後會自動顯示</span>
+      </div>
+    `;
+    document.getElementById('chapterRow2').innerHTML = chapterDisplayHtml(bibleData.book, bibleData.chapter);
+    return;
+  }
+
+  bibleData.verses.forEach(v=>{
+    const row = document.createElement('div');
+    row.className = 'verse';
+
+    // 主要語言（缺省語言）段落 + 緊接句末的行內按鈕（朗讀 + 中/日/EN 三個切換鍵）
+    let badgesHtml = '';
+    BADGE_ORDER.forEach(l=>{
+      if(l === defaultLang){
+        badgesHtml += `<button class="inline-btn badge active">${LANGS[l].label}</button>`;
+      }else{
+        badgesHtml += `<button class="inline-btn badge clickable" data-toggle="${l}">${LANGS[l].label}</button>`;
+      }
+    });
+
+    // D1新增：每節每個語言各自判斷有沒有真人語音，有的話喇叭圖示改成🎧，
+    // 讓使用者不用點下去試才知道是真人語音還是TTS機器合成。
+    // ★D1日文擴展：改成呼叫getVerseAudioInfo時多傳目前語言，不再寫死只認英文，
+    // 日文若有VERSE_AUDIO資料也會自動顯示🎧，沒有資料的語言（如中文）自動維持🔊。
+    const primaryHasAudio = getVerseAudioInfo(bibleData.book, defaultLang, bibleData.chapter, v.n);
+    const primaryIcon = primaryHasAudio ? '🎧' : '🔊';
+
+    row.innerHTML = `
+      <span class="verse-num">${v.n}</span>
+      <span class="primary-text" data-lang="${defaultLang}">${highlightText(highlightChunks(v[defaultLang], defaultLang, bibleData.book), defaultLang)}<button class="inline-btn speak" data-speak-lang="${defaultLang}" aria-label="朗讀">${primaryIcon}</button>${badgesHtml}</span>
+      ${others.map(l => {
+        const hasAudio = getVerseAudioInfo(bibleData.book, l, bibleData.chapter, v.n);
+        const icon = hasAudio ? '🎧' : '🔊';
+        return `
+        <div class="verse-extra" data-lang-block="${l}">
+          <div class="lbl">${l==='zh'?'和合本':(l==='en'?'World English Bible':'口語訳')}</div>
+          <span class="extra-text" data-lang="${l}">${highlightText(highlightChunks(v[l], l, bibleData.book), l)}<button class="inline-btn speak" data-speak-lang="${l}" aria-label="朗讀">${icon}</button></span>
+        </div>
+      `;
+      }).join('')}
+    `;
+    // 把每個verse暫存文字資料供朗讀按鈕查找
+    row.dataset.verseIdx = bibleData.verses.indexOf(v);
+    verseList.appendChild(row);
+  });
+
+  markSavedWords();
+  markSavedChunks();
+
+  // 更新頂欄中間欄「篇章顯示」：中英日同時顯示
+  document.getElementById('chapterRow2').innerHTML = chapterDisplayHtml(bibleData.book, bibleData.chapter);
+}
+/* 初始渲染改由下方 loadChapter() 統一觸發（需等章節目錄按鈕建好後才呼叫，見該區塊） */
+
+/* ============ 事件代理：語言切換 / 朗讀 ============ */
+document.getElementById('verseList').addEventListener('click', e=>{
+  const wordEl = e.target.closest('.word');
+  if(wordEl){
+    openWordSheet(wordEl.dataset.id);
+    return;
+  }
+  const chunkEl = e.target.closest('.chunk');
+  if(chunkEl){
+    openChunkSheet(chunkEl.dataset.cid);
+    return;
+  }
+  const toggleBtn = e.target.closest('button[data-toggle]');
+  if(toggleBtn){
+    const lang = toggleBtn.dataset.toggle;
+    const row = toggleBtn.closest('.verse');
+    const block = row.querySelector(`.verse-extra[data-lang-block="${lang}"]`);
+    const showing = block.classList.toggle('show');
+    toggleBtn.classList.toggle('on', showing);
+    return;
+  }
+  const speakBtn = e.target.closest('button[data-speak-lang]');
+  if(speakBtn){
+    const row = speakBtn.closest('.verse');
+    const idx = parseInt(row.dataset.verseIdx);
+    const lang = speakBtn.dataset.speakLang;
+    const v = bibleData.verses[idx];
+    // D1新增：有真人語音資料時播放真人語音；沒有的語言（或還沒對齊的書卷）維持原本TTS
+    const audioInfo = getVerseAudioInfo(bibleData.book, lang, bibleData.chapter, v.n);
+    if(audioInfo){
+      playVerseRealAudio(audioInfo, speakBtn);
+    }else{
+      speak(v[lang], LANGS[lang].ttsLang);
+    }
+  }
+});
+
+/* ============ Web Speech API 朗讀（過渡方案，Phase5將替換為FCBH/LibriVox/WordProject真人音頻） ============ */
+let currentRate = parseFloat(localStorage.getItem('bible_rate') || '1');
+function speak(text, ttsLang){
+  if(!('speechSynthesis' in window)){
+    alert('此瀏覽器不支援語音朗讀，建議改用Chrome。');
+    return;
+  }
+  window.speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = ttsLang;
+  u.rate = currentRate;
+  window.speechSynthesis.speak(u);
+}
+
+/* ============ 頂欄「篇章」按鈕：開啟書卷/章節抽屜 ============ */
+const drawer = document.getElementById('drawer');
+const drawerBackdrop = document.getElementById('drawerBackdrop');
+const drawerBookView = document.getElementById('drawerBookView');
+const drawerChapterView = document.getElementById('drawerChapterView');
+const drawerChapterBookName = document.getElementById('drawerChapterBookName');
+
+/* 抽屜採兩段式：先選書卷，選定後立即切到章節格，不再同時顯示其他書卷清單（節省畫面）。
+   已經選過書卷的情況下（一般使用中大多數時候），直接開抽屜就顯示目前書卷的章節格，
+   需要換書卷時再點「‹ 換書卷」回到書卷清單。 */
+function showDrawerBookView(){
+  drawerChapterView.style.display = 'none';
+  drawerBookView.style.display = '';
+  renderBookList();
+}
+function showDrawerChapterView(bookCode){
+  drawerBookView.style.display = 'none';
+  drawerChapterView.style.display = '';
+  drawerChapterBookName.textContent = `${BOOKS[bookCode].zh} ${BOOKS[bookCode].en} ${BOOKS[bookCode].ja}`;
+}
+document.getElementById('chapterBtn').addEventListener('click', ()=>{
+  buildChapterGrid(currentBook);
+  showDrawerChapterView(currentBook);
+  drawer.classList.add('open'); drawerBackdrop.classList.add('open');
+});
+document.getElementById('drawerBackToBooks').addEventListener('click', showDrawerBookView);
+drawerBackdrop.addEventListener('click', ()=>{
+  drawer.classList.remove('open'); drawerBackdrop.classList.remove('open');
+});
+const chapterList = document.getElementById('chapterList');
+const bookList = document.getElementById('bookList');
+
+/* 建立章節數字格（依書卷實際章數），並標記目前正在閱讀的章節（如果剛好是同一本書） */
+function buildChapterGrid(bookCode){
+  const total = BOOKS[bookCode].chapters;
+  chapterList.innerHTML = '';
+  for(let i=1;i<=total;i++){
+    const b = document.createElement('button');
+    b.textContent = i;
+    b.dataset.chapter = i;
+    if(bibleData && bibleData.book === bookCode && bibleData.chapter === i) b.classList.add('current');
+    chapterList.appendChild(b);
+  }
+}
+
+/* 渲染書卷清單（11卷，取代原本硬寫死的3個按鈕） */
+function renderBookList(){
+  bookList.innerHTML = BOOK_ORDER.map(code => `
+    <button data-book="${code}" class="${code===currentBook?'current':''}">${BOOKS[code].zh} ${BOOKS[code].en} ${BOOKS[code].ja}</button>
+  `).join('');
+}
+bookList.addEventListener('click', e=>{
+  const btn = e.target.closest('button[data-book]');
+  if(!btn) return;
+  switchBook(btn.dataset.book);
+});
+
+/* 使用者從書卷清單主動點選書卷：只建立章節格、切到章節視圖，
+   ★不自動載入任何章節、不關閉抽屜——讓使用者自己從章節格裡點選要看哪一章。
+   （修正前的問題：這裡曾經接著呼叫loadChapter，導致畫面上的章節格幾乎瞬間就被自動選了
+   第1章並關閉抽屜，使用者完全來不及看到、來不及自己選。） */
+function switchBook(bookCode){
+  currentBook = bookCode;
+  localStorage.setItem('bible_currentBook', bookCode);
+  buildChapterGrid(bookCode);
+  showDrawerChapterView(bookCode);
+}
+
+/* 載入指定書卷+章節：更新bibleData、重新渲染、更新目錄按鈕的current標記、記住上次章節、關閉抽屜。
+   ★History API整合（返回/前進箭頭用）：預設會pushState記錄這次導覽，
+   若是被popstate（使用者按瀏覽器/畫面上的返回或前進）或初始載入觸發的呼叫，
+   則傳skipHistory=true避免重複記錄。 */
+function loadChapter(bookCode, chapterNum, skipHistory){
+  currentBook = bookCode;
+  bibleData = {
+    book: bookCode,
+    chapter: chapterNum,
+    bookNames: BOOKS[bookCode],
+    verses: buildChapterVerses(bookCode, chapterNum),
+  };
+  renderVerses();
+  [...chapterList.children].forEach(btn=>{
+    btn.classList.toggle('current', parseInt(btn.dataset.chapter) === chapterNum);
+  });
+  localStorage.setItem('bible_chapter_' + bookCode, String(chapterNum));
+  drawer.classList.remove('open'); drawerBackdrop.classList.remove('open');
+  if(!skipHistory){
+    history.pushState({book:bookCode, chapter:chapterNum}, '', '');
+  }
+}
+
+chapterList.addEventListener('click', e=>{
+  const btn = e.target.closest('button[data-chapter]');
+  if(!btn) return;
+  loadChapter(currentBook, parseInt(btn.dataset.chapter));
+});
+
+/* ============ 返回/前進箭頭：標準瀏覽器History API，跟瀏覽器自己的上一頁/下一頁完全同步 ============ */
+document.getElementById('navBackBtn').addEventListener('click', ()=> history.back());
+document.getElementById('navForwardBtn').addEventListener('click', ()=> history.forward());
+window.addEventListener('popstate', e=>{
+  if(e.state && e.state.book && BOOKS[e.state.book]){
+    if(e.state.book !== currentBook){
+      buildChapterGrid(e.state.book);
+    }
+    loadChapter(e.state.book, e.state.chapter, true);
+  }
+});
+
+/* 初始載入：還原上次瀏覽的書卷+章節，沒有記錄則預設詩篇第1章。
+   跟switchBook不同，這裡要直接載入內容（沒有「使用者主動點選」這個前提，
+   一開始總要顯示點什麼），所以直接建格子+載入章節，不經過switchBook。 */
+const savedBook = localStorage.getItem('bible_currentBook');
+const initialBook = (savedBook && BOOKS[savedBook]) ? savedBook : 'PSA';
+const savedChapterInit = parseInt(localStorage.getItem('bible_chapter_' + initialBook) || '1');
+const initialChapter = (savedChapterInit >= 1 && savedChapterInit <= BOOKS[initialBook].chapters) ? savedChapterInit : 1;
+currentBook = initialBook;
+buildChapterGrid(initialBook);
+loadChapter(initialBook, initialChapter, true);
+history.replaceState({book:currentBook, chapter:bibleData.chapter}, '', '');
+
+
+/* ============ 頂欄左側欄：開啟設置面板 ============ */
+const panel = document.getElementById('panel');
+const panelBackdrop = document.getElementById('panelBackdrop');
+document.getElementById('settingsBtn').addEventListener('click', ()=>{
+  panel.classList.add('open'); panelBackdrop.classList.add('open');
+});
+panelBackdrop.addEventListener('click', ()=>{
+  panel.classList.remove('open'); panelBackdrop.classList.remove('open');
+});
+
+/* ============ 設置面板文字三語化 ============
+   面板標題（"設置 Settings 設定"）永遠三語同時顯示、不受此設定影響（見HTML），
+   目的是讓不管目前介面是哪個語言的使用者，都認得出這是設置入口。
+   面板「其餘」文字（各項標籤、按鈕）則依"缺省語言"的選擇整個切換顯示語言，
+   這是大多數App的慣例做法（切語言＝整個介面跟著換，不是只換內文）。 */
+const PANEL_I18N = {
+  mode:              { zh:"模式", en:"Mode", ja:"モード" },
+  modeRead:          { zh:"閱讀模式", en:"Reading Mode", ja:"読書モード" },
+  modeInteractive:   { zh:"互動模式", en:"Interactive Mode", ja:"インタラクティブモード" },
+  defaultLang:       { zh:"缺省語言（決定標題／目錄／經文排序，缺省語言永遠排最前）",
+                        en:"Default Language (decides title/menu/verse order; shown first)",
+                        ja:"既定言語（タイトル／目次／聖句の並び順を決定、常に先頭に表示）" },
+  fontSize:          { zh:"字體大小", en:"Font Size", ja:"文字サイズ" },
+  fontSizeSm:        { zh:"小", en:"Small", ja:"小" },
+  fontSizeMd:        { zh:"中", en:"Medium", ja:"中" },
+  fontSizeLg:        { zh:"大", en:"Large", ja:"大" },
+  fontSizeXl:        { zh:"特大", en:"Extra Large", ja:"特大" },
+  lineHeight:        { zh:"行距", en:"Line Spacing", ja:"行間" },
+  lineHeightCompact: { zh:"緊湊", en:"Compact", ja:"詰める" },
+  lineHeightStandard:{ zh:"標準", en:"Standard", ja:"標準" },
+  lineHeightLoose:   { zh:"寬鬆", en:"Relaxed", ja:"ゆったり" },
+  theme:             { zh:"顯示模式", en:"Display Mode", ja:"表示モード" },
+  themeLight:        { zh:"日間", en:"Light", ja:"ライト" },
+  themeDark:         { zh:"夜間", en:"Dark", ja:"ダーク" },
+  rate:              { zh:"朗讀語速（Web Speech，過渡方案）", en:"Speech Rate (Web Speech, temporary)", ja:"読み上げ速度（Web Speech、暫定）" },
+  vocabLabel:        { zh:"單詞學習", en:"Vocabulary", ja:"単語学習" },
+  vocabBtn:          { zh:"生詞本", en:"Vocabulary Notebook", ja:"単語帳" },
+  chunkLabel:        { zh:"語塊學習", en:"Chunk Learning", ja:"語塊学習" },
+  chunkBtn:          { zh:"語塊本", en:"Chunk Notebook", ja:"チャンク帳" },
+  progressLabel:     { zh:"學習追蹤（顆粒內化進度）", en:"Learning Progress (Chunk Internalization)", ja:"学習進捗（チャンク内化度）" },
+  progressDesc:      { zh:"已內化語義塊（示範規模，正式版對應全書高頻顆粒）",
+                        en:"Internalized chunks (demo scale; full version covers high-frequency chunks book-wide)",
+                        ja:"内化済みチャンク（デモ規模、正式版は全巻高頻度チャンクに対応）" },
+  quizBtn:           { zh:"情境復現測驗", en:"Context Recall Quiz", ja:"文脈再現クイズ" },
+};
+function applyPanelI18n(lang){
+  document.querySelectorAll('#panel [data-i18n]').forEach(el=>{
+    const entry = PANEL_I18N[el.dataset.i18n];
+    if(entry) el.textContent = entry[lang] || entry.zh;
+  });
+}
+
+function setupSeg(id, onChange){
+  const seg = document.getElementById(id);
+  if(!seg) return;
+  seg.addEventListener('click', e=>{
+    const btn = e.target.closest('button');
+    if(!btn || btn.disabled) return;
+    [...seg.children].forEach(c=>c.classList.remove('active'));
+    btn.classList.add('active');
+    onChange(btn.dataset.val);
+  });
+}
+
+setupSeg('defaultLangSeg', val=>{
+  defaultLang = val;
+  localStorage.setItem('bible_defaultLang', val);
+  renderVerses();
+  applyPanelI18n(val);
+});
+setupSeg('fontSizeSeg', val=>{
+  document.documentElement.style.setProperty('--font-scale', val);
+  localStorage.setItem('bible_fontScale', val);
+});
+setupSeg('lineHeightSeg', val=>{
+  document.documentElement.style.setProperty('--line-scale', val);
+  localStorage.setItem('bible_lineScale', val);
+});
+setupSeg('themeSeg', val=>{
+  document.documentElement.setAttribute('data-theme', val==='dark' ? 'dark' : 'light');
+  localStorage.setItem('bible_theme', val);
+});
+setupSeg('rateSeg', val=>{
+  currentRate = parseFloat(val);
+  localStorage.setItem('bible_rate', val);
+});
+
+/* 還原上次設置 */
+function restoreSeg(id, storeKey, applyFn){
+  const saved = localStorage.getItem(storeKey);
+  if(saved){
+    const seg = document.getElementById(id);
+    [...seg.children].forEach(c=>{
+      c.classList.toggle('active', c.dataset.val === saved);
+    });
+    if(applyFn) applyFn(saved);
+  }
+}
+restoreSeg('defaultLangSeg','bible_defaultLang', v=>{ defaultLang=v; renderVerses(); applyPanelI18n(v); });
+applyPanelI18n(defaultLang); /* 保險：涵蓋沒有已存設定、defaultLang維持預設值'zh'的情況 */
+restoreSeg('fontSizeSeg','bible_fontScale', v=>document.documentElement.style.setProperty('--font-scale', v));
+restoreSeg('lineHeightSeg','bible_lineScale', v=>document.documentElement.style.setProperty('--line-scale', v));
+restoreSeg('themeSeg','bible_theme', v=>document.documentElement.setAttribute('data-theme', v));
+restoreSeg('rateSeg','bible_rate', v=>currentRate=parseFloat(v));
+
+/* ============ Phase 2：單詞卡（兩層顯示：原詞+音標 → 點擊展開釋義） ============ */
+const wordSheet = document.getElementById('wordSheet');
+const wordSheetBackdrop = document.getElementById('wordSheetBackdrop');
+const wordSheetBody = document.getElementById('wordSheetBody');
+const LANG_ORDER = ['zh','ja','en']; // 與正文badge順序一致：中、日、EN
+let currentWordId = null;
+let expandedDefLang = null;
+
+function openWordSheet(id){
+  currentWordId = id;
+  expandedDefLang = null;
+  renderWordSheet();
+  wordSheet.classList.add('open');
+  wordSheetBackdrop.classList.add('open');
+}
+function closeWordSheet(){
+  wordSheet.classList.remove('open');
+  wordSheetBackdrop.classList.remove('open');
+}
+document.getElementById('wordSheetClose').addEventListener('click', closeWordSheet);
+wordSheetBackdrop.addEventListener('click', closeWordSheet);
+
+function renderWordSheet(){
+  const v = VOCAB_BY_ID[currentWordId];
+  if(!v) return;
+  const saved = getVocabList().includes(v.id);
+  const phon = { zh:v.zh_py, ja:v.ja_kana, en:v.en_ipa };
+  const defs = { zh:v.zh_def, ja:v.ja_def, en:v.en_def }; // en_def 目前詞庫未收錄，會是 undefined
+  const defLabel = { zh:'中文釋義', ja:'日文釋義', en:'English definition' };
+
+  wordSheetBody.innerHTML = `
+    ${LANG_ORDER.map(l => `
+      <div class="word-row ${expandedDefLang===l?'selected':''}" data-def-lang="${l}">
+        <button class="wr-play" data-play="${l}" aria-label="讀音">🔊</button>
+        <div class="wr-main">
+          <span class="wr-word" data-lang="${l}">${safeField(v[l])}</span>
+          ${(phon[l] && !isBadData(phon[l])) ? `<span class="wr-phon">${phon[l]}</span>` : ''}
+          ${(l==='en' && v.freq) ? `<span class="wr-freq">${v.freq}</span>` : ''}
+        </div>
+      </div>
+    `).join('')}
+    <div class="word-def ${expandedDefLang?'show':''}" id="wordDefBox">
+      ${expandedDefLang ? `【${defLabel[expandedDefLang]}】<br>${safeField(defs[expandedDefLang]) || '（此語言釋義尚未補齊，待後續建庫流程補充）'}` : ''}
+    </div>
+    <button class="sheet-star ${saved?'on':''}" id="sheetStarBtn">
+      ${saved ? '★ 已加入生詞本' : '☆ 加入生詞本'}
+    </button>
+  `;
+
+  wordSheetBody.querySelectorAll('.word-row').forEach(row=>{
+    row.addEventListener('click', e=>{
+      if(e.target.closest('.wr-play')) return;
+      const l = row.dataset.defLang;
+      expandedDefLang = (expandedDefLang === l) ? null : l;
+      renderWordSheet();
+    });
+  });
+  wordSheetBody.querySelectorAll('[data-play]').forEach(btn=>{
+    btn.addEventListener('click', e=>{
+      e.stopPropagation();
+      playYoudao(v[btn.dataset.play], btn.dataset.play);
+    });
+  });
+  document.getElementById('sheetStarBtn').addEventListener('click', ()=>{
+    toggleVocab(v.id);
+    renderWordSheet();
+    markSavedWords();
+    updateVocabCount();
+  });
+}
+
+/* 有道讀音（點擊才聯網，文字/釋義本身完全本地） */
+function playYoudao(word, lang){
+  let url;
+  if(lang==='en') url = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(word)}&type=2`;
+  else if(lang==='ja') url = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(word)}&le=jap`;
+  else url = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(word)}&le=zh`;
+  new Audio(url).play().catch(()=>{ /* 離線或有道無法連線時靜默失敗，不干擾閱讀 */ });
+}
+
+/* ============ 生詞本（LocalStorage） ============ */
+function getVocabList(){
+  try{ return JSON.parse(localStorage.getItem('bible_vocabList') || '[]'); }
+  catch(e){ return []; }
+}
+function toggleVocab(id){
+  let list = getVocabList();
+  if(list.includes(id)) list = list.filter(x=>x!==id);
+  else list.push(id);
+  localStorage.setItem('bible_vocabList', JSON.stringify(list));
+}
+function markSavedWords(){
+  const list = getVocabList();
+  document.querySelectorAll('.word').forEach(el=>{
+    el.classList.toggle('saved', list.includes(el.dataset.id));
+  });
+}
+function updateVocabCount(){
+  document.getElementById('vocabCount').textContent = getVocabList().length;
+}
+updateVocabCount();
+
+const vocabSheet = document.getElementById('vocabSheet');
+const vocabSheetBackdrop = document.getElementById('vocabSheetBackdrop');
+document.getElementById('vocabBtn').addEventListener('click', ()=>{
+  renderVocabList();
+  vocabSheet.classList.add('open');
+  vocabSheetBackdrop.classList.add('open');
+});
+document.getElementById('vocabSheetClose').addEventListener('click', ()=>{
+  vocabSheet.classList.remove('open'); vocabSheetBackdrop.classList.remove('open');
+});
+vocabSheetBackdrop.addEventListener('click', ()=>{
+  vocabSheet.classList.remove('open'); vocabSheetBackdrop.classList.remove('open');
+});
+
+function renderVocabList(){
+  const list = getVocabList();
+  const box = document.getElementById('vocabList');
+  if(list.length === 0){
+    box.innerHTML = `<div class="vocab-empty">還沒有收藏任何單詞，點正文中的詞加入生詞本。</div>`;
+    return;
+  }
+  box.innerHTML = list.map(id=>{
+    const v = VOCAB_BY_ID[id];
+    if(!v) return '';
+    return `
+      <div class="vocab-item" data-id="${v.id}">
+        <span class="vi-lang" data-lang="zh">${v.zh}</span>
+        <span class="vi-lang" data-lang="en">${v.en}</span>
+        <span class="vi-lang" data-lang="ja">${v.ja}</span>
+        <button class="vi-remove" data-remove="${v.id}" aria-label="移除">✕</button>
+      </div>
+    `;
+  }).join('');
+  box.querySelectorAll('.vocab-item').forEach(item=>{
+    item.addEventListener('click', e=>{
+      if(e.target.closest('.vi-remove')) return;
+      vocabSheet.classList.remove('open'); vocabSheetBackdrop.classList.remove('open');
+      openWordSheet(item.dataset.id);
+    });
+  });
+  box.querySelectorAll('[data-remove]').forEach(btn=>{
+    btn.addEventListener('click', e=>{
+      e.stopPropagation();
+      toggleVocab(btn.dataset.remove);
+      renderVocabList();
+      markSavedWords();
+      updateVocabCount();
+    });
+  });
+}
+
+
+/* ============ D1新增：語塊真人語音播放 ============
+   邏輯：跳到查表算好的startTime開始播放，用timeupdate事件監控，
+   播到endTime就自動暫停，不會把下一段音頻也播出來。
+   同一個<audio>元素全站共用（語塊播放、整節播放都用這一個），切換播放目標時
+   只需要重設src（不同章節音頻檔案不同時才需要）跟起訖時間，也確保同時間只會有一段在播放。 */
+const chunkAudioPlayer = document.getElementById('chunkAudioPlayer');
+let realAudioStopHandler = null;
+
+function stopRealAudio(){
+  if(realAudioStopHandler){
+    chunkAudioPlayer.removeEventListener('timeupdate', realAudioStopHandler);
+    realAudioStopHandler = null;
+  }
+  chunkAudioPlayer.pause();
+}
+
+/* 通用播放函式：path是音頻檔案路徑，start/end是這一段的起訖秒數，onDone在播放結束（含被手動打斷）時呼叫，
+   用來讓呼叫端重置自己的按鈕文字/圖示。語塊播放、整節播放都呼叫這個函式，只是path/start/end/onDone不同。 */
+function playRealAudioSegment(path, start, end, onDone){
+  stopRealAudio();
+  const playFrom = ()=>{
+    chunkAudioPlayer.currentTime = start;
+    chunkAudioPlayer.play().catch(()=>{
+      alert('音頻播放失敗，請確認 ' + path + ' 這個檔案存在於index.html同資料夾底下的對應路徑。');
+      if(onDone) onDone();
+    });
+    realAudioStopHandler = ()=>{
+      if(chunkAudioPlayer.currentTime >= end){
+        stopRealAudio();
+        if(onDone) onDone();
+      }
+    };
+    chunkAudioPlayer.addEventListener('timeupdate', realAudioStopHandler);
+  };
+  // 不同語塊/節可能屬於不同章節（不同音頻檔案），只有在檔案真的不同時才重新載入，避免每次都重新讀取同一個大檔案
+  const needsReload = !chunkAudioPlayer.dataset.path || chunkAudioPlayer.dataset.path !== path;
+  if(needsReload){
+    chunkAudioPlayer.dataset.path = path;
+    chunkAudioPlayer.src = path;
+    chunkAudioPlayer.addEventListener('canplaythrough', playFrom, { once:true });
+    chunkAudioPlayer.load();
+  }else{
+    playFrom();
+  }
+}
+
+function playChunkRealAudio(info, btnEl){
+  if(btnEl) btnEl.textContent = '⏸ 播放中...';
+  playRealAudioSegment(chunkAudioPath(info), info.startTime, info.endTime, ()=>{
+    if(btnEl) btnEl.textContent = '🎧 播放真人語音';
+  });
+}
+
+/* 整節真人語音播放：跟playChunkRealAudio邏輯一樣，差別只在按鈕圖示用🎧/🔊切換
+   （因為這顆按鈕本來就常駐在每節經文旁邊，不像語塊卡片按鈕有完整文字可以改）。 */
+function playVerseRealAudio(info, btnEl){
+  if(btnEl) btnEl.textContent = '⏸';
+  playRealAudioSegment(chunkAudioPath(info), info.startTime, info.endTime, ()=>{
+    if(btnEl) btnEl.textContent = '🎧';
+  });
+}
+
+/* ============ Phase 3：語義塊彈出卡片 ============ */
+const chunkSheet = document.getElementById('chunkSheet');
+const chunkSheetBackdrop = document.getElementById('chunkSheetBackdrop');
+const chunkSheetBody = document.getElementById('chunkSheetBody');
+
+function openChunkSheet(id){
+  const c = CHUNKS_BY_ID[id];
+  if(!c) return;
+  stopRealAudio();
+  renderChunkSheet(c);
+  chunkSheet.classList.add('open');
+  chunkSheetBackdrop.classList.add('open');
+}
+function renderChunkSheet(c){
+  const on = getChunkNotebook().includes(c.id);
+  const audioInfo = CHUNK_AUDIO_SAFE[c.id];
+  chunkSheetBody.innerHTML = `
+    <span class="chunk-tag">${c.tag}</span>
+    <div class="chunk-phrase">${c.text}</div>
+    <div class="chunk-gloss-lbl">附注 gloss</div>
+    <div class="chunk-gloss">${c.gloss}</div>
+    <div class="chunk-ref">出處：${c.ref}</div>
+    ${audioInfo
+      ? `<button class="sheet-star" id="chunkRealAudioBtn" style="margin-top:14px;">🎧 播放真人語音</button>
+         <button class="sheet-star" id="chunkSpeakBtn" style="margin-top:10px;">🔊 TTS朗讀（機器合成）</button>`
+      : `<button class="sheet-star" id="chunkSpeakBtn" style="margin-top:14px;">🔊 朗讀語塊</button>`
+    }
+    <button class="sheet-star ${on?'on':''}" id="chunkMarkBtn" style="margin-top:10px;">
+      ${on ? '★ 已加入語塊本' : '☆ 加入語塊本'}
+    </button>
+  `;
+  if(audioInfo){
+    document.getElementById('chunkRealAudioBtn').addEventListener('click', e=>{
+      playChunkRealAudio(audioInfo, e.currentTarget);
+    });
+  }
+  document.getElementById('chunkSpeakBtn').addEventListener('click', ()=>{
+    speak(c.text, LANGS[c.lang] ? LANGS[c.lang].ttsLang : 'en-US');
+  });
+  document.getElementById('chunkMarkBtn').addEventListener('click', ()=>{
+    toggleChunkNotebook(c.id);
+    renderChunkSheet(c);
+    markSavedChunks();
+    updateChunkNotebookCount();
+  });
+}
+document.getElementById('chunkSheetClose').addEventListener('click', ()=>{
+  stopRealAudio();
+  chunkSheet.classList.remove('open'); chunkSheetBackdrop.classList.remove('open');
+});
+chunkSheetBackdrop.addEventListener('click', ()=>{
+  stopRealAudio();
+  chunkSheet.classList.remove('open'); chunkSheetBackdrop.classList.remove('open');
+});
+
+/* ============ 語塊本（LocalStorage，與生詞本平行、獨立於「已內化」） ============ */
+function getChunkNotebook(){
+  try{ return JSON.parse(localStorage.getItem('bible_chunkNotebook') || '[]'); }
+  catch(e){ return []; }
+}
+function toggleChunkNotebook(id){
+  let list = getChunkNotebook();
+  if(list.includes(id)) list = list.filter(x=>x!==id);
+  else list.push(id);
+  localStorage.setItem('bible_chunkNotebook', JSON.stringify(list));
+}
+function markSavedChunks(){
+  const list = getChunkNotebook();
+  document.querySelectorAll('.chunk').forEach(el=>{
+    el.classList.toggle('saved', list.includes(el.dataset.cid));
+  });
+}
+function updateChunkNotebookCount(){
+  document.getElementById('chunkNotebookCount').textContent = getChunkNotebook().length;
+}
+updateChunkNotebookCount();
+
+const chunkNotebookSheet = document.getElementById('chunkNotebookSheet');
+const chunkNotebookSheetBackdrop = document.getElementById('chunkNotebookSheetBackdrop');
+document.getElementById('chunkNotebookBtn').addEventListener('click', ()=>{
+  renderChunkNotebookList();
+  chunkNotebookSheet.classList.add('open');
+  chunkNotebookSheetBackdrop.classList.add('open');
+});
+document.getElementById('chunkNotebookSheetClose').addEventListener('click', ()=>{
+  chunkNotebookSheet.classList.remove('open'); chunkNotebookSheetBackdrop.classList.remove('open');
+});
+chunkNotebookSheetBackdrop.addEventListener('click', ()=>{
+  chunkNotebookSheet.classList.remove('open'); chunkNotebookSheetBackdrop.classList.remove('open');
+});
+
+function renderChunkNotebookList(){
+  const list = getChunkNotebook();
+  const box = document.getElementById('chunkNotebookList');
+  if(list.length === 0){
+    box.innerHTML = `<div class="vocab-empty">還沒有收藏任何語塊，點正文中的黃色高亮語塊加入語塊本。</div>`;
+    return;
+  }
+  box.innerHTML = list.map(id=>{
+    const c = CHUNKS_BY_ID[id];
+    if(!c) return '';
+    return `
+      <div class="vocab-item" data-id="${c.id}">
+        <span class="vi-lang" data-lang="en" style="min-width:auto; flex:1;">${c.text}</span>
+        <button class="vi-remove" data-remove="${c.id}" aria-label="移除">✕</button>
+      </div>
+    `;
+  }).join('');
+  box.querySelectorAll('.vocab-item').forEach(item=>{
+    item.addEventListener('click', e=>{
+      if(e.target.closest('.vi-remove')) return;
+      chunkNotebookSheet.classList.remove('open'); chunkNotebookSheetBackdrop.classList.remove('open');
+      openChunkSheet(item.dataset.id);
+    });
+  });
+  box.querySelectorAll('[data-remove]').forEach(btn=>{
+    btn.addEventListener('click', e=>{
+      e.stopPropagation();
+      toggleChunkNotebook(btn.dataset.remove);
+      renderChunkNotebookList();
+      markSavedChunks();
+      updateChunkNotebookCount();
+    });
+  });
+}
+
+
+function getInternalized(){
+  try{ return JSON.parse(localStorage.getItem('bible_internalized') || '[]'); }
+  catch(e){ return []; }
+}
+function markInternalized(id, on){
+  let list = getInternalized();
+  if(on){ if(!list.includes(id)) list.push(id); }
+  else{ list = list.filter(x=>x!==id); }
+  localStorage.setItem('bible_internalized', JSON.stringify(list));
+  updateProgress();
+}
+function updateProgress(){
+  const list = getInternalized();
+  const total = CHUNKS.length;
+  const done = list.filter(id => CHUNKS_BY_ID[id]).length;
+  const pct = total ? Math.round(done/total*100) : 0;
+  document.getElementById('progressNum').textContent = `${done} / ${total}`;
+  document.getElementById('progressBarFill').style.width = pct + '%';
+}
+updateProgress();
+
+/* ============ Phase 4：情境復現填空測驗 ============ */
+const quizSheet = document.getElementById('quizSheet');
+const quizSheetBackdrop = document.getElementById('quizSheetBackdrop');
+const quizSheetBody = document.getElementById('quizSheetBody');
+let quizCurrentId = null;
+
+function pickQuizChunk(){
+  const internalized = getInternalized();
+  const notDone = CHUNKS.filter(c => !internalized.includes(c.id));
+  const pool = notDone.length ? notDone : CHUNKS;
+  return pool[Math.floor(Math.random() * pool.length)];
+}
+
+function renderQuiz(){
+  const c = CHUNKS_BY_ID[quizCurrentId];
+  const internalized = getInternalized().includes(c.id);
+  quizSheetBody.innerHTML = `
+    <div class="quiz-prompt-lbl">你還記得這個顆粒嗎？</div>
+    <div class="quiz-blank">${c.blank}</div>
+    <input class="quiz-input" id="quizInput" placeholder="輸入缺少的單詞" autocomplete="off">
+    <div class="quiz-btn-row">
+      <button class="quiz-check-btn" id="quizCheckBtn">檢查答案</button>
+      <button class="quiz-next-btn" id="quizNextBtn">下一題</button>
+    </div>
+    <div class="quiz-feedback" id="quizFeedback"></div>
+    <div class="quiz-reveal" id="quizReveal">
+      <b>${c.text}</b><br>
+      出處：${c.ref}<br>
+      附注：${c.gloss}<br>
+      現代用法：${c.usage}
+    </div>
+    <button class="quiz-mark-btn ${internalized?'on':''}" id="quizMarkBtn">
+      ${internalized ? '✓ 已標記為已內化' : '標記為已內化'}
+    </button>
+  `;
+  const input = document.getElementById('quizInput');
+  const feedback = document.getElementById('quizFeedback');
+  const reveal = document.getElementById('quizReveal');
+
+  function checkAnswer(){
+    const val = input.value.trim().toLowerCase();
+    const correct = val === c.answer.toLowerCase();
+    feedback.textContent = correct ? '✓ 答對了！' : `✗ 再想想。正確答案：${c.answer}`;
+    feedback.className = 'quiz-feedback show ' + (correct ? 'correct' : 'wrong');
+    reveal.classList.add('show');
+    if(correct) markInternalized(c.id, true);
+    renderMarkBtnState();
+  }
+  function renderMarkBtnState(){
+    const on = getInternalized().includes(c.id);
+    const btn = document.getElementById('quizMarkBtn');
+    btn.classList.toggle('on', on);
+    btn.textContent = on ? '✓ 已標記為已內化' : '標記為已內化';
+  }
+
+  document.getElementById('quizCheckBtn').addEventListener('click', checkAnswer);
+  input.addEventListener('keydown', e=>{ if(e.key === 'Enter') checkAnswer(); });
+  document.getElementById('quizNextBtn').addEventListener('click', ()=>{
+    quizCurrentId = pickQuizChunk().id;
+    renderQuiz();
+  });
+  document.getElementById('quizMarkBtn').addEventListener('click', ()=>{
+    const on = !getInternalized().includes(c.id);
+    markInternalized(c.id, on);
+    renderMarkBtnState();
+  });
+}
+
+document.getElementById('quizBtn').addEventListener('click', ()=>{
+  quizCurrentId = pickQuizChunk().id;
+  renderQuiz();
+  quizSheet.classList.add('open');
+  quizSheetBackdrop.classList.add('open');
+});
+document.getElementById('quizSheetClose').addEventListener('click', ()=>{
+  quizSheet.classList.remove('open'); quizSheetBackdrop.classList.remove('open');
+});
+quizSheetBackdrop.addEventListener('click', ()=>{
+  quizSheet.classList.remove('open'); quizSheetBackdrop.classList.remove('open');
+});
+
+window.addEventListener('scroll', ()=>{
+  localStorage.setItem('bible_scrollY', window.scrollY);
+});
+window.addEventListener('load', ()=>{
+  const y = localStorage.getItem('bible_scrollY');
+  if(y) window.scrollTo(0, parseInt(y));
+});
+</script>
+</body>
+</html>
